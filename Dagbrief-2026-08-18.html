@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 18 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DINSDAG 18 AUGUSTUS 2026</p>
+
+  <p class="intro">AI staat vandaag in het teken van zichtbaarheid en leiderschap: Anthropic legt uit hoe Claude-teksten voortaan onzichtbaar worden gewatermerkt, terwijl Google DeepMind een historische leiderschapswisseling doormaakt. In de tech-wereld bereikt TypeScript 7.0 een mijlpaal met een razendsnelle native compiler. Geopolitiek draait om de Straat van Hormuz, waar Iran-Oman-onderhandelingen vastlopen terwijl het akkoord dreigt te verlopen. In de wetenschap brengen onderzoekers DNA en halfgeleiders samen in een nieuw type geheugen, en astronomen lichten een oeroud raadsel in het universum door. En dit weekend is het eindelijk zover: de allerlaatste Dutch Grand Prix in Zandvoort — een sprintweekend om nooit te vergeten.</p>
+
+  <!-- THEMA 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic watermerkt voortaan alle Claude-output — onzichtbaar maar detecteerbaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft gedetailleerd uitgelegd hoe de nieuwe tekstwatermerken voor Claude werken. Alle modellen uitgebracht ná 2 augustus zijn verplicht van watermerken voorzien om te voldoen aan de EU AI Act. Anthropic gebruikt de SynthID Text-methode van Google DeepMind: de watermerken zijn verborgen in de statistische patronen van de gegenereerde tekst. Lichte bewerkingen verwijderen het watermerk niet volledig; alleen een volledige herschrijving doet dat. Een publieke detectie-API is in de maak.</p>
+        <p class="meta">15 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/">Anthropic shares more details about how Claude's new watermarks will work</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met deze maatregel zet Anthropic als eerste grote lab de EU-verplichting voor AI-contentwatermerken concreet om. De detectie-API kan straks een standaard worden voor uitgevers, platformen en overheden die AI-tekst willen herkennen — met grote gevolgen voor vertrouwen in online content.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Demis Hassabis stapt terug als CEO van DeepMind — Koray Kavukcuoglu neemt dagelijkse leiding</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google DeepMind maakt een grote bestuurlijke omwenteling door. Oprichter Demis Hassabis geeft de dagelijkse leiding over aan CTO Koray Kavukcuoglu en wordt zelf chairman en chief scientist van Alphabet. Tegelijkertijd vertrekt AI-veteraan Jeff Dean na 27 jaar bij Google om samen met drie oud-collega's zijn eigen AI-bedrijf Discovery Loop te starten. Toponderzoekers Jonas Adler en Alexander Pritzel verlaten Google voor Anthropic.</p>
+        <p class="meta">Augustus 2026 — MIT Technology Review — <a href="https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/">The Download: Google's AI shake-up and Meta's rogue model</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>DeepMind is de motor achter Googles AI-strategie. Een leiderschapswisseling op dit moment — midden in de race om world models en enterprise AI — is een signaal dat Google zijn aanpak intern herbezint. Het vertrek van Jeff Dean en de overstap van onderzoekers naar Anthropic laat zien hoe snel talent en prioriteiten in de sector verschuiven.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert Presence: platform voor real-time enterprise spraak- en chatagents</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft Presence geïntroduceerd, een nieuw enterprise-platform waarmee bedrijven real-time spraak- en chatbots kunnen bouwen en beheren voor klantcontact en interne workflows. Het platform is direct beschikbaar voor zakelijke klanten en richt zich op gesproken interacties — een markt waar ElevenLabs en Twilio tot nu toe domineerden. Tegelijkertijd bracht startup Writer zijn nieuwe model Palmyra X6 uit, dat agent-kosten met 52% verlaagt.</p>
+        <p class="meta">17 augustus 2026 — VentureBeat — <a href="https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots">OpenAI unveils Presence, a new platform that lets enterprises launch and manage realtime voice agents and chatbots</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>OpenAI begeeft zich met Presence direct op het terrein van telecom- en klantcontactplatformen. Nu Gartner schat dat een Fortune 500-bedrijf in 2028 gemiddeld meer dan 150.000 AI-agents in gebruik heeft, zal Presence een sleutelpositie willen innemen in hoe die agents met mensen communiceren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 2: Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">TypeScript 7.0 is er — native Go-compiler maakt builds 10x sneller</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft TypeScript 7.0 uitgebracht met een volledig nieuwe native compiler geschreven in Go. De snelheidswinst is indrukwekkend: builds zijn 8 tot 12 keer sneller dan met de vorige versie. Er is wel een kanttekening: TypeScript 7.0 wordt zonder stabiele programmatic API uitgeleverd. Daardoor kunnen tools als typescript-eslint en frameworks als Vue, Svelte, Astro en Angular de nieuwe versie nog niet direct gebruiken — dat volgt naar verwachting in 7.1.</p>
+        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/typescript-7-released/">Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>TypeScript is de standaard in vrijwel elk modern frontend- en Node.js-project. Een factor 10 aan compile-snelheid is voor grote codebases het verschil tussen een bruikbare en een trage ontwikkelervaring. De tijdelijke beperking in de programmatic API is een rem op adoptie door het ecosysteem — maar zodra 7.1 er is, zal de migratie snel gaan.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">MCP krijgt grootste update ooit — meer controle en standaardisatie voor AI-agents</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Model Context Protocol (MCP) heeft zijn omvangrijkste update tot nu toe ontvangen. De update introduceert nieuwe standaarden voor hoe AI-agents toegang krijgen tot tools, geheugen en externe systemen — met meer nadruk op beveiliging, autorisatie en interoperabiliteit. MCP is de open standaard die snel uitgegroeid is tot de verbindingslaag tussen AI-modellen en enterprise-systemen, ondersteund door Anthropic, Microsoft en een groeiend ecosysteem van softwareleveranciers.</p>
+        <p class="meta">Augustus 2026 — VentureBeat — <a href="https://venturebeat.com/orchestration/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents">MCP just got its biggest update ever — here's what changes for AI agents</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wie MCP beheert, beheert hoe AI-agents communiceren met de rest van de digitale wereld. Een grote update die autorisatie en interoperabiliteit verbetert, versterkt MCP's positie als de-facto standaard — en maakt het moeilijker voor concurrerende protocollen om voet aan de grond te krijgen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework en Hosted Agents bereiken General Availability</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Agent Harness, inclusief connectors voor GitHub Copilot en de Claude Agent SDK, en de bijbehorende orchestratiepatronen zijn nu stabiel en algemeen beschikbaar. Met Foundry Hosted Agents kunnen platformteams agents uitvoeren en beheren in een gecontroleerde omgeving. Cloudflare voegde tegelijkertijd agent tracing toe aan Workers traces, met spans voor model calls, tool runs en approvals. Vercel maakte de v0 API GA, zodat developers en AI-agents programmatisch applicaties kunnen genereren en deployen.</p>
+        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het GA-moment voor enterprise agent-infrastructuur bij zowel Microsoft als Cloudflare en Vercel tegelijk laat zien dat de markt van experimenteren naar productie verschuift. Governance, observability en gecontroleerde uitrol worden de volgende concurrentiefactoren in AI-deployment.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS-Iran-conflict: Hormuz-onderhandelingen lopen vast terwijl MOU dreigt te verlopen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De diplomatieke impasse rond het VS-Iran-conflict verdiept zich. Iran en Oman overlegden zondag over scheepvaartroutes door de Straat van Hormuz, maar een bredere deal blijft uit. Het memorandum of understanding (MOU) dat in juni de eerste stap naar vrede betekende, dreigt te verlopen. Trump herhaalt zijn patroon van oorlogsdreigementen gevolgd door berichten over een aanstaand akkoord. Op een vliegdekschip in de regio verblijven mariniers al bijna zeven maanden aan één stuk — een record.</p>
+        <p class="meta">16 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon">Iran war updates: Tehran, Oman discuss Hormuz; UN delivers West Bank aid</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de slagader van de wereldwijde olie-export. Elke dag dat er geen akkoord is, blijven energiemarkten onder druk staan. Het verlopen van het MOU zonder opvolger zou een nieuwe escalatiefase kunnen inluiden met directe gevolgen voor brandstofprijzen wereldwijd.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Duitsland en Turkije-Pakistan-Saudi Arabië: twee nieuwe defensiepijlers hertekenen de geopolitieke kaart</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Europa herbewapent in snel tempo. Duitsland werkt aan wat het zelf omschrijft als het sterkste conventionele leger van Europa — aangedreven door de terugtredende Amerikaans veiligheidsgarantie. Tegelijkertijd ondertekenden Turkije, Pakistan en Saudi Arabië een wederzijds defensiepact, een directe reactie op de verschuivende geopolitiek in het Midden-Oosten na het Iran-conflict. Rusland beschouwt de Europese herbewapening als een directe bedreiging.</p>
+        <p class="meta">Augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/1/19/why-is-germany-trying-to-build-europes-strongest-conventional-army">Why is Germany trying to build 'Europe's strongest conventional army'?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De gelijktijdige opkomst van een Europees en een Midden-Oosters defensieblok, beide als reactie op de Amerikaanse terugtrekking, is een structurele verschuiving in de wereldorde. Hoe deze blokken zich tot elkaar verhouden, zal de veiligheidspolitiek van de komende decennia bepalen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trump dreigt EU na Google-boete van 1 miljard dollar: nieuwe handelsspanning</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Europese Commissie legde Google een boete van ruim 1 miljard dollar op wegens het bevoordelen van eigen diensten in zoekresultaten. President Trump reageerde furieus en dreigde de EU een "grote prijs" te laten betalen. De zaak verdiept de al gespannen handelsrelatie tussen Washington en Brussel, waarbij tech-regulering — naast tarieven en Oekraïne — een derde front is geworden in de transatlantische betrekkingen.</p>
+        <p class="meta">25 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/25/trump-threatens-eu-will-pay-big-price-after-brussels-fines-google-1bn">Trump threatens EU will pay 'big price' after Brussels fines Google $1bn</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De EU gebruikt antitrustwetgeving actief als instrument tegen Amerikaanse techbedrijven. Dat Trump dat als een aanval op de VS beschouwt, maakt tech-regulering tot een diplomatiek mijnenveld. Voor Europese bedrijven en overheden die afhankelijk zijn van Google-diensten kan de escalatie gevolgen hebben voor de beschikbaarheid en kosten van die diensten.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">DNA en halfgeleiders samengevoegd tot ultra-zuinig geheugen dat data opslaat én verwerkt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben synthetisch DNA gecombineerd met een halfgeleiderchip om een radicaal nieuw type geheugenapparaat te maken. Het bijzondere: het apparaat slaat data op en verwerkt die op dezelfde plek — in tegenstelling tot conventionele chips waar geheugen en processor gescheiden zijn. Het energieverbruik is extreem laag. Het concept combineert de enorme opslagdichtheid van DNA met de verwerkingssnelheid van elektronica.</p>
+        <p class="meta">17-18 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/">Latest News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De scheiding tussen geheugen en rekenkracht is een van de grootste energieverslinders in moderne computers — het zogenoemde Von Neumann-bottleneck. Een apparaat dat dit doorbreekt met DNA als opslagmedium is een potentiële gamechanger voor energiezuinige AI-chips en ultradichte data-opslag, zeker nu de energiehonger van AI-datacenters politiek en economisch onder vuur ligt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Caltech maakt optische paden op silicium die glasvezel benaderen — doorbraak voor fotonica</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers van Caltech hebben optische paden op siliciumchips ontwikkeld met een verlies dat glasvezeloptica benadert — een prestatie die bestaande fotonische technologie dramatisch overtreft bij zichtbare golflengten. De doorbraak maakt het mogelijk om lichtsignalen vrijwel verliesloos over een chip te sturen, wat snellere en energiezuinigere communicatie tussen chipcomponenten mogelijk maakt.</p>
+        <p class="meta">17-18 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/">Latest News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Fotonische chips zijn de beloofde opvolger van elektronische chips voor datacenters en kwantumcomputers. Als verlies in optische paden op silicium kan worden teruggebracht naar glasvezelniveau, worden fotonische systemen economisch haalbaar op grote schaal — met directe gevolgen voor de snelheid en het stroomverbruik van AI-infrastructuur.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Astronomen ontrafelen raadsel van mysterieuze "little red dots" uit het vroege universum</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Sinds de James Webb Space Telescope in 2022 operationeel werd, puzzelden astronomen over felrode, compacte objecten in het vroege universum — de "little red dots". Ze zijn ongewoon helder en compact voor hun leeftijd. Nieuw onderzoek aan de hand van de "Saguaro"-spiraalgalaxie biedt een eerste concreet aanwijzing over wat er met deze objecten gebeurt naarmate het universum ouder wordt: mogelijk groeien ze uit tot normale sterrenstelsels nadat hun centrale zwarte gat zijn omgeving heeft leeggeruimd.</p>
+        <p class="meta">17-18 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/">Latest News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De "little red dots" daagden bestaande modellen van sterrenstelselvorming uit — ze leken te helder en te zwaar voor hun tijd. Als het nieuwe model klopt, betekent dat dat superzware zwarte gaten in het vroege universum een bepalende rol speelden in de structuur die we vandaag zien. Dat herschrijft een stukje kosmologiegeschiednis.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 5: Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Laatste Dutch Grand Prix ooit in Zandvoort: sprintweekend vanaf vrijdag</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt de allerlaatste Dutch Grand Prix in Zandvoort plaats — na dit jaar verdwijnt de race definitief van de kalender. Het is ook een sprintweekend. Andrea Kimi Antonelli (Mercedes) leidt het kampioenschap en is favoriet voor de eerste Italiaanse F1-titel sinds 1953. Volledig schema in Nederlandse tijd:</p>
+        <p><strong>Vrijdag 21 augustus:</strong> Vrije training 1: 12:30–13:30 | Sprint Kwalificatie: 16:30–17:14<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint (24 ronden): 12:00–12:30 | Kwalificatie: 16:00–17:00<br>
+        <strong>Zondag 23 augustus:</strong> Race (72 ronden): 15:00–17:00</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6">FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — full timetable</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

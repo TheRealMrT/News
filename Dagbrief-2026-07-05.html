@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 5 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZONDAG 5 JULI 2026</p>
+
+  <p class="intro">De staatsweek van Iran beheerst vandaag het nieuws: dag drie van de begrafenis van opperleider Khamenei trekt miljoenen Iraniërs naar straat, terwijl een fragiel staakt-het-vuren de regio in een precaire balans houdt. In de AI-wereld keert Claude Fable 5 wereldwijd terug na drie weken exportbeperkingen, vergezeld van een nieuw industriebreed jailbreak-beoordelingskader — een precedent voor hoe overheden en labs voortaan zullen samenwerken. De talentenstroom in Silicon Valley zet door: topwetenschappers verlaten Google DeepMind massaal richting Anthropic, terwijl OpenAI zich met Noam Shazeer en een eigen AI-chip wapent voor de nakende beursgang. En vanuit de wetenschap klinken hoopvolle signalen: nieuwe inzichten over hoe Alzheimer zich verspreidt, een veelbelovende proteïne-schakelaar voor obesitas, en een fascinerende kwantum-tijdtechniek.</p>
+
+  <!-- ===== THEMA 1: AI & DE GROTE LABS ===== -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Fable 5 keert wereldwijd terug — met nieuw industriebreed jailbreak-raamwerk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Op 1 juli 2026 heeft Anthropic Claude Fable 5 en Mythos 5 wereldwijd opnieuw beschikbaar gesteld nadat het Amerikaanse ministerie van Handel de noodexportbeperkingen terugtrok. De maatregel — opgelegd op 12 juni na meldingen over een jailbreak-methode door Amazon-onderzoekers — had Anthropic gedwongen beide modellen volledig offline te halen. Na twee weken intensieve samenwerking met de overheid, waarbij werd vastgesteld dat ook zwakkere modellen (Opus 4.8, GPT-5.5, Haiku 4.5) hetzelfde gedrag vertoonden, is een verbeterde veiligheidsclassifier getraind. Tegelijkertijd kondigen Anthropic, Amazon, Microsoft en Google een gezamenlijk jailbreak-beoordelingskader aan, gebaseerd op vier criteria: capability gain, breedte van de winst, gemak van bewapening en vindbaarheid.</p>
+        <p class="meta">Gepubliceerd 30 juni / 1 juli 2026 — Anthropic — <a href="https://www.anthropic.com/news/redeploying-fable-5">Redeploying Claude Fable 5</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is een historisch precedent: voor het eerst greep de Amerikaanse overheid in bij een beschikbaar AI-model via exportbeheer. De snelle terugkeer én het nieuwe gezamenlijke raamwerk laten zien hoe AI-governance in de praktijk gaat werken — met snel overheidsoptreden én een gezamenlijke industriestandaard als respons. Labs die frontier-modellen uitbrengen zullen dit patroon vaker tegenkomen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic passeert $30 miljard omzetgrens — Google &amp; Broadcom-partnerschap voor meerdere gigawatt rekenkracht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic's jaarlijkse run-rate omzet heeft de $30 miljard overschreden, een enorme sprong ten opzichte van de ~$9 miljard aan het einde van 2025. Het bedrijf kondigde tegelijkertijd een uitgebreid partnerschap met Google en Broadcom aan voor meerdere gigawatt aan next-generatie rekenkracht, om bij te benen met de ongekende groei. Parallel onderhandelt Anthropic met Samsung over een mogelijke chipsamenwerkiing voor een eigen custom processor. Volgens VentureBeat heeft Anthropic OpenAI voor het eerst ingehaald in zakelijke AI-adoptie, al benoemen analisten drie risico's die dit voordeel kunnen wissen: overheidsinterventie, chip-afhankelijkheid en talent-afvloeiing.</p>
+        <p class="meta">Gepubliceerd juli 2026 — VentureBeat / Anthropic — <a href="https://venturebeat.com/ai/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead">Anthropic finally beat OpenAI in business AI adoption</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De omzetgroei bevestigt dat ondernemingen massaal overstappen op Claude voor bedrijfskritische workloads. De drie risicofactoren zijn ook exact de kwetsbaarheden die deze week zichtbaar werden: de overheid haalde Fable 5 offline, chipversnelling hangt af van externe partners, en toptalent stroomt juist nú weg bij concurrent Google.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Topwetenschappers verlaten Google DeepMind massaal — AlphaFold-pioniers en Jumper trekken naar Anthropic</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Meerdere prominente AI-onderzoekers trekken weg bij Google DeepMind. Jonas Adler en Alexander Pritzel, beiden sleutelspelers in de ontwikkeling van AlphaFold en Gemini, hebben hun vertrek bevestigd richting Anthropic. Eveneens vertrokken is John Jumper, directeur bij DeepMind en Nobelprijswinnaar voor zijn bijdrage aan eiwitstructuurvoorspelling via AlphaFold. TechCrunch meldde eerder al een brede stroom AI-talent die Google verlaat voor Anthropic, OpenAI en andere labs. Google kampt al langer met uitstroom van toptalent.</p>
+        <p class="meta">Gepubliceerd 24 juni / juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/">AI researchers continue to leave Google for its rivals</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De talentenstroom is een bellwether voor welke labs de volgende generatie doorbraakmodellen zullen bouwen. Jumper en de AlphaFold-pioniers brengen niet alleen modelbouwexpertise mee, maar ook diepe kennis van wetenschappelijke AI-toepassingen — precies het domein waarop Anthropic (met Claude Science) actief is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI haalt Noam Shazeer binnen en onthult "Jalapeño"-chip in aanloop naar beursgang</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI versterkt zich in rap tempo vóór zijn geplande beursgang. Noam Shazeer — bekend van de originele Transformer-paper en zijn rol bij het bouwen van Gemini bij Google — trad toe tot OpenAI. Dean Ball, voormalig AI-beleidsmedewerker van het Witte Huis, leidt een nieuw Strategic Futures-team. Tegelijkertijd onthulde OpenAI een eigen custom inference-processor genaamd "Jalapeño", ontwikkeld in samenwerking met Broadcom, die minder afhankelijkheid van Nvidia moet creëren.</p>
+        <p class="meta">Gepubliceerd 18 juni / juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/">OpenAI is bringing on some big guns in the lead-up to its IPO</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Shazeer is een van de meest invloedrijke architecten in de AI-wereld; zijn overstap signaleert dat OpenAI zich positioneert voor de langetermijnrace, niet alleen de IPO. De eigen chip volgt Anthropic en Google die ook eigen silicon ontwikkelen — een patroon waarbij de grote labs minder afhankelijk willen worden van Nvidia's dominantie in AI-hardware.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===== THEMA 2: TECH & SOFTWARE/DEVELOPMENT ===== -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Docker Compose breidt uit voor AI-agentenstacks: één YAML-bestand, volledige agentic omgeving</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Docker heeft Docker Compose in juli bijgewerkt zodat ontwikkelaars complete AI-agentenstacks kunnen definiëren in een enkel compose.yaml-bestand. De tool ondersteunt nu open modellen, agents en MCP-compatibele tools, en integreert met frameworks als LangGraph, CrewAI, Vercel AI SDK, Spring AI, Google ADK en Agno. Deployment naar Google Cloud Run en Azure Container Apps is ingebouwd voor serverloze uitrol.</p>
+        <p class="meta">Gepubliceerd juli 2026 — The New Stack / InfoQ — <a href="https://thenewstack.io/5-key-trends-shaping-agentic-development-in-2026/">5 Key Trends Shaping Agentic Development in 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Docker Compose is de de facto standaard voor lokale ontwikkelomgevingen wereldwijd. Door agents op dezelfde manier te beheren als microservices verlaagt Docker de drempel enorm — een agentic stack opstarten wordt zo simpel als <code>docker compose up</code>. Dit versnelt de adoptie van agentic AI in productieteams aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Cursor 3 gooit de IDE om: bestandsbewerking maakt plaats voor parallelle agent-orkestratie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anysphere heeft Cursor 3 gelanceerd, een volledig herontworpen versie van de populaire AI-IDE. De nieuwe interface is van de grond af opgebouwd rond het beheren van meerdere parallelle coding agents, in plaats van het aanpassen van individuele bestanden. Nieuwe mogelijkheden: lokaal-naar-cloud agent handoff, multi-repo parallelle uitvoering en een plugin-marketplace. Cursor 3 is daarmee het meest concrete signaal tot nu toe dat de rol van de ontwikkelaar verschuift van schrijver naar dirigent.</p>
+        <p class="meta">Gepubliceerd april 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/04/cursor-3-agent-first-interface/">Cursor 3 Introduces Agent-First Interface</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Cursor heeft in korte tijd een grote aanhang onder professionele ontwikkelaars opgebouwd. Een volledig herontworpen interface die agents centraal stelt, markeert een nieuwe standaard voor wat een IDE kan zijn — en vergroot de druk op GitHub Copilot, JetBrains en VS Code om te volgen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">C++26-standaard definitief compleet: reflectie, geheugenbeveiliging en nieuw concurrency-model</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De C++26-standaard is officieel afgerond. De highlights: taalreflectie (compile-time meta-programmering), verbeterde geheugenbeveiliging zonder verplichte code-rewrites, contracten met pre- en postcondities, en een geunificeerd framework voor concurrency en parallelisme. GCC en Clang hebben de meeste features al geïmplementeerd tijdens het standaardisatieproces; ze verschijnen binnenkort in mainline releases.</p>
+        <p class="meta">Gepubliceerd april 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/">C++26: Reflection, Memory Safety, Contracts, and a New Async Model</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>C++ blijft dominant in systeem-, game- en embedded-programmering. De geheugenbeveiliging is een directe reactie op druk van de Amerikaanse overheid om "memory-safe" talen te gebruiken — C++26 probeert dat argument te ontzenuwen zonder ontwikkelaars te dwingen naar Rust of andere alternatieven te migreren.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===== THEMA 3: GEOPOLITIEK & BELEID ===== -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Dag 3 van Khamenei's staatsbegrafenis: miljoenen Iraniërs op straat, Trump belooft tijdelijk staakt-het-vuren</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran is vandaag bezig met de derde dag van de zevendaagse staatsbegrafenis van opperleider Ali Khamenei, die op 28 februari werd gedood bij een gezamenlijke Amerikaans-Israëlische luchtaanval op zijn compound. Miljoenen mensen trotseren de hitte in Teheran en andere steden; meer dan 100 landen stuurden delegaties. President Trump beloofde dat "geen van beide partijen de ander zal beschieten tijdens de begrafenisplechtigheden" en dat de onderhandelingen na de ceremonie worden hervat. Pakistan speelt een centrale rol als bemiddelaar en hielp eerder het staakt-het-vuren in april en een memorandum of understanding in juni tot stand te brengen.</p>
+        <p class="meta">Gepubliceerd 5 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/5/iran-war-live-huge-crowds-mourn-khamenei-trump-vows-calm-during-funeral">Iran war live: Huge crowds mourn Khamenei, Trump vows to hold fire</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De begrafenis is een politiek kantelpunt. Iran benadrukt officieel continuïteit én wraak, terwijl het staakt-het-vuren een fragiel diplomatiek venster opent. De komende week — inclusief de NAVO-top en het einde van de rouwperiode — zal grotendeels bepalen of de oorlog escaleert of de weg naar een vredesakkoord verder wordt bewandeld.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">NAVO-top Ankara (7-8 juli): Europa belooft €70 miljard militaire steun aan Oekraïne</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Overmorgen komen de leiders van alle 32 NAVO-landen samen in Ankara, Turkije, voor een tweedaagse top. Europese leiders, waaronder bondskanselier Merz, president Macron en premier Starmer, hebben €70 miljard aan militaire steun voor Oekraïne voor 2026 toegezegd. Ze beloofden eveneens extra sancties en economische druk op Rusland, plus steun voor de Oekraïense energiesector. Trump neemt deel — een teken van aanhoudend Amerikaans engagement, ondanks eerdere spanning binnen de alliantie.</p>
+        <p class="meta">Gepubliceerd 24 juni / 5 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/6/24/top-european-leaders-vow-strong-support-for-ukraine-ahead-of-nato-summit">Top European leaders vow 'strong' support for Ukraine ahead of NATO summit</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is de eerste grote NAVO-top in Turkije in jaren en een cruciale test voor de eenheid van het bondgenootschap. De uitkomst — met name de precieze Amerikaans-Europese taakverdeling — bepaalt of Oekraïne voldoende middelen krijgt voor een sterke militaire positie aan de onderhandelingstafel.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Oekraïne valt olie- en militaire installaties aan nabij Sint-Petersburg</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Oekraïense strijdkrachten hebben olie-raffinaderijen en militaire installaties aangevallen in de omgeving van Sint-Petersburg, Ruslands op één na grootste stad. Dit markeert een verdere escalatie van Oekraïnes strategie om Russische energie-infrastructuur diep in Russisch grondgebied te treffen. De aanvallen vonden plaats vlak voor de NAVO-top in Ankara, wat de diplomatieke druk op het bondgenootschap vergroot.</p>
+        <p class="meta">Gepubliceerd 4 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg">Ukraine hits oil and military facilities near Russia's St Petersburg</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Aanvallen nabij Sint-Petersburg zijn politiek en symbolisch uiterst gevoelig voor Moskou. Ze verhogen de druk op Rusland vlak vóór de NAVO-top en vergroten het risico op een Russische tegenreactie die de onderhandelingsruimte verder verkleint. Het past in een bewuste strategie van Kyiv om Rusland economisch en militair te verzwakken voordat vredesgesprekken mogelijkerwijs beginnen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===== THEMA 4: WETENSCHAP & RESEARCH ===== -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Mogelijk ontdekt: hoe de ziekte van Alzheimer zich door de hersenen verspreidt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben mogelijk een doorbraak bereikt in het begrijpen van hoe Alzheimer zich door de hersenen verspreidt. Sommige hersenen blijken actief terug te vechten: ze helpen onrijpe hersencellen (neuronen in aanleg) te overleven in plaats van te bezwijken aan de schade die de ziekte aanricht. Dit nieuwe inzicht over de rol van neurogene cellen in de progressie van Alzheimer biedt een potentieel nieuw therapeutisch aanknopingspunt.</p>
+        <p class="meta">Gepubliceerd 30 juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/06/260630020521.htm">Scientists may have finally found how Alzheimer's spreads through the brain</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Alzheimer treft wereldwijd meer dan 55 miljoen mensen; er bestaat nog geen behandeling die de progressie werkelijk stopt. Begrijpen hoe de ziekte zich verspreidt is een essentiële voorwaarde voor het ontwikkelen van medicijnen die dat proces daadwerkelijk onderbreken — in plaats van alleen de symptomen te vertragen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Proteïne-schakelaar verbrandt vet én blokkeert nieuwe vetcellen — nieuw doelwit voor obesitasbehandeling</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben een proteïne ontdekt die fungeert als een moleculaire schakelaar met een dubbele werking: het stimuleert de verbranding van vet én blokkeert de aanmaak van nieuwe vetcellen. De bevinding biedt een potentieel nieuw therapeutisch doelwit voor de behandeling van obesitas dat mechanistisch verschilt van bestaande GLP-1-receptoragonisten (zoals Ozempic). Verdere studies zijn nodig om te bepalen of dit doelwit veilig en effectief te beïnvloeden is bij mensen.</p>
+        <p class="meta">Gepubliceerd 24 juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/06/260624115324.htm">Scientists discover a protein switch that burns fat and blocks new fat cells</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met wereldwijd meer dan een miljard mensen met obesitas en grote bijwerkingsdiscussies rond GLP-1-medicijnen is elke nieuwe therapieroute van groot belang. Een mechanisme dat zowel vetverbranding activeert als vetopslag remt, is een zeldzame combinatie die potentieel leidt tot een compleet nieuwe klasse medicijnen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumfysici creëren technieken waarbij systemen ogenschijnlijk terugwerken in de tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben kwantumcontroletechnieken ontwikkeld waarmee een systeem lijkt te "draaien" alsof de tijd achteruit gaat, door kwantummetingen nauwkeurig te sturen. Dit is geen tijdreizen in klassieke zin, maar een fundamenteel nieuw inzicht in kwantumcausaliteit: hoe meting en toestandsevolutie op kwantumniveau in wisselwerking staan. De techniek biedt nieuwe tools voor het manipuleren van kwantumtoestanden.</p>
+        <p class="meta">Gepubliceerd juni/juli 2026 — ScienceDaily / phys.org — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het beheersen van kwantumtijdsomkering heeft directe implicaties voor kwantumfoutcorrectie en kwantumcomputing: door te begrijpen hoe "terugwaartse" evolutie werkt, kunnen onderzoekers kwantumfouten corrigeren die anders verloren informatie zouden veroorzaken. Dit is een stap richting betrouwbaardere kwantumcomputers op grotere schaal.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

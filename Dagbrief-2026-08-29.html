@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 29 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZATERDAG 29 AUGUSTUS 2026</p>
+
+  <p class="intro">Vandaag draait alles om één electorale vraag: stemmen IJslanders zichzelf in de richting van de EU? Het referendum over het heropenen van toetredingsonderhandelingen — peilingen geven het Nee-kamp een nipte voorsprong — is de eerste stem over EU-lidmaatschap in West-Europa in jaren. Ondertussen laat een nieuw Temporal-rapport zien dat dagelijks gebruik van AI-agents bij softwareontwikkelaars in één jaar bijna verdubbeld is, en verlaagt OpenAI fors de prijzen voor zijn populairste API-modellen. Vanuit de wetenschap biedt Nature een opvallende Mars-ontdekking: het zuidelijk binnenste van de planeet blijkt honderden graden warmer dan het noorden, met mogelijke gevolgen voor ons begrip van vroeg leven op Mars.</p>
+
+  <!-- THEMA 1: AI -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI halveert API-kosten: GPT-5.6 Luna 80% goedkoper, Terra 20% minder</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vanaf 26 augustus betalen ontwikkelaars aanzienlijk minder voor OpenAI's twee meest gebruikte API-modellen. GPT-5.6 Luna — de snelste en meest betaalbare optie — daalt met 80% naar $0,20 per miljoen input-tokens en $1,20 per miljoen output-tokens. GPT-5.6 Terra, het gebalanceerde model voor dagelijks gebruik, wordt 20% goedkoper: $2,- per miljoen input-tokens en $12,- per miljoen output-tokens. Abonnementsprijzen en quota voor ChatGPT-gebruikers blijven ongewijzigd; Terra en Luna verbruiken simpelweg minder credits. OpenAI omschrijft de stap als het "verder opschuiven van de prijs-prestatiegrens."</p>
+        <p class="meta">26 augustus 2026 — OpenAI — <a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT-5.6</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Goedkopere inference verlaagt de drempel voor agentic toepassingen op schaal. Elke prijsdaling van de grote labs dwingt concurrenten tot aanpassing en versnelt adoptie bij bedrijven die nu nog rekenmachine moeten trekken voordat ze een agent inzetten in productie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">81% van softwareontwikkelaars gebruikt nu dagelijks AI-agents — een jaar geleden was dat nog 47%</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Temporal heeft zijn 2026 State of Development Report gepubliceerd, gebaseerd op een enquête onder meer dan 550 engineers en engineeringleaders in de VS en het VK. De meest opvallende bevinding: 80,8% van de respondenten zegt AI-agents dagelijks of vaker in te zetten — een stijging van 47,3% een jaar eerder. Dat is een relatieve toename van ruim 70% in twaalf maanden. Tegelijkertijd signaleert het rapport dat governance van agentic workflows ver achterloopt: minder dan een kwart van de respondenten werkt met formele beleidsregels rond agent-toezicht en verantwoording.</p>
+        <p class="meta">27 augustus 2026 — Temporal / AI Agent Store — <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agents News — Week of August 28, 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De snelheid waarmee agents van experiment naar dagelijks gereedschap zijn gegaan maakt dit meer dan een adoptiegetal. Het wijst op een structurele verandering in hoe software gebouwd wordt — terwijl de bijbehorende governance-infrastructuur duidelijk tekortschiet, wat risico's vergroot voor bedrijven die agents al breed inzetten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">AI-agent Sai haalt 73% op het strengste computerbedieningsbenchmark — OSWorld 2.0</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een AI-agent genaamd Sai heeft 73% gescoord op OSWorld 2.0, een aangescherpte versie van de bekende OSWorld-benchmark die agents beoordeelt op het zelfstandig bedienen van een desktopomgeving. OSWorld 2.0 bevat moeilijkere taken dan de oorspronkelijke versie, bedoeld om gaten in de praktische bruikbaarheid bloot te leggen — zoals software-navigatie, bestandsbeheer en formulierinvullen in echte interfaces. De score van Sai overtreft eerdere geregistreerde resultaten aanzienlijk en duidt op een veelbelovende sprong in de capaciteit van agents om routinematige computerwerktaken over te nemen. Wel geldt: het is een benchmark in een beheerste omgeving, geen praktijktest.</p>
+        <p class="meta">Augustus 2026 — The New Stack — <a href="https://thenewstack.io/sai-agent-osworld-benchmark/">"Posterity will find it ludicrous": Sai agent hits 73% on OSWorld 2.0</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>OSWorld geldt als een van de eerlijkere maatstaven voor hoe goed agents computerbediening werkelijk aankunnen, buiten aanwijzingsgevoelige laboratoriumomgevingen. Een score van 73% op een aangescherpte versie is een significante stap richting agents die zelfstandig routinewerk kunnen overnemen — de "last mile" die enterprise-adoptie tot nu toe belemmert.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 2: TECH -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Ollama laat Claude Desktop open-source modellen draaien — en omzeilt daarmee Anthropics modelrestricties</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Ollama heeft een nieuwe proxy gelanceerd waarmee Claude Desktop-gebruikers lokaal draaiende open-source modellen — zoals Qwen, DeepSeek V4 Pro en Kimi K3 — kunnen inzetten terwijl ze de vertrouwde Claude-interface gebruiken. Een eerdere Ollama-integratie werd snel door Anthropic geblokkeerd; de nieuwe aanpak werkt als tussenpersoon die het modelselectiemechanisme van Claude Desktop omzeilt. Gebruikers kunnen per modelslot instellen welk achterliggend model de aanvraag afhandelt: "Opus 5" stuurt naar Kimi K3, "Sonnet 5" naar DeepSeek V4 Pro. Ollama noemt als voordelen: kostenreductie, snelheid, portabiliteit en de mogelijkheid om fine-tuned modellen in te zetten.</p>
+        <p class="meta">Augustus 2026 — The New Stack — <a href="https://thenewstack.io/ollama-claude-desktop-integration/">Claude Desktop can now easily run Qwen, DeepSeek and Kimi models</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-interfaces en onderliggende modellen raken steeds meer ontkoppeld. Voor organisaties die Claude als interface maar open-source modellen als werkpaard willen inzetten, verlaagt dit de lock-in aanzienlijk. Voor Anthropic is het een uitdaging voor het businessmodel: als de interface kan worden losgemaakt van het model, wordt de waarde van het modelaanbod minder vanzelfsprekend.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">SaaSpocalypse: zijn de dagen van softwarelicenties per gebruikersstoel geteld?</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een analyse op The New Stack stelt dat het tijdperk van betalen per medewerkersstoel voor SaaS-software fundamenteel onder druk staat. Naarmate AI-agents namens gebruikers aanmelden, handelen en data verwerken, worstelen SaaS-aanbieders met een existentiële vraag: hoe brengen ze diensten in rekening — per menselijke stoel, per agent-run, of per gebruiksvolume? Traditionele prijsmodellen gaan ervan uit dat elke sessie een medewerker vertegenwoordigt. Agents kunnen duizenden sessies per minuut draaien — wat ofwel een kostensuperexplosie voor klanten dreigt, of een complete herziening van tariefmodellen door aanbieders vereist.</p>
+        <p class="meta">28 augustus 2026 — The New Stack — <a href="https://thenewstack.io/dawn-of-a-saaspocalypse/">Is the SaaSpocalypse nigh? The era of paying for software seats may be ending.</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Vrijwel elk bedrijf heeft meerdere SaaS-abonnementen op basis van stoelentarieven. Als agentic AI mainstream wordt, worden contracten die nu onopvallend stilstaan structureel problematisch — voor aanbieders en afnemers tegelijk. De technologische verschuiving is al gaande; de commerciële is nog in volle gang.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 3: GEOPOLITIEK -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">IJsland stemt vandaag over EU — peilingen wijzen op nipte Nee-meerderheid, uitslag onzeker</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag, zaterdag 29 augustus, gaan de circa 268.000 Ijslandse kiezers naar de stembus voor een referendum over de vraag of het land de EU-toetredingsonderhandelingen — die in 2013 werden bevroren — wil heropenen. De vraag op het stembiljet luidt: "Moeten de onderhandelingen over het EU-lidmaatschap van IJsland opnieuw beginnen?" — Já of Nei. Peilingen laten een extreem krappe race zien: Bloomberg meldde gisteren dat het Nee-kamp een nipte voorsprong heeft (circa 51,6% Nee tegenover 48,4% Ja). Het gaat om een raadgevend referendum — een ja-uitslag instrueert de centrum-linkse coalitie van premier Kristrún Frostadóttir om onderhandelingen te heropenen, maar beslist niet over lidmaatschap zelf. De uitslag wordt verwacht in de avond van 29 augustus.</p>
+        <p class="meta">28–29 augustus 2026 — Bloomberg / Brussels Signal — <a href="https://brusselssignal.eu/2026/08/icelands-eu-accession-referendum-splits-voters-46-46-as-brussels-hopes-for-enlargement-boost/">Iceland's EU accession referendum splits voters 46-46</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een ja-stem zou de eerste EU-uitbreiding richting Noord-Europa in jaren kunnen inluiden en de strategische positie van de Unie in de Atlantische regio versterken. Gezien de uiterst krappe marges is de uitslag onzeker — en voor de EU-integratiebeweging fungeert dit als bellwether: hoe aantrekkelijk is lidmaatschap nog voor westerse landen die al in Schengen en de EER functioneren?</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Italië blokkeert vrij verkeer met Spanje nog altijd — Schengen staat onder nooit eerder geziene druk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Op 31 juli 2026 staken circa 70.000 mensen van Marokko naar de Spaanse enclave Ceuta; bij de oversteek verdronken minstens 72 mensen in 48 uur. Italië reageerde door het Schengen-vrij-verkeer met Spanje tijdelijk te schorsen, met gerichte controles op niet-EU-staatsburgers bij lucht- en zeegrenzen. Eind augustus is die maatregel nog altijd van kracht. Italië, Finland, Oostenrijk, Zweden, Denemarken en Tsjechië roepen op om Spanje formeel uit de Schengen-zone te schorsen. De Spaanse regering stelt dat vrijwel alle migranten inmiddels terugbegeleid zijn naar Marokko — "geen enkele persoon is naar het Europees continent gereisd."</p>
+        <p class="meta">Eind augustus 2026 — Al Jazeera / Euronews — <a href="https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta">Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het is de eerste keer dat een EU-lidstaat het vrij verkeer met een ander lid opschort vanwege migratie op deze schaal. Dit raakt direct aan de houdbaarheid van het Schengen-systeem als meest tastbaar symbool van Europese integratie. De politieke druk op Spanje en de EU-Commissie om een structurele deal met Marokko te sluiten neemt sterk toe.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 4: WETENSCHAP -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Mars' zuidelijk binnenste blijkt 200–400°C warmer dan het noorden — mogelijke implicaties voor vroeg leven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van Caltech publiceerden gisteren in Nature een studie over de interne structuur van Mars. Op basis van zwaartekrachtmetingen van drie NASA-satellieten (Mars Global Surveyor, Mars Odyssey en Mars Reconnaissance Orbiter) ontdekten ze dat het zuidelijk binnenste van Mars 200 tot 400 graden Celsius warmer is dan het noorden — en gedeeltelijk gesmolten. De asymmetrie helpt eerder raadselachtige bevindingen verklaren: NASA's InSight-lander ontdekte dat seismische golven in het zuiden sneller dissiperen (nu verklaarbaar door hogere temperaturen), en magnetische anomalieën in zuidelijke ijzermineralen suggereren dat er vroeger een krachtiger lokaal magneetveld was.</p>
+        <p class="meta">27 augustus 2026 — Nature / Caltech / Phys.org — <a href="https://phys.org/news/2026-08-thermal-anomaly-mars-south-pole.html">Thermal anomaly discovered below Mars' south pole</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De bevinding hertekent ons begrip van de planeet die het meest serieus wordt onderzocht als toekomstige verblijfplaats voor de mens. Als het zuiden van Mars intern warmer en deels gesmolten was, waren er mogelijk langere perioden van vulkanische activiteit of hydrothermale processen — wat de kans op vroeg microbieel leven vergroot en de prioriteiten voor toekomstige Mars-missies kan beïnvloeden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">NASA test satellietnavigatie zonder GPS: ruimtepuin als anker voor positiebepaling</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>NASA heeft een systeem succesvol getest waarmee satellieten zich in een baan om de aarde kunnen oriënteren zonder GPS-signalen. In plaats van afhankelijk te zijn van een extern navigatiesysteem gebruiken de satellieten andere ruimtevaartuigen en zelfs ruimtepuin als ankerpunten voor positiebepaling — vergelijkbaar met hoe een schip van oudsher vuurtorens als referentie gebruikte. Het systeem is ontworpen voor situaties waarin GPS niet beschikbaar is: storingen, vijandelijke jamming of missies in banen buiten GPS-bereik. De technologie is relevant voor zowel militaire toepassingen als toekomstige commerciële ruimtevluchten.</p>
+        <p class="meta">Augustus 2026 — NASA / ScienceDaily — <a href="https://www.sciencedaily.com/news/space_time/">ScienceDaily: Space News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GPS-afhankelijkheid geldt als een bekende kwetsbaarheid van moderne ruimte-infrastructuur — en indirect van digitale aardse systemen die op GPS leunen voor timing en navigatie. Een robuust alternatief versterkt de veerkracht van satellietsystemen en is direct relevant voor de sterk groeiende commerciële en militaire ruimtevaart.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Nieuwe studie: menselijke opwarming versterkt El Niño-intensiteit — bewijs stapelt zich op</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben de zeewatertemperaturen van de Stille Oceaan over de afgelopen eeuwen gereconstrueerd en vergeleken met moderne waarnemingen. De studie levert nieuw bewijs dat door mensen veroorzaakte klimaatverandering El Niño-events intenser maakt. El Niño heeft directe gevolgen voor het neerslagpatroon en de temperatuur op alle continenten: het vergroot de kans op droogte in Australië en Zuidoost-Azië, en op hevige regenval en overstromingen in het westen van Zuid-Amerika. Het is niet de eerste studie die dit verband legt, maar de reconstructie verlengt het tijdvenster van analyse en versterkt daarmee de statistische zekerheid.</p>
+        <p class="meta">Augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/earth_climate/el_nino/">ScienceDaily: El Niño News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>El Niño is al de meest ingrijpende klimaatvariabele op korte termijn voor honderden miljoenen mensen wereldwijd. Als het wetenschappelijk bewijs groeit dat opwarming de intensiteit verhoogt, heeft dat verregaande consequenties voor klimaatmodellen, waterbeleid en rampenpreparatie in kwetsbare regio's — en voor de vraag hoeveel klimaatmitigatie er nodig is om uitschieters te beperken.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

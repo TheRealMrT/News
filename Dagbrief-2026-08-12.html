@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 12 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 12 AUGUSTUS 2026</p>
+
+  <p class="intro">Vandaag is een historisch dag voor Europa: voor het eerst in 27 jaar trekt een totale zonsverduistering over het continent, zichtbaar vanuit Spanje en IJsland — een evenement waar bijna een miljard mensen wereldwijd naar uitkijken. Tegelijkertijd escaleert het conflict tussen de VS en Iran: Amerikaanse troepen vuurden Hellfire-raketten op een vrachtschip in de Straat van Hormuz, die cruciaal is voor een kwart van de wereldwijde olie- en gastransporten. In de technologiewereld verschuift het front opnieuw: OpenAI lanceert een gespecialiseerd cybermodel voor offensief kwetsbaarheidsonderzoek via zijn Daybreak-platform, terwijl Microsoft zijn Agent Framework Harness naar productie brengt — het geraamte waarbinnen AI-agents veilig en beheersbaar draaien. En MIT-onderzoekers bevestigen iets fundamenteels over onze hersenen: taal en logisch redeneren zijn twee afzonderlijke systemen.</p>
+
+  <!-- THEMA 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-5.6-Cyber: een gespecialiseerd AI-model voor het vinden van zero-days en exploits</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft zijn Daybreak-cyberbeveiligingsdienst uitgebreid met twee nieuwe tiers en een nieuw gespecialiseerd model: GPT-5.6-Cyber. Daybreak Blue biedt verdedigers toegang tot GPT-5.6 Sol met beveiligingsfocuste safeguards, geschikt voor malware-analyse, code review en incidentrespons. Daybreak Red geeft geselecteerde partners — waaronder Accenture, IBM, CrowdStrike en Cloudflare — toegang tot GPT-5.6-Cyber, een model getraind op offensief beveiligingsonderzoek zoals het vinden van zero-day kwetsbaarheden en het bouwen van exploit-ketens. OpenAI demonstreerde de kracht ervan door twee eerder onbekende kwetsbaarheden in V8, de JavaScript-engine van Chrome, te ontdekken.</p>
+        <p class="meta">Gepubliceerd 10 augustus 2026 — OpenAI / TechCrunch — <a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/" target="_blank">Expanding Daybreak as the Cyber Defense Window Narrows</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-gestuurde cyberaanvallen nemen snel toe; een gespecialiseerd model dat zowel aanvals- als verdedigingscapaciteiten bundelt, verschuift de economie van kwetsbaarheidsonderzoek fundamenteel. Dat OpenAI echte Chrome-lekken vond vóór ze konden worden misbruikt, toont dat dit geen PR is — het is operationele beveiliging op frontier-niveau.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GPT-5.6 Sol update: 68% minder feitelijke fouten, gratis gebruikers krijgen Luna als standaard</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI rolde op 6 augustus updates uit voor zijn GPT-5.6-modelfamilie. GPT-5.6 Sol voor Plus- en Pro-gebruikers produceert nu aantoonbaar minder fouten op vragen waarbij datum, cijfers, bronnen of regels een rol spelen — 68% minder feitelijke fouten dan GPT-5.5 Instant. Sol bevat nu ook een schuifregelaar waarmee gebruikers bepalen hoeveel redeneerwerk ChatGPT inzet. Gratis gebruikers ontvangen GPT-5.6 Luna als nieuw standaardmodel, inclusief een "Denk"-knop voor zwaardere vragen. Long-context-verzoeken boven 272K tokens draaien nu 2,5× sneller in Fast-modus.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — OpenAI — <a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/" target="_blank">Improving GPT-5.6 Sol in ChatGPT — and expanding access to GPT-5.6 Luna</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Feitelijke betrouwbaarheid is de achilleshiel van grote taalmodellen in professionele contexten. Een vermindering van 68% in feitelijke fouten is geen incrementele stap — het verandert welke taken je veilig aan een model kunt delegeren. Dat gratis gebruikers nu ook een frontier-model als standaard krijgen, versnelt de brede adoptie verder.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 2: Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness bereikt GA: de productie-runtime voor AI-agents is klaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft de Agent Framework Harness en Foundry Hosted Agents naar general availability gebracht. De harness is de runtime die een taalmodel omzet in een volwaardige agent: hij regelt functie-aanroepen, geheugen, context-compactie, planning, bestandstoegang, en ingebouwde OpenTelemetry-observabiliteit. Teams leveren een chat-client en instructies; de harness regelt de rest. Opvallend detail: een MIT-analyse schat dat ~98,4% van een state-of-the-art agentcodebase (Claude Code) uit harness-infrastructuur bestaat en slechts 1,6% uit AI-beslislogica — wat bevestigt dat de harness het echte product is. De Hosted Agents draaien op verbruiksgebaseerde facturering in Microsoft Foundry, met connectors voor zowel de GitHub Copilot SDK als de Claude Agent SDK.</p>
+        <p class="meta">Gepubliceerd 3 augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/" target="_blank">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Nu de harness productierijp is, verschuift de vraag voor ontwikkelteams van "welk framework kies ik?" naar "wie runt mijn agents, onder welk beleid, en waar landen de traces?" Dat externe coding-agents (zoals Claude Code) governance-bewust worden behandeld als leden van de eigen vloot is een architecturele stap die enterprise-adoptie van AI-agents serieus versnelt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub verslechtert standaarden voor npm en Actions: reactie op toename van AI-gegenereerde code</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub heeft de standaardbeveiliging voor npm-packages en GitHub Actions aangescherpt als reactie op de explosief gegroeide hoeveelheid AI-gegenereerde code in de supply chain. De wijzigingen leiden tot discussie in de community over de balans tussen snelheid en cryptografisch ondertekenen van artefacten. Tegelijkertijd lanceert GitHub Code Quality een maintainability-focus: naarmate AI-assistenten meer code schrijven, wil GitHub teams helpen de leesbaarheid en onderhoudbaarheid van die code systematisch te bewaken — twee kwaliteitsaspecten die snelheid-gerichte AI-tools traditioneel deprioriteren.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/github-npm-actions-defaults/" target="_blank">GitHub Hardens npm and Actions Defaults, Drawing Debate over Delays versus Signing</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-codegeneratoren verhogen het volume van code dramatisch, maar zonder extra kwaliteits- en beveiligingslagen vergroot dat ook het aanvalsoppervlak en de technische schuld. GitHub's aanpak om standaarden te verharden is een signaal dat de industrie begint te reageren op de keerzijde van "ship faster with AI".</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Vercel lanceert Zero: een grafische programmeertaal gebouwd zodat AI-agents de code schrijven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vercel Labs heeft Zero uitgebracht, een grafisch-georiënteerde ("graph-first") programmeertaal waarvan het primaire doel is dat AI-agents — niet mensen — de code schrijven. Zero past in een bredere verschuiving waarbij taalontwerp niet meer draait om menselijke leesbaarheid maar om de structuren die taalmodellen makkelijk kunnen produceren en redeneren. De release volgt op Vercels Eve-framework voor agentdeployment eerder dit jaar en positioneert Vercel als een speler die de gehele keten wil bezitten: taal, framework, runtime, en deploymentplatform.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/" target="_blank">Vercel Labs Ships Zero: a Graph-First Language Built So Agents Write the Code</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een programmeertaal ontworpen voor AI-agents in plaats van mensen is een fundamentele breuk met zeventig jaar softwareontwerphistorie. Als dit patroon aanslaat, verandert wat het betekent om "softwareontwikkelaar" te zijn — van code schrijven naar correcte instructies geven aan agents die de eigenlijke code produceren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS vuren op vrachtschip in Straat van Hormuz — Trump claimt 'totale controle', Iran houdt voet bij stuk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Amerikaanse strijdkrachten hebben vandaag twee Hellfire-raketten afgevuurd op een Panama-gevlagd vrachtschip dat richting een Iraanse haven voer en waarschuwingen negeerde. President Trump verklaarde dat de VS in 'totale controle' zijn van de Straat van Hormuz. Iran's nieuwe hoofd van de Nationale Veiligheidsraad stelt dat de straat pas heropent als de VS zijn militaire campagne stopt en bevroren Iraanse fondsen vrijgeeft. Qatar meldt dat Oman-Iran-onderhandelingen 'significante vooruitgang' boeken, maar een doorbraak blijft uit. De bijna-afsluiting van de Hormuz-straat — waardoor een kwart van de mondiale olie- en LNG-transporten wordt bedreigd — heeft de energieprijzen wereldwijd opdrijven.</p>
+        <p class="meta">Gepubliceerd 12 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/12/iran-war-live-us-fires-missiles-at-cargo-ship-violating-iran-blockade" target="_blank">Iran war live: Trump claims US in 'total control' of Strait of Hormuz</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de smalste flessenhals in de mondiale energievoorziening. Een aanhoudende blokkade of militaire escalatie hier raakt direct de olie- en gasprijzen die Europa betaalt — en daarmee inflatie, industrie en energietransitieplannen. Dit is geen regionaal conflict meer: het raakt de wereldeconomie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Saoedi-Arabië, Pakistan en Turkije tekenen defensiepact in Mekka: nieuwe veiligheidsarchitectuur Midden-Oosten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Saoedi-Arabië, Pakistan en Turkije hebben een wederzijds verdedigingsakkoord ondertekend in Mekka. Analisten zien het pact als een signaal dat Saoedi-Arabië een eigen regionale veiligheidsorde wil bouwen, los van de Amerikaanse-ontworpen structuur die het Midden-Oosten decennia domineerde. Het akkoord komt op een moment dat de VS diep verwikkeld zijn in het Iran-conflict en Saudi-Arabië zijn strategische opties wil verbreden. Turkije — NAVO-lid maar al jarenlang een onafhankelijke koers varend — fungeert als scharnier tussen Midden-Oosten en Europa in dit nieuwe verband.</p>
+        <p class="meta">Gepubliceerd 8 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape" target="_blank">The post-American Middle East is beginning to take shape</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een defensiepact tussen de tweede grootste olieproducent ter wereld, de op vijf na grootste economie van de moslimwereld en een NAVO-lid is geen symbolisch gebaar. Het markeert de contouren van een post-Amerikaans Midden-Oosten en heeft implicaties voor Europese energiepolitiek, wapenexport en geopolitieke allianties in de komende decennia.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Totale zonsverduistering trekt vandaag over Spanje en IJsland — eerste in Europa in 27 jaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag, 12 augustus 2026, trekt een totale zonsverduistering over Groenland, IJsland, Portugal en Spanje — de eerste die zichtbaar is vanaf het Europese vasteland sinds 1999. In León begint de totaliteit om 20:28 CEST en duurt 1 minuut en 45 seconden; in Soria om 20:29 CEST; in Mallorca om 20:31 CEST. Maximale totaliteit — 2 minuten en 18 seconden — vindt plaats boven de Atlantische Oceaan ten westen van IJsland. Bijna een miljard mensen kunnen een partiële verduistering zien. Als bonus valt de verduistering samen met de Perseïden meteorenregen, wat van vanavond een zeldzame dubbel astronomische gebeurtenis maakt.</p>
+        <p class="meta">Gepubliceerd 12 augustus 2026 — Phys.org / Live Science — <a href="https://phys.org/news/2026-08-august-total-solar-eclipse-spain.html" target="_blank">August's total solar eclipse will sweep over Spain, Iceland and Greenland</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wetenschappers gebruiken totale zonsverduisteringen om de zonnekorona te bestuderen — het buitenste laag van de zon dat tijdens totaliteit zichtbaar wordt en nog steeds raadselachtige eigenschappen heeft, zoals de extreme temperatuur van miljoenen graden. Bovendien: zulke gebeurtenissen brengen miljoenen mensen in contact met astronomie op een manier die geen enkel boek of scherm kan evenaren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">MIT bewijst: taal en logisch redeneren zijn aparte hersensystemen — met gevolgen voor AI-debat</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>MIT-neurowetenschappers hebben sterke aanwijzingen gevonden dat taalbegrip en logisch redeneren door afzonderlijke neurale netwerken in de hersenen worden verwerkt. Eerdere studies lieten al zien dat taalgebieden niet actief zijn tijdens puur wiskundig redeneren; het nieuwe onderzoek bevestigt en preciseert deze dissociatie. De bevinding heeft directe implicaties voor hoe we grote taalmodellen interpreteren: als de menselijke hersenen taal en redeneren scheiden, roept dat de vraag op of een model dat getraind is op taal ook werkelijk "redeneert" — of iets functioneel anders doet.</p>
+        <p class="meta">Gepubliceerd 11 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/" target="_blank">MIT: Language and logical reasoning powered by separate brain systems</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>In een tijdperk waarin AI-systemen worden gebouwd op taalmodellen en tegelijk worden geacht te "redeneren," is het wetenschappelijk bewijs dat de menselijke hersenen deze twee functies strikt scheiden een fundamenteel gegeven. Het informeert zowel het debat over AI-bewustzijn als de architectuurkeuzes van de volgende generatie modellen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Mariene hittegolven treffen ook menselijke gezondheid: van depressie tot voedselonzekerheid aan de kust</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers waarschuwen dat extreem warme oceaantemperaturen — mariene hittegolven — niet alleen koraalriffen en visbestanden bedreigen maar ook direct de menselijke gezondheid raken. Ongewoon warme zeeën versterken stormen, stimuleren giftige algenopbloei, reduceren de visoogst en verstoren de bestaansmiddelen van kustgemeenschappen. Bovendien rapporteren onderzoekers een psychologische dimensie: bewoners van kuststreken tonen significante niveaus van angst, rouw en depressie als gevolg van veranderende oceanen die hun leefomgeving en cultuur aantasten — een fenomeen dat onderzoekers "solastalgia" noemen.</p>
+        <p class="meta">Gepubliceerd 11 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260811011127.htm" target="_blank">Marine heatwaves are harming human health in surprising ways</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Klimaatdiscussies concentreren zich vaak op economische schade en biodiversiteitsverlies, maar de directe gezondheidsimpact van opwarmende oceanen op mensen — zowel fysiek als psychisch — maakt klimaatverandering urgenter en persoonlijker. Naarmate mariene hittegolven frequenter worden, groeit een mondiale gezondheidscrisis die nu nog nauwelijks in beleid verankerd is.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 5: Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1: Dutch Grand Prix volgende week in Zandvoort — sprintweekend én het allerlaatste Dutch GP ooit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Formule 1 keert volgende week terug naar Circuit Zandvoort voor de Dutch Grand Prix (21–23 augustus). Het is een sprintweekend én — na bevestiging van een eenjarige contractverlenging — de allerlaatste Dutch Grand Prix die ooit in Zandvoort wordt gehouden. Het volledige tijdschema in Nederlandse tijd: vrijdag 21 augustus Sprint Kwalificatie 16:30; zaterdag 22 augustus Sprint 12:00 en GP Kwalificatie 16:00; zondag 23 augustus Grand Prix 15:00. Alle tijden zijn lokale tijd / CEST.</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/racing/2026/netherlands" target="_blank">Dutch Grand Prix 2026 — F1 Race (formula1.com)</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

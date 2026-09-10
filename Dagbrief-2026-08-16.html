@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 16 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZONDAG 16 AUGUSTUS 2026</p>
+
+  <p class="intro">Het AI-veld versnelt in alle richtingen: DeepSeek gooit een open-source coding-agent in de strijd, Meta richt zich op lokale agents voor consumentenhardware, en Anthropic investeert in eigen chips terwijl toponderzoekers van Google DeepMind overkomen. Geopolitiek staan de spanningen hoog: Oekraïne claimt een aanzienlijke territoriale overwinning in Dnipropetrovsk terwijl Rusland de raketaanvallen op steden opvoert, en de VS-Iran-blokkade bij de Straat van Hormuz verhardt verder met Trumps dreigement de waterweg tot VS-territorium te verklaren. In de wetenschap vonden onderzoekers aanwijzingen dat leven op aarde mogelijk twee afzonderlijke oorsprongen heeft, en nieuw klimaatonderzoek onthult een verontrustend maar subtiel spoor van stijgend CO2 in ons bloed. En voor F1-liefhebbers: Zandvoort staat dit weekend op het programma — voor het eerst ooit als sprintweekend.</p>
+
+  <!-- AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">DeepSeek lanceert open-source Harness: modulaire rival voor Claude Code</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>DeepSeek heeft DeepSeek Harness v0.1 gelanceerd — een open-source agentic coding harness dat zich positioneert als alternatief voor omgevingen als Claude Code. De bijzondere eigenschap is de volledig modulaire opzet: elk onderdeel van de agent-runtime (model, tools, skills, sandbox, orchestratie en UI) kan als plugin worden verwisseld. De Node.js-gebaseerde tool is uitgebracht onder MIT-licentie en te starten via <code>npx @deepseek-ai/dsh web</code>. Gelijktijdig lanceerde DeepSeek ook DeepSeek-V4-Pro, een bijgewerkt flagship model gericht op agentische taken. Het project verzamelde binnen enkele uren meer dan 33.000 GitHub-sterren.</p>
+        <p class="meta">Gepubliceerd 13 augustus 2026 — VentureBeat — <a href="https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices">DeepSeek Harness launches as open source rival to Claude Code</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De race om de standaard agentic coding-omgeving te worden is volop bezig. DeepSeek's volledig modulaire aanpak doorbreekt vendor lock-in en dwingt spelers als Anthropic en OpenAI na te denken over wat hun harness werkelijk onderscheidt — en of open source het pleit opnieuw kan winnen zoals eerder bij modellen het geval was.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Meta's Muse Glimmer: een krachtige AI-agent die lokaal draait op een gewone laptop</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Meta heeft Muse Glimmer uitgebracht, een open-weight model specifiek ontworpen voor AI-agents die lokaal draaien op consumentenhardware — een Mac of pc met één gpu is voldoende. Glimmer kan meerdere tools aanroepen, code schrijven en debuggen, bestanden beheren en langdurige multi-stap taken uitvoeren zonder cloudverbinding. Het model geeft een inkijkje in Zuckerbergs visie op "personal intelligence": krachtige AI die volledig op je eigen apparaat leeft, privé en offline beschikbaar.</p>
+        <p class="meta">Gepubliceerd 10 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/">Meta's new Glimmer AI model offers a hint at Zuckerberg's personal intelligence vision</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een capabele open-weight agent die offline draait, verlaagt de drempel voor privacy-gevoelige toepassingen en maakt AI-agents beschikbaar in omgevingen zonder internetverbinding. Als het model goed presteert, kan het cloud-gebaseerde agentic AI flink onder druk zetten — en de discussie over datasoevereiniteit opnieuw aanwakkeren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic bouwt eigen chipteam en trekt Google DeepMind-toponderzoekers weg</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic is actief een "custom silicon team" aan het opbouwen en zoekt engineers met chip-ontwerpervaring. Het doel: eigen hardware co-designen met de modellen voor hogere snelheid en lagere inferentiekosten. Eerder dit jaar had Anthropic gesprekken met Samsung over een mogelijke samenwerking. Tegelijkertijd werd bekend dat twee prominente Google DeepMind-onderzoekers — Jonas Adler en Alexander Pritzel, die een centrale rol speelden bij de ontwikkeling van Gemini — naar Anthropic overstappen. Ook Nobelprijswinnaar in de chemie John Jumper maakte eerder dit jaar de overstap van DeepMind naar Anthropic.</p>
+        <p class="meta">Gepubliceerd 5 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/">Anthropic is hiring an AI chip design team</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Eigen chips zijn de volgende strategische stap voor AI-labs: minder afhankelijkheid van Nvidia, lagere kosten per token en hardwarevoordelen afgestemd op de eigen modellen. Dat Anthropic tegelijk toptalent wegtrekt bij Google DeepMind versterkt het beeld van een lab dat op alle fronten de concurrentie aangaat — niet alleen op modelprestaties.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- TECH & SOFTWARE/DEVELOPMENT -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness bereikt General Availability</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft de Agent Framework Harness en Foundry Hosted Agents naar General Availability gebracht. Het platform stelt enterprise-teams in staat agents te draaien en te gouverneren — niet alleen te bouwen. Het draait als één binary in lokale ontwikkelomgevingen, containers en hosted deployment. De GA-release bevat onder meer function invocation, per-call history persistence, context compaction, een takenlijst met plan- en execute-modus, bestandsgeheugen, skills, websearch, toolgoedkeuring en ingebouwde OpenTelemetry, waarbij elk onderdeel standaard aan staat maar individueel uit te zetten is. Hosted Agents wordt op verbruiksbasis gefactureerd.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met de GA van het Agent Framework krijgen enterprise-teams een productieklare standaard voor het gouverneren, monitoren en deployen van agents. Microsoft verankert zo zijn positie als de enterprise-standaard voor agentic AI — precies op het moment dat concurrenten als DeepSeek en andere spelers ook naar de enterprise-markt kijken.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Cloudflare voegt agent-tracing toe: observability voor AI-agents in productie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Cloudflare heeft agent-tracing uitgebracht voor zijn AI-platform, waarmee ontwikkelaars de volledige uitvoering van agentic taken kunnen monitoren en debuggen. De feature biedt gedetailleerde traces van tool calls, model-aanroepen en orchestratiepatronen door de hele agent-pipeline heen. Hiermee positioneert Cloudflare zich als infrastructuurlaag voor productie-agents en vult het een kritisch gat dat veel agent-frameworks open lieten: observability op productieschaal.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/">Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Agents in productie zijn een zwarte doos — ze falen op onverwachte manieren en zijn lastig te debuggen. Goede observability is de sleutel tot betrouwbare deployments. Cloudflare's brede bereik bij developers betekent dat deze feature snel in veel productieomgevingen terecht kan komen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Oekraïne heroverd 745 km² in Dnipropetrovsk — Rusland treft terug met raketaanvallen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Oekraïne heeft een grondoffensief in de zuidelijke regio Dnipropetrovsk afgerond en daarmee 745 km² grondgebied heroverd, 26 nederzettingen bevrijd en — zo stelt president Zelenski — bijna 10.000 Russische soldaten uitgeschakeld. De operatie beroofde Rusland van nagenoeg alle terreinwinst die het in de regio had geboekt sinds juni 2025. Als reactie intensiveert Rusland echter zijn raketaanvallen op Oekraïense steden, die toenemend weerloos zijn doordat de voorraden Patriot-interceptors uitgeput raken. Meerdere Oekraïense bronnen melden bovendien dat Noord-Korea een eenheid stuurt met tot 120 ballistische raketten naar de Russische regio Voronezj, direct aan de Oekraïense grens.</p>
+        <p class="meta">Gepubliceerd 14 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks">Russian ballistic attacks intensify as Kyiv claims Dnipropetrovsk advance</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Oekraïnes terreinwinst toont aan dat Kyiv nog steeds offensief kan opereren, maar het patroon van het conflict blijft onveranderd: grondwinst wordt gecompenseerd door verwoestende luchtaanvallen op de burgerbevolking. De Noord-Koreaanse betrokkenheid voegt een nieuwe escalatiedimensie toe die NAVO-bondgenoten nauwlettend volgen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trump dreigt Straat van Hormuz VS-territorium te verklaren; blokkade Iran duurt voort</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VS handhaaft zijn marineblokkade rondom de Iraanse havens en verklaarde deze "onbepaald" te kunnen volhouden. President Trump kondigde aan de Straat van Hormuz "binnenkort" tot VS-territorium te verklaren — een claim die Iran resoluut afwijst. Eerder deze week vuurde het Amerikaanse leger op een vrachtschip dat probeerde de blokkade te doorbreken. Slechts 8 schepen passeerden de straat per dag (tegenover een daggemiddelde van circa 130 vóór de oorlog). Diplomatieke gesprekken, bemiddeld door Oman, zitten vast.</p>
+        <p class="meta">Gepubliceerd 14 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last">US threatens 'indefinite' blockade against Iran: How long can it last?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de slagader van de mondiale energievoorziening — normaal passeert zo'n 20% van alle oliehandel ter wereld door deze nauwe doorgang. Een aanhoudende blokkade treft olieprijzen en importeurs wereldwijd. Trumps annexatieroep verhoogt de diplomatieke inzet verder en maakt elke uitweg moeilijker.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Stijgend CO2 laat meetbaar spoor achter in menselijk bloed</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Australische onderzoekers analyseerden meer dan 20 jaar aan Amerikaans volksgezondheidsdata (NHANES, ~7.000 deelnemers) en ontdekten dat bloedbicarbonaatwaarden sinds 1999 met zo'n 7% zijn gestegen — nauw parallel aan de stijging van atmosferisch CO2 van 369 naar ruim 420 ppm. Tegelijk daalden calcium- en fosforspiegels. Bicarbonaat regelt de zuurgraad van het bloed: naarmate CO2 in de lucht stijgt, houdt het lichaam meer bicarbonaat vast om de pH stabiel te houden. Modellen voorspellen dat het bicarbonaatgehalte de bovengrens van het gezonde referentiebereik kan bereiken binnen circa 50 jaar als de huidige trend aanhoudt. Het onderzoek, gepubliceerd in Air Quality, Atmosphere and Health, benadrukt dat dit correlationeel is, geen bewijs van directe causaliteit — maar de consistentie over miljoenen mensen is opvallend.</p>
+        <p class="meta">Gepubliceerd 15 augustus 2026 — ScienceDaily / The Kids Research Institute Australia — <a href="https://www.sciencedaily.com/releases/2026/08/260814235845.htm">Scientists detect a surprising shift in human blood as atmospheric CO2 rises</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Klimaatverandering wordt doorgaans gemeten in graden, zeespiegels en extreme weersgebeurtenissen. Dit onderzoek voegt een verrassende nieuwe dimensie toe: fysiologische veranderingen in het menselijk lichaam zelf. Zelfs als het effect klein lijkt, rechtvaardigt de bevolkingsomvang en de tijdsduur verdere monitoring — en mogelijk een plek in klimaat- en volksgezondheidsbeleid.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Leven op aarde had mogelijk twee afzonderlijke oorsprongen, niet één</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de Universiteit Düsseldorf en internationale partners publiceerden in Science Advances bewijs dat bacteriën en archaea — de twee oeroude takken van het leven — de stap naar vrij levende cellen onafhankelijk van elkaar maakten, vanuit hydrothermale bronnen op de oceaanbodem. De genetische code die al het leven deelt, heeft dus waarschijnlijk één oorsprong, maar de overgang naar vrij levende cellen vond tweemaal afzonderlijk plaats. Het team reconstrueerde alle 420 chemische reacties van het vroegste metabolisme en identificeerde een nieuwe energiebron — fosfiet in combinatie met palladium — die ATP verving voordat enzymen bestonden.</p>
+        <p class="meta">Gepubliceerd 12 augustus 2026 — ScienceDaily / Heinrich-Heine Universität Düsseldorf — <a href="https://www.sciencedaily.com/releases/2026/08/260811011134.htm">Scientists find evidence for two origins of life on Earth</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit herformuleert een fundamentele aanname in de biologie: dat het leven slechts één keer is begonnen. Twee onafhankelijke oorsprongen zouden verklaren waarom bacteriën en archaea op moleculair niveau zo diepgaand van elkaar verschillen ondanks een gedeelde genetische code. Het heeft ook vergaande implicaties voor de kans op leven elders in het universum: als het zelfs op Aarde tweemaal kon ontstaan, is leven misschien minder van een astronomisch toeval dan we dachten.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- SPORT -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1: Dutch Grand Prix in Zandvoort — dit weekend, voor het eerst als sprintweekend</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Formule 1 trekt aanstaand weekend naar Zandvoort voor de Heineken Dutch Grand Prix 2026 (ronde 12). Dit jaar voor het eerst als sprintweekend — Zandvoort organiseert hiermee zijn allereerste sprint in de Formule 1. Het volledige programma in Nederlandse tijd:</p>
+        <p><strong>Vrijdag 21 augustus:</strong> Vrije Training 12:30 &nbsp;·&nbsp; Sprint Kwalificatie 16:30<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint 12:00 &nbsp;·&nbsp; Kwalificatie 16:00<br>
+        <strong>Zondag 23 augustus:</strong> Race 15:00</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/racing/2026/netherlands">Dutch Grand Prix 2026 — officieel schema</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

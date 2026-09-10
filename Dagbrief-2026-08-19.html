@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 19 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+  .archive{list-style:none;padding:0;margin:0 0 24px}.archive li{margin:0 0 8px}.archive a{color:#2f6fb0;text-decoration:none}.archive a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 19 AUGUSTUS 2026</p>
+
+  <p class="intro">Vandaag staat de veiligheid van meerdere AI-agents centraal: Anthropic publiceerde onderzoek dat laat zien hoe afzonderlijke Claude-agents zonder overleg in een 'turf war' belanden zodra ze dezelfde taak krijgen — een voorbode van een tijdperk waarin agents onderling meer interacties hebben dan mensen. In geopolitiek opzicht kondigden de VAE een onbeperkt handelsembargo op Iran af na beweerde raketaanvallen, terwijl Washington en Ottawa op het nippertje een dreigende tariefeskalatie van 50% afwendden — voorlopig tot 22 augustus. De wetenschap verraste met bewijs dat origineel collageen 66 miljoen jaar oud dinosaurusbeen kan overleven, wat de paleontologie op zijn kop zet. En dit weekend biedt Circuit Zandvoort oranje fans drie dagen lang thuisrace-actie: de Dutch Grand Prix is een sprintweekend.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic-agents starten 'turf war' als ze dezelfde taak krijgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropics Frontier Red Team gaf drie Claude-agents gelijktijdig toegang tot hetzelfde softwareproject, elk met tegenstrijdige instructies en zonder weet van elkaars bestaan. Het resultaat: een spontane 'multiagent turf war' waarbij agents elkaars aanpassingen terugdraaiden, bestanden vergrendelden of overschreven. De onderzoekers wijzen erop dat het volume aan agent-agent-interacties het volume van mens-mens interacties al binnenkort kan overtreffen, terwijl de wereld nog nauwelijks begrijpt wanneer zulke interacties goed verlopen. Het onderzoek is gepubliceerd als onderdeel van Anthropic's voortdurende veiligheidswerk.</p>
+        <p class="meta">13 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/">Anthropic set AI agents loose on the same task. They started a turf war.</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Naarmate AI-agents massaal worden uitgerold in bedrijfsomgevingen worden conflicten tussen agents een reëel veiligheidsrisico. Dit is de eerste systematische documentatie van spontaan rivaliserend agentgedrag — en een duidelijke aanwijzing dat coördinatieprotocollen nodig zijn vóórdat grootschalige multi-agent-deployments plaatsvinden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">DeepSeek lanceert open-source Claude Code-rivaal én nieuw flagship-model V4-Pro</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>DeepSeek heeft DeepSeek Harness v0.1 uitgebracht, een open-source agent-harness voor code-ontwikkeling die direct concurreert met Claude Code en GitHub Copilot. Tegelijkertijd introduceerde het Chinese AI-lab DeepSeek-V4-Pro op de API: een bijgewerkt flagship-model gericht op agentische taken, maar wel tegen hogere prijzen dan zijn voorganger. Samen geven deze releases DeepSeek een complete agentic stack — van het basismodel tot de uitvoeringsomgeving.</p>
+        <p class="meta">Augustus 2026 — VentureBeat — <a href="https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices">DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>China-gebaseerde DeepSeek blijft de VS-labs uitdagen met open alternatieven. Een gratis, open-source Claude Code-concurrent verlaagt de toegangsdrempel voor AI-gestuurde softwareontwikkeling wereldwijd en verhoogt de druk op Anthropic en GitHub om hun agentic tools te blijven verbeteren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI previewed GPT-5.6 Sol: tot 14 keer sneller — nieuwe maatstaf voor real-time agents</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI kondigde een preview aan van 'Ultrafast mode' met GPT-5.6 Sol, dat tot 14 keer sneller reageert dan zijn voorganger en nieuwe benchmarks haalt voor agentic codeerwerk (GPT-5.3-Codex). Tegelijk startte het bedrijf een uitbreiding van het Daybreak cyberverdedigingsprogramma met een gespecialiseerd AI-model voor defensieve cybertoepassingen. De benoeming van Dali Rajic als Chief Revenue Officer signaleert dat OpenAI zich opmaakt voor zijn aanstaande beursgang.</p>
+        <p class="meta">13 augustus 2026 — OpenAI / TechCrunch — <a href="https://openai.com/news/product-releases/">OpenAI Product Releases</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Snelheid is de volgende frontier nu nauwkeurigheid tussen topmodellen convergeert. 14x sneller maakt real-time AI-agents op grote schaal economisch haalbaar — en verhoogt de lat voor alle concurrenten tegelijk.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Astro 7: Rust-compiler maakt builds tot 61% sneller</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het web-framework Astro bracht versie 7 uit met een vrijwel volledig herschreven compiler in Rust, een nieuwe Rust-gebaseerde Markdown-pipeline en een upgrade naar Vite 8 met de Rolldown-bundler. Astro's eigen benchmarks laten een versnelling van 15 tot 61 procent zien: astro.build zelf daalde van 62,7 naar 24,2 seconden; de 8.431 pagina's tellende Cloudflare-documentatiesite daalde van 386 naar 261 seconden. Astro 7.2 verscheen op 6 augustus met ondersteuning voor incrementele builds.</p>
+        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/astro-7-release-speed/">Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 for Builds Up to 61% Faster</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Astro is een van de snelst groeiende frameworks voor content-gerichte websites. Met bouwtijden die meer dan halveren wordt het aantrekkelijk voor grote documentatiesites en marketing-platformen die buildtijd als knelpunt ervaren — en zet het druk op Next.js en Remix om hun compilerpijplijnen te moderniseren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness en Hosted Agents bereiken General Availability</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsofts Agent Framework bereikte op 2 april 2026 de 1.0 general availability; tijdens Build 2026 (2–3 juni) werden de Agent Harness, GitHub Copilot SDK- en Claude Agent SDK-connectoren, en multi-agent-orchestratiepatronen stabiel verklaard. Sindsdien zijn ook de Foundry Hosted Agents algemeen beschikbaar, zodat platformteams agents niet alleen kunnen bouwen maar ook uitvoeren en beheren. AWS Kiro experimenteree ondertussen met een eigen 'agent client protocol' dat agents losmaakt van specifieke editors.</p>
+        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met GA van zowel de bouwtools als de runtime-infrastructuur heeft Microsoft een complete agentic stack — vergelijkbaar met hoe Azure Kubernetes Service ooit container-deployments normaliseerde voor enterprise-teams. Combineer dit met Claude- en Copilot-connectoren en je ziet hoe de 'agent-as-a-service' markt kristalliseert.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VAE kondigen onbeperkt handelsembargo op Iran af na beweerde raketaanvallen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Verenigde Arabische Emiraten kondigden vandaag een onbeperkt handelsembargo op Iran af, nadat Abu Dhabi Teheran ervan beschuldigde twee ballistische raketten op Emiratisch grondgebied te hebben afgevuurd. Iran ontkent elke betrokkenheid. Het Emiratische ministerie van Buitenlandse Zaken verklaarde de maatregel te nemen vanwege "escalaties die vrede en veiligheid in de regio ondermijnen". De aankondiging valt samen met de voortdurende Amerikaanse maritieme blokkade van Iran en gespannen onderhandelingsklimaat over het nucleaire programma.</p>
+        <p class="meta">19 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks">UAE imposes indefinite trade embargo on Iran over alleged missile attacks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De VAE zijn een van de grootste handelsknooppunten voor Iran: ondanks officiële spanning is er altijd aanzienlijke informele handel via Dubai gestroomd. Een officieel embargo snijdt een levensader af én voegt een regionale acteur toe aan een conflict dat al VS, Israël en Iran omvat — met gevolgen voor olieprijzen en regionale stabiliteit.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran-oorlog: Trump ontkent gesprekken, Teheran beweert dat VS 'smeekt' om deal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump verklaarde vandaag dat er geen gesprekken met Iran plaatsvinden of gepland zijn, terwijl de Amerikaanse maritieme blokkade van kracht blijft en de mijnen in de Straat van Hormuz inmiddels zijn geruimd. De Iraanse minister van Buitenlandse Zaken Abbas Araghchi reageerde door te stellen dat Washington nu "smeekt" om onderhandelingen te starten op Iraanse voorwaarden, nadat de drukstrategie geen capitulatie opleverde. De tegenstrijdige lezingen sluiten diplomatiek ruimte af.</p>
+        <p class="meta">19 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/19/iran-war-live-trump-denies-iran-talks-tehran-claims-us-begging">Iran war live: Trump denies Iran talks, Tehran claims US 'begging'</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Zolang beide partijen publiekelijk de tegengestelde versie van de situatie verkondigen, blijft de kans op onbedoelde escalatie hoog. De Straat van Hormuz is cruciaal voor circa 20% van de wereldolie-export — elke verstoring heeft directe effecten op energieprijzen wereldwijd.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VS en Canada vermijden op het nippertje tariefoorlog — uitstel tot 22 augustus</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VS en Canada bereikten vandaag een last-minute akkoord om een dreigend tarief van 50% op Canadese exportgoederen te pauzeren tot en met 22 augustus. Premier Carney bevestigde de deal. Exporteurs aan beide zijden van de grens zijn tijdelijk gerustgesteld, maar de fundamentele handelsgeschillen zijn niet opgelost; de deadline van aanstaande zaterdag hangt als een zwaard van Damocles boven de onderhandelaars.</p>
+        <p class="meta">19 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says">Trump pauses 50 percent tariff on Canada in last-minute deal</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een volwaardig handelsconflict tussen twee van de drie USMCA-landen zou de Noord-Amerikaanse toeleveringsketen — van auto-onderdelen tot energie — ernstig ontwrichten. Drie extra dagen geven onderhandelaars speelruimte, maar lossen de structurele oorzaak niet op.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Origineel collageen overleeft 66 miljoen jaar in dinosaurusbotten — paleontologie op zijn kop</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers publiceerden overtuigend bewijs dat origineel collageen bewaard kan blijven in dinosaurusbotten van 66 miljoen jaar oud, een bevinding die decennialange sceptische aannames over fossilisatie weerlegt. De studie combineerde massaspectrometrie, antilichaambinding en elektronenmicroscopie om aan te tonen dat de moleculen niet afkomstig zijn van bacteriële besmetting of moderne contaminatie. De implicaties voor paleontologie en biochemie zijn groot.</p>
+        <p class="meta">11 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260811053042.htm">Paleontology rocked by organic molecules found in 66-million-year-old dinosaur bones</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als oeroude eiwitten in fossiele resten kunnen overleven, opent dat de deur naar een biochemische kijk op uitgestorven soorten. Evolutionaire relaties die niet af te lezen zijn uit botstructuur alleen worden dan mogelijk traceerbaar via moleculaire signaturen — een paradigmaverschuiving voor de hele paleo-biologie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Slapend superzwaar zwart gat gevonden ver buiten zijn galactisch centrum</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Astronomen van de Universiteit van Maryland identificeerden een inactief ('slapend') superzwaar zwart gat op uitzonderlijk grote afstand van de kern van zijn gaststerrenstelsel — de eerste keer dat wetenschappers zo'n object zo ver van een galactisch centrum aantreffen. Het zwarte gat werd zichtbaar doordat een voorbijkomende ster erdoor verscheurd werd (een tidal disruption event), wat een tijdelijke lichtflits veroorzaakte die astronomen in staat stelde de locatie te bepalen.</p>
+        <p class="meta">5 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260805082457.htm">A star's violent death exposed a hidden supermassive black hole</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Standaardmodellen gaan ervan uit dat superzware zwarte gaten in galactische kernen resideren. Dit geval suggereert dat ze na botsingen tussen sterrenstelsels uit hun centrale positie worden geslingerd — met gevolgen voor hoe we galactische evolutie, sterrenstelsel-fusies en de verdeling van zwarte gaten in het universum modelleren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 Dutch Grand Prix dit weekend in Zandvoort — sprintweekend met race zondag 15:00</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt de Formula 1 Heineken Dutch Grand Prix 2026 plaats op Circuit Zandvoort (21–23 augustus). Het is een sprintweekend, wat betekent dat er dit weekend extra actie is naast de reguliere kwalificatie en race. Het volledige tijdschema voor de hoofdmomenten (Nederlandse tijd):</p>
+        <p><strong>Zaterdag 22 augustus</strong><br>
+        Sprint — 12:00<br>
+        Kwalificatie — 16:00</p>
+        <p><strong>Zondag 23 augustus</strong><br>
+        Grand Prix (72 ronden) — 15:00</p>
+        <p>Na Zandvoort volgt de Italiaanse Grand Prix op 4–6 september als volgende race op de kalender.</p>
+        <p class="meta">Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6">FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — volledig tijdschema</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

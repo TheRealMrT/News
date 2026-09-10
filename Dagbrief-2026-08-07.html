@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 7 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">VRIJDAG 7 AUGUSTUS 2026</p>
+
+  <p class="intro">Vandaag staan drie grote verhalen centraal. Op het geopolitieke toneel zijn de VS, Iran en Oman verwikkeld in de slotfase van onderhandelingen over de Straat van Hormuz — Trump zegt dat de oorlog "snel" voorbij zal zijn. In de AI-wereld bouwt Anthropic aan zijn eigen chipdesignteam terwijl OpenAI de veiligheidsfuncties van GPT-5.6 aanscherpt en het gratis beschikbaar maakt voor miljoenen gebruikers. En de wetenschap laat zien waartoe AI in staat is buiten de chatbox: een Anthropic-medewerker gebruikte Claude Fable 5 om een 87 jaar oud wiskundig vermoeden te weerleggen dat generaties wiskundigen hadden laten struikelen.</p>
+
+  <!-- Thema 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic bouwt eigen chipdesignteam — gesprekken met Samsung over productie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic is begonnen met het werven van engineers voor een intern chipdesignteam. Het bedrijf wil eigen AI-chips co-designen samen met de modellen zelf, zodat Claude sneller en efficiënter kan draaien. Volgens The Information voert Anthropic gesprekken met Samsung als mogelijke productiepartner. De stap past in een bredere industrie­trend waarbij AI-bedrijven grip willen krijgen op hun afhankelijkheid van Nvidia. Anthropic heeft al deals met AWS (Trainium), Google (TPUs) en Nvidia, maar wil met eigen silicium meer controle over prestaties en kosten.</p>
+        <p class="meta">Gepubliceerd 5 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/" target="_blank">Anthropic is hiring an AI chip design team</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wie zijn eigen chips ontwerpt, kan hardware en software nauw op elkaar afstemmen — een voordeel dat Apple en Google al uitbuiten. Als Anthropic dit lukt, kan het Claude substantieel goedkoper en sneller maken, wat de concurrentiepositie tegenover OpenAI en Google DeepMind verandert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI scherpt GPT-5.6 aan: betere veiligheid, Luna gratis voor iedereen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI publiceerde gisteren augustus-updates voor de GPT-5.6-serie. Sol, het vlaggenschipmodel, krijgt een versterkte veiligheidsstack na weken van rood-team-testen, met nadruk op cybersecurity- en biologische risico's. Luna, het lichtste en goedkoopste model uit de familie, wordt de nieuwe standaard voor gratis gebruikers — inclusief onbeperkte tekstchats en een nieuwe "Think"-knop voor zwaardere vragen. De VS-overheid heeft beperkingen opgelegd: zowel Sol als een eerdere Anthropic-modellen (Fable en Mythos) draaien momenteel in beperkte preview, niet breed beschikbaar.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — OpenAI / VentureBeat — <a href="https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov" target="_blank">OpenAI unveils GPT-5.6 Sol, Terra and Luna models</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het vrijgeven van een capabel model als standaard voor gratis gebruikers verlaagt de drempel voor honderden miljoenen mensen om met frontier-AI te werken. Tegelijk signaleert de beperkte overheidstoelating dat de VS het tempo van modeluitrol nauwlettender volgt dan voorheen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 2: Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness en Hosted Agents bereiken General Availability</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft deze maand de Agent Harness en Foundry Hosted Agents van het Agent Framework naar General Availability gebracht. Platformteams kunnen hiermee agents gestructureerd uitvoeren en beheren in .NET en Python. De Harness biedt een standaardraamwerk voor orchestratie, logging en foutherstel; Hosted Agents draaien managed in de Foundry-omgeving zonder dat teams zelf infrastructuur hoeven op te zetten. De aankondiging volgt op de GA van het kernframework eerder dit jaar in april.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/" target="_blank">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met een productie-klare harness verlaagt Microsoft de drempel voor enterprise-teams om multi-agent-systemen te deployen. Dit versnelt de weg van AI-experimentje naar bedrijfskritisch systeem — en verstevigt Microsofts positie als go-to-platform voor agentic development.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">AWS Kiro vervangt drie agent-architecturen door één Agent Client Protocol</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>AWS heeft uitgelegd hoe Kiro, zijn nieuwe agentic IDE, drie losstaande agent-harnesses heeft vervangen door één architectuur rondom het Agent Client Protocol (ACP). ACP fungeert als standaardgrens tussen de editor en de agentlaag. JetBrains heeft Junie via ACP in ReSharper 2026.2 geïntegreerd. Microsoft experimenteert met ACP in de Intelligent Terminal van VS Code, maar heeft het nog niet als native editor-boundary overgenomen. Het debat over wie de standaard voor agentic tooling wordt — ACP, MCP of iets anders — wint aan scherpte.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/kiro-agent-client-protocol/" target="_blank">Free agents: How AWS Kiro could untie agents from editors</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De strijd om de dominante agent-protocolstandaard bepaalt straks welk platform de middleware voor AI-gestuurde software-ontwikkeling wordt. Wie de standaard zet, trekt het ecosysteem aan tooling, plugins en integraties naar zich toe.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Remix v3 laat React los: Preact-fork, geen build-stap, geoptimaliseerd voor LLMs</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Remix-team heeft aangekondigd dat Remix v3 afstapt van React en kiest voor een eigen Preact-fork. De nieuwe versie bouwt op Web APIs, schrapt het buildproces, en eist composable abstractions. Opvallend: de architectuur is expliciet ontworpen met LLM-codegeneratie in gedachten — de vereenvoudigde API-oppervlakte maakt Remix v3 makkelijker te begrijpen voor AI-codegeneratoren. De stap is controversieel in de React-community maar past in een bredere trend waarbij frameworks zich aanpassen aan een wereld waarin code vaker door AI dan door mensen wordt geschreven.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ / community.remix.run — <a href="https://www.infoq.com/frameworks/news/" target="_blank">Remix v3 framework announcement</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Remix is de eerste grote framework dat een redesign expliciet motiveert met "beter leesbaar voor LLMs". Als dit aanslaat, volgen anderen — en verschuift de definitie van "developer experience" van menselijke ergonomie naar AI-vriendelijkheid.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS en Iran in slotfase: Hormuz-akkoord in zicht, Trump verwacht snel einde aan oorlog</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump zei vandaag dat de oorlog met Iran "snel" voorbij zal zijn, terwijl Oman een bemiddelingsrol speelt in onderhandelingen over een tijdelijk akkoord om de Straat van Hormuz te heropenen. Het beoogde akkoord moet de oorlogsceasefire van 17 juni herstellen en ruimte bieden voor bredere onderhandelingen over het Iraanse nucleaire programma. Het kerngeschilpunt: de VS wil volledige vrijheid van scheepvaart zonder Iraanse tolgelden of toestemming; Iran houdt vast aan een gewijzigde status voor de waterweg. Door de Straat van Hormuz loopt normaal een vijfde van de wereldolieproductie.</p>
+        <p class="meta">Gepubliceerd 7 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close" target="_blank">Trump says Iran war will end 'pretty soon'; Hormuz deal looms</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een heropening van de Straat van Hormuz zou olieprijzen direct doen dalen en de wereldeconomie verlichten. Tegelijk is het akkoord kwetsbaar: dezelfde dynamiek zorgde eerder dit jaar voor een mislukte ceasefire. De komende 48 uur zijn cruciaal.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Ceuta-crisis escaleert: 100 doden bij grensbestorming, 5.000 migranten nog vast in enclave</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na een massale migratiestroom vanuit Marokko zijn er volgens de leider van de Spaanse enclave Ceuta minstens 100 mensen omgekomen bij de grensbestorming. Ruim 5.000 mensen verblijven nog in de enclave; de twee opvangcentra zijn volledig overbelast. Italië kondigde gisteren de herinvoering van grenscontroles met Spanje aan — een stap die de discussie over de toekomst van het Schengen-verdrag aanwakkert. De EU zei dat Spanje de Schengen-zone veilig houdt, maar erkende dat de Europese buitengrenzen "kwetsbaar" zijn.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/6/ceutas-leader-says-100-died-in-border-rush-as-up-to-5000-still-in-enclave" target="_blank">Ceuta's leader says 100 died in border rush as up to 5,000 still in enclave</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De crisis test de cohesie van het Schengen-systeem op een manier die de migratiegolf van 2015 doet herleven. Italiaanse grenscontroles met Spanje zijn al een precedent; als meer landen volgen, staat het vrije verkeer van personen in de EU onder serieuze druk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU AI Act: transparantie in werking, maar hoog-risico-verplichtingen uitgesteld tot december 2027</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Sinds 2 augustus zijn de transparantievereisten van de EU AI Act van kracht: aanbieders van AI-systemen moeten duidelijk maken wanneer mensen met AI interacteren en synthetische media labelen. Maar de verregaande verplichtingen voor "hoog-risico" AI — zoals systemen in biometrie, onderwijs, arbeidsmarkt en grensbeheer — zijn door het Europees Parlement uitgesteld tot december 2027 als onderdeel van het Digital Omnibus-pakket. Digitale-rechtenorganisaties protesteren: de technische standaarden waren "niet klaar" is volgens hen een rookgordijn voor succesvolle industrielobby.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt" target="_blank">What came into force with the EU's AI Act this week – and what didn't</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Europa presenteert de AI Act als wereldstandaard, maar het uitstel van de meest ingrijpende onderdelen verzwakt die claim. Het risico: een precedent voor verdere vertragingen, terwijl de VS juist AI-regulering terugdraait. De vraag wie de mondiale norm zet voor AI-governance blijft onbeantwoord.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Fable 5 weerlegt het Jacobiaanse vermoeden — een 87 jaar oud open wiskundig probleem</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Levent Alpöge, wiskundige bij Anthropic, gebruikte Claude Fable 5 om een tegenbewijs te vinden voor het Jacobiaanse vermoeden — een beroemde open vraag uit 1939 die generaties algebraïsten had weerstaan. Het vermoeden bleek vals in drie dimensies en hoger; de tweedimensionale versie blijft onopgelost. Opvallend is de eenvoud van het tegenbewijs zelf: de moeilijkheid lag niet in een ingewikkelde constructie, maar in het doorzoeken van een gigantische ruimte van mogelijke polynoomafbeeldingen. Precies daarin excelleert een LLM als zoek- en navigatiehulpmiddel.</p>
+        <p class="meta">Gepubliceerd 4 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260804034634.htm" target="_blank">Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is een van de eerste gedocumenteerde gevallen waarbij een taalmodel een originele wiskundige ontdekking faciliteert die mensen niet eerder hadden kunnen maken. Het verschuift de discussie over AI in wetenschap van "kan het proofs verifiëren?" naar "kan het onverwachte objecten ontdekken?" — het antwoord is nu: ja.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">567 miljoen jaar oude fossielen herschrijven de oorsprong van dierlijk leven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben in de Northwest Territories van Canada een ongewoon rijke fossielensite ontdekt die nieuwe details blootlegt over de vroegste complexe dieren op aarde. De ouderdom van de vondsten suggereert dat dierlijke beweging en seksuele voortplanting 5 tot 10 miljoen jaar eerder begonnen dan eerder bewijs aangaf. De fossielensite bevat sporen van organismen met duidelijke lichaamsvormen, op een moment waarop wetenschappers dachten dat het leven nog eenvoudig eencellig was.</p>
+        <p class="meta">Gepubliceerd 4 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260804034644.htm" target="_blank">567-million-year-old fossils rewrite the dawn of animal life</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het verdraagt het tijdlijn van de evolutie van dierlijk leven op aarde. Als complexiteit eerder ontstond dan gedacht, roept dat nieuwe vragen op over de omstandigheden — atmosferisch zuurstof, klimaat, genetische drempels — die dit mogelijk maakten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Wetenschappers ontdekken massief magmareservoir diep onder Toscane</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een internationaal team van seismologen heeft een magmareservoir van circa 6.000 kubieke kilometer in kaart gebracht onder de Toscaanse regio in Italië. Het reservoir werd gedetecteerd via natuurlijke bodentrillingen, gemeten door tientallen seismische sensoren. Het is een van de grootste bekende magmalichamen onder continentaal Europa. De onderzoekers benadrukken dat dit geen direct vulkanisch gevaar oplevert, maar dat het de geothermische activiteit in de regio — waaronder de al eeuwenlang geëxploiteerde geothermische energiebronnen — grotendeels verklaart.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily / geofysisch onderzoek — <a href="https://www.sciencedaily.com/news/top/science/" target="_blank">ScienceDaily: Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het geeft wetenschappers een completer beeld van de geothermische dynamiek onder Europa. Beter begrip van zulke reservoirs is cruciaal voor duurzame energie-winning én voor het inschatten van seismische risico's in een dichtbevolkt gebied als Toscane.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 5: Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Laatste Dutch Grand Prix ooit: sprintweekend Zandvoort 21–23 augustus</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Over twee weken vindt de allerlaatste Dutch Grand Prix op Circuit Zandvoort plaats — na 2026 verdwijnt de race definitief van de F1-kalender. Het is een sprintweekend. Tijden (alle lokale NL-tijd / CEST): vrijdag 21 aug — vrije training 12:30, sprint qualifying 16:30; zaterdag 22 aug — sprint 12:00, kwalificatie 16:00; zondag 23 aug — race 15:00.</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6" target="_blank">Officieel timetable Dutch Grand Prix 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor Nederlandse F1-fans is dit de laatste kans om de koningsklasse thuis te zien. Na de eenjarige verlenging stopt het contract; Zandvoort verdwijnt van de kalender. Een historisch weekend voor de oranje tribunes.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Tour de France Femmes — Koninginnenrit vandaag: 146 km naar de top van Mont Ventoux</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag staat etappe 7 van de Tour de France Femmes op het programma: de koninginnenrit van La Voulte-sur-Rhône naar Mont Ventoux (146,8 km, 3.500 hm). De finale is de zwaarste beklimming van de Tour — 15,7 km aan 8,8% gemiddeld vanuit Bédoin. Let op: wegens bosbranden in de Drôme en Vaucluse zijn delen van de route afgesloten voor publiek, maar de slotklim gaat gewoon door. Klassement na etappe 6: 1. Marlen Reusser (Movistar), 2. Demi Vollering +0:12, 3. Katarzyna Niewiadoma-Phinney +1:17, 4. Elisa Longo Borghini, 5. Antonia Niedermaier +2:40. Andere Nederlanders: Anna van der Breggen 8e (+1:17), Puck Pieterse leidt het bergklassement.</p>
+        <p class="meta">Bron: Cyclingnews — <a href="https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-de-france-femmes-2026-stage-7-preview/" target="_blank">Tour de France Femmes 2026 stage 7 preview</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

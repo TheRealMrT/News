@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 10 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">MAANDAG 10 AUGUSTUS 2026</p>
+
+  <p class="intro">OpenAI rolt GPT-5.6 uit voor alle gebruikers en Anthropic zet Claude Code op automatisch — AI-tools worden snel zelfstandiger, terwijl Chinese open-weight modellen de druk opvoeren. In het Midden-Oosten kiest een trio van Saoedi-Arabië, Pakistan en Turkije voor een nieuw defensiepact in Mekka, terwijl de onderhandelingen over de Straat van Hormuz vastlopen op Iraanse eisen en olieprijzen oplopen. In de wetenschap doorbreken onderzoekers van NYCU en TSMC de transistorgrens met 0,42 nanometer dunne halfgeleiders, en blijkt zonlicht een verrassende bron van kwantumentanglement te zijn.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-5.6 familie: Sol, Terra en Luna — onbeperkte tekstchats voor iedereen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft op 6 augustus GPT-5.6 uitgebracht in drie varianten: Sol (flagship), Terra (alledaags werk) en Luna (meest efficiënt). Gratis gebruikers krijgen Luna als standaardmodel, inclusief een nieuwe "Think"-knop waarmee ze extra rekencapaciteit kunnen inzetten voor complexe vragen. Plus- en Pro-gebruikers kunnen via een schuifregelaar bepalen hoeveel nadenktijd ChatGPT inzet. Tegelijk schrapt OpenAI de tekstlimiet voor gratis gebruikers volledig. In interne evaluaties bevatten antwoorden van GPT-5.6 Sol 68% minder feitelijke fouten dan het vorige model.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — OpenAI — <a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/">Improving GPT-5.6 Sol in ChatGPT — and expanding access to GPT-5.6 Luna for free users</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met onbeperkte gratis tekstchats en een aanzienlijk betrouwbaarder model verlaagt OpenAI de drempel voor dagelijks gebruik fors. De schuifregelaar geeft betaalde gebruikers directe controle over de balans tussen snelheid en kwaliteit — een hint dat AI-gebruik steeds meer op maat zal worden gefactureerd.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic maakt Claude Code auto mode standaard: AI neemt zelfstandig beslissingen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vanaf 14 augustus schakelt Anthropic auto mode in als standaard voor Pro-, Max- en Team-gebruikers van Claude Code. In auto mode vraagt het systeem geen toestemming meer bij elke stap; het handelt zelfstandig, tenzij een actie als irreversibel, destructief of buiten de werkomgeving wordt beoordeeld. Anthropic baseert de beslissing op onderzoek waaruit blijkt dat hun classifier gevaarlijke opdrachten vaker detecteert dan menselijke toezichthouders. Voor Enterprise-gebruikers blijft auto mode voorlopig opt-in.</p>
+        <p class="meta">Gepubliceerd 9 augustus 2026 — TechCrunch / Anthropic — <a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/">Anthropic is turning Claude Code's auto mode on by default</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is een kantelpunt in de relatie tussen mens en AI-assistent: het systeem handelt voortaan tenzij het zelf stop zegt. De stap legt ook een bredere verschuiving bloot — van AI als gereedschap naar AI als agent die eigenstandig taken uitvoert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Chinees open-weight model GLM-5.2 daagt westerse frontier-modellen uit op veiligheid</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Pekingse AI-bedrijf Z.ai lanceerde GLM-5.2, een open-weight model dat sterk presteert op agentisch coderen en op het identificeren van beveiligingskwetsbaarheden vergelijkbaar is met Anthropic's meest recente modellen. Chinese open-weight modellen zijn inmiddels goed voor 41% van de downloads op Hugging Face, en de zes meest gebruikte modellen op OpenRouter zijn allemaal open Chinese modellen. De TechCrunch-analyse signaleert dat de echte AI-race zich steeds meer verplaatst naar het open-source segment.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/">The real AI race may no longer be at the frontier</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Open Chinese modellen ondermijnen het exportcontrolebeleid van de VS, dat erop gericht is frontier-AI buiten China te houden. Tegelijk winnen ze marktaandeel in een segment dat westerse labs lang domineerden — een strategische verschuiving die de concurrentiedynamiek in de AI-industrie fundamenteel verandert.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness bereikt General Availability: agents beheren in productie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsofts Agent Framework Harness en Foundry Hosted Agents zijn in augustus beschikbaar gekomen als stabiele GA-releases. De harness draait als één binary op lokale machines, in containers en in hosted omgevingen en neemt het beheer van agents over — authenticatie, logging, orkestratie — terwijl de ontwikkelaar alleen nog een chat-client, instructies en tools hoeft te leveren. Met de release worden ook GitHub Copilot- en Claude Agent SDK-connectors stabiel, waardoor teams agents vanuit vertrouwde toolchains kunnen orkestreren.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De GA-status betekent dat enterprise-teams agentic workflows eindelijk kunnen draaien met de governance en stabiliteitsgaranties die productie vereist. Samen met de Claude Agent SDK-connector verlaagt dit de stap van experimenteren naar echte productie-agents aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">TanStack Create React App vervangt verouderd Create React App als standaard</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>The New Stack meldt dat TanStack Create React App (CRA) het stokje overneemt van het langgestrande originele Create React App, dat al jaren geen actief onderhoud meer ontvangt. De TanStack-variant biedt moderne defaults: Vite als bundler, TanStack Router voor type-safe routing, en een betere integratielaag voor TanStack Query. De stap sluit aan op een bredere trend waarbij de React-community afstapt van de officiële CRA ten gunste van meer onderhouden alternatieven.</p>
+        <p class="meta">Gepubliceerd 2026 — The New Stack — <a href="https://thenewstack.io/goodbye-create-react-app-hello-tanstack-create-react-app/">Goodbye Create React App, Hello TanStack Create React App</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Miljoenen React-projecten zijn ooit met Create React App gestart, en veel teams draaien er nog op. Een erkende opvolger geeft de gemeenschap een helder migratiepad en vermindert de fragmentatie in het React-ecosysteem die de afgelopen jaren is ontstaan.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Iran blokkeert Straat van Hormuz: nieuwe eisen en stijgende olieprijzen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran houdt vast aan zijn blokkade van de Straat van Hormuz en presenteerde afgelopen weekend een reeks nieuwe eisen aan de VS, waaronder het opheffen van de Amerikaanse zeeblokkade, oorlogsschadevergoeding en het staken van aanvallen op Iran en zijn bondgenoten in Palestina, Jemen, Irak en Libanon. Trump omschreef de onderhandelingen als de "laatste kans" voor Iran, maar zei ook dat de VS "laag profiel houdt". Oman bemiddelt: Iran en Oman kwamen al overeen over de routes die schepen door de straat mogen nemen. Voor de blokkade passeerden circa 130 schepen per dag; nu zijn dat er slechts 8 tot 15. De Brent-prijs steeg maandag met meer dan 1%.</p>
+        <p class="meta">Gepubliceerd 9–10 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/9/iran-issues-new-demands-as-pezeshkian-seeks-deal">Iran issues new demands as Pezeshkian seeks deal</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de slagader voor ongeveer 20% van de mondiale oliehandel. Elke dag dat de blokkade duurt, drijft de energieprijzen op en vergroot de druk op importerende economieën, waaronder de EU. Een mislukking van de onderhandelingen kan de escalatie verder aanwakkeren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Mekka-defensiepact: Saoedi-Arabië, Pakistan en Turkije sluiten wederzijds verdrag</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Saoedi-Arabië, Pakistan en Turkije tekenden een wederzijds defensieverdrag in Mekka, een opvallende diplomatieke zet die de Midden-Oosterse machtsverhoudingen verschuift. Het pact noemt geen vijand bij naam, maar analisten wijzen op Iran en zijn regionale netwerk als de stille drijfveer. Israël heeft nog niet officieel gereageerd; sommige analisten zien het verdrag als een tegenbeweging tegen Israëlische regionale expansie. Tegelijk wordt het uitgelegd als onderdeel van een bredere verschuiving naar een "post-Amerikaans Midden-Oosten" nu de VS haar directe rol in de regio heroverweegt.</p>
+        <p class="meta">Gepubliceerd 8 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/8/netanyahu-mulls-saudi-turkiye-pakistan-pact-as-israeli-elections-loom">Israel mulls Saudi, Turkiye, Pakistan pact as elections loom</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een pact tussen drie grote islamitische landen — waarvan twee nucleaire machten (Pakistan) of regionale grootmachten (Turkije, Saoedi-Arabië) — kan de Midden-Oosterse alliantiestructuur fundamenteel hertekenen. Voor Europa is de impact op energiezekerheid en migratiestromen een directe zorg.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gaza: 19 lichamen geborgen uit puin, meer dan 8.000 mensen nog vermist</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Reddingswerkers hebben negentien lichamen, voornamelijk vrouwen en kinderen, geborgen uit het puin van een verwoest woongebouw in Gaza-stad. Meer dan 8.000 mensen worden nog vermist onder het puin in Gaza; de bergingswerkzaamheden worden belemmerd door een gebrek aan zwaar materieel. Hulporganisaties wijzen op de aanhoudende humanitaire crisis en de beperkte toegang voor hulpgoederen in het gebied.</p>
+        <p class="meta">Gepubliceerd 8 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/8/crews-recover-19-bodies-from-rubble-of-destroyed-gaza-building">Crews recover 19 bodies from rubble of destroyed Gaza building</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De humanitaire situatie in Gaza blijft een centrale factor in de bredere geopolitieke spanning in de regio en vormt mede de basis van de eisen die Iran stelt voor heropening van de Straat van Hormuz.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">0,42 nanometer doorbraak: NYCU en TSMC openen weg voorbij silicium</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de National Yang Ming Chiao Tung University (NYCU) en TSMC hebben een kritiek probleem in atomair dunne halfgeleiders opgelost dat de weg naar transistors kleiner dan 1 nanometer al jaren versperste. Door de atomaire grenslaag tussen materialen opnieuw te ontwerpen — de interface tussen het kanaalmateriaal en de isolatielaag — wisten ze de elektronenstroom te beschermen terwijl ze de isolatielaag extreem dun hielden (0,42 nm). De resulterende transistors combineren hoge elektrische controle met sterk verbeterde prestaties, een combinatie die eerder onmogelijk leek.</p>
+        <p class="meta">Gepubliceerd 8 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260808234943.htm">A 0.42-nanometer breakthrough could push transistors beyond silicon</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Silicium loopt tegen zijn fysieke grenzen aan; verdere verkleining vereist nieuwe materialen. Dit resultaat, rechtstreeks uit TSMC's labs, laat zien dat de chipindustrie een concrete doorbraak heeft geboekt richting het post-silicijntijdperk — met directe implicaties voor rekenkracht en energieverbruik van toekomstige AI-chips.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumentanglement uit zonlicht: geen laser meer nodig voor kwantumtechnologie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben voor het eerst kwantumentanglement gegenereerd direct uit zonlicht, zonder dat daarvoor de lasers nodig zijn die normaal in kwantumtechnologie worden gebruikt. De ontdekking biedt een potentieel energiezuiniger alternatief voor de productie van verstrengelde fotonparen, die essentieel zijn voor kwantumcommunicatie en kwantumcomputing. De bevinding werd op 7 augustus gepubliceerd en werd als verrassend beschreven omdat zonlicht als 'chaotisch' licht tot nu toe ongeschikt werd geacht voor dergelijke toepassingen.</p>
+        <p class="meta">Gepubliceerd 7 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De productie van kwantumentanglement is momenteel energie-intensief en vereist complexe laseropstellingen. Een zonnelichtbron kan kwantumtechnologie schaalbaar en goedkoper maken — een stap die de weg plaveit naar praktische kwantumcommunicatienetwerken.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Platina-nanostructuur maakt brandstofcel efficiënter voor energiehongerige datacenters</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers publiceerden in Nature Nanotechnology (6 augustus) een ontwerp waarbij een nanogestructureerde koolstofdrager brandstofcelkatalysatoren in staat stelt met minimale hoeveelheden platina te werken terwijl ze uitzonderlijk stabiel en efficiënt blijven. Brandstofcellen worden steeds vaker gezien als alternatief voor diesel-UPS en gasgestookte stroomgeneratoren bij grootschalige datacenters, maar de hoge kosten van platina als katalysator remden de adoptie. Het nieuwe ontwerp kan die kostendrempel significant verlagen.</p>
+        <p class="meta">Gepubliceerd 6–7 augustus 2026 — ScienceDaily / Nature Nanotechnology — <a href="https://www.sciencedaily.com/releases/2026/08/260807035140.htm">New fuel cell breakthrough could help power energy-hungry data centers</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Datacenters zijn de snelst groeiende energieverbruikers wereldwijd, mede aangedreven door AI-workloads. Goedkopere, schonere brandstofcellen als back-up of basisvermogen kunnen de koolstofvoetafdruk van de digitale infrastructuur merkbaar verminderen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1: Dutch Grand Prix op Zandvoort (21–23 aug) — sprintweekend, eerste ooit voor Nederland</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Formule 1 keert over elf dagen terug naar Zandvoort voor de Heineken Dutch Grand Prix 2026. Het is voor het eerst dat Zandvoort een sprintweekend organiseert — ook bijzonder omdat 2026 het laatste jaar is dat Nederland op de F1-kalender staat. Het volledige programma in Nederlandse tijd (CEST, lokale tijd):</p>
+        <p><strong>Vrijdag 21 augustus:</strong> Vrije training 12:30–13:30 | Sprint Kwalificatie 16:30–17:14<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint (24 ronden) 12:00–12:30 | Kwalificatie 16:00–17:00<br>
+        <strong>Zondag 23 augustus:</strong> Grand Prix (72 ronden) 15:00–17:00</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6">FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — full timetable</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 15 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 15 JULI 2026</p>
+
+  <p class="intro">Vandaag drie fronten tegelijk. In het Midden-Oosten escaleert het VS-Iran conflict verder met nieuwe luchtaanvallen en Iraanse tegenaanvallen op tankers in de Straat van Hormuz, met directe gevolgen voor de wereldwijde olieprijs. Vanavond om 17:00 NL-tijd staat de tweede WK-halve finale op het programma: Engeland versus Argentinië in Atlanta. In de techwereld domineert AI opnieuw: de eerste volledig autonome AI-ransomware-aanval is gedocumenteerd, terwijl Anthropic zijn run-rate omzet van $30 miljard aankondigde en een historische computerdeal van 3,5 gigawatt sloot. Op de wegen van de Tour de France is Tadej Pogačar ongenaakbaar na zijn solo-overwinning op etappe 10 — vandaag wacht een vlakke sprintrit naar Nevers.</p>
+
+  <!-- Thema 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Eerste AI-agent voert ransomware-aanval volledig zelfstandig uit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Beveiligingsbedrijf Sysdig documenteerde de eerste "agentic ransomware"-aanval, gedoopt JadePuffer. Een AI-agent brak zelfstandig in op een kwetsbare server, stal inloggegevens, bewoog lateraal door het netwerk, versleutelde bestanden en stelde een eigen losgeldnota op — van begin tot eind zonder menselijke tussenkomst in de uitvoering. Wel initieerde een menselijke actor de aanval. Onderzoekers stellen dat dit de technische drempel voor geavanceerde cyberaanvallen drastisch verlaagt: expertise die vroeger nodig was om ransomware te orkestreren, kan nu worden gedelegeerd aan een agent.</p>
+        <p class="meta">6 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/">The 'first' AI-run ransomware attack still needed a human</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Agentic AI verlaagt de lat voor aanvallers radicaal. Bedrijven die zelf AI-agenten inzetten, lopen tegelijkertijd het risico dat hun tools worden omgekeerd — via prompt injection of gehijackte integraties met systemen als Sentry, PagerDuty of Jira. 88% van de ondervraagde enterprises meldde al AI-gerelateerde beveiligingsincidenten in het afgelopen jaar.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Enterprise AI-agenten: de autonomie stijgt sneller dan het vermogen om ze te beoordelen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Uit een enquête van VentureBeat (gepresenteerd op VB Transform 2026, 14-15 juli in Menlo Park) blijkt dat 50% van de enterprises al een AI-agent of LLM-feature heeft uitgerold die interne evaluaties doorstond maar toch klantproblemen veroorzaakte — bij 25% zelfs meerdere keren. Tegelijkertijd staat 66% klaar om agenten zonder menselijke beoordeling in productie te nemen, terwijl slechts 5% geautomatiseerde evaluaties volledig vertrouwt. Cisco vond dat 85% van hun enterprise-klanten AI-agenten in pilots heeft, maar slechts 5% ze naar productie heeft bewogen.</p>
+        <p class="meta">14 juli 2026 — VentureBeat — <a href="https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them">Enterprise AI is entering an evaluation gap</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De "evaluatiekloof" betekent dat fouten van AI-agenten steeds vaker direct bij klanten terechtkomen, zonder vangnet. Naarmate agenten meer autonomie krijgen, wordt de vraag wie er verantwoordelijk is bij fouten urgenter — voor zowel organisaties als toezichthouders.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic: $30 miljard omzet, 3,5 GW compute-deal en bijna $1 biljoen waardering</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic meldt een run-rate omzet van $30 miljard — meer dan 80 keer de omzet van begin 2025 — gedreven door enterprise-adoptie van Claude. Om aan de vraag te voldoen sloot het bedrijf een deal met Google en Broadcom voor 3,5 gigawatt aan next-generation TPU-rekenkracht, beschikbaar vanaf 2027. De bijbehorende Series H-financieringsronde haalde $65 miljard op bij een post-money waardering van bijna $1 biljoen. Parallel hieraan diende OpenAI vertrouwelijk zijn IPO-dossier in bij de SEC, naar verluidt bij een vergelijkbare triljoenwaardering.</p>
+        <p class="meta">Juli 2026 — Anthropic / TechCrunch — <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute">Anthropic expands partnership with Google and Broadcom</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De explosieve groei bevestigt dat bedrijven Claude massaal omarmen voor agentic workloads. De gigantische compute-investering illustreert tegelijk hoe de AI-race steeds meer draait om fysieke infrastructuur: wie de chipstapel controleert, bepaalt wie de frontiermodellen van morgen kan trainen en draaien.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 2: Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Copilot krijgt agentische browsertools standaard in VS Code</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Met de juni/juli 2026-release van GitHub Copilot in Visual Studio Code zijn agentische browsertools nu standaard beschikbaar voor alle gebruikers. Agenten kunnen webpagina's navigeren, inhoud inspecteren, screenshots maken en web-apps valideren — direct vanuit de editor. Andere nieuwe mogelijkheden: parallelle agent-sessies, verbeterde modelselectie en een slimmere geïntegreerde browser die de feedbackloop voor webontwikkelaars verkort. De releases v1.123-v1.127 werden in snel tempo uitgerold in juni en begin juli.</p>
+        <p class="meta">8 juli 2026 — GitHub Blog — <a href="https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/">GitHub Copilot in Visual Studio Code, June 2026 releases</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Agentische browser-integratie in de editor maakt van Copilot een volwaardig end-to-end ontwikkelassistent: van codering tot visuele verificatie van de output. Voor webontwikkelaars vervaagt de grens tussen schrijven, testen en debuggen verder.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Codex bereikt 8 miljoen gebruikers en fuseert met ChatGPT desktop</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na de lancering van GPT-5.6 op 9 juli heeft OpenAI de standalone Codex-app samengevoegd met de ChatGPT-desktopapp en een nieuwe modus gelanceerd: ChatGPT Work, gericht op agentic taken voor kenniswerkers. Het platform telt inmiddels 8 miljoen actieve Codex-gebruikers. De integratie maakt codeerhulp, documentbeheer en webbrowsing beschikbaar vanuit één omgeving en positioneert ChatGPT als universeel productiviteitsinstrument voor zowel ontwikkelaars als niet-technische gebruikers.</p>
+        <p class="meta">9 juli 2026 — The New Stack — <a href="https://thenewstack.io/gpt-5-6-codex-user-surge/">OpenAI hits 8 million Codex users — what developers need to know</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De samensmelting van Codex en ChatGPT tekent hoe AI-codeertools volwassen worden: van gespecialiseerde niche naar universeel platform. Het versterkt OpenAI's positie als de standaard-aanvulling op de dagelijkse werkstroom van miljoenen ontwikkelaars wereldwijd, en verhoogt de concurrentiedruk op GitHub Copilot en andere spelers.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS en Iran in open militair conflict: aanvalsgolven, tankers getroffen, Hormuz onder druk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VS voerden vandaag opnieuw luchtaanvallen uit op Iran, als onderdeel van een escalerende reeks die begin juli begon nadat een staakt-het-vuren werd verbroken. Iran sloeg terug met raketaanvallen op Amerikaanse militaire bases in Bahrein en Koeweit, en met aanvallen op olietankers in de Straat van Hormuz. Het doorvoerverkeer door de Straat viel afgelopen week met 52% terug. De olieprijs steeg meer dan 9% naar circa $81 per vat. Trump verklaarde dat bruggen en energiecentrales in Iran mogelijke volgende doelwitten zijn, en zei dat het memorandum of understanding met Teheran "voorbij is".</p>
+        <p class="meta">15 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/15/live-trump-says-strikes-on-iran-will-continue-until-i-say">Iran war live: US carries out strikes, IRGC claims damage on US Gulf bases</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een (gedeeltelijke) blokkade van de Straat van Hormuz treft een vijfde van de wereldwijde olie- en LNG-doorvoer. De escalatie heeft directe gevolgen voor energieprijzen, scheepvaartverzekeringen en wereldwijde bevoorrading — en vergroot het risico op een breder regionaal conflict met betrokkenheid van regionale bondgenoten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU: Meta's Instagram en Facebook zijn opzettelijk verslavend ontworpen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Europese Commissie publiceerde haar voorlopige bevindingen van een tweejarig onderzoek naar Meta: Instagram en Facebook zijn zo ontworpen dat ze "verslavend" gebruik uitlokken, waarmee ze de Digital Services Act (DSA) schenden. De Commissie eist meerdere aanpassingen aan het platformontwerp om compulsief gebruik en schadelijke effecten op de mentale gezondheid van gebruikers te beperken. Meta riskeert een boete van maximaal 6% van haar wereldwijde jaaromzet als de bevindingen worden bevestigd.</p>
+        <p class="meta">10 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/10/eu-says-addictive-features-on-instagram-and-facebook-breach-its-rules">EU says 'addictive' features on Instagram and Facebook breach its rules</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is een van de eerste grote DSA-handhavingsacties gericht op platformontwerp zelf — niet alleen op illegale content. Als de EU hier doorzet, kan het de precedent worden voor hoe sociale platforms in Europa worden gebouwd en beoordeeld, met implicaties ver buiten Meta.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gaza: Israël zet aanvallen voort ondanks ceasefire-afspraken uit oktober</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Bij Israëlische aanvallen op de Gazastrook zijn gisteren opnieuw drie Palestijnen gedood en vijftien gewond. Israël blijft hiermee het ceasefire-akkoord van oktober 2025 schenden. Internationale druk neemt toe, maar leidt vooralsnog niet tot een duurzaam staakt-het-vuren of bindend ingrijpen. De humanitaire situatie in Gaza blijft uiterst nijpend.</p>
+        <p class="meta">13 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/13/three-palestinians-killed-15-wounded-in-israeli-attacks-across-gaza">Three Palestinians killed, 15 wounded in Israeli attacks across Gaza</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het aanhoudende geweld ondanks gemaakte afspraken ondermijnt het vertrouwen in toekomstige vredesonderhandelingen en vergroot de humanitaire druk in een van de zwaarst getroffen gebieden ter wereld. Het conflict legt ook spanning op EU-VS-betrekkingen over Midden-Oostenbeleid.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Yale ontdekt hoe Parkinson zich verspreidt — en hoe dat te blokkeren</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van Yale University hebben twee eiwitten op het oppervlak van neuronen geïdentificeerd die de verspreiding van het toxische alfa-synucleine-eiwit — de drijvende kracht achter Parkinson — mogelijk maken. Toen de wetenschappers deze eiwitten bij muizen blokkeerden, nam de ziekteprogressie significant af. De bevinding opent een nieuw therapeutisch doelwit voor een ziekte waarvoor tot op heden geen ziektemodificerende behandeling bestaat.</p>
+        <p class="meta">10 juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/07/260710003529.htm">Yale scientists may have found how Parkinson's disease spreads through the brain</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Parkinson treft wereldwijd meer dan 10 miljoen mensen en er bestaat nog geen behandeling die het ziekteproces afremt. Het aanwijzen van specifieke eiwitdoelen maakt gerichte therapie — zoals antilichamen of gentherapie — voor het eerst realistisch dichtbij.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Donkere materie bestaat mogelijk uit twee soorten deeltjes die langzaam uit elkaar drijven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuw kosmologisch model stelt dat donkere materie niet uit één soort deeltje bestaat, maar uit minimaal twee typen die langzaam scheiden: zwaardere deeltjes zakken naar het centrum van sterrenstelsels, lichtere drijven naar buiten. Dit elegante model verklaart tegelijk een reeks kosmische raadsels die het standaard Lambda-CDM-model moeilijk kan verklaren — van onverwacht diffuse dwergstelseljes tot ongewoon dichte donkere-materieklompen die licht buigen via gravitationale lenswerking.</p>
+        <p class="meta">11 juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/07/260711010128.htm">New dark matter theory could solve multiple cosmic mysteries at once</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Donkere materie maakt ~27% van het universum uit, maar we weten niet wat het is. Een tweecomponentenmodel dat meerdere observationele puzzels tegelijk oplost, geeft toekomstige detectoren een preciezer zoekgebied en daagt het dominante kosmologische standaardmodel direct uit.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hersenen beginnen beslissingen vroeger dan gedacht — ook primaire zintuiggebieden betrokken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuwe studie laat zien dat de hersenen al vroeg in het waarnemingsproces beginnen met besluitvorming. Zelfs primaire zintuiglijke hersengebieden — doorgaans beschouwd als passieve ontvangers van signalen — worden via snelle feedbacklussen beïnvloed door hogere hersengebieden die al bezig zijn een beslissing te nemen. Dit herschrijft de klassieke visie op een strikte top-down informatiehiërarchie in de hersenen.</p>
+        <p class="meta">Juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">ScienceDaily — Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit inzicht heeft implicaties voor neurowetenschappelijk onderzoek, neuroprothesen en ons begrip van bewustzijn. Het suggereert dat cognitieve processen fundamenteel interactiever en gedistribueerder zijn dan gangbare modellen aangeven — en opent nieuwe vragen over hoe vrije wil en perceptie samenhangen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 5: Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">WK Voetbal: Engeland vs. Argentinië — halve finale vanavond om 17:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vanavond om 17:00 Nederlandse tijd treffen Engeland en Argentinië elkaar in de tweede halve finale van het FIFA WK 2026 in Atlanta. De winnaar speelt de eindstrijd op zondag. Gisteren plaatste Spanje zich al voor de finale door Frankrijk te verslaan met 2-0 (doelpunten: Oyarzabal in de 22e minuut via strafschop, Porro in de 58e minuut). Titelverdediger Argentinië versloeg in de kwartfinale Zwitserland; Engeland bereikte de halve finale na het uitschakelen van Noorwegen.</p>
+        <p class="meta">15 juli 2026 — FIFA — <a href="https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540">England v Argentina — Semi-final — FIFA World Cup 2026</a></p>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Tour de France: Etappe 11 vandaag (vlak, 161 km) — Pogačar domineert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag staat etappe 11 op het programma: een vlakke rit van 161 km van Vichy naar Nevers — een uitgelezen kans voor de sprinters na de zware bergetappe van gisteren. Op etappe 10 won Tadej Pogačar (UAE Team Emirates-XRG) met een solo-aanval vanuit de voorlaatste klim in het Massif Central en verstevigde zijn klassementsleiderschap. Algemeen klassement na etappe 10: 1. Pogačar (geel), 2. Vingegaard, 3. Evenepoel (~30 sec achter Vingegaard), 4. Ayuso (+4:22). Nederlanders: Mathieu van der Poel zat mee in de vroege vlucht op etappe 10 maar Pogačar's solo was onhoudbaar voor iedereen; Van der Poel mikt op ritstijden. Wout van Aert (Belg, Visma) is geblesseerd afwezig dit jaar.</p>
+        <p class="meta">15 juli 2026 — Cyclingnews — <a href="https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2026-stage-11-preview/">Tour de France 2026 stage 11 preview</a></p>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1: Belgische GP op Spa — kwalificatie zaterdag 16:00, race zondag 15:00</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt de Belgische Grand Prix plaats op Circuit de Spa-Francorchamps (17-19 juli), de 10e ronde van het 2026 F1-kampioenschap. Tijdschema (NL-tijd = lokale Belgische tijd): vrijdag 17/7 — VT1 13:30, VT2 17:00; zaterdag 18/7 — VT3 12:30, kwalificatie 16:00; zondag 19/7 — race (44 ronden) 15:00. Het is geen sprintweekend. Kampioenschapsleider Kimi Antonelli (Mercedes) komt naar Spa na een mechanische uitvalbeurt in Silverstone; zijn voorsprong op teamgenoot George Russell is geslonken tot 25 punten. Charles Leclerc (Ferrari) won de race in Silverstone. De weersvoorspelling voor Spa duidt op hoge kans op neerslag — een natte race hebben rijders dit seizoen nog niet meegemaakt.</p>
+        <p class="meta">13 juli 2026 — Formula 1 — <a href="https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-belgian-grand-prix-and-how-can-i-watch-it.2tkW6m4Z9v4nsrUhAwcwWj">What time is the 2026 Belgian Grand Prix?</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

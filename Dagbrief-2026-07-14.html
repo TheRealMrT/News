@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 14 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DINSDAG 14 JULI 2026</p>
+
+  <p class="intro">De dag begint met escalatie op meerdere fronten. In het Midden-Oosten heeft de VS een zeeblokkade van Iran afgekondigd die vandaag ingaat, terwijl oliemarkten scherp stijgen. In Oekraïne lopen de rakettenaanvallen op Kyiv op, een dag nadat tien landen een anti-ballistisch raketverdedigingsinitiatief lanceerden. In de AI-wereld versterkt OpenAI zijn positie met een nieuwe modellenreeks die Anthropic op benchmarks zou overtreffen, terwijl agentic AI-frameworks in rap tempo volwassen worden. En op de Tour de France wacht vandaag op Bastille Day een zware bergrit naar de top van Le Lioran — hét moment voor de klassementsmannen.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-5.6-reeks: Sol beter dan Fable 5 op coding, sneller en goedkoper</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft een nieuwe modellenreeks uitgebracht met GPT-5.6, bestaande uit Sol, Terra en Luna. Sol wordt aangeprezen als het "beste codeermodel ooit" en scoort 80 op relevante benchmarks — 2,8 punten boven Anthropics Fable 5 — terwijl het minder dan de helft van de output-tokens gebruikt, twee keer zo snel is en een derde goedkoper. ChatGPT heeft inmiddels 900 miljoen wekelijkse actieve gebruikers, waaronder 50 miljoen betalende abonnees en meer dan 9 miljoen zakelijke gebruikers. OpenAI introduceert ook ChatGPT Work voor Plus-gebruikers, een cloudgebaseerde AI-agent die taken beheert over e-mail, Slack en agenda's.</p>
+        <p class="meta">9 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/">OpenAI launches its new family of models with GPT-5.6</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De benchmarkkloof met Anthropic's Fable 5 — sneller, goedkoper én beter op code — vergroot de druk op Anthropic en Google in het snelst groeiende segment. Met 92% van de Fortune 500 die ChatGPT al gebruikt, wordt de agentic-laag boven de modellen steeds belangrijker dan de modellen zelf.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Agentic AI-frameworks rijpen snel: Google A2UI, Vercel Eve en AWS Blocks verschijnen tegelijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In korte tijd zijn drie nieuwe agentic development frameworks uitgebracht. Google lanceerde A2UI v0.9, een framework-agnostische standaard waarmee AI-agents UI-intent kunnen declareren zonder willekeurige code. Vercel bracht Eve uit, een open-source framework voor het bouwen en opereren van AI-agents in productie via een bestandsstructuur die gedrag, tools, subagents en geplande taken organiseert. AWS Blocks is een TypeScript-framework in public preview waarbij elke "Block" applicatiecode, lokale mocks en AWS-infrastructuur bundelt — ontworpen zodat AI-agents direct correcte backends kunnen schrijven en lokaal draaien zonder AWS-account.</p>
+        <p class="meta">Juli 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/07/google-a2ui-genui/">Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dat Google, Vercel en AWS gelijktijdig nieuwe agentic frameworks uitbrengen, signaleert een kantelpunt: de aandacht verschuift van modelbenchmarks naar de infrastructuur waarop agents draaien. Wie de standaard bepaalt voor hoe agents backends en UI's bouwen, heeft een grote strategische voorsprong.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Toptalent stroomt weg van Google: Nobel-laureaat Jumper naar Anthropic, Shazeer naar OpenAI</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>DeepMind-directeur John Jumper, die in 2024 de Nobelprijs voor Scheikunde ontving voor zijn werk aan AlphaFold, stapt over naar Anthropic. Eveneens vertrekt legendarisch AI-onderzoeker Noam Shazeer (mede-bedenker van de Transformer-architectuur) van Google naar OpenAI. Twee andere senior onderzoekers — Jonas Adler en Alexander Pritzel, sleutelfiguren achter Gemini — volgen Jumper naar Anthropic. Microsoft heeft ondertussen een eigen AI-deploybedrijf gelanceerd, Microsoft Frontier Company, met $2,5 miljard aan investeringen en 6.000 industrie- en engineeringexperts.</p>
+        <p class="meta">20–24 juni 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/">Nobel laureate John Jumper is leaving DeepMind for rival Anthropic</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De uittocht van toptaent bij Google naar Anthropic en OpenAI is een structurele trend, niet een incident. Voor Anthropic is Jumpers expertise op eiwitmodellering strategisch waardevol in combinatie met biologisch en wetenschappelijk onderzoek. Voor de industrie betekent het dat de machtsverhoudingen in fundamenteel AI-onderzoek snel verschuiven.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Prime Intellect haalt $130M op: agentic AI for enterprises groeit hard</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Prime Intellect heeft een Series A van $130 miljoen opgehaald om bedrijven te helpen hun eigen AI-agents te bouwen. Het bedrijf heeft een geannualiseerde omzet van $100 miljoen bereikt door snelle enterprise-adoptie. Opvallend: startup Lyzr — dat bedrijven helpt met agent-development — gebruikte zijn eigen AI-agent om een Series B van $100 miljoen op te halen bij een waardering van ~$500 miljoen. Het systeem beantwoordde vragen van meer dan 130 investeerders en stelde investeringsmemoranda op. Een breed enterprise-onderzoek (2.400 managers) stelt dat 79% van de bedrijven problemen ervaart met AI-adoptie, maar dat organisaties met een sterk change management-programma zes keer vaker productie bereiken.</p>
+        <p class="meta">8–9 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/">Prime Intellect raises $130M Series A to help enterprises build their own AI agents</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De snelheid waarmee kapitaal in enterprise agent-infrastructure stroomt, laat zien dat de markt gelooft dat de infrastructuurlaag — niet alleen de modellen — de komende jaren de meeste waarde gaat vasthouden. Het kloof tussen pilots en productie-deploymenten blijft echter groot: change management is de bottleneck, niet technologie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft lanceert Frontier Company: $2,5 miljard voor AI-deployments bij ondernemingen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft een nieuw operationeel bedrijf opgericht — Microsoft Frontier Company — met als doel succesvolle AI-deployments bij grote ondernemingen te leveren. De investering bedraagt $2,5 miljard en het bedrijf beschikt over 6.000 industrie- en engineeringexperts. De focus ligt op het overbruggen van de kloof tussen AI-pilot en productie-implementatie, precies het vraagstuk waar 79% van de enterprise-managers tegenaan loopt. De stap bevestigt dat Microsoft de combinatie van Azure-cloudinfrastructuur met hands-on implementatiehulp als onderscheidend concurrentievoordeel ziet ten opzichte van AWS en Google.</p>
+        <p class="meta">2 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/">Microsoft launches its own AI deployment company with $2.5 billion commitment</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Microsoft zet opnieuw een grote stap om niet alleen cloudinfrastructuur te verkopen, maar ook de implementatieveantwoordelijkheid op zich te nemen. Dat is risicovol — het bindt Microsoft aan resultaten — maar vergroot ook de lock-in en positioneert het bedrijf als de meest "enterprise-safe" AI-partner, wat voor grote beursgenoteerde bedrijven een doorslaggevend argument kan zijn.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS kondigt volledige zeeblokkade van Iran af: Straat van Hormuz als inzet</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VS heeft een mariene blokkade van alle Iraanse havens en kustgebieden afgekondigd, die vandaag om 22:00 Nederlandse tijd ingaat. De blokkade geldt voor Iran's gehele zuidkust; humanitaire ladingen worden na inspectie doorgelaten, maar schepen die Iran via ship-to-ship overdrachten proberen te bevoorraden riskeren enteractie of uitschakeling. Trump verklaarde een tol van 20% te willen heffen op alle vrachtschepen door de Straat van Hormuz in ruil voor "bescherming", wat in strijd is met internationaal zeerecht. Iran heeft de straat eerder gesloten verklaard en reageerde met dronaanvallen op Amerikaanse doelwitten in Koeweit. Olieprijzen stegen met 9%, ruwe Brent staat op circa $81 per vat — het hoogste niveau sinds half juni.</p>
+        <p class="meta">14 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz">Iran war live: US launches more attacks, Trump orders blockade in Hormuz</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Ongeveer een vijfde van de wereldwijde oliestroom passeerde tot voor kort de Straat van Hormuz. Een effectieve blokkade verstoort de energietoevoer naar Azië fundamenteel en jaagt inflatie aan op wereldschaal. De juridische pretentie van een tol op internationale wateren is ongekend en kan precedent scheppen voor andere maritieme conflictgebieden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland bestookt Kyiv opnieuw met ballistische raketten; tien landen lanceren antiballistisch coalitie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Rusland voerde op 13 juli een nieuwe ballistische raketaanval uit op Kyiv, uren nadat Oekraïne en negen Europese landen een Geïntegreerde Anti-Ballistisch Raketcoalitie aankondigden. Zelensky verklaarde dat luchtdefensie de meeste doelen neersloeg, "maar niet de ballistieken", en riep bondgenoten op om snel nieuwe luchtverdedigingspakketten te leveren. Kyiv en omgeving hebben in de eerste twee weken van juli al meer dan 60 doden betreurd door Russische aanvallen. De coalitie wil een nieuw antiballistisch systeem ontwikkelen dat goedkoper is dan het Amerikaanse Patriot-systeem.</p>
+        <p class="meta">13 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles">Kyiv attacked after Ukraine launches coalition to tackle Russia missiles</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Ballistische raketten reizen met meervoudige geluidssnelheid en zijn met bestaande middelen vrijwel niet te onderscheppen. Het initiatief van tien landen voor een gezamenlijk systeem is militair strategisch relevant, maar ook een signaal dat Europa de defensie-afhankelijkheid van de VS verder wil verminderen — ook op dit gespecialiseerde vlak.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">mRNA-kankervaccins werken anders dan gedacht: onverwachte immuuncel blijkt sleutel tot tumorbestrijding</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben ontdekt dat mRNA-kankervaccins een onverwacht type immuuncel rekruteren om krachtige tumorbestrijdende reacties te starten, wat een langgekoesterde aanname over hoe deze vaccins werken onderuithaalt. De bevinding opent nieuwe wegen voor het optimaliseren van de vaccinformulering en kan de effectiviteit van behandelingen aanzienlijk verbeteren. Parallel hieraan bleek een experimenteel middel genaamd DT-109 in dierproeven ernstige vette leverziekte te kunnen terugdraaien door de darm te herstellen en schadelijke toxines te neutraliseren voordat ze de lever bereiken.</p>
+        <p class="meta">Juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/health_medicine/">Health &amp; Medicine News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>mRNA-kankervaccins zijn een van de meest veelbelovende fronten in oncologie na de COVID-19-successen van mRNA-technologie. Een beter begrip van het werkingsmechanisme is essentieel om ze van gepersonaliseerde experimentele therapie naar brede klinische toepassingen te brengen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Machine learning + kwantumfysica ontdekken twee nieuwe supergeleiders; zoekproces versneld</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben machine learning gecombineerd met kwantumfysica om twee nieuwe supergeleiders te ontdekken en een methode te ontwikkelen die het zoekproces naar meer supergeleiders dramatisch versnelt. Supergeleiders geleiden elektriciteit zonder energieverlies, maar werken normaal alleen bij extreem lage temperaturen. Hoe meer kandidaatmaterialen snel kunnen worden gescreend, hoe groter de kans dat er op termijn supergeleiders bij kamertemperatuur worden gevonden.</p>
+        <p class="meta">Juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/matter_energy/physics/">Physics News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Supergeleiding bij kamertemperatuur zou een revolutie zijn in energietransport, MRI-scanners, kwantumcomputing en magnetische levitatie. De combinatie van AI-gedreven materiaaldiscovery met kwantumfysica versnelt precies het soort wetenschappelijk zoekwerk dat vroeger decennia kostte.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">MRI-hardware herontworpen met metamaterialen: scherpere scans in minder tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben een sleutelcomponent van MRI-hardware herontworpen met behulp van metamaterialen — kunstmatige materialen met eigenschappen die in de natuur niet voorkomen. De aanpassing laat bestaande MRI-scanners duidelijkere beelden maken van moeilijk zichtbare lichaamsdelen in kortere tijd, zonder dat de scanner zelf vervangen hoeft te worden. Dit maakt de verbetering potentieel breed en goedkoop inzetbaar in bestaande ziekenhuizen wereldwijd.</p>
+        <p class="meta">Juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>MRI is een van de meest gebruikte diagnostische hulpmiddelen wereldwijd, maar heeft bekende beperkingen bij kleine structuren en bewegende organen. Een hardwareupgrade die werkt op bestaande machines heeft een enorm bereik en kan vroegere diagnose van hart- en hersenafwijkingen binnen bereik brengen van middelgrote ziekenhuizen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Tour de France — Etappe 10 (Bastille Day): bergrit naar Le Lioran, Pogačar leidt ruim</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Op Bastille Day staat etappe 10 op het programma: 166,6 km van Aurillac naar Le Lioran, een zware bergrit door de vulkanische bergen van de Cantal (Massif Central) met een aankomst bovenop de Col de Font de Cère, minder dan drie kilometer van de finish. Eerder in de beklimming passeert het peloton de Col de la Griffoul, de Pas de Peyrol en de Col de Pertus. Etappe 9 (gisteren, ingekort vanwege code-rood-hittegolf) werd gewonnen door Mathieu van der Poel vanuit een vroege ontsnapping in Ussel. Vandaag nog geen uitslag beschikbaar.</p>
+        <p><strong>Klassement na etappe 9 (actueel):</strong><br>
+        1. Tadej Pogačar (UAE Team Emirates-XRG)<br>
+        2. Jonas Vingegaard (Visma-Lease a Bike) +2:42<br>
+        3. Isaac del Toro (UAE Team Emirates-XRG) +3:27<br>
+        4. Remco Evenepoel (Red Bull-Bora-Hansgrohe) +3:30<br>
+        5. Juan Ayuso (Lidl-Trek) +3:34<br>
+        <em>Best geplaatste Nederlander: Thymen Arensman (Ineos Grenadiers), positie 27 op +19:54.</em></p>
+        <p class="meta">14 juli 2026 — Cyclingnews — <a href="https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2026-stage-10-preview/">Tour de France 2026 stage 10 preview</a></p>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Belgische Grand Prix: dit weekend in Spa, kwalificatie zaterdag 16:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het F1-circus trekt dit weekend naar Spa-Francorchamps (België) voor ronde 10 van het seizoen. Het is een regulier weekend zonder sprint. Max Verstappen leidt het kampioenschap, met Isack Hadjar (Red Bull) als verrassing in de strijd om de top. Tijdschema in Nederlandse tijd (CEST):</p>
+        <p><strong>Vrijdag 17 juli:</strong> VT1 13:30 | VT2 17:00<br>
+        <strong>Zaterdag 18 juli:</strong> VT3 12:30 | Kwalificatie 16:00<br>
+        <strong>Zondag 19 juli:</strong> Race 15:00 (44 ronden, Circuit Spa-Francorchamps, 7,004 km)</p>
+        <p class="meta">Officieel schema — Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-moet-and-chandon-belgian-grand-prix-2026.6TSnaKuwMr6OvrtF0gZbXF">FORMULA 1 MOËT &amp; CHANDON BELGIAN GRAND PRIX 2026 — full timetable</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

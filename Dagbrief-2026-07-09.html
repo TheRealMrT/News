@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 9 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 9 JULI 2026</p>
+
+  <p class="intro">Een bewogen dag: OpenAI lanceert GPT-Live, een volledig bidirectioneel spraakmodel dat gesprekken menselijker maakt, terwijl Anthropic een monumentale compute-deal met Google en Broadcom bezegelt op het moment dat haar omzet de 30 miljard dollar passeert. In de geopolitiek escaleert het conflict tussen de VS en Iran na het afbreken van het staakt-het-vuren, en de NAVO-top in Ankara sluit af met stevige beloften aan Oekraïne te midden van interne spanningen. In de wetenschap bevestigen astronomen voor het eerst de geboorte van een magnetar, en kwantumonderzoekers vinden verstrengeling in een met het blote oog zichtbaar kristal. En op de wegen van de Pyreneeën rijdt de Tour de France zijn eerste echte bergrit van 2026.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-Live: spraak-AI die luistert én praat tegelijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI bracht op 8 juli GPT-Live-1 en GPT-Live-1 mini uit — full-duplex spraakmodellen die tegelijk kunnen luisteren en spreken. Gebruikers kunnen het model op elk moment onderbreken, en het model reageert met natuurlijke bevestigingen ("mhmm", "ja") tijdens een gesprek. GPT-Live-1 wordt het standaard spraakmodel voor betaalde ChatGPT-gebruikers (Go, Plus, Pro); de mini-versie bedient de gratis laag. Voor complexe vragen schakelt GPT-Live transparant door naar een achterliggend redeneermodel (nu GPT-5.5) en brengt het antwoord terug in de stem-conversatie. API-toegang volgt binnenkort.</p>
+        <p class="meta">Gepubliceerd 8 juli 2026 — OpenAI / TechCrunch — <a href="https://openai.com/index/introducing-gpt-live/">Introducing GPT-Live</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Full-duplex audio is de volgende stap naar werkelijk vloeiende mens-machine interactie. Eerder waren stemmodellen half-duplex: de AI stopt met luisteren terwijl hij spreekt. GPT-Live doorbreekt dat patroon en maakt onderbreken en overlappende spraak mogelijk — precies zoals mensen communiceren. Voor developers opent de API-aankondiging de weg naar realtime voice-agents in productie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic tekent deal voor 5 gigawatt compute met Google en Broadcom</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft een uitgebreid akkoord gesloten met Google en Broadcom voor meerdere gigawatts aan next-generation TPU-capaciteit, te beginnen in 2027. Het gaat in totaal om 5 gigawatt — een enorme stap in de infrastructuurrace voor frontier-AI. De deal bouwt voort op Anthropics belofte van 50 miljard dollar investering in Amerikaanse computing-infrastructuur. De aanleiding is directe: Anthropics omzet groeide van 9 miljard dollar eind 2025 naar een run-rate van meer dan 30 miljard dollar halverwege 2026 — 80× groei in anderhalf jaar. Meer dan 1.000 zakelijke klanten spenderen elk meer dan 1 miljoen dollar per jaar.</p>
+        <p class="meta">Gepubliceerd juli 2026 — Anthropic / TechCrunch — <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute">Anthropic expands partnership with Google and Broadcom</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De compute-deal van deze omvang signaleert dat de AI-race meer dan ooit een infrastructuurwedstrijd is. Vijf gigawatt is genoeg voor tienduizenden AI-accelerators — en wie de chips controleert, controleert de modellen van morgen. Tegelijkertijd bevestigt de explosieve omzetgroei dat enterprise-adoptie van Claude ver voorbij de pilotfase is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Topwetenschappers verlaten Google DeepMind voor Anthropic en OpenAI</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De talentenstroom van Google naar concurrenten zet onverminderd door. Nobelprijswinnaar John Jumper (AlphaFold, scheikunde 2024) stapt na bijna negen jaar over naar Anthropic. Jonas Adler en Alexander Pritzel, twee sleutelingenieuers achter Google's Gemini-model, volgen hem. Tegelijkertijd kondigde legendarisch AI-onderzoeker Noam Shazeer — één van de uitvinders van de Transformer-architectuur — aan dat hij overstapt naar OpenAI. TechCrunch meldt dat de exodus van AI-onderzoekers bij Google "aanhoudt".</p>
+        <p class="meta">Gepubliceerd juni–juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-rival-anthropic/">Nobel laureate John Jumper is leaving DeepMind for Anthropic</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Menselijk talent is minstens zo schaars als compute. Het verlies van Jumper, Adler en Shazeer is voor Google een reputatie- én kennisklap tegelijk. Het bevestigt dat Anthropic en OpenAI momenteel de aantrekkelijkere onderzoeksomgevingen worden beschouwd — een verschuiving die zich op termijn vertaalt naar modelkwaliteit.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">TypeScript wordt 's werelds meest gebruikte taal op GitHub, aangedreven door AI</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Volgens het GitHub Octoverse-rapport steeg TypeScript met 66% jaar-op-jaar en is het nu de meest gebruikte programmeertaal op GitHub. Onderzoekers schrijven de sprong toe aan een "convenience loop": AI-codeerassistenten suggereren TypeScript vaker en prominenter, waardoor het voor ontwikkelaars de weg van de minste weerstand wordt — ook als ze dat van zichzelf niet zouden kiezen. Het patroon herhaalt zich bij andere AI-friendlytalen. De implicatie is dat AI de evolutie van het ecosysteem actief stuurt.</p>
+        <p class="meta">Gepubliceerd juli 2026 — GitHub Blog / InfoQ — <a href="https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/">What the fastest-growing tools reveal about how software is being built</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-tools zijn niet langer passieve hulpmiddelen: ze oefenen selectiedruk uit op de technologieën die leven of sterven. Als TypeScript wint omdat Copilot het suggereert — niet omdat het objectief beter is voor een taak — ontstaat een nieuw soort platform-lock-in. Ontwikkelaars en techleads doen er goed aan bewust te blijven van wie of wat hun toolkeuze stuurt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Cursor neemt Continue over: open-source Copilot-alternatief wordt acqui-hire</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Cursor heeft Continue overgenomen — een open-source alternatief voor GitHub Copilot met 34.000 GitHub-sterren. De deal is een acqui-hire: het Continue-team gaat naar Cursor, maar het product zelf wordt stopgezet en de codebase wordt teruggegeven aan de community. De overname past in een bredere consolidatiegolf in de AI developer tools-markt, waarbij Cursor zelf onlangs door SpaceX werd overgenomen voor 60 miljard dollar.</p>
+        <p class="meta">Gepubliceerd juli 2026 — The New Stack — <a href="https://thenewstack.io/cursor-acquires-continue-coding/">Cursor quietly acquires Continue, an open-source alternative to GitHub Copilot</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De acqui-hire van Continue laat zien hoe snel de open-source coding-assistent-ruimte wordt opgeslurpt door gekapitaliseerde spelers. Voor de community die op Continue bouwde is het een wake-up call: open-source alternatieven voor commerciële tools zijn kwetsbaar voor exactelijk deze overnames. De codebase blijft beschikbaar, maar de actieve ontwikkeling stopt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Copilot in VS Code — grote update met parallelle agent-sessies en kostenzicht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub heeft de Copilot-updates voor VS Code van juni 2026 gepubliceerd (versies 1.123–1.127). De meest opvallende toevoegingen: parallelle agent-sessies (meerdere taken tegelijk uitvoeren), helder kostenzicht per gebruik, een slimmere geïntegreerde browser, en verbeterd Autopilot-gedrag voor langlopende taken. De updates sluiten aan op de bredere verschuiving van Copilot als autocomplete-tool naar een volledig agentisch platform.</p>
+        <p class="meta">Gepubliceerd 8 juli 2026 — GitHub Changelog — <a href="https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/">GitHub Copilot in Visual Studio Code, June 2026 releases</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Parallelle sessies zijn een fundamentele verschuiving: Copilot wordt van een reactief hulpmiddel een proactieve agent die meerdere takken van werk tegelijk beheert. De toevoeging van kostenzicht toont dat GitHub zich bewust is van budgetvragen bij grotere teams — een teken dat enterprise-adoptie de kinderschoenen ontgroeid is.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS-Iran-conflict escaleert: staakt-het-vuren "voorbij" na nieuwe aanvalsgolf</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump verklaarde op 8 juli het staakt-het-vuren met Iran officieel "voorbij" na een tweede nacht van wederzijdse aanvallen. De VS bombardeerde meer dan 80 doelen in Iran, waaronder havensteden langs de Straat van Hormuz (Bushehr, Chabahar, Bandar Abbas, Sirik, Jask, Abu Musa). Iran viel Amerikaans militair personeel aan in Bahrein en Koeweit. Trump dreigde met een hernieuwd zeeblokade en aanvallen op elektriciteits- en waterinfrastructuur — wat internationale juridische experts als oorlogsmisdaden bestempelen. Vredesgesprekken liggen nu volledig stil.</p>
+        <p class="meta">Gepubliceerd 8–9 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/8/us-says-conducting-new-wave-of-strikes-on-iran-as-ceasefire-falters-2">US conducts new wave of strikes on Iran as ceasefire falters</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de doorvoerroute voor circa 20% van de wereldoliehandel. Verdere escalatie — zeker als er een zeeblokade komt — zal oliemarkten, scheepvaart en wereldwijde energieprijzen direct raken. Voor Europa, dat al kampt met energieonzekerheid door de Russische oorlog, is dit een dubbel geopolitiek risico.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">NAVO-top in Ankara: 70 miljard euro voor Oekraïne, Trump bekritiseert bondgenoten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De NAVO-top in de Turkse hoofdstad Ankara is afgesloten. De alliantie beloofde 70 miljard euro (80 miljard dollar) steun aan Oekraïne en herbevestigde de collectieve defensieverplichting. Trump gebruikte de top vooral om bondgenoten te bekritiseren die "niet wilden helpen" in de VS-Israël-oorlog tegen Iran, en verklaarde "erg teleurgesteld" te zijn in de NAVO. Hij herhaalde ook zijn aanspraken op Groenland, wat Denemarken wederom afwees. Analisten spreken van de meest gespannen NAVO-top in decennia.</p>
+        <p class="meta">Gepubliceerd 7–8 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara">Five key takeaways from the NATO summit in Ankara</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De openlijke verdeeldheid tussen de VS en Europese bondgenoten verzwakt de NAVO als geloofwaardig afschrikmiddel — precies op het moment dat Rusland en Iran druk uitoefenen. De belofte van 70 miljard euro aan Oekraïne is aanzienlijk, maar de cohesie van de alliantie zelf staat onder grotere druk dan de bedragen suggereren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Astronomen zien voor het eerst de geboorte van een magnetar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een vreemd "tjirpend" radiosignaal vanuit een verre supernova heeft wetenschappers voor het eerst directe bewijzen gegeven van de geboorte van een magnetar — een neutronenster met een extreem sterk magnetisch veld. De vondst bevestigt een theorie die al decennia bestond maar nooit eerder rechtstreeks was geobserveerd: dat magnetars de aandrijvende kracht zijn achter de helderste sterexplosies in het heelal (zogenaamde superlumineuze supernovae). De ontdekking werd gepubliceerd door ScienceDaily in juni/juli 2026.</p>
+        <p class="meta">Gepubliceerd juni–juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/06/260626030450.htm">Astronomers witness the birth of a magnetar for the first time</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Magnetars zijn de meest magnetische objecten die we kennen, en hun oorsprong was een van de grote open vragen in de sterrenkunde. Deze directe observatie bevestigt niet alleen de theorie, maar opent ook de weg naar het begrijpen van de meest energetische fenomenen in het heelal — van gamma-ray bursts tot fast radio bursts.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumverstrengeling aangetoond in kristal groot genoeg om te zien</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Fysici hebben voor het eerst een hoge mate van kwantumverstrengeling gemeten in een "vreemd metaal"-kristal van een centimeter groot — groot genoeg om met het blote oog te zien. Kwantumverstrengeling werd tot nu toe vrijwel uitsluitend aangetoond in microscopisch kleine systemen. De ontdekking toont aan dat grote, dagelijkse objecten onder de juiste omstandigheden diep kwantummechanisch gedrag kunnen vertonen. Gepubliceerd in Phys.org, 1 juli 2026.</p>
+        <p class="meta">Gepubliceerd 1 juli 2026 — Phys.org / ScienceDaily — <a href="https://phys.org/news/2026-06-high-degree-quantum-entanglement-centimeter.html">High degree of quantum entanglement detected in centimeter-sized crystal</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De grens tussen de kwantumwereld en de klassieke wereld wordt diffuser. Als verstrengeling meetbaar is in zichtbare objecten, heeft dat implicaties voor quantumcomputing (grotere, robuustere qubits), materiaalkunde, en ons fundamenteel begrip van wat kwantummechanica is. Het lost ook aanwijzingen op in het mysterie van "vreemde metalen" — materialen die zich anders gedragen dan de standaardtheorie voorspelt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Tour de France — Etappe 6: Pyreneeën-bergrit met Tourmalet en nieuwe aankomst in Gavarnie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag staat etappe 6 op het programma: Pau → Gavarnie-Gèdre, 186,2 km, eerste echte bergrit van de Tour. Na een vlakke start langs Lourdes wacht het peloton de Col d'Aspin en daarna de mythische Col du Tourmalet (de hoogste pas van de Pyreneeën). Finale: de Cirque de Gavarnie — een UNESCO Werelderfgoed-amfitheater — met een klimtocht van 18,7 km aan gemiddeld 3,7% die voor het eerst ooit als Tour-aankomst dient. Hier worden de eerste grote tijdsverschillen tussen de klassementsmannen verwacht.</p>
+        <p><strong>Klassement na etappe 5:</strong> 1. Torstein Træen +28s voor 2. Sean Quinn; 3. Mathias Vacek op 3:50; 4. Tadej Pogačar en 5. Jonas Vingegaard (gedeeld) op 7:53.<br>
+        <strong>Nederlanders:</strong> Olav Kooij won gisteren etappe 5 in Pau in zijn Tour-debuut — hij is de zevende Nederlander ooit die in Pau wint.</p>
+        <p class="meta">Gepubliceerd 9 juli 2026 — Cyclingnews / NOS — <a href="https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2026-stage-6-preview/">Tour de France 2026 stage 6 preview</a></p>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Volgende race: België (Spa), 17–19 juli</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na de Britse Grand Prix van afgelopen weekend (3–5 juli op Silverstone) is er een tussenweekend zonder F1-race. De volgende Grand Prix is de Belgische GP op het circuit van Spa-Francorchamps: kwalificatie zaterdag 18 juli, race zondag 19 juli. Daarna volgt de Hongaarse GP van 24–26 juli. Tijden in NL-tijd worden binnenkort bevestigd door Formula 1.</p>
+        <p class="meta">Bron: Formula 1 officieel kalender — <a href="https://www.formula1.com/en/racing/2026">F1 Schedule 2026</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

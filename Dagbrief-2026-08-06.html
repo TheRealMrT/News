@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — donderdag 6 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 6 AUGUSTUS 2026</p>
+
+  <p class="intro">De AI-industrie zet een volgende stap richting hardware-onafhankelijkheid: Anthropic kondigt een eigen chipteam aan terwijl AI-agents in bedrijven inmiddels meetbare resultaten opleveren. In het Midden-Oosten naderen Iran en Oman een akkoord over scheepvaartroutes door de Straat van Hormuz, al blijven Houthi-aanvallen op tankers de situatie destabiliseren. In Europa zet de migratiecrisis rond Ceuta het Schengen-akkoord onder druk, nadat 22 lidstaten zich achter Italië's grensmaatregelen schaarden. Ondertussen onthullen wetenschappers een magmareservoir van 6.000 kubieke kilometer onder Toscane en herschrijven 567 miljoen jaar oude fossielen de vroegste evolutie van dierlijk leven op aarde.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic bouwt eigen chipteam om Claude sneller en goedkoper te maken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic begint met het werven van een team voor het ontwerpen van eigen AI-chips, zo bevestigde het bedrijf aan TechCrunch. Het doel is om hardware en modellen samen te ontwikkelen zodat Claude efficiënter en sneller kan draaien. Eerder circuleerden berichten over gesprekken met Samsung als productiepartner. Op Anthropic's vacaturepagina staan openstaande functies voor "Research Engineer, Chip Design RL" in San Francisco en New York. De stap past in een bredere trend: AWS, Google, Nvidia en AMD staan Anthropic al bij met rekenkracht, maar eigen silicon geeft meer controle over kosten en prestaties.</p>
+        <p class="meta">Gepubliceerd 5 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/">Anthropic is hiring an AI chip design team</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wie de chip controleert, controleert de kosten en de snelheid van AI-inferentie. Door eigen hardware te ontwerpen kan Anthropic minder afhankelijk worden van Nvidia en de marge op Claude structureel verbeteren — een kritieke stap nu concurrenten als Google (TPU) en Amazon (Trainium) al jaren hun eigen silicium inzetten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Presence: enterprise AI-agent lost 75% van klantvragen op zonder menselijke tussenkomst</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI introduceerde Presence, een enterprise-product waarmee bedrijven betrouwbare AI-agents kunnen inzetten voor klantenservice. De agents kunnen vragen beantwoorden, bedrijfssystemen raadplegen, goedgekeurde acties uitvoeren en escaleren naar medewerkers wanneer nodig. In de eerste weken presteerden de agents op of boven het niveau van menselijke eerstelijnsmedewerkers en werd 75% van de inkomende vragen volledig automatisch afgehandeld. OpenAI positioneert Presence als de volgende fase van enterprise-AI, voorbij de chatbot.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — OpenAI — <a href="https://openai.com/index/introducing-openai-presence/">Introducing OpenAI Presence</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een oplossingspercentage van 75% zonder menselijke ingreep is een benchmark die de gehele klantenservice-industrie raakt. Als dit schaalt, verandert de economie van supportafdelingen fundamenteel en laat het zien dat AI-agents productieklaar zijn voor complexe, meerstapswerkflows.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">80% van bedrijven haalt meetbare ROI uit AI-agents — Anthropic State of AI Agents Report</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic publiceerde het 2026 State of AI Agents Report. Acht op de tien organisaties rapporteert meetbare ROI; 86% werkt niet meer in de experimenteerfase maar zet AI-agents productie in. Bij de grootste bedrijven loopt de adoptie nog harder: 91% van enterprises gebruikt AI-coding agents al voor productiecode. De voornaamste bottleneck is niet technologie maar governance — hoe geef je agents de juiste rechten zonder controle te verliezen?</p>
+        <p class="meta">Gepubliceerd 2026 — Anthropic — <a href="https://resources.anthropic.com/2026-state-of-ai-agents">The 2026 State of AI Agents Report</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Bedrijven die AI-agents inzetten voor werk dat mensen deden, zijn inmiddels de meerderheid. Het rapport markeert het punt waarop AI ophoudt een pilot te zijn en een structureel onderdeel van de bedrijfsvoering wordt — met bijbehorende risico's rondom autonomie en controle.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework bereikt GA: agentische .NET- en Python-apps naar productie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsofts Agent Framework Harness en Foundry Hosted Agents zijn algemeen beschikbaar geworden. Het framework biedt platformteams een ondersteunde productie-runtime om agents te draaien en te beheren — als één binary die werkt in lokale omgevingen, containers en hosted deployment. Daarmee is het raamwerk dat eerder als Release Candidate uitkwam nu officieel gereed voor zakelijk gebruik in .NET en Python.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GA-status betekent dat enterprise-teams nu met volledige Microsoft-ondersteuning agentische workloads kunnen bouwen en deployen. Gecombineerd met de brede adoptiecijfers uit het Anthropic-rapport groeit het ecosysteem van productieklare agent-runtimes snel en daalt de drempel voor bedrijven verder.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Loop engineering: ontwikkelaars schrijven workflows in plaats van te prompten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een opkomende praktijk in softwareontwikkeling — "loop engineering" — herdefiniëert hoe developers met AI werken. In plaats van modellen handmatig te prompten, ontwerpen engineers geautomatiseerde agentworkflows die autonoom taken doorlopen. De aanpak wint terrein bij gebruikers van Claude Code en OpenAI Codex: de nadruk ligt op het bouwen van loops die context bijhouden, tools aanroepen en resultaten evalueren zonder menselijke tussenkomst per stap. De leider die Claude Code bouwde zei de aanpak omarmd te hebben zodra hij prompting achter zich liet.</p>
+        <p class="meta">Gepubliceerd 2026 — The New Stack — <a href="https://thenewstack.io/loop-engineering/">The Anthropic leader who built Claude Code says he ditched prompting — now he just writes loops</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Loop engineering verschuift de rol van de developer van "iemand die prompts schrijft" naar "iemand die autonome systemen ontwerpt". Dit heeft gevolgen voor hoe teams werk plannen, hoe junior developers worden opgeleid en welke vaardigheden op de arbeidsmarkt straks het meeste waard zijn.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Ex-GitHub CEO Thomas Dohmke lanceert developer platform voor het agentische tijdperk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Thomas Dohmke, de voormalige CEO van GitHub, heeft een nieuw developer platform gelanceerd dat specifiek is gebouwd voor de wereld van agentische code. Het platform richt zich op de gaten die Dohmke zag tijdens zijn tijd bij GitHub: de integratie van AI-agents in de gehele ontwikkelcyclus, van schrijven tot deployment en monitoring. Details over naam en financiering zijn nog niet volledig bekendgemaakt, maar het interview met The New Stack schetst de visie achter de stap.</p>
+        <p class="meta">Gepubliceerd 2026 — The New Stack — <a href="https://thenewstack.io/thomas-dohmke-interview-entire/">GitHub's former CEO launches a developer platform for the age of agentic coding</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GitHub heeft meer dan 100 miljoen ontwikkelaars; Dohmke kent die markt van binnenuit. Dat hij een nieuw platform bouwt signaleert dat de huidige tooling — inclusief GitHub zelf — onvoldoende is ingericht op een wereld waar agents het meeste programmeerwerk uitvoeren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Iran en Oman naderen akkoord over Straat van Hormuz terwijl Houthis tankers aanvallen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran en Oman zijn "op de rand van het afronden" van een deal over scheepvaartroutes door de Straat van Hormuz, zo meldde Al Jazeera vanochtend. De VS zijn bij de onderhandelingen betrokken en president Trump bevestigde dat diplomatie zijn voorkeur heeft boven militair optreden. Tegelijkertijd vielen Houthi-strijders uit Jemen Saoedische olietankers aan in de regio, waardoor de situatie volatiel blijft ondanks de naderende deal. Israël bombardeerde intussen doelen in Libanon.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers">Iran war live: Tehran, Oman close in on Hormuz deal; Houthis attack tankers</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de slagader van de mondiale olie-aanvoer — circa 20% van alle olie passeert er dagelijks. Een akkoord over veilige doorgang zou de olieprijs stabiliseren; verdere escalatie van Houthi-aanvallen zou het omgekeerde effect hebben en de wereldeconomie direct raken.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Italië blokkeert vrij verkeer met Spanje: Schengen onder druk na Ceuta-migratiecrisis</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na de massale oversteek van meer dan 60.000 mensen vanuit Marokko naar de Spaanse enclave Ceuta kondigde Italië grenscontroles aan met Spanje. Binnen dagen schaarden 22 EU-lidstaten zich achter Italië's standpunt. Bij de oversteek kwamen minimaal 72 mensen om het leven. De situatie trekt parallellen met de vluchtelingencrisis van 2015-16 en stelt de toekomst van het Schengen-akkoord — vrij verkeer van personen binnen de EU — opnieuw ter discussie.</p>
+        <p class="meta">Gepubliceerd 4 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta">Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als 22 van de 27 EU-lidstaten zich aansluiten bij eenzijdige grensmaatregelen, is dat een fundamentele aanval op een kernpijler van de Europese eenwording. De uitkomst van deze crisis bepaalt mede of Schengen in de huidige vorm kan overleven.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Colombia: veiligheidsdreiging overschaduwt inauguratie nieuwe president in Cali</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De demissionair minister van Defensie van Colombia heeft gewaarschuwd voor een "terroristische dreiging" bij de inauguratie van gekozen president Abelardo de la Espriella op vrijdag 7 augustus in Cali. Autoriteiten volgen een concrete dreiging in een stad die grenst aan gebieden die worden gecontroleerd door gewapende rebellengroepen. De inauguratie verloopt daarmee in een gespannen veiligheidsklimaat.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/6/colombia-minister-warns-of-terrorism-threat-at-presidential-inauguration">Colombia minister warns of 'terrorism' threat at presidential inauguration</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Colombia doorloopt een gevoelig machtoverdrachtmoment in een land waar vredesprocessen met gewapende groepen kwetsbaar zijn. Een incident bij de inauguratie zou het fragiele politieke klimaat verder destabiliseren en de regionale veiligheid in de Andes beïnvloeden.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">567 miljoen jaar oude fossielen in Canada herschrijven de vroegste evolutie van dierlijk leven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers ontdekten een uitzonderlijk rijke vindplaats in de Northwest Territories van Canada, met fossielen van de Ediacaran biota — een van de vroegste complexe meercellige organismen op aarde. Sommige exemplaren zijn circa 567 miljoen jaar oud, ouder dan eerder gedocumenteerde soorten uit dit tijdperk. De vondst werpt nieuw licht op de diversificatie van vroeg dierlijk leven, vóór de beroemde explosie van soorten in het Cambrium.</p>
+        <p class="meta">Gepubliceerd 4 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260804034644.htm">567-million-year-old fossils rewrite the dawn of animal life</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Ediacaran-periode is de schakel tussen eencellig leven en de explosie van diersoorten. Hoe ouder en diverser de fossielen die we vinden, hoe verder we de oorsprong van complex leven kunnen traceren — en hoe scherper ons begrip van de evolutie op aarde wordt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Enorm magmareservoir van 6.000 km³ in kaart gebracht onder Toscane</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben een massief magmareservoir diep onder Toscane ontdekt en in kaart gebracht met behulp van natuurlijke grondtrillingen, vastgelegd door tientallen seismische sensoren. Het reservoir beslaat circa 6.000 kubieke kilometer — een van de grootste die ooit in Europa zijn gedocumenteerd. De bevindingen geven inzicht in de geothermische activiteit in de regio en zijn relevant voor de beoordeling van vulkanische risico's in Midden-Italië op de lange termijn.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">Latest Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Toscane is een dichtbevolkt gebied met een actief geothermisch systeem. Het in kaart brengen van magmareservoirs op deze schaal is essentieel voor het langetermijn-risicobeheer van vulkanische activiteit in Europa en kan bijdragen aan een efficiëntere benutting van geothermische energie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gemanipuleerd kauwgom verlaagt HPV-infectie met 93% in vroeg klinisch onderzoek</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers ontwikkelden een speciaal gemanipuleerd kauwgom dat in vroeg klinisch onderzoek HPV-infecties reduceerde met tot 93%, en twee bacteriën die gelinkt zijn aan hoofd- en nekkanker nagenoeg elimineerde. Het middel wordt toegediend door te kauwen, wat de drempel voor gebruik laag maakt. De aanpak maakt gebruik van eiwitten die actief het virus binden en neutraliseren in het speeksel — een andere route dan conventionele vaccinatie.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/health_medicine/">Health &amp; Medicine News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>HPV is de meest voorkomende seksueel overdraagbare infectie en verantwoordelijk voor de meeste gevallen van baarmoederhalskanker en een toenemend aandeel hoofd- en nekkankers. Een gemakkelijk toepasbaar middel dat infectie fors reduceert, is een waardevolle aanvulling op vaccinatieprogramma's, met name in regio's waar de vaccinatiegraad laag is.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Zandvoort voor het laatste: sprintweekend Dutch Grand Prix op 21–23 augustus</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Over twee weken staat de Formula 1 Heineken Dutch Grand Prix 2026 op het programma op Circuit Zandvoort — en het wordt een bijzondere editie. Voor het eerst in de geschiedenis van de Nederlandse GP is het een sprintweekend, én het is de allerlaatste keer dat Zandvoort op de F1-kalender staat na een eenjarige verlenging van het contract. Het volledige schema (NL-tijd):</p>
+        <p>
+          <strong>Vrijdag 21 augustus:</strong> Vrije training 12:30–13:30 &nbsp;·&nbsp; Sprint Kwalificatie 16:30–17:14<br>
+          <strong>Zaterdag 22 augustus:</strong> Sprint (24 ronden) 12:00–12:30 &nbsp;·&nbsp; GP Kwalificatie 16:00–17:00<br>
+          <strong>Zondag 23 augustus:</strong> Race (72 ronden) <strong>15:00–17:00</strong>
+        </p>
+        <p class="meta">Bron: formula1.com — <a href="https://www.formula1.com/en/racing/2026/netherlands">Dutch Grand Prix 2026 — Officieel tijdschema</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

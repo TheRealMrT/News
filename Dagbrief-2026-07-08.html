@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 8 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 8 JULI 2026</p>
+
+  <p class="intro">De geopolitiek overheerst vandaag: de VS lanceerden nieuwe aanvallen op Iran, ondanks Trumps belofte de acties te pauzeren voor de begrafenis van opperleider Khamenei — Iran vuurde terug, luchtalarms klonken in Bahrein en Koeweit. In de AI-wereld is het druk: Anthropic brengt Claude Cowork naar mobiel en web, OpenAI lanceert het razendsnelle GPT-5.6 Sol met een agentische ultra-modus, en Meta krijgt meteen kritiek op Muse Image vanwege een standaard-aan opt-out die andermans foto's beschikbaar maakt voor AI-manipulatie. Wetenschappelijk: astronomen zagen voor het eerst live de geboorte van een magnetar. En de Tour de France rijdt vandaag een vlakke sprintetappe naar Pau, met de verrassende leider Torstein Træen in het geel na een ontsnapping die gisteren meer dan zeven minuten won op de GC-favorieten.</p>
+
+  <!-- THEMA 1: AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Cowork nu ook op mobiel en web: taken starten op laptop, doorgaan op je telefoon</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft Claude Cowork op 7 juli uitgebreid naar iOS, Android en het web. Tot nu toe was het platform alleen beschikbaar als desktop-app. Met de nieuwe versie kunnen taken autonoom op de achtergrond blijven draaien — ook als de gebruiker de app sluit — en vanuit de telefoon worden gevolgd of afgerond. Gebruiksdata van Anthropic toont dat de meeste Cowork-gebruikers geen code schrijven: het platform richt zich op kenniswerkers die bestanden beheren, onderzoek uitvoeren en teksten produceren.</p>
+        <p class="meta">Gepubliceerd 7 juli 2026 — VentureBeat — <a href="https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding">Anthropic brings Claude Cowork to mobile and web</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Anthropic positioneert Cowork als de brug tussen AI-codeeragenten en de bredere kantoorwereld. De uitbreiding naar mobiel verlaagt de drempel voor miljoenen niet-technische gebruikers en intensiveert de strijd met Microsoft Copilot en Google Workspace AI.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-5.6 Sol: 750 tokens per seconde met agentische ultra-modus</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI introduceert GPT-5.6 Sol, een next-generation model dat draait op Cerebras-hardware en snelheden tot 750 tokens per seconde haalt — een veelvoud sneller dan de huidige frontier-modellen. De nieuwe 'ultra mode' schakelt automatisch subagenten in voor complexe taken op het gebied van coding, biologie en cybersecurity. Het model is vooralsnog in beperkte preview en wordt klant voor klant vrijgegeven, met overheidsgoedkeuring vereist voor een algemene release.</p>
+        <p class="meta">Gepubliceerd juli 2026 — OpenAI — <a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Snelheid is een nieuwe competitiedimensie in de AI-race: wie frontierintelligentie als eerste op werksnelheid levert, wint enterprise-klanten. De selectieve uitrol met overheidsbetrokkenheid wijst ook op toenemende regulatoire bemoeienis met de krachtigste modellen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Meta lanceert Muse Image — en krijgt meteen kritiek op privacycontroverse rond andermans foto's</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Meta bracht op 7 juli Muse Image uit, een nieuwe AI-beeldgenerator van Meta Superintelligence Labs, beschikbaar via de Meta AI-app, Instagram Stories en WhatsApp. De generator werkt met "presets" en een interieurdecoratiefunctie. Direct omstreden is de opt-out-feature die gebruikers toestaat publieke Instagram-foto's van anderen te manipuleren met AI — een instelling die standaard aanstaat. Gebruikers en privacytoezichthouders reageerden vrijwel meteen kritisch.</p>
+        <p class="meta">Gepubliceerd 7 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/">Meta just launched a new AI generator, Muse Image</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Meta herhaalt een patroon dat toezichthouders al vaker hebben aangekaart: brede data-inzet tenzij gebruikers actief afhaken. Met de AI Act van kracht verwacht Europa nieuwe handhavingsvragen over de AVG en toestemming voor biometrische data.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic verlengt gratis Fable 5-toegang tot 12 juli: daarna betaald per token</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic had gepland om op 7 juli de gratis toegang tot Claude Fable 5 voor Pro-, Max-, Team- en Enterprise-abonnees te beëindigen, maar verlengde die deadline naar 12 juli. Fable 5 — een publiek toegankelijke versie van het interne Mythos 5-model — keerde op 1 juli terug nadat een tijdelijk Amerikaans exportverbod werd ingetrokken. Na 12 juli wordt het model afgerekend via usage credits; standaard Enterprise-seats krijgen geen inclusieve bundel meer.</p>
+        <p class="meta">Gepubliceerd 7 juli 2026 — The New Stack — <a href="https://thenewstack.io/anthropic-extends-fable-5/">Anthropic gives Claude subscribers five more days with Fable 5</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De overgang naar credits-gebaseerde toegang tot het krachtigste Anthropic-model markeert een strategische prijsverschuiving: het beste is niet langer standaard inbegrepen. Organisaties die Fable 5 intensief inzetten, moeten hun budgetten nu bewust bijstellen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 2: TECH & SOFTWARE/DEVELOPMENT -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic-studie: AI-codeerhulp verlaagt begrip van developers met 17%</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoek van Anthropic toont aan dat ontwikkelaars die AI-codeerhulp gebruiken op begripstesten 17% lager scoren dan collega's die handmatig coderen. Productiviteit stijgt, maar diepgaand begrip van code — en de opbouw van die vaardigheid — lijdt eronder. De bevindingen sluiten aan bij een bredere discussie in de techsector over de langetermijngevolgen van automatisering voor engineering-expertise.</p>
+        <p class="meta">Gepubliceerd februari 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/02/ai-coding-skill-formation/">Anthropic Study: AI Coding Assistance Reduces Developer Skill Mastery by 17%</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Sneller code schrijven is waardeloos als de mensen die het onderhouden er niets meer van begrijpen. Dit rapport maakt de business case voor bewuste inzet van AI-tools, met expliciete aandacht voor kennisborging, review-cultuur en gerichte training.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic in gesprek met Samsung over eigen AI-chip: verticale integratie na Google en Meta</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic verkent een samenwerking met Samsung voor de ontwikkeling van een eigen AI-chip, zo meldde TechCrunch begin juli. Details over de functie of kracht van de chip zijn nog niet bekend. De stap past in een bredere beweging waarbij grote AI-labs onafhankelijk willen worden van externe chipfabrikanten. Eerder sloot Anthropic al een deal met Google en Broadcom voor meerdere gigawatt aan next-generation rekencapaciteit in de VS.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/">Anthropic is discussing a new custom chip with Samsung</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wie de hardware controleert, bepaalt de kostprijs en capaciteit van AI-training. Na Google (TPU), Meta (MTIA) en Amazon (Trainium) gaat ook Anthropic op zoek naar verticale integratie — een signaal dat de compute-race verder escaleert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic-omzet breekt $30 miljard run-rate: meer dan 1.000 zakelijke klanten boven $1 mln/jaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropics run-rate omzet oversteeg $30 miljard — een meer dan drievoudige groei ten opzichte van de ~$9 miljard eind 2025. Het bedrijf meldt ook meer dan 1.000 Enterprise-klanten die jaarlijks meer dan een miljoen dollar besteden, een verdubbeling in minder dan twee maanden. Het leeuwendeel van de nieuwe investeringen in rekencapaciteit gaat naar de VS, in lijn met de belofte van $50 miljard voor Amerikaanse computerinfrastructuur.</p>
+        <p class="meta">Gepubliceerd juni–juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/">It's not about Anthropic vs. OpenAI anymore</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Anthropic is geen underdog meer: met deze omzetcijfers is het een structurele enterprise-speler. De versnelling laat zien dat de AI-adoptie in bedrijven nu écht in de groeifase zit — en dat Anthropic de race met OpenAI niet verliest, maar juist verbredt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 3: GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS hervatten aanvallen op Iran ondanks beloofde pauze: sirenes in Bahrein en Koeweit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VS lanceerden vandaag nieuwe precisieaanvallen op meer dan 80 Iraanse militaire doelen — luchtverdedigingssystemen, raketinstallaties en dronelanceerplatforms aan de Iraanse zuidkust — ondanks Trumps eerdere belofte de acties te pauzeren gedurende de 7-daagse staatsbegrafenis van opperleider Ali Khamenei. De aanvallen volgden op Iraanse aanvallen op drie schepen in de Straat van Hormuz, waaronder Qatarese en Saoedische tankers. Iran claimt op zijn beurt 85 Amerikaanse militaire installaties te hebben geraakt; luchtalarms klonken in Bahrein en Koeweit.</p>
+        <p class="meta">Gepubliceerd 8 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks">Iran war live: Sirens in Bahrain, Kuwait as Tehran responds to US attacks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de doorvoerader van circa 20% van het wereldwijde olieaanbod. Tankeraanvallen en Amerikaanse vergeldingsacties tijdens een afgesproken begrafeniswapenstilstand vergroten het risico op verdere escalatie sterk — met directe gevolgen voor energieprijzen en regionale stabiliteit.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland veroverde slechts 97 km² in eerste helft 2026, maar blijft "oorlog met de NAVO" claimen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Ondanks grootse retoriek over een "oorlog met de NAVO" veroverde Rusland tussen januari en juli 2026 slechts 97 vierkante kilometer in Oekraïne, blijkt uit cijfers van het Institute for the Study of War. Oekraïne's tegenoffensief drukt de Russische opmars terug tot minimale winst. Ter vergelijking: 97 km² is kleiner dan Amsterdam. Het conflict gaat intussen voort, met aanzienlijke menselijke en materiële kosten aan beide kanten.</p>
+        <p class="meta">Gepubliceerd 7 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/7/russia-touts-war-with-nato-amid-losses-in-ukraine">Russia touts 'war with NATO' amid losses in Ukraine</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De cijfers ondermijnen het Russische narratief van een opmarcherende supermacht en onderstrepen het strategisch belang van westerse wapenleveringen en de Oekraïense veerkracht. Ze illustreren ook het contrast tussen Russische propagandaclaims en de gemeten realiteit op de kaart.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 4: WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Eerste directe waarneming van een magnetar-geboorte, via "chirpend" supernova-signaal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Astronomen hebben voor het eerst de geboorte van een magnetar rechtstreeks waargenomen. Via een zeldzaam "chirpend" signaal in de lichtkromme van supernova SN 2024afav — een patroon dat in frequentie toenam — ontdekten ze een nieuw ontstane neutronenster met een magnetisch veld 300 biljoen keer sterker dan dat van de aarde. De analyse toonde voor het eerst aan dat Einsteins algemene relativiteitstheorie (Lense-Thirring precessie) het mechanisme van een supernova verklaart. Met de Vera C. Rubin Observatory die binnenkort volledig operationeel is, verwachten onderzoekers tientallen vergelijkbare chirpende supernova's te vinden.</p>
+        <p class="meta">Gepubliceerd juni 2026 — ScienceDaily / Live Science — <a href="https://www.sciencedaily.com/releases/2026/06/260626030450.htm">Astronomers witness the birth of a magnetar for the first time</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is tegelijk de eerste bevestiging dat magnetars sommige van de helderste sterexplosies aandrijven, én de eerste directe test van Einsteins algemene relativiteitstheorie bij een supernova-mechanisme — een dubbele doorbraak die decennialange theorie verankert in observationeel bewijs.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumverstrengeling aangetoond in gewoon centimetergroot kristal — diep kwantumgedrag op menselijke schaal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben voor het eerst duidelijke tekenen van kwantumverstrengeling gemeten in een macroscopisch object: een gewoon kristal van één centimeter. Tot nu toe gold kwantumverstrengeling als een fenomeen beperkt tot de nanoschaal. De ontdekking toont aan dat alledaagse, grotere objecten diep kwantumgedrag kunnen vertonen — en opent nieuwe mogelijkheden voor kwantumtechnologie buiten extreme laboratoriumcondities.</p>
+        <p class="meta">Gepubliceerd 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/">ScienceDaily — Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als kwantumverstrengeling ook in gewone, centimeter-grote objecten bestaat, verschuift de grens tussen de kwantum- en klassieke wereld. Het biedt praktische perspectieven voor robuustere kwantumcomputers en -sensoren die minder extreme koeling vereisen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Nieuw hersenceldood-mechanisme bij Alzheimer ontdekt — los van de bekende plaques en tau</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers identificeerden een eerder over het hoofd gezien mechanisme van hersenceldood dat een centrale rol blijkt te spelen bij Alzheimer en frontotemporale dementie. Het staat los van de bekende amyloïd-plaques en tau-eiwitten waarop het merendeel van bestaand onderzoek en klinische trials gericht was. De bevinding biedt een nieuw aanknopingspunt voor de ontwikkeling van behandelingen voor ziekten die wereldwijd tientallen miljoenen mensen treffen.</p>
+        <p class="meta">Gepubliceerd 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/health_medicine/">ScienceDaily — Health &amp; Medicine News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Decennia van Alzheimer-onderzoek richtten zich op plaques en tau — de meeste klinische trials op die basis faalden. Een nieuw mechanisme opent de deur naar behandelstrategieën die eerder niet werden overwogen, mogelijk een gamechanger in de zoektocht naar effectieve dementiezorg.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 5: SPORT -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Tour de France — Etappe 5: vlakke sprintkans naar Pau, verrassende leider Træen verdedigt geel</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vandaag staat etappe 5 op het programma: 158,3 km van Lannemezan naar Pau, vrijwel vlak met slechts één cat. 3-klim op 132 km — de eerste echte sprintetappe van deze Tour. Verwachte kanshebbers: Mads Pedersen (etappe 4-winnaar), Jasper Philipsen, Biniam Girmay en Tim Merlier. In het algemeen klassement na etappe 4 staat Torstein Træen (Noor, Uno-X Mobility) verrassend in het geel: hij reed mee in een ontsnapping die gisteren ruim 7 minuten pakte op GC-favorieten Pogačar (nu +7:53) en Vingegaard. Mathieu van der Poel en Thymen Arensman rijden de Tour voor etappezeges; 17 Nederlanders zijn in totaal aan de start.</p>
+        <p class="meta">8 juli 2026 — Cyclingnews — <a href="https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2026-stage-5-preview/">Tour de France 2026 stage 5 preview — Cyclingnews</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De ontsnapping van gisteren gaf de Tour een onverwachte rangschikking: een Noord-Europese underdog in het geel met een imposante tijdsvoorsprong op de favoriet. De aankomende bergritten zullen bepalen of Træen stand houdt of Pogačar de touwtjes terugpakt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Belgische GP Spa: kwalificatie zaterdag 18 juli 16:00 uur, race zondag 19 juli 15:00 uur (NL-tijd)</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De eerstvolgende Grand Prix is de Belgische GP op het Circuit de Spa-Francorchamps, 17–19 juli. Vorige week won Charles Leclerc (Ferrari) de Britse GP op Silverstone. Het volledige weekend-schema: vrijdag 17 juli — vrije trainingen (VT1: 13:30, VT2: 17:00); zaterdag 18 juli — VT3 12:30, kwalificatie 16:00 uur; zondag 19 juli — race om 15:00 uur. Alle tijden zijn Nederlandse tijd (CEST = Belgische lokale tijd). De race gaat over 44 ronden van 7,004 km.</p>
+        <p class="meta">Officieel timetable — Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-moet-and-chandon-belgian-grand-prix-2026.6TSnaKuwMr6OvrtF0gZbXF">FORMULA 1 MOËT &amp; CHANDON BELGIAN GRAND PRIX 2026 — full timetable</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

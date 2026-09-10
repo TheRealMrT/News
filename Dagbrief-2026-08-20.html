@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 20 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+  .archive{list-style:none;padding:0;margin:0 0 24px}.archive li{margin:0 0 8px}.archive a{color:#2f6fb0;text-decoration:none}.archive a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 20 AUGUSTUS 2026</p>
+
+  <p class="intro">De AI-industrie blijft records breken: Anthropic's jaaromzet stijgt naar $65 miljard terwijl het bedrijf zich voorbereidt op een beursgang met een verwachte waardering van meer dan $2 biljoen. Op het geopolitieke front kondigt Trump de "meest verpletterende" Iran-sancties ooit aan, terwijl Rusland opnieuw Kyiv aanvalt met ballistische raketten. In de tech-wereld bereiken Microsoft's Agent Framework-componenten stabiele release en lanceert Google een nieuwe AI coding IDE. Morgen begint het Formule 1-weekend in Zandvoort — de laatste Dutch Grand Prix ooit.</p>
+
+  <!-- Thema 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic's jaaromzet schiet naar $65 miljard — IPO nadert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic's jaarlijks terugkerende omzet (ARR) bereikte eind juli $65 miljard, een stijging van $18 miljard in slechts twee maanden (van $47 miljard in mei). Investeerders verwachten dat het bedrijf 2026 afsluit tussen $100 miljard en $120 miljard. Ter vergelijking: rivaal OpenAI verdubbelde zijn omzet tot $40 miljard. Anthropic bereidt een beursgang voor met een verwachte publieke waardering van $2 biljoen of meer — mogelijk al dit najaar, eerder dan OpenAI.</p>
+        <p class="meta">Gepubliceerd 17 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/">Anthropic's annualized revenue surges to $65B</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Anthropic's groeitempo overtreft dat van OpenAI significant en verschuift het machtsevenwicht in de AI-industrie. Een beursgang bij een waardering van $2 biljoen+ zou Anthropic positioneren als een van de meest waardevolle bedrijven ter wereld, wat de investeringen in en richting van AI-onderzoek jarenlang zal beïnvloeden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI verstomt nieuwe privacybeschermingen na Hugging Face-lek</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft nieuwe klantprivacybeschermingen aangekondigd, naar eigen zeggen om Anthropic te overtreffen op dit vlak. De aankondiging volgt op een beveiligingsincident bij Hugging Face, waarna OpenAI aanvullende beveiligingsmaatregelen nam. De stap wordt gezien als een concurrentiestrategie: OpenAI probeert enterprise-klanten gerust te stellen over de veiligheid van hun data nu Anthropic's opmars steeds sterker voelbaar wordt.</p>
+        <p class="meta">Gepubliceerd 19 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/">OpenAI seeks to one-up Anthropic with new customer privacy protections</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Privacy en veiligheid worden steeds meer het slagveld tussen de grote AI-labs. Nu enterprise-adoptie in een stroomversnelling zit, zijn databescherming en vertrouwen bepalend voor welk platform grote organisaties kiezen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Nvidia's OSAA-alliantie presenteert eerste AI-beveiligingsvoorstellen op Black Hat</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Open Secure AI Alliance (OSAA), een industriegroep geleid door Nvidia met meer dan 120 bedrijven, presenteerde op de Black Hat-beveiligingsconferentie in Las Vegas haar eerste concrete voorstellen. De Shared AI Findings Exchange (SAFE) werkgroep deed aanbevelingen over hoe AI-cyberbeveiligingsincidenten vertrouwelijk te melden, getroffenen te waarschuwen, en schuldvrije analyses uit te voeren zodat de hele sector kan leren. De voorstellen worden beheerd door de Linux Foundation en staan open voor reacties. Opmerkelijk: Anthropic, OpenAI en Google zijn niet bij de alliantie aangesloten, hoewel beide open-gewicht modellen hebben uitgebracht.</p>
+        <p class="meta">Gepubliceerd 4 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/">Nvidia doesn't mess around: A week after open AI industry group formed, it's already showing progress</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>OSAA probeert de beveiligingsfragmentatie in de AI-sector aan te pakken via gedeelde standaarden — een urgente behoefte nu AI-systemen in kritieke infrastructuur worden ingezet. Dat de grote labs ontbreken, toont tegelijk hoe verdeeld de industrie nog is over open versus gesloten aanpak.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 2: Tech & software -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness en Hosted Agents bereiken General Availability</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft's Agent Framework heeft een nieuwe mijlpaal bereikt: de Agent Harness, de GitHub Copilot- en Claude Agent SDK-connectors, en de orchestratiepatronen zijn nu stabiel beschikbaar. De Foundry Hosted Agents bereiken eveneens GA. Het framework bereikte eerder op 2 april 2026 versie 1.0, met aanvullende componenten op Build 2026 (2-3 juni). De nu gestabiliseerde componenten maken het gemakkelijker om AI-agenten te bouwen en te orchestreren in .NET en Python.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een stabiel, enterprise-klaar agent-framework van Microsoft verlaagt de drempel voor organisaties die AI-agenten in productie willen draaien. De integratie met Claude Agent SDK is opvallend: het laat zien dat de grote platforms interoperabiliteit als standaard beginnen te adopteren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Google lanceert Antigravity: een nieuwe AI-first coding IDE</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google onthulde Antigravity, een nieuwe coding IDE die van de grond af is ontworpen met AI-assistentie als kernfunctie — geen achteraf toegevoegde copilot, maar een omgeving waarbij AI-interactie in het hart van de workflow zit. The New Stack publiceerde een praktische verkenning van de IDE. De lancering past in een bredere trend waarbij alle grote techbedrijven hun eigen AI-gestuurde ontwikkelomgevingen bouwen, naast bestaande tools als Cursor, GitHub Copilot en Windsurf.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/hands-on-with-antigravity-googles-newest-ai-coding-experiment/">Google Antigravity: Hands-On With the New AI Coding IDE</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De IDE-markt is het nieuwe slagveld voor AI-bedrijven: wie de dagelijkse werkomgeving van een ontwikkelaar controleert, controleert ook welke AI-modellen en cloud-diensten worden gebruikt. Google's instap versnelt de consolidatie in een al druk segment.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Grafana lanceert gcx CLI en MCP-server: observability voor AI coding agents</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Grafana Labs bracht de gcx CLI en de Grafana MCP-server op General Availability. Beide tools stellen AI coding agents in staat om live observability-data — metrics, logs, traces, SLO's en Synthetic Monitoring-resultaten — op te vragen tijdens het ontwikkelen. Het doel is dat agenten fouten niet alleen schrijven maar ook direct kunnen verifiëren aan de hand van echte productiedata. Tegelijk open-sourced AWS het Dogwood policy-language, een uitbreiding van Cedar waarmee beleidsregels kunnen redeneren over eerder uitgevoerde tool-aanroepen door een agent.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ / The New Stack — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Agent Framework updates — InfoQ</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Naarmate AI-agenten meer autonome taken uitvoeren in productieomgevingen, wordt de toegang tot live systeemdata cruciaal voor betrouwbare agentic workflows. Grafana's MCP-server en AWS Dogwood zijn vroege bouwstenen voor een veiliger en beter geobserveerd agentisch tijdperk.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Trump kondigt 'meest verpletterende' Iran-sancties aan na mislukte onderhandelingen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump heeft vandaag een ongekend economisch offensief tegen Iran afgekondigd, dat hij omschreef als de "meest verpletterende economische operatie" ooit. De stap volgt op het mislukken van onderhandelingen over het Iraanse nucleaire programma. Washington dreigt elk land dat Iran economisch steunt met zware financiële vergeldingsmaatregelen. Trump sloot hervatting van gesprekken "op een gegeven moment" niet uit, maar stelde dat de Amerikaanse eisen onveranderd blijven: voorkomen dat Iran kernwapens verwerft. Iran bereidt zich voor op verdere economische druk en zoekt naar wegen om zijn economie overeind te houden.</p>
+        <p class="meta">Gepubliceerd 20 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions">Iran war live: Trump announces 'most crushing' Iran sanctions</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Secundaire sancties die landen dreigen te treffen die Iran steunen, plaatsen bondgenoten en handelspartners wereldwijd voor een directe keuze. De escalatie vergroot de kans op verdere regionale destabilisering en verhoogt de druk op olie- en energiemarkten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland valt Kyiv aan: 3 doden, flatgebouw ingestort, kinderziekenhuis geraakt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Russische strijdkrachten lanceerden vandaag een ballistische raketaanval op de Oekraïense hoofdstad Kyiv, waarbij ten minste drie mensen om het leven kwamen en twintig anderen gewond raakten. Een negenverdiepingen tellend flatgebouw in het district Solomianskyi stortte in en vloog in brand; een kinderziekenhuis in hetzelfde district liep schade op. Tegelijk staat president Zelensky voor binnenlandse politieke onrust. Elders bevestigde Oekraïne de succesvolle herovering van 745 vierkante kilometer in de zuidelijke regio Dnipropetrovsk. Ukraïnse bronnen melden dat Noord-Korea een contingent van tot 120 ballistische raketten naar de Russische regio Voronezj stuurt.</p>
+        <p class="meta">Gepubliceerd 20 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home">Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De combinatie van aanhoudende Russische aanvallen op burgerdoelen, Noord-Koreaanse militaire steun aan Moskou en binnenlandse druk op Zelensky maakt de situatie voor Oekraïne op meerdere fronten tegelijk zwaarder. De Noord-Koreaanse raketleveringen zijn een directe escalatie van de internationale dimensie van het conflict.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU AI Act: transparantievereisten van kracht, hoog-risico verplichtingen uitgesteld tot 2027</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Begin augustus trad een nieuwe fase van de EU AI Act in werking: transparantievereisten voor AI-systemen gelden nu. De meest ingrijpende verplichtingen — voor hoog-risico toepassingen in biometrie, werkgelegenheid, onderwijs, essentiële diensten en migratiebeheer — waren aanvankelijk ook voor augustus gepland, maar zijn in mei door EU-wetgevers uitgesteld tot december 2027 als onderdeel van het Digital Omnibus-pakket. De AI Act werkt in fases: verboden praktijken en AI-geletterdheid (februari 2025), verplichtingen voor algemeen-doel AI-modellen (augustus 2025), transparantie (nu), en hoog-risico (december 2027).</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt">What came into force with the EU's AI Act this week – and what didn't</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het uitstel van de hoog-risico verplichtingen — op aandringen van Big Tech en handelsdruk vanuit de VS — toont hoe moeilijk het is om ambitieuze AI-regelgeving in de praktijk te brengen zonder economische concurrentienadelen. Het geeft bedrijven meer tijd om te voldoen, maar verzwakt ook de bescherming in gevoelige sectoren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Thema 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">MIT: elektronen herordenen zich als ijs in kwantummateriaal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Natuurkundigen van MIT hebben ontdekt dat elektronen zich in een speciaal kwantummateriaal herordenen op een manier die sterk lijkt op de kristalstructuurvorming van ijs. De bevinding, gepubliceerd in Nature Physics, biedt een nieuw inzicht in materialen die zowel supergeleiding als magnetisme vertonen. Onderzoekers hopen dat dit begrip bijdraagt aan de ontwikkeling van krachtigere kwantumapparaten. Het verschijnsel werd zichtbaar via geavanceerde beeldvormingstechnieken die individuele elektronenposities in kaart brachten.</p>
+        <p class="meta">Gepubliceerd 19 augustus 2026 — ScienceDaily / Nature Physics — <a href="https://www.sciencedaily.com/releases/2026/08/260819041231.htm">MIT physicists discover electrons rebuilding like ice inside a quantum material</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Supergeleiding en kwantumcomputeren zijn nauw met elkaar verbonden: materialen die beide eigenschappen kunnen combineren zijn een langgekoesterde droom in de kwantumfysica. Dit soort fundamentele ontdekkingen legt de basis voor de volgende generatie kwantumhardware.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Origineel collageen gevonden in 66 miljoen jaar oude dinosaurusbotten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben sterk bewijs gepresenteerd dat origineel collageen bewaard kan blijven in dinosaurusfossielen van tientallen miljoenen jaren oud. De vondst, gedaan in botten die dateren uit het late Krijt (circa 66 miljoen jaar geleden), werpt een fundamentele aanname over fossilisatie omver: tot nu toe werd aangenomen dat zachte organische moleculen niet langer dan enkele miljoenen jaren kunnen overleven. De bevinding opent nieuwe vragen over hoe fossilisatieprocessen werken en wat er biochemisch mogelijk bewaard blijft.</p>
+        <p class="meta">Gepubliceerd 11 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260811053042.htm">Paleontology rocked by organic molecules found in 66-million-year-old dinosaur bones</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als organische moleculen tientallen miljoenen jaren kunnen overleven, heeft dat vergaande consequenties voor de paleontologie: fossielen kunnen meer biologische informatie bevatten dan eerder gedacht. Het dwingt ook tot heroverweging van hoe we de integriteit van fossielen beoordelen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hersenennetwerk werkt dynamischer dan gedacht — nieuw onderzoek herziet aannames</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers publiceerden bevindingen waaruit blijkt dat de frontopariëtale cortex — een hersengebied dat centrale rol speelt in aandacht, werkgeheugen en besluitvorming — niet op een vaste manier communiceert met de rest van het brein. Via een combinatie van computermodellering en hersenbeeldvorming toonden ze aan dat de communicatiepatronen sterk context-afhankelijk zijn. Tegelijk vond een aparte studie aanwijzingen dat astrocyten (steuncellen in de hersenen) kunnen reageren op schade en herstel aanzienlijk bevorderen — het brein herstelt zichzelf beter dan lang werd aangenomen.</p>
+        <p class="meta">Gepubliceerd 19 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260819041224.htm">Researchers reveal deeper workings of brain's information hub</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Inzicht in hoe het brein dynamisch communiceert en zichzelf herstelt, heeft directe implicaties voor de behandeling van neurologische aandoeningen als Alzheimer, hersenbloedingen en traumatisch hersenletsel. Het opent ook nieuwe vragen voor de neurowetenschap over wat we als 'vast' beschouwden in hersenarchitectuur.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Laatste Dutch Grand Prix ooit: sprintweekend Zandvoort start morgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt de Formule 1 Heineken Dutch Grand Prix 2026 plaats op Circuit Zandvoort (21-23 augustus) — en het is de allerlaatste editie. Het is tevens de laatste thuisrace voor Max Verstappen. Het is bovendien een sprintweekend: voor het eerst maakt het F1 Sprint-format zijn opwachting in Zandvoort. Het programma in Nederlandse tijd:</p>
+        <p><strong>Vrijdag 21 augustus:</strong> Sprint Kwalificatie (SQ)<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint om 12:00 NL | Kwalificatie om 16:00 NL<br>
+        <strong>Zondag 23 augustus:</strong> Race om 15:00 NL</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/racing/2026/netherlands">Dutch Grand Prix 2026 — formula1.com</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

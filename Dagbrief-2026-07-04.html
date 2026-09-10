@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 4 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZATERDAG 4 JULI 2026</p>
+
+  <p class="intro">De wereld staat vandaag stil bij Teheran, waar meer dan tien miljoen mensen samenkomen voor de begrafenis van Irans omgekomen opperleider Khamenei, terwijl de VS en Iran onderhandelen over een permanent vredesakkoord. In de AI-wereld dendert de race verder: Anthropic lanceerde Claude Sonnet 5 als goedkopere agentische optie, Google bracht Gemini Spark naar de Mac, en zowel Anthropic als OpenAI bekijken eigen chipproductie om minder afhankelijk te worden van Nvidia. Ondertussen werd de grootste gravitatiegolfcatalogus ooit gepubliceerd met 390 bevestigde botsingen van zwarte gaten.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic lanceert Claude Sonnet 5: agentische kracht voor een lagere prijs</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft Claude Sonnet 5 uitgebracht als nieuw middelgroot model dat autonome taken uitvoert op een niveau dat voorheen alleen de grotere Opus-modellen aankonden. Het model kan plannen maken, browsers en terminals bedienen en complexe taken van begin tot eind afhandelen zonder tussenkomst van de gebruiker. Op agentic coding scoort Sonnet 5 63,2% — dicht bij Opus 4.8's 69,2% — terwijl het op kenniswerk zelfs iets beter presteert dan Opus. Prijsstelling: $2 per miljoen inputtokens en $10 per miljoen outputtokens tot 31 augustus, daarna respectievelijk $3 en $15. Sonnet 5 is per direct het standaardmodel voor gratis en betaalde abonnementen.</p>
+        <p class="meta">Gepubliceerd 30 juni 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/">Anthropic launches Claude Sonnet 5 as a cheaper way to run agents</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Agentic AI is de nieuwe standaard op elk prijsniveau. Met Sonnet 5 brengt Anthropic Opus-niveau autonomie naar een lager segment, wat betekent dat de concurrentiedruk voor OpenAI en Google niet langer alleen over kwaliteit gaat maar ook over kostenefficiëntie per geautomatiseerde taak.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic verkent eigen chip met Samsung — terwijl OpenAI 'Jalapeño' presenteert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic is in gesprek met Samsung over de ontwikkeling van een eigen AI-chip. Details over doel, architectuur of vermogen zijn nog niet vastgesteld. Het nieuws volgt op de aankondiging van OpenAI's eigen inference-processor 'Jalapeño', gebouwd in samenwerking met Broadcom, die betere prestaties per watt belooft. Anthropic benadrukt dat een gediversifieerde hardware-stack met chips van Google, Amazon en Nvidia centraal blijft in zijn strategie.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/">Anthropic is discussing a new custom chip with Samsung</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-labs zoeken onafhankelijkheid van Nvidia. Wie eigen silicium beheert, kan inference-kosten drastisch verlagen — een cruciale factor nu modellen als Sonnet 5 worden afgerekend op prijs-prestatieverhouding op schaal.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gemini Spark nu op Mac: Google's 24/7-agent concurreert met Claude Desktop</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google heeft zijn agentic assistent Gemini Spark aan de Gemini desktop-app voor macOS toegevoegd. Spark kan bestanden op de Mac verwerken, verbinding maken met Google Tasks, Keep, Canva, Dropbox en Instacart, en topics in real time volgen — van sportuitslagen tot beurskoersen. MCP-ondersteuning voor aangepaste app-integraties rolt ook uit. Voorlopig alleen beschikbaar voor Google AI Ultra-abonnees in de VS.</p>
+        <p class="meta">Gepubliceerd 1 juli 2026 — TechCrunch — <a href="https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/">Gemini Spark, Google's agentic assistant, is now available on Mac</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Desktop-AI-agents worden het nieuwe strijdtoneel: Claude Desktop, Microsoft Copilot en nu Gemini Spark strijden om de plek als primaire digitale assistent. Google's integratie met Keep, Tasks en third-party apps via MCP vergroot de praktische bruikbaarheid aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Toptalent verlaat Google voor Anthropic en OpenAI: braindrain versnelt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google DeepMind verliest opnieuw prominent talent. John Jumper — directeur bij DeepMind en bekend van AlphaFold — stapt over naar Anthropic. Jonas Adler en Alexander Pritzel, die mede aan Gemini werkten, volgen hetzelfde pad. Noam Shazeer, een legendarisch AI-onderzoeker die eerder bij Google werkte, kondigt aan naar OpenAI te gaan. Anthropic's run-rate omzet oversteeg onlangs de $30 miljard, meer dan een verdrievoudiging ten opzichte van eind 2025.</p>
+        <p class="meta">Gepubliceerd 24 juni 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/">AI researchers continue to leave Google for its rivals</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De aanhoudende braindrain weerspiegelt zowel de aantrekkingskracht van meer gerichte AI-missies als de zakelijke dynamiek bij grote techbedrijven. Talent blijft de meest schaarse grondstof in de AI-race.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">TypeScript passeert Python als meest gebruikte taal op GitHub</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Voor het eerst is TypeScript de meest gebruikte programmeertaal op GitHub, met meer dan één miljoen nieuwe bijdragers in het afgelopen jaar — de grootste absolute groei van enige taal ooit. Python blijft dominant in AI-repositories: bijna de helft van alle nieuwe AI-projecten wordt primair in Python geschreven. De verschuiving naar TypeScript weerspiegelt de opmars van webapplicaties, tooling en fullstack-development, en de groeiende voorkeur voor type-veilige code in grotere codebases.</p>
+        <p class="meta">Gepubliceerd juni 2026 — GitHub Blog — <a href="https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/">What the fastest-growing tools reveal about how software is being built</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De opkomst van TypeScript laat zien hoe type-veiligheid en tooling-kwaliteit mainstream zijn geworden in een wereld waar AI-gegenereerde code snel geschaald wordt gedeployd. Ontwikkelaars kiezen voor talen die het makkelijker maken grote codebases te onderhouden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Platform engineering: nieuwe urgentie nu AI coding tools de codesnelheid vertienvoudigen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>AI-codeertools verhogen dramatisch hoeveel code er wordt geschreven en hoe snel die gedeployd en getest moet worden. Dat geeft platform engineering een centrale rol: zonder goede interne developer platforms worden AI-gegenereerde codebases onbeheersbaar. Volgens de SD Times 100 en de Infragistics Reveal 2026 Survey heeft de meerderheid van enterprise-organisaties generatieve AI al in het ontwikkelproces geïntegreerd, maar worstelen ze met governance, kwaliteitsborging en deployment-snelheid.</p>
+        <p class="meta">Gepubliceerd juli 2026 — SD Times — <a href="https://sdtimes.com/platform-engineering/platform-engineering-developer-experience-making-engineers-faster-without-making-them-reckless-sd-times-100/">Platform Engineering &amp; Developer Experience: SD Times 100</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Meer code schrijven is waardeloos zonder de infrastructuur om het betrouwbaar te testen en leveren. Platform engineers worden steeds meer de sleutelfiguren die bepalen hoe snel AI-gegenereerde features daadwerkelijk in productie komen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Visual Studio 2026: eerste 'AI-native' versie van het vlaggenschip-IDE</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft Visual Studio 2026 uitgebracht met GitHub Copilot diep geïntegreerd voor code-aanvulling in natuurlijke taal, profilingsinzichten en context-bewuste debuggingsuggesties. Het is de eerste release die Microsoft zelf als 'AI-native' omschrijft. De IDE biedt ook verbeterde prestaties en is bedoeld om ook ontwikkelaars die voorheen geen toegang hadden tot AI-tools mee te nemen in de AI-gedreven workflow.</p>
+        <p class="meta">Gepubliceerd december 2025 — InfoQ — <a href="https://www.infoq.com/news/2025/12/vs2026-native-ai-ide/">Visual Studio 2026 Released with AI-Native IDE and Performance Boost</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met de diepste Copilot-integratie tot nu toe zet Microsoft de toon voor wat een moderne IDE is: niet langer een code-editor, maar een geïntegreerde AI-werkpartner. Dit verhoogt de lat voor concurrerende tools aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Miljoenen in Teheran voor begrafenis Khamenei — vredesonderhandelingen VS-Iran lopen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Meer dan tien miljoen mensen uit meer dan 100 landen zijn vandaag in Teheran voor de begrafenis van Ayatollah Ali Khamenei, die begin dit jaar werd gedood bij het begin van de Amerikaanse en Israëlische oorlog tegen Iran. Qatar meldde eerder deze week "positieve voortgang" in de VS-Iran-gesprekken over een permanent vredesakkoord, dat voortkomt uit het MoU van 17 juni dat een wapenstilstand en 60-daagse onderhandeling instelde. Ondertussen vallen Israëlische aanvallen door in Gaza en in zuidelijk Libanon, ondanks een afgesproken kaderakkoord met Libanon.</p>
+        <p class="meta">Gepubliceerd 4 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/4/iran-war-live-millions-expected-in-tehran-for-funeral-of-ali-khamenei">Iran war live: Millions expected in Tehran for funeral of Ali Khamenei</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De begrafenis van Khamenei markeert het einde van zijn 35-jarige leiderschap en valt samen met delicate vredesonderhandelingen. Hoe Iran zijn nieuwe leiderschap invult, zal mede bepalen of de VS-Iran deal stand houdt of de regio opnieuw in conflict belandt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hormuzstraat heropend: dreigend olie-overschot na maanden van schaarste</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na de heropening van de Straat van Hormuz stromen tientallen olietankers die maanden vastlagen nu alsnog door. Morgan Stanley verlaagde zijn olieprognoses voor de tweede keer in twee weken en waarschuwt voor een potentieel ernstige oversupply op de mondiale oliemarkt. De abrupte omslag van schaarste naar mogelijke overproductie laat zien hoe kwetsbaar energieprijzen zijn voor geopolitieke schokken.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/2/with-hormuz-reopened-has-the-oil-shortage-turned-into-a-glut">With Hormuz reopened, has the oil shortage turned into a glut?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een plotselinge overgang van olieschaarste naar potentieel olieoversupply heeft verstrekkende gevolgen voor energieprijzen, inflatie en olieproducerende economieën. Voor Europa, dat al leed onder fertiliserschaarste door het conflict, kan goedkopere energie enige verlichting bieden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">China's nieuwe etnische eenheidswet van kracht — bereik strekt zich uit tot buiten China</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>China heeft een nieuwe 'wet op etnische eenheid' ingevoerd die, aldus mensenrechtengroepen, de gedwongen assimilatie van etnische minderheden kan versnellen. De wet, die woensdag van kracht werd, bevat bepalingen die mogelijk ook van toepassing zijn op personen buiten China's landsgrenzen — een punt dat alarm heeft geslagen bij internationale organisaties en buitenlandse regeringen, die vrezen dat de wet kan worden ingezet tegen Chinese diaspora die het beleid bekritiseren.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/2/whats-chinas-new-ethnic-unity-law-and-what-does-it-mean-for-minorities">What's China's new ethnic unity law, and what does it mean for minorities?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het extraterritoriale bereik van de wet raakt de bewegingsvrijheid en veiligheid van etnische minderheden wereldwijd. Het past in een breder patroon waarbij China zijn juridische kaders uitbreidt voorbij de eigen grenzen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU-grenscontrolesysteem EES veroorzaakt vijf uur lange wachtrijen tijdens zomerpiek</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het nieuwe digitale Entry/Exit System (EES) van de EU leidt tot wachtrijen van vijf uur op Europese luchthavens en half lege vliegtuigen die vertrekken zonder alle passagiers. De luchthavenindustrie spreekt van een "kritisch punt": in juli en augustus verwacht Europa 40 miljoen meer passagiers dan in de twee voorgaande maanden, terwijl het nieuwe digitale grensregistratiesysteem nog niet op schaal werkt.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/economy/2026/7/2/eu-border-rules-causing-travel-chaos-ahead-of-summer-peak-industry-warns">EU border rules causing travel chaos ahead of summer peak</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het EES raakt direct miljoenen reizigers tijdens het drukste reisseizoen van het jaar. Implementatieproblemen zetten druk op Europese overheden om het systeem snel op te schalen of tijdelijk terug te draaien — een politiek gevoelig dilemma rond grensveiligheid versus economisch belang.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Grootste gravitatiegolfcatalogus ooit: 390 detecties onthullen verborgen populatie zwarte gaten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Astronomen hebben de grootste gravitatiegolfcatalogus ooit gepubliceerd, met in totaal 390 bevestigde detecties van botsende zwarte gaten en neutronensterren — waarvan 161 nieuw. De catalogus onthult een verborgen populatie van zwarte gaten met massa's en spinkarakteristieken die niet passen in eerdere theoretische modellen. De gegevens zijn verzameld door de LIGO, Virgo en KAGRA-observatoria.</p>
+        <p class="meta">Gepubliceerd 25 juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/06/260625060203.htm">390 gravitational wave detections reveal hidden population of black holes</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met 390 detecties groeit gravitatiegolfastronomie van een zeldzaamheid naar een volwassen observatiewetenschap. De ontdekking van zwarte gaten die niet in bestaande modellen passen, dwingt astronomen hun vorming- en evolutiemodellen opnieuw te bekijken.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Eiwit NDRG1 als rem op spierherstel bij ouderen — nieuw aangrijpingspunt voor behandeling</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van UCLA hebben ontdekt dat een ophoping van het eiwit NDRG1 in oudere spierstamcellen de herstelsnelheid na spierschade aanzienlijk vertraagt. NDRG1 fungeert als een rem die verhindert dat stamcellen snel in reparatiemodus schakelen. De bevinding opent de deur naar behandelingen gericht op het remmen van NDRG1-activiteit om spierherstel bij ouderen te versnellen — relevant voor herstel na letsel of operaties.</p>
+        <p class="meta">Gepubliceerd juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/health_medicine/">Health &amp; Medicine News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De vergrijzing maakt spierherstel een groeiend medisch vraagstuk. Een concreet moleculair doelwit (NDRG1) biedt een aanknopingspunt voor medicijnontwikkeling die herstel van ouderen na verwondingen en ingrepen wezenlijk kan verbeteren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hommels bedenken zelf nieuwe truc — ook zonder het geleerd te hebben</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers zijn verrast door de ontdekking dat hommels een geheel nieuwe methode hebben bedacht om een verborgen beloning te bereiken — zonder dat ze het van een andere bij konden hebben geleerd. Het experiment laat zien dat bijen beschikken over een vorm van probleemoplossend denken die verder gaat dan simpele conditionering of imitatiegedrag, en dat cognitie bij insecten complexer is dan lang werd aangenomen.</p>
+        <p class="meta">Gepubliceerd juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als hommels zelfstandig innovatieve oplossingen kunnen bedenken, vergroot dit ons begrip van hoe intelligentie kan ontstaan in kleine hersenen — met implicaties voor zowel de biologie als de studie van kunstmatige intelligentie.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

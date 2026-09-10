@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 11 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DINSDAG 11 AUGUSTUS 2026</p>
+
+  <p class="intro">De AI-wereld staat vandaag onder druk van twee kanten: de VS heeft Anthropics nieuwste modellen met exportregels aan banden gelegd terwijl OpenAI tegelijkertijd een gespecialiseerd cyberdefensiemodel lanceert, en in Brussel zijn de transparantie-eisen van de EU AI Act officieel in werking getreden. Op het geopolitieke toneel houdt de Hormuz-crisis aan — Trump eist compensatie van Iran voor oorlogsslachtoffers, terwijl een nieuw defensieakkoord tussen Saoedi-Arabië, Pakistan en Turkije de regionale machtsverhoudingen hervormt. Voor ontwikkelaars is het een drukke week met GA-releases van het Microsoft Agent Framework en naderende Claude Code-wijzigingen, en Zandvoort bereidt zich voor op de allerlaatste Nederlandse Grand Prix — dit keer als sprintweekend.</p>
+
+  <!-- 1. AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-5.6-Cyber en breidt Daybreak-cyberprogramma fors uit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI introduceerde gisteren GPT-5.6-Cyber, een speciaal getraind cybersecuritymodel dat voortbouwt op GPT-5.6 Sol. Het model is onderdeel van een uitbreiding van Daybreak, het AI-cyberverdedigingsprogramma van OpenAI. Daybreak krijgt twee toegangslagen: Daybreak Blue voor defensief werk (kwetsbaarheidsanalyse, veilige codereview, incidentrespons) en Daybreak Red voor geautoriseerd offensief onderzoek, inclusief het vinden van zero-day-kwetsbaarheden. OpenAI spoort Daybreak-klanten die Codex gebruiken aan om over te stappen op 'auto-review mode', die risicante acties automatisch blokkeert voordat ze worden uitgevoerd.</p>
+        <p class="meta">Gepubliceerd 10 augustus 2026 — TechCrunch / OpenAI — <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">As AI-led attacks multiply, OpenAI launches a new cyber model</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-aanvallen nemen snel in volume en verfijning toe; dat OpenAI nu een frontier-model specifiek voor cyberdefensie uitbrengt, signaleert dat de sector erkent dat alleen algemene modellen niet meer afdoende zijn. Voor beveiligingsteams biedt Daybreak Red toegang tot mogelijkheden die voorheen alleen bij aanvallers lagen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GPT-5.6 Sol en Luna geüpdated: fors minder feitelijke fouten, nieuwe redeneer-slider</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vorige week (6 augustus) rolde OpenAI significante verbeteringen uit voor GPT-5.6 Sol en Luna. Bij financiële, medische en juridische vragen bevat GPT-5.6 Luna nu 62% minder feitelijke fouten dan de vorige generatie; voor Sol is dat 68% minder. Gratis gebruikers krijgen bovendien onbeperkte tekstgesprekken met Luna als standaardmodel. Voor Plus- en Pro-gebruikers is een nieuwe slider beschikbaar waarmee je instelt hoeveel redeneerruimte het model inzet per antwoord — handig voor snelheid versus diepgang.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — OpenAI — <a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/">Improving GPT-5.6 Sol in ChatGPT — and expanding access to GPT-5.6 Luna for free users</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Factual accuracy is de achilleshiel geweest van grote taalmodellen in professionele contexten. Een reductie van bijna twee derde in feitelijke fouten bij gevoelige domeinen zoals recht en geneeskunde verlaagt de drempel voor serieuze zakelijke inzet aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trump verbant export van Anthropics Fable 5 en Mythos 5 — OpenAI's GPT-5.6 in beperkte preview</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Trump-administratie heeft exportcontrolebeperkingen opgelegd voor Anthropics nieuwste modellen Fable 5 en Mythos 5, waarna Anthropic ze volledig offline haalde om noncompliance te vermijden. Twee weken later dreigt hetzelfde voor OpenAI: GPT-5.6 is alleen beschikbaar in een beperkte preview waarbij de overheid toegang per klant goedkeurt. De exportrestricties lijken gericht op het voorkomen dat state-of-the-art AI-capaciteiten in handen van geopolitieke rivalen komen.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/">It's not about Anthropic vs. OpenAI anymore</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor het eerst worden frontier-AI-modellen behandeld als gecontroleerde exportgoederen — vergelijkbaar met geavanceerde halfgeleiders. Dit markeert een fundamentele verschuiving in hoe overheden AI-capaciteiten als strategische activa beschouwen en heeft directe gevolgen voor internationale klanten van Anthropic en OpenAI.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 2. Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft Agent Framework Harness bereikt General Availability — multi-agent orchestratie stabiel</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft de Agent Harness en Foundry Hosted Agents naar General Availability gebracht. De harness biedt stabiele integraties met GitHub Copilot SDK en Claude Agent SDK, plus multi-agent orchestratiepatronen voor .NET en Python. De GA-release maakt het voor enterprise-teams mogelijk om agentic workflows in productie te draaien zonder afhankelijkheid van preview-API's. Build 2026 (juni) bracht de eerste stabiele connectors; de GA volgt nu enkele maanden later met extra betrouwbaarheids- en monitoringfuncties.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/agent-framework-harness-ga/">Microsoft Agent Framework Harness and Hosted Agents Reach General Availability</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een GA-status verwijdert de laatste drempel voor organisaties die met multi-agent systemen willen werken in productie. Nu zowel Microsoft Harness als Claude Agent SDK stabiel zijn, wordt serieuze vendor-onafhankelijke agentic architectuur uitvoerbaar voor iedere middelgrote ontwikkelteam.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Code Auto Mode wordt standaard op 14 augustus — sessies kunnen voortaan met elkaar communiceren</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vanaf 14 augustus wordt Auto Mode de standaardinstelling voor Claude Code Pro-, Max- en Team-gebruikers. Tegelijkertijd introduceert Anthropic een nieuwe functie: Claude Code-sessies kunnen nu berichten naar andere sessies sturen. Wanneer je Claude vraagt een taak over te dragen, stuurt het een samenvatting (geen volledige context of bestanden) zodat de ontvangende sessie direct kan doorgaan. Aanleiding is de observatie dat gebruikers dezelfde context steeds opnieuw moesten uitleggen bij het starten van een nieuwe sessie.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/claude-code-auto-mode/">Auto Mode will soon be the default in Claude Code — because humans can't be trusted</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Inter-sessiecommunicatie is een stap richting persistente multi-agent workflows binnen één tooling-omgeving — zonder dat de ontwikkelaar zelf context hoeft te overhevelen. Dit verlaagt de drempel voor complexe, meertraps automatiseringstaken aanzienlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Codex uitgebreid met computer use, in-app browser en automatische PR-reviews</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft Codex uitgebreid met computer use (directe interactie met de desktop), een ingebouwde browser, en de mogelijkheid om pull requests automatisch te reviewen. The New Stack testte de nieuwe versie op een echte Python-codebase en noemde het "de sterkste Claude Code-rivaal tot nu toe". De toevoeging van browser-navigatie stelt Codex in staat ook webgebaseerde taken af te handelen die eerder buiten zijn bereik lagen.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/openai-codex-claude-code/">I tested the new OpenAI Codex features on a real Python codebase, and it's the strongest Claude Code rival yet</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De race tussen Codex en Claude Code versnelt de functie-pariteit in agentic coding tools. Ontwikkelaars profiteren van snelle iteratie in beide ecosystemen; tegelijkertijd neemt de druk toe op teams om te kiezen welke agentic coding-omgeving ze standaardiseren.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 3. Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS-Iran: Trump eist compensatie, Hormuz-deadlock duurt voort ondanks partiële opening</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump heeft vandaag (11 augustus) laten weten dat de VS compensatie eist van Iran voor slachtoffers in de vijf maanden durende oorlog. Teheran had eerder aangekondigd dat volledige heropening van de Straat van Hormuz afhankelijk is van Amerikaanse concessies. Iran en Oman kwamen overeen over vaarroutes door de straat, maar een definitief akkoord is er nog niet. De gedeeltelijke sluiting van de Hormuz heeft wereldwijd olie- en lng-export verstoord en de energieprijzen opgestookt. De VS benadrukt dat geen enkele toekomstige regeling Iran controle over commercieel scheepvaartverkeer mag geven.</p>
+        <p class="meta">Gepubliceerd 11 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/11/iran-war-live-trump-claims-the-strait-is-open-seeks-iranian-compensation">Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Door de Straat van Hormuz stroomt normaal circa 20% van de mondiale olie- en gasexport. Zolang de deadlock voortduurt, blijven energieprijzen verhoogd en is de wereldeconomie kwetsbaar voor verdere escalatie. De compensatie-eis maakt een snelle diplomatieke doorbraak minder waarschijnlijk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Saoedi-Arabië, Pakistan en Turkije sluiten defensieverdrag in Mekka — nieuwe maritieme coalitie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In Mekka is een wederzijds defensieakkoord ondertekend tussen Saoedi-Arabië, Pakistan en Turkije. De drie landen vormen de kern van een maritieme coalitie die inmiddels 14 staten telt en de Rode Zee, Bab al-Mandeb, Straat van Hormuz, Arabische Zee en de Golfkust moet beveiligen. De coalitie richt zich op bescherming van commerciële en energieroutes in een regio die zwaar getroffen is door de VS-Iran-oorlog en Houthi-aanvallen in de Rode Zee.</p>
+        <p class="meta">Gepubliceerd 8–11 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape">The post-American Middle East is beginning to take shape</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit verdrag symboliseert een bredere verschuiving: grote regionale mogendheden nemen de maritieme veiligheidstaak over die traditioneel door de VS werd ingevuld. Het vergroot de Saoedische invloedssfeer en positioneert de drie landen als alternatieve ordebewakers in het Midden-Oosten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU AI Act: transparantie-eisen ingegaan, hoge-risico-verplichtingen uitgesteld tot december 2027</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Begin augustus (6 augustus) zijn de transparantievereisten van de EU AI Act officieel van kracht geworden — de derde fase in de gefaseerde inwerkingtreding van 's werelds eerste uitgebreide AI-wet. Tegelijkertijd maakten EU-wetgevers in mei bekend dat de zwaardere "hoge-risico"-verplichtingen (voor AI in biometrie, werkgelegenheid, onderwijs, essentiële diensten en migratie) worden uitgesteld tot 2 december 2027 als onderdeel van het Digital Omnibus-pakket. De Europese Commissie presenteert dit als een implementatieaanpassing, niet als terugkeer van de ambitie.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt">What came into force with the EU's AI Act this week – and what didn't</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor bedrijven die AI inzetten in gevoelige sectoren geeft het uitstel tot 2027 extra tijd om compliant te worden — maar het creëert ook onduidelijkheid over handhaving. De transparantie-eisen die nu ingaan raken vrijwel alle aanbieders van algemene AI-modellen in Europa, waaronder de grote labs.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 4. Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumverstrengeling gegenereerd uit zonlicht — doorbraak voor quantumtechnologie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben voor het eerst kwantumverstrengeling gegenereerd met behulp van gewoon zonlicht in plaats van energie-intensieve lasers. Een kegelvorming zonneconcenter focust licht via een Fresnel-lens (ter grootte van een raam) naar een optische vezel zo dun als een mensenhaar, die het vervolgens op een klein nichtlineair kristal richt. Het resulterende tweefoton-paar haalt 94% overeenkomst met een ideale verstrengelde toestand en schendt Bell's ongelijkheid — waarmee kwantumgedrag bevestigd is. Het onderzoek verscheen op 7 augustus en werd gepubliceerd via ScienceDaily en Phys.org.</p>
+        <p class="meta">Gepubliceerd 7 augustus 2026 — ScienceDaily / Phys.org — <a href="https://www.sciencedaily.com/releases/2026/08/260807035133.htm">Sunlight creates quantum entanglement once thought to require lasers</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Huidige quantumtechnologie is energie-intensief en afhankelijk van nauwkeurige lasers — een grote belemmering voor schaling. Zonlicht als bron maakt quantumsatellieten eenvoudiger, verlaagt energiekosten van quantumcommunicatie, en opent de deur naar veiliger encryptie op basis van een energiebron die overal in de ruimte beschikbaar is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Wearable patch verbetert REM-slaap zonder medicatie of chirurgie — studie van 28 deelnemers</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de University of Texas at Austin presenteerden NEUSLeeP, een flexibel huidpleister dat gerichte ultrageluidsstimulatie combineert met elektroden die hersenactiviteit meten. In een studie met 28 deelnemers verkortte het apparaat de tijd tot REM-slaap met gemiddeld 43 minuten en verlengde de REM-fase met circa 16 minuten. Naast de slaapeffecten zagen onderzoekers tekenen van verbeterde stressregulatie en veranderingen in emotiegerelateerde hersencircuits. Het onderzoek werd gepubliceerd in Nature Communications.</p>
+        <p class="meta">Gepubliceerd 6 augustus 2026 — ScienceDaily / Nature Communications — <a href="https://www.sciencedaily.com/releases/2026/08/260806050709.htm">Wearable ultrasound patch boosts REM sleep without drugs or surgery</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>REM-slaap is cruciaal voor geheugenconsolidatie, emotionele verwerking en immuunfunctie. Een niet-invasief, draagbaar apparaat dat REM betrouwbaar verbetert, kan een alternatief bieden voor slaapapparaten en medicatie — met name interessant voor mensen met PTSS, angststoornissen of slaapstoornissen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">240 miljoen jaar oud Braziliaans reptiel onthult evolutie vlak vóór de opkomst van dinosauriërs</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Paleontologen hebben in Brazilië een 240 miljoen jaar oud reptiel beschreven dat licht werpt op de evolutionaire fase vlak vóór de splitsing tussen de dinosaurus- en krokodillenlijn. Het dier behoort tot de archosauromorfen en biedt zeldzame morfologische details over hoe de vroege hertafstammelingen van gemeenschappelijke voorouders er uitzagen in het Midden-Trias. Het fossiel helpt een evolutionair 'gat' dichten in de periode net na de Permisch-Triassische massa-extinctie.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily / LiveScience — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De evolutionaire sprong die leidde tot dinosauriërs en krokodillen is een van de meest ingrijpende in de geschiedenis van het leven op aarde. Elk fossiel dat de overgangsperiode belicht, scherpt ons begrip van hoe soortsplitsing en adaptatie plaatsvinden na een catastrofale massa-extinctie — kennis die ook relevant is voor de biodiversiteitscrisis van vandaag.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 5. Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Heineken Dutch Grand Prix Zandvoort (21–23 augustus): eerste sprintweekend ooit op Zandvoort</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Formule 1 keert over tien dagen terug op het Circuit Zandvoort voor de Heineken Dutch Grand Prix — en dit jaar voor het eerst als sprintweekend. Het is tevens de laatste Nederlandse Grand Prix: na 2026 verdwijnt de race definitief van de F1-kalender. Alle tijden zijn Nederlandse tijd (CEST = UTC+2):</p>
+        <p><strong>Vrijdag 21 augustus:</strong> VT1 12:30–13:30 · Sprint Kwalificatie 16:30–17:14<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint (24 ronden) 12:00–12:30 · Kwalificatie 16:00–17:00<br>
+        <strong>Zondag 23 augustus:</strong> Race (72 ronden) 15:00–17:00</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6">FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — full timetable</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

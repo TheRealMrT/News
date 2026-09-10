@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 13 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 13 AUGUSTUS 2026</p>
+
+  <p class="intro">De AI-wereld draait op volle toeren: Anthropic kondigt eigen chipdesign aan, OpenAI lanceert een gespecialiseerd cybermodel, en Alibaba gooit een reusachtig open-gewichtsmodel in de strijd dat beweert de top te verslaan. Ondertussen staan de internationale spanningen onverminderd hoog: de oorlog tussen de VS en Israël enerzijds en Iran anderzijds heeft een nieuwe fase bereikt waarbij Pakistan bemiddelt over de Straat van Hormuz, terwijl de VN de Westelijke Jordaanoever omschrijft als een tijdbom. En in de wetenschap blijken kauwgom en hersencellen allebei een verrassing te herbergen.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic bouwt eigen AI-chips en haalt Nobel-laureaat weg bij DeepMind</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic is begonnen met het samenstellen van een intern chipdesignteam. Het bedrijf zoekt ingenieurs met ervaring in custom silicon voor een speciaal team dat eigen AI-processors moet ontwikkelen. De stap volgt op eerdere berichten dat topwetenschappers van rivalen overstappen: zo verliet Nobel-laureaat John Jumper (co-ontwerper van AlphaFold) Google DeepMind voor Anthropic, en volgden andere DeepMind-onderzoekers.</p>
+        <p class="meta">Gepubliceerd 5 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/">Anthropic is hiring an AI chip design team</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wie eigen chips bouwt, controleert zijn inferentiekosten en kan sneller schalen zonder afhankelijk te zijn van Nvidia of cloudleveranciers. Anthropic volgt daarmee de weg van Google (TPU) en OpenAI (Jalapeño-chip). Tegelijk signaleert de stroom aan toptalent vanuit DeepMind een verschuiving in de academische zwaartekracht richting Anthropic.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert cybermodel na reeks AI-gestuurde aanvallen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI introduceerde een nieuw gespecialiseerd AI-model gericht op cybersecurity, als onderdeel van de uitbreiding van zijn Daybreak-programma voor cyberdefensie. De lancering volgt op een golf van AI-gestuurde cyberaanvallen en komt kort nadat Anthropic zijn eigen cyberfocus-model Mythos had uitgebracht. GPT-5.6 Sol, het momenteel sterkste model van OpenAI, kreeg tegelijk een update met verbeterde agentic-mogelijkheden op het gebied van codering, biologie en cyberveiligheid.</p>
+        <p class="meta">Gepubliceerd 10 augustus 2026 — TechCrunch — <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">As AI-led attacks multiply, OpenAI launches a new cyber model</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-gestuurde cyberaanvallen nemen snel toe in volume en verfijning. Dat de twee grootste AI-labs beide gespecialiseerde defensieve modellen lanceren, laat zien dat cyberveiligheid een kernstrijd wordt tussen aanvals- en verdedigings-AI — met grote consequenties voor overheden en bedrijven.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Alibaba's Qwen3.8-Max claimt GPT-5.6 Sol én Claude Fable 5 te verslaan op agentic taken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Alibaba's Qwen-team heeft Qwen3.8-Max gepubliceerd: een open-gewichts mixture-of-experts model met 2,4 biljoen parameters, gericht op autonome softwareontwikkeling en enterprise-AI. Op gepubliceerde benchmarks voor agentic computergebruik claimt het model beter te presteren dan GPT-5.6 Sol Max en Claude Fable 5. Het is beschikbaar als open-gewichtsmodel, wat zelfhosting mogelijk maakt.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — VentureBeat — <a href="https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use">Qwen3.8-Max arrives with a bold claim</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een open-gewichtsmodel van deze schaal dat eigenlijk de proprietary topmodellen benadert of overtreft, verandert de machtsverhoudingen. Bedrijven kunnen een model van dit kaliber zelf hosten zonder afhankelijkheid van OpenAI of Anthropic — wat de druk op prijzen en marktpositie van de westerse labs verder opvoert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Liquid AI's LFM2.5: krachtige AI-agent op een Raspberry Pi, zonder cloud</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Liquid AI, opgericht door voormalige MIT-wetenschappers, lanceerde LFM2.5-2.6B: een open-gewicht taalmodel voor agentic workloads dat volledig lokaal draait op smartphones, laptops en zelfs Raspberry Pi, zonder cloud of GPU. Het model is geoptimaliseerd voor efficiënte inferentie op beperkte hardware en maakt AI-agents toegankelijk buiten de datacenters.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — VentureBeat — <a href="https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi">No cloud, no GPUs, no problem: Liquid AI's LFM2.5-2.6B</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Edge-AI voor agents is lange tijd een theoretisch doel gebleven. Als dit model daadwerkelijk nuttige agentic taken uitvoert op goedkope hardware, opent dat de deur voor toepassingen in regio's met slechte connectiviteit, voor privacygevoelige omgevingen en voor industrieel IoT — zonder maandelijkse cloud-rekening.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Windsurf Arena Mode: IDE vergelijkt LLMs live terwijl je codeert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Windsurf introduceerde Arena Mode in zijn AI-IDE: een functie waarmee ontwikkelaars twee grote taalmodellen tegelijk kunnen laten werken aan dezelfde taak en de resultaten zijdelings vergelijken — rechtstreeks vanuit hun bestaande codeomgeving. De modus is bedoeld om modelkeuzes te objectiveren op basis van eigen, echte code in plaats van externe benchmarks.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/software-development/">The New Stack: Software Development</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Benchmarks zeggen weinig over hoe een model presteert op jouw specifieke codebase. Arena Mode geeft ontwikkelaars een datagedreven manier om het juiste model te kiezen — en verankert de modelstrijd direct in de dagelijkse workflow.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Google lanceert Colab CLI: AI-agents besturen nu cloud-notebooks vanaf de terminal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google introduceerde de Google Colab CLI, een commandoregel-tool waarmee zowel ontwikkelaars als AI-agents remote Colab-runtimes kunnen aansturen vanuit een lokale terminal. De CLI maakt het mogelijk om Colab-notebooks te starten, cellen uit te voeren en resultaten op te halen zonder de browser te openen, wat automatisering en agentic workflows sterk vereenvoudigt.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — SD Times / The New Stack — <a href="https://thenewstack.io/software-development/">The New Stack</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Colab heeft honderden miljoenen gebruikers in data science en onderzoek. Door AI-agents directe CLI-toegang te geven tot GPU-runtimes in de cloud, wordt Colab een orkestratielaag voor autonome datapijplijnen — een grote stap richting volledig geautomatiseerde ML-workflows.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Vercel open-sourct bash-tool: Bash-engine voor AI-agents die met het bestandssysteem werken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vercel heeft bash-tool als open-source gepubliceerd: een Bash-uitvoeringsengine die AI-agents in staat stelt bestandssysteemopdrachten uit te voeren om context op te halen voor modelprompten. De tool sluit direct aan op de groeiende trend van agentic coding-omgevingen en maakt het eenvoudiger om veilige, begrensde shell-toegang te geven aan geautomatiseerde ontwikkeltools.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — The New Stack — <a href="https://thenewstack.io/software-development/">The New Stack</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Shell-toegang is een van de gevaarlijkste en nuttigste mogelijkheden voor AI-coding agents. Een open-source referentie-implementatie van Vercel — een platform dat het hart van de AI-toolingecosysteem vormt — zet een standaard voor hoe die toegang veilig vorm kan krijgen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Oorlog VS-Israël vs. Iran: Pakistan bemiddelt in Tehran terwijl Hormuz-onderhandelingen vorderen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Pakistaanse minister van Binnenlandse Zaken Mohsin Naqvi bezocht op 11 augustus Tehran voor diplomatieke gesprekken over de voortgang van de Hormuz-onderhandelingen, die Iran en Oman eerder al raamwerkafspraken lieten maken over scheepvaartveiligheid. Trump claimde dat de Straat van Hormuz open is en eiste compensatie van Iran. De conflictsituatie — door Al Jazeera gevolgd als "Fase II" van de US-Israel war on Iran — houdt de regio in hoge spanning.</p>
+        <p class="meta">Gepubliceerd 11 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/8/11/iran-war-live-trump-claims-the-strait-is-open-seeks-iranian-compensation">Iran war updates: Pakistan minister in Tehran as Hormuz talks advance</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Ruim 20% van de wereldwijde oliehandel passeert de Straat van Hormuz. Elke verstoring raakt energieprijzen wereldwijd. Dat Pakistan als bemiddelaar optreedt, illustreert hoe het conflict regionale coalities hervormt en de traditionele Amerikaanse allianties onder druk zet.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VN: Westelijke Jordaanoever op breekpunt door meer dan 1.430 kolonistengeweld-incidenten in 2026</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De VN documenteerden voor 2026 al meer dan 1.430 aanvallen door Israëlische kolonisten op de Westelijke Jordaanoever, veel ervan in aanwezigheid van Israëlische troepen. Israëlische invallen en arrestaties gingen op 12 augustus door terwijl de VN waarschuwden dat de regio een "breaking point" nadert. Huisafbraken en geweld worden in hoog tempo voortgezet.</p>
+        <p class="meta">Gepubliceerd 12 augustus 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point">Israeli raids, arrests continue as UN warns West Bank at 'breaking point'</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De situatie op de Westelijke Jordaanoever escaleert gelijktijdig met het Iran-conflict, waardoor de diplomatieke ruimte voor de-escalatie verder krimpt. VN-waarschuwingen van dit kaliber gaan meestal vooraf aan periodes van acuut geweld.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU zoekt nieuwe handelspartners: Mercosur-deal en India-akkoord als alternatief voor VS</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De ruzie tussen de EU en de VS onder Trump heeft de handelsrelatie tot een dieptepunt gebracht. Europese Commissievoorzitter Von der Leyen stuurt aan op snelle ondertekening van het Mercosur-verdrag en reist naar India voor een nieuw handelsakkoord. Nederland, dat traditioneel sterk leunt op transatlantische handel, moet mee in deze strategische heroriëntatie.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — NOS Nieuwsuur — <a href="https://nos.nl/nieuwsuur/artikel/2599658-ruzies-met-trump-dwingen-eu-nieuwe-economische-vrienden-te-zoeken">Ruzies met Trump dwingen EU nieuwe economische vrienden te zoeken</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een Mercosur-deal en een India-akkoord combineren zouden de EU toegang geven tot markten van samen meer dan 1,8 miljard consumenten. Dit is een fundamentele verschuiving in de Europese handelsstrategie — met directe gevolgen voor Nederlandse exporteurs en logistieke sectoren.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Na je vijftigste verliest je brein zijn immuuncellen in het geheugencentrum — en dat heeft gevolgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Nieuw onderzoek toont aan dat het geheugencentrum van de hersenen (de hippocampus) rond de leeftijd van 50 jaar een groot deel van zijn langdurige immuuncellen verliest en deze vervangt door meer ontstekingsbevorderende varianten. De verschuiving in celsamenstelling gaat samen met bekende leeftijdsgerelateerde achteruitgang in geheugen en cognitie, en biedt een mogelijke verklaring voor de verhoogde kwetsbaarheid voor neurodegeneratieve ziekten op latere leeftijd.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">ScienceDaily: Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Inzicht in waarom het brein op een specifiek moment kwetsbaarder wordt, geeft onderzoekers een concreet doelwit voor interventies — van leefstijl tot geneesmiddelen — die alzheimer en andere dementievormen mogelijk kunnen vertragen of voorkomen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kauwgom verlaagt HPV-infectie met 93% en vernietigt twee kankerbacteriën</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers ontwikkelden een speciaal ontworpen therapeutische kauwgom die in tests HPV-viruslast met tot 93% verlaagde en twee bacteriën die worden gelinkt aan hoofd- en halskanker vrijwel volledig elimineerde. De kauwgom maakt gebruik van eiwitfragmenten die virussen en bacteriën binden en neutraliseren. De bevindingen zijn veelbelovend als niet-invasieve aanvulling op bestaande HPV-vaccins.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">ScienceDaily: Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Hoofd- en halskanker veroorzaakt door HPV neemt wereldwijd toe, ook onder gevaccineerden. Een therapeutische kauwgom als aanvulling of alternatief voor moeilijk toediende medicaties is een praktische en schaalbare aanpak — zeker in lage- en middeninkomenslanden waar vaccinatiecoverage laag is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">NASA verlengt levensduur Voyager 2 met slimme stroombesparing — bijna 50 jaar na lancering</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>NASA-ingenieurs vonden een creatieve manier om Voyager 2, gelanceerd in 1977, nog langer operationeel te houden. Door een veiligheidsreserve in de stroomregeling slim te hergebruiken, kunnen wetenschappelijke instrumenten langer actief blijven dan eerder verwacht. Voyager 2 bevindt zich inmiddels in het interstellaire medium, buiten de invloedssfeer van de zon, op miljarden kilometers afstand.</p>
+        <p class="meta">Gepubliceerd augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">ScienceDaily: Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voyager 2 is het enige ruimtevaartuig dat ooit het interstellaire medium heeft bereikt en unieke directe metingen van dat gebied levert. Elke extra maand operationele tijd is onvervangbare wetenschap — er is simpelweg geen andere sonde zo ver.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Sport: alleen F1, want WK en Tour zijn voorbij -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 Dutch Grand Prix — 21-23 augustus, Zandvoort: voor het eerst een sprint, en de allerlaatste keer</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Volgende week vindt de Formule 1 Heineken Dutch Grand Prix 2026 plaats op Circuit Zandvoort — en dat op twee historische manieren: het is voor het eerst dat Zandvoort een sprintweekend organiseert, en het is de laatste editie ooit. De organisatie heeft na dit jaar geen verlenging meer. Het volledige schema in Nederlandse tijd (CEST, UTC+2):</p>
+        <p><strong>Vrijdag 21 augustus:</strong> VT1 12:30–13:30 | Sprint Kwalificatie 16:30–17:14<br>
+        <strong>Zaterdag 22 augustus:</strong> Sprint (24 rondes) 12:00–12:30 | Kwalificatie 16:00–17:00<br>
+        <strong>Zondag 23 augustus:</strong> Grand Prix (72 rondes) 15:00–17:00</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-heineken-dutch-grand-prix-2026.VYghWPhEDqYBlWbd1iKe6">FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — full timetable</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Zandvoort laat zich voor het eerst van zijn sprintkant zien — en doet dat meteen als afscheidsprestatie. Voor Nederlandse F1-fans is dit het laatste thuisweekend; wie erbij wil zijn of het wil volgen, noteert zaterdag 12:00 (sprint) en zondag 15:00 (race) in de agenda.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

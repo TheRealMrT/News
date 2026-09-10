@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 31 augustus 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+  .archive{list-style:none;padding:0;margin:0 0 24px}.archive li{margin:0 0 8px}.archive a{color:#2f6fb0;text-decoration:none}.archive a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">MAANDAG 31 AUGUSTUS 2026</p>
+
+  <p class="intro">Deze maandag opent met een beveiligingsincident bij Anthropic: infostealer-malware op gebruikers-pc's kaperde actieve Claude-sessies en verbruikte tegoeden zonder toestemming. Intussen slaan OpenAI en Anthropic een onverwachte hardware-weg in — tienduizenden Apple Mac mini's als reinforcement-learning-clusters — en dwongen daarmee Apple zelfs een eerdere vernieuwing van de productlijn af. In Europa leverde het IJslandse EU-referendum een definitieve uitkomst: 52,8% zegt Nee. In de Perzische Golf vuurden VS-strijdkrachten voor het eerst in een maand op Iraanse IRGC-lanceerders op Larak Island, nadat Iran de Straat van Hormuz opnieuw dreigde te mijnen. In de wetenschap brengen twee studies verrassend nieuws: langdurig melatonine-gebruik vergroot het hartfalenrisico aanzienlijk, en zeven nieuwe diamantkikkersoorten op Madagaskar herinneren eraan hoe onvolledig onze kennis van de biodiversiteit nog is.</p>
+
+  <!-- Thema 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Infostealer-malware kapert actieve Claude-sessies — Anthropic wist betaalgegevens en vergoedt kosten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic meldt dat infostealer-malware op pc's van gebruikers actieve Claude-inlogsessies heeft buitgemaakt. De aanvallers gebruikten die sessies om API-tegoed te verbruiken zonder toestemming van de eigenaar. Het kenmerk voor getroffen accounts: het gebruikslimiet leek te herstellen en daalde daarna snel terwijl de gebruiker zelf niet ingelogd was. Anthropic logt betrokken gebruikers uit, wist opgeslagen betaalmethoden als voorzorgsmaatregel en vergoedt de ongeoorloofde kosten.</p>
+        <p class="meta">31 augustus 2026 — AI Weekly — <a href="https://aiweekly.co/ai-news-today">AI News Today, August 31</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is geen lek bij Anthropic zelf, maar credential-diefstal via geïnfecteerde eindgebruikersapparaten — een aanvalsvector die moeilijk te bestrijden is en die de risico's van breed gebruik van AI-API's op consumenten-hardware onderstreept. Gebruikers doen er goed aan infostealer-bescherming (endpoint-detectie) in te schakelen en regelmatig inlogsessies te controleren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI koopt tienduizenden Mac mini's voor reinforcement learning — Apple versnelt nieuwe modellen door tekort</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft tienduizenden Apple Mac mini- en Mac Studio-systemen aangeschaft voor reinforcement-learning-workloads en computer-use-agents — aparte clusters naast de gebruikelijke GPU-datacenters. Apple's unified-memory-architectuur (CPU en GPU op één chip) blijkt bijzonder geschikt voor multi-step computeroperaties. Anthropic hanteert dezelfde aanpak, maar huurt Mac mini-capaciteit via AWS. Door het plotselinge tekort aan Mac mini's versnelde Apple op 25 augustus de release van vernieuwde modellen met M6- en M5 Pro-chips; de Mac Studio kreeg M5 Max en M5 Ultra. Nvidia noemde Apple inmiddels zijn voornaamste concurrent op de native AI-hardwaremarkt.</p>
+        <p class="meta">Augustus 2026 — The Information (via Tech Insights Week 35) — <a href="https://www.techbyjohan.com/tech-insights-2026-week-35/">Tech Insights 2026 Week 35</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit markeert een verschuiving: AI-training gebeurt niet meer uitsluitend op GPU-clusters van Nvidia. Apple Silicon wordt serieus genomen voor specifieke agentic workloads. Voor de bredere AI-hardware-industrie is dit een signaal dat unified-memory-ontwerpen een eigen niche claimen — met potentieel grote gevolgen voor de chipmarkt.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 2: Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">TypeScript 7.0 uitgebracht met native Go-compiler — builds tot 11× sneller</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft TypeScript 7.0 uitgebracht, de eerste stabiele versie met de lang verwachte native compiler — een herschrijving van de toolset van JavaScript naar Go. Op de VS Code-codebase daalde de buildtijd van 125,7 seconden (TypeScript 6) naar 10,6 seconden: een factor 11,9. Geheugengebruik nam met circa 18% af. De native preview-package had al meer dan 8,5 miljoen wekelijkse downloads bereikt vóór de definitieve release. TypeScript 7.0 mist nog een stabiele programmatische API (verwacht in 7.1), waardoor sommige tooling-integraties (vue, svelte, angular) nog niet direct overstappen. Microsoft levert een compatibiliteitspakket (@typescript/typescript6) zodat bestaande tools blijven werken.</p>
+        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/typescript-7-released/">Microsoft Releases TypeScript 7.0 with a Native Go Compiler</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>TypeScript is de de-facto standaard voor grote JavaScript-codebases. Een versnelling van factor 10+ in buildtijden heeft directe impact op developer experience en CI/CD-doorlooptijden, zeker nu AI-gegenereerde code de hoeveelheid TypeScript in projecten fors doet toenemen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 3: Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">IJsland verwerpt EU-toetredingsgesprekken definitief: 52,8% stemt Nee</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In een adviserend referendum met 82,5% opkomst heeft IJsland de vraag of de regering onderhandelingen over EU-lidmaatschap mag heropenen verworpen: 118.040 stemmen (52,8%) waren tégen, 105.399 (47,2%) vóór. De stembusgang vond zondag 30 augustus plaats; de definitieve uitslag bevestigt het overwinning van het Nee-kamp na een avond waarop de tussenstand meermaals wisselde. Premier Kristrún Frostadóttirs centrumlinks-coalitie had het referendum zelf uitgeschreven. Plattelandskiezers stemden overwegend Nee, uit vrees voor verlies van controle over IJslandse viswateren.</p>
+        <p class="meta">30 augustus 2026 — Euronews / Al Jazeera — <a href="https://www.euronews.com/my-europe/2026/08/30/iceland-votes-no-to-further-eu-accession-talks-in-tight-result">Iceland votes 'No' to reopening EU accession talks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het resultaat zet de EU-discussie in IJsland voor minimaal twee jaar in de ijskast. Voor de EU zelf is het een signaal dat uitbreiding in de noordelijke periferie geen vanzelfsprekendheid is, zelfs niet bij kandidaatslanden met sterke democratische tradities en nauwe economische banden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VS treft Iraanse IRGC-lanceerders op Larak Island — eerste aanval in maand, Iran dreigt met vergelding</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Amerikaanse strijdkrachten hebben zaterdag 30 augustus twee raketlanceerders van de Islamitische Revolutionaire Garde (IRGC) op het Iraanse eiland Larak in de Perzische Golf uitgeschakeld. Volgens het US Central Command (CENTCOM) bereidden de lanceerders zich voor op het plaatsen van zeemijnen in de Straat van Hormuz. Het is de eerste Amerikaanse militaire actie in het gebied in ruim een maand. De IRGC bevestigde de inslag en waarschuwde voor een "vergeldingsaanval"; een woordvoerder noemde de aanval een "strategische en fatale fout" waarvoor de VS zal betalen "in zowel de economische als militaire sfeer". Tegelijkertijd braken in Teheran protesten uit over oplopende voedselprijzen en afbouw van overheidssteun.</p>
+        <p class="meta">30 augustus 2026 — Al Jazeera / Axios — <a href="https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks">US strikes Iran's Larak Island in first attack in weeks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Na weken van relatieve rust herneemt de kinetische fase van het VS-Iran-conflict. Een afsluiting van de Straat van Hormuz — waardoorheen circa 20% van de mondiale oliehandel loopt — zou directe gevolgen hebben voor wereldwijde energieprijzen. De combinatie van militaire escalatie en interne sociale onrust verhoogt de onvoorspelbaarheid van Irans volgende stap.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Thema 4: Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Langdurig melatonine-gebruik verhoogt hartfalenrisico met ~90% — grote studie zaait twijfel over populair slaapmiddel</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Mensen met chronische slapeloosheid die melatonine langdurig innemen, hadden in een grote voorstudie een circa 90% hoger risico op het ontwikkelen van hartfalen over een periode van vijf jaar. Concreter: de melatonine-groep had een 3,5 keer hogere kans op ziekenhuisopname wegens hartfalen (19,0% versus 6,6%) en een bijna dubbel zo hoge sterftekans. Het onderzoek bewijst geen oorzakelijk verband — confoundende factoren kunnen een rol spelen — maar de omvang van de associatie is groot genoeg om nader onderzoek te rechtvaardigen. Melatonine wordt wereldwijd als onschadelijk beschouwd en is vrij verkrijgbaar als voedingssupplement.</p>
+        <p class="meta">29 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260829035228.htm">Long-term melatonin use linked to 90% higher heart failure risk</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Melatonine is een van de meest gebruikte slaapmiddelen ter wereld, juist omdat het als veilig geldt. Als de geobserveerde associatie bij verder onderzoek standhoudt, heeft dat grote volksgezondheidsgevolgen — met name voor de miljoenen chronische gebruikers die het supplement als risicovrij beschouwen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Zeven nieuwe diamantkikkersoorten ontdekt op Madagaskar — verborgen biodiversiteit onder de bosbodem</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een internationaal team van wetenschappers heeft zeven nieuwe soorten diamantkikkers (Rhombophryne) beschreven op Madagaskar, waarbij DNA-analyse van zowel recente exemplaren als museumspecimens van meer dan honderd jaar oud werd ingezet. Het totaal aantal bekende Rhombophryne-soorten stijgt daarmee naar 27, maar de onderzoekers stellen dat er vrijwel zeker nog onbeschreven soorten wachten op ontdekking. Verscheidene nieuwe soorten — waaronder Rhombophryne quentini — droegen al bij aan het uitbreiden van beschermde gebieden tijdens een Biodiversity 30×30-workshop in maart 2026 op Madagaskar.</p>
+        <p class="meta">28 augustus 2026 — phys.org / ScienceDaily — <a href="https://phys.org/news/2026-08-diamond-frog-species-reveal-madagascar.html">Seven new diamond frog species reveal Madagascar's hidden amphibian diversity</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Madagaskar is een van de belangrijkste biodiversiteitshotspots ter wereld, maar het verlies van boshabitat gaat snel. Dat zeven nieuwe soorten verborgen bleven tot nu toe — deels dankzij eeuwenoude museumcollecties — toont hoe waardevol zowel veldwerk als historische collecties zijn voor soortbescherming op tijd.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

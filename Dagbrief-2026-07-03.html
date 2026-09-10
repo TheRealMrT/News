@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 3 juli 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 3 JULI 2026</p>
+
+  <p class="intro">Vandaag staat in het teken van herstel en herbevestiging. Claude Fable 5 is terug op de wereldmarkt na de opheffing van Amerikaanse exportcontroles, terwijl OpenAI zijn GPT-5.6-serie onthult onder strak overheidstoezicht — een nieuw precedent voor de regulering van frontier AI. Op geopolitiek vlak bereidt Iran zich voor op de historische begrafenis van Khamenei, met meer dan 20 miljoen verwachte bezoekers in Teheran, terwijl de heropening van de Hormuzstraat de oliemarkten doet kantelen van schaarste naar dreigend overschot. In de wetenschap openen magnonen en zwaartekrachtgolven deuren naar kwantumcomputing en donkere materie.</p>
+
+  <!-- THEMA 1: AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Fable 5 wereldwijd terug — gratis promotietoegang tot 7 juli</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na een exportcontrolemaatregel die op 12 juni de toegang tot Fable 5 en Mythos 5 voor alle gebruikers wereldwijd blokkeerde, heeft de Amerikaanse overheid de beperkingen op 30 juni opgeheven. Vanaf 1 juli is Fable 5 opnieuw beschikbaar via Claude.ai, Claude Platform, Claude Code en Claude Cowork. Anthropic heeft een verbeterde veiligheidsclassificator getraind die de specifieke aanvalsmethode die Amazon-onderzoekers hadden ontdekt in meer dan 99% van de gevallen blokkeert. Als compensatie voor de onderbreking kunnen Pro-, Max- en Team-abonnees tot 50% van hun weekbudget gratis aan Fable 5 besteden, tot en met 7 juli.</p>
+        <p class="meta">Gepubliceerd 1 juli 2026 — Anthropic / VentureBeat — <a href="https://www.anthropic.com/news/redeploying-fable-5">Redeploying Claude Fable 5</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Bedrijven die de afgelopen drie weken op de sterkste Claude-versie wachtten, kunnen nu direct aan de slag. De tijdelijke gratis periode is een korte maar concrete kans om Fable 5-workflows te testen zonder extra kosten — na 7 juli gaat het model over op usage credits.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI onthult GPT-5.6-serie: Sol, Terra en Luna — maar uitrol loopt via overheid</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI introduceerde een nieuw naamgevingssysteem voor zijn modellen: het nummer geeft de generatie aan, de naam de capaciteitslaag. GPT-5.6 Sol is het sterkste model in de serie, met verbeterde agentic capaciteiten in codering, biologie en cyberveiligheid. Terra en Luna zijn respectievelijk de middelste en goedkoopste versie. Prijzen lopen van $5 tot $1 per miljoen inputtokens. De uitrol verloopt echter klant-voor-klant: de Amerikaanse overheid geeft per geval toestemming vóór een bredere beschikbaarstelling. Intussen begint Dean Ball op 6 juli als hoofd van het nieuwe team Strategic Futures bij OpenAI, gericht op catastrofisch risico, zelfverbeterende AI en de relatie tussen frontier labs en overheden.</p>
+        <p class="meta">Gepubliceerd 25–26 juni 2026 — OpenAI / VentureBeat — <a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De overheidsgestuurde uitrol is een nieuw precedent: frontier AI wordt niet langer door labs zelf naar de markt gebracht, maar gefilterd via overheidsbeslissingen per klant. Dit kan de concurrentiepositie van OpenAI tegenover Anthropic bemoeilijken nu Fable 5 wél weer vrij beschikbaar is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Topwetenschappers verlaten Google massaal voor Anthropic</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Drie prominente AI-onderzoekers verlaten Google DeepMind voor Anthropic: Jonas Adler, Alexander Pritzel — beiden kernleden van het Gemini-team — en John Jumper, directeur bij Google DeepMind. De exodus maakt deel uit van een bredere tendens: AI-talent stroomt gestaag weg uit Google richting concurrenten. Tegelijkertijd meldt Anthropic dat zijn jaarlijkse run-rate omzet de 30 miljard dollar heeft overschreden, meer dan een verdrievoudiging ten opzichte van eind 2025. Het aantal enterprise-klanten dat jaarlijks meer dan een miljoen dollar uitgeeft aan Claude is gestegen van 500 in februari naar meer dan 1000 vandaag.</p>
+        <p class="meta">Gepubliceerd 24 juni 2026 — TechCrunch — <a href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/">AI researchers continue to leave Google for its rivals</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het vertrek van Jumper, Adler en Pritzel treft het Gemini-project op een kritiek moment. Voor organisaties die kiezen tussen AI-leveranciers is de combinatie van talentinstroom bij Anthropic en explosieve omzetgroei een sterk signaal over de concurrentiepositie op de modelmarkt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 2: TECH & SOFTWARE/DEVELOPMENT -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft lanceert MXC: OS-niveau sandbox voor AI-agents</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft Microsoft Execution Containers (MXC) geïntroduceerd: een beleidsgestuurde uitvoeringslaag ingebouwd in het Windows-besturingssysteem. MXC laat developers en IT-beheerders precies vastleggen welke acties een AI-agent wel en niet mag uitvoeren, afgedwongen door de OS-kernel op runtime. Agent 365 bouwt hierop voort en integreert met Defender (beveiliging), Entra (identiteit), Intune (apparaatbeheer) en Purview (compliance). De Agent 365-preview start in juli. Tegelijkertijd kondigt Microsoft aan dat Foundry Agent Service begin juli algemeen beschikbaar wordt — elke sessie draait in een eigen sandbox met dedicated compute, geheugen en duurzame bestandsopslagtoegang.</p>
+        <p class="meta">Gepubliceerd juli 2026 — VentureBeat — <a href="https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board">Microsoft launches MXC</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Shadow AI — agents die buiten het zicht van IT draaien — is een groeiend compliance-risico. MXC geeft enterprise IT-teams voor het eerst echte OS-niveau controle over wat agents mogen doen, wat een nieuwe standaard kan zetten voor veilig agent-gebruik in reguliere bedrijfsomgevingen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic lanceert Claude Science: AI-workbench voor wetenschappelijk onderzoek</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft Claude Science geïntroduceerd, een gespecialiseerde AI-werkplek voor wetenschappelijk onderzoek die lijkt op Claude Cowork maar is gericht op onderzoekers. Claude Science verbindt de tools en databases die wetenschappers al gebruiken — van literatuurzoeksystemen tot laboratoriuminstrumenten — en maakt ze toegankelijk via een natuurlijke taalinterface. De nadruk ligt op het samenbrengen van bestaande workflows in één omgeving, in plaats van onderzoekers te dwingen van platform te wisselen. Het platform werd op 30 juni gelanceerd.</p>
+        <p class="meta">Gepubliceerd 30 juni 2026 — The New Stack — <a href="https://thenewstack.io/anthropic-claude-science-workbench/">Anthropic launches Claude Science</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wetenschappelijk onderzoek is een groeiend frontlinie voor AI-assistenten, maar tot nu toe weinig gespecialiseerd bediend. Claude Science positioneert Anthropic in een segment waar nauwkeurigheid en vertrouwbaarheid zwaarder wegen dan snelheid — precies de eigenschappen waarvoor Claude bekend staat.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 3: GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Tehran hekelt VS, 20 miljoen mensen verwacht bij begrafenis Khamenei op 4 juli</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran bereidt zich voor op de historische staatsbegrafenis van Opperste Leider Ali Khamenei, die op 28 februari werd gedood op de eerste dag van de VS-Israëloorlog op Iran. De ceremonie vindt plaats op 4 juli en meer dan 20 miljoen mensen worden verwacht in Teheran. Het Iraanse ministerie van Buitenlandse Zaken verklaarde vandaag dat de VS "voortdurend zijn volledige minachting voor echte vrede en veiligheid in West-Azië heeft aangetoond." Ondertussen loopt er een 60-daagse onderhandelingsperiode na de memorandum of understanding die op 17 juni werd ondertekend. Libanon meldt intussen minstens 4.298 doden en 12.196 gewonden door Israëlische aanvallen sinds maart.</p>
+        <p class="meta">Gepubliceerd 3 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/liveblog/2026/7/3/iran-war-live-tehran-slams-us-ahead-of-huge-funeral-for-ali-khamenei">Iran war live: Tehran slams US before huge funeral for Ali Khamenei</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De begrafenis van Khamenei is een symbolisch scharnierpunt: de manier waarop Iran en de VS de komende 60 dagen omgaan met het MoU bepaalt of het een permanent vredesakkoord wordt of een nieuwe escalatie. De retoriek vandaag duidt op veel onderhandelingsruimte, maar weinig vertrouwen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hormuzstraat terug op pre-oorlogsniveau — maar olieglut dreigt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Voor het eerst sinds het uitbreken van de VS-Iraanoorlog in februari passeerden op donderdag 35 olie- en gastankers de Straat van Hormuz, waarmee het verkeer terugkeert op het niveau van voor de oorlog. De heropening verloopt sneller dan verwacht. Tegelijkertijd waarschuwt zakenbank Morgan Stanley dat het risico op een olieglut reëel is: de combinatie van verminderde vraag door de oorlogsverstoringen en het hervatten van de leveringen kan leiden tot een ernstig overaanbod van ruwe olie op de wereldmarkt, met dalende prijzen als gevolg.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/7/2/with-hormuz-reopened-has-the-oil-shortage-turned-into-a-glut">With Hormuz reopened, has the oil shortage turned into a glut?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een scherpe daling van de olieprijs kan de begrotingen van energie-exporterende landen — van Saudi-Arabië tot Noorwegen — sterk onder druk zetten, terwijl importerende economieën juist voordeel hebben. De snelheid waarmee de markten zich aanpassen, bepaalt de omvang van de schok.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">WK 2026: Portugal door in blessuretijd, Zwitserland ruim langs Algerije</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Portugal heeft zich donderdag in dramatische stijl geplaatst voor de achtste finale van het FIFA Wereldkampioenschap 2026. In de laatste minuut van de verlenging kopte invaller Gonçalo Ramos raak na een pass van Rafael Leão, voor een 2-1 eindstand tegen Kroatië. Cristiano Ronaldo had eerder de gelijkmaker gemaakt via een penalty. Kroatië meende in de slotfase te hebben gescoord, maar het doelpunt van Gvardiol werd afgekeurd voor buitenspel. Zwitserland versloeg Algerije overtuigend met 2-0 in Vancouver, dankzij goals van Breel Embolo en Dan Ndoye, en gaat ongeslagen door naar de volgende ronde.</p>
+        <p class="meta">Gepubliceerd 3 juli 2026 — Al Jazeera — <a href="https://www.aljazeera.com/sports/2026/7/3/ronaldo-scores-as-portugal-comeback-to-win-but-croatia-denied-by-late-var">Ronaldo scores as Portugal come back to win</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het WK 2026 in de VS, Canada en Mexico trekt voor het eerst 48 landen en is het grootste sportevenement in de geschiedenis. De knock-outfase is begonnen — de komende weken ontvouwen zich de grote confrontaties die ook geopolitiek en handelsrelaties kleuren voor gastheerlanden.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- THEMA 4: WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Magnonen als kwantuminformatie-dragers: doorbraak voor praktische kwantumcomputers</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben een doorbraak bereikt in kwantumtechnologie door magnonen — minuscule magnetische golven die eerder te onstabiel werden geacht voor praktisch gebruik — in te zetten als dragers van kwantuminformatie. De bevinding opent de weg naar kwantumcomponenten die bij hogere temperaturen werken dan conventionele kwantumbits, wat de praktische inzetbaarheid buiten gekoelde laboratoriumomgevingen sterk vergroot. Tegelijkertijd presenteerden onderzoekers een nieuw kwantumapparaat dat nauwkeurig gecontroleerde golven van geluidachtige deeltjes (fononen) kan genereren, door elektronen door een ultradun kristaal te sturen bij extreem lage temperaturen.</p>
+        <p class="meta">Gepubliceerd 2 juli 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/breaking/">ScienceDaily Breaking News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een van de grootste barrières voor kwantumcomputers is de noodzaak van extreme koeling. Magnoongebaseerde bits die bij hogere temperaturen functioneren, zouden de kosten en complexiteit van kwantumhardware drastisch kunnen verlagen en de weg vrijmaken voor commerciële toepassingen op veel kortere termijn.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">LIGO detecteert vreemd signaal — mogelijke aanwijzing voor primordiale zwarte gaten en donkere materie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een ongewoon zwaartekrachtgolfsignaal geregistreerd door de LIGO-detector heeft nieuwe hoop gewekt dat primordiale zwarte gaten — zwarte gaten die zijn ontstaan kort na de oerknal — eindelijk waarneembaar zijn. Als de hypothese wordt bevestigd, bieden primordiale zwarte gaten een verklaring voor donkere materie, een van de grootste onopgeloste mysteries in de astrofysica. Het signaal wijkt af van de patronen die typisch worden veroorzaakt door botsende sterrenmassieve zwarte gaten, en astronomen analyseren nu meerdere verklaringen voor de anomalie.</p>
+        <p class="meta">Gepubliceerd 26 juni 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/06/260626125703.htm">A strange LIGO signal could reveal the missing link behind dark matter</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Donkere materie maakt ruim 27% van het heelal uit maar is nog nooit direct waargenomen. Als primordiale zwarte gaten de verklaring vormen, herziet dat fundamentele kosmologische modellen en geeft het het LIGO-project een nieuwe centrale rol in de zoektocht naar de opbouw van het universum.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
