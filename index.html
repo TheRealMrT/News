@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dagbrief — 31 augustus 2026</title>
+<title>Dagbrief — 10 september 2026</title>
 <style>
   * { box-sizing: border-box; }
   body { margin:0; background:#f5f6f8; color:#3f4a5a;
@@ -38,7 +38,7 @@
                letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
   .why p { margin:0; color:#54606f; font-size:14.5px; }
   .archive{list-style:none;padding:0;margin:0 0 24px}.archive li{margin:0 0 8px}.archive a{color:#2f6fb0;text-decoration:none}.archive a:hover{text-decoration:underline}
-.archive{list-style:none;padding:0;margin:0 0 24px}.archive li{margin:0 0 8px}.archive a{color:#2f6fb0;text-decoration:none}.archive a:hover{text-decoration:underline}</style>
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -48,114 +48,202 @@
   </header>
   <hr>
 
-  <p class="date">MAANDAG 31 AUGUSTUS 2026</p>
+  <p class="date">DONDERDAG 10 SEPTEMBER 2026</p>
 
-  <p class="intro">Deze maandag opent met een beveiligingsincident bij Anthropic: infostealer-malware op gebruikers-pc's kaperde actieve Claude-sessies en verbruikte tegoeden zonder toestemming. Intussen slaan OpenAI en Anthropic een onverwachte hardware-weg in — tienduizenden Apple Mac mini's als reinforcement-learning-clusters — en dwongen daarmee Apple zelfs een eerdere vernieuwing van de productlijn af. In Europa leverde het IJslandse EU-referendum een definitieve uitkomst: 52,8% zegt Nee. In de Perzische Golf vuurden VS-strijdkrachten voor het eerst in een maand op Iraanse IRGC-lanceerders op Larak Island, nadat Iran de Straat van Hormuz opnieuw dreigde te mijnen. In de wetenschap brengen twee studies verrassend nieuws: langdurig melatonine-gebruik vergroot het hartfalenrisico aanzienlijk, en zeven nieuwe diamantkikkersoorten op Madagaskar herinneren eraan hoe onvolledig onze kennis van de biodiversiteit nog is.</p>
+  <p class="intro">Gisteren verliet een Anthropic-onderzoeker het bedrijf met een klemmende waarschuwing: de race naar zelf-verbeterend AI "gokt met ons aller leven." Terwijl het debat over AI-veiligheid escaleert, onthulde Apple onder zijn nieuwe CEO John Ternus de lang verwachte vouwbare iPhone Duo. In het Midden-Oosten troffen Houthi-rebellen Saudische energiesites en bracht Groot-Brittannië een importverbod in op goederen uit Israëlische nederzettingen — een ongekende diplomatieke stap. En morgen begint in Madrid de eerste Formule 1 Grand Prix ooit op het nieuwe IFEMA-stratencircuit.</p>
 
-  <!-- Thema 1: AI & de grote labs -->
   <section class="theme">
     <h2>AI &amp; DE GROTE LABS</h2>
 
     <details class="item">
-      <summary><span class="item-title">Infostealer-malware kapert actieve Claude-sessies — Anthropic wist betaalgegevens en vergoedt kosten</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Anthropic-onderzoeker Jacob Coxon stapt op: "AI-bedrijven gokken met ons leven op weg naar superintelligentie"</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Anthropic meldt dat infostealer-malware op pc's van gebruikers actieve Claude-inlogsessies heeft buitgemaakt. De aanvallers gebruikten die sessies om API-tegoed te verbruiken zonder toestemming van de eigenaar. Het kenmerk voor getroffen accounts: het gebruikslimiet leek te herstellen en daalde daarna snel terwijl de gebruiker zelf niet ingelogd was. Anthropic logt betrokken gebruikers uit, wist opgeslagen betaalmethoden als voorzorgsmaatregel en vergoedt de ongeoorloofde kosten.</p>
-        <p class="meta">31 augustus 2026 — AI Weekly — <a href="https://aiweekly.co/ai-news-today">AI News Today, August 31</a></p>
+        <p>Jacob Coxon, pretraining-onderzoeker die de afgelopen drie jaar bij zowel OpenAI als Anthropic werkte, nam gisteren publiekelijk ontslag met een harde aanklacht. Op X schreef hij dat de AI-industrie "recht naar zelf-verbeterende superintelligentie rast en gokt met ons leven," en dat zelfs de bouwers van die technologie geloven dat het "ons allemaal kan doden voor het einde van het decennium." Coxon beschuldigt de labs er rechtstreeks van verantwoordelijkheid te ontlopen. Zijn vertrek volgt op de lancering van GPT-6 Astra, waarna Nvidia-CEO Jensen Huang proclameerde dat "AGI is gearriveerd."</p>
+        <p class="meta">Gepubliceerd 9 september 2026 — TechCrunch — <a href="https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/">'Gambling with our lives': Anthropic researcher quits, warns against self-improving AI</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Dit is geen lek bij Anthropic zelf, maar credential-diefstal via geïnfecteerde eindgebruikersapparaten — een aanvalsvector die moeilijk te bestrijden is en die de risico's van breed gebruik van AI-API's op consumenten-hardware onderstreept. Gebruikers doen er goed aan infostealer-bescherming (endpoint-detectie) in te schakelen en regelmatig inlogsessies te controleren.</p>
+          <p>Insiders die openlijk weglopen versterken de druk op regelgevers en aandeelhouders. Terwijl frontier-modellen steeds capabeler worden, groeit de kloof met de governance die dit zou moeten bijhouden — en worden de zelfcorrigerende mechanismen steeds zwakker naarmate modellen autonomer worden.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">OpenAI koopt tienduizenden Mac mini's voor reinforcement learning — Apple versnelt nieuwe modellen door tekort</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Akeyless lanceert Agentic Runtime Authority: realtime beveiligingslaag die controleert wát AI-agents daadwerkelijk doen</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>OpenAI heeft tienduizenden Apple Mac mini- en Mac Studio-systemen aangeschaft voor reinforcement-learning-workloads en computer-use-agents — aparte clusters naast de gebruikelijke GPU-datacenters. Apple's unified-memory-architectuur (CPU en GPU op één chip) blijkt bijzonder geschikt voor multi-step computeroperaties. Anthropic hanteert dezelfde aanpak, maar huurt Mac mini-capaciteit via AWS. Door het plotselinge tekort aan Mac mini's versnelde Apple op 25 augustus de release van vernieuwde modellen met M6- en M5 Pro-chips; de Mac Studio kreeg M5 Max en M5 Ultra. Nvidia noemde Apple inmiddels zijn voornaamste concurrent op de native AI-hardwaremarkt.</p>
-        <p class="meta">Augustus 2026 — The Information (via Tech Insights Week 35) — <a href="https://www.techbyjohan.com/tech-insights-2026-week-35/">Tech Insights 2026 Week 35</a></p>
+        <p>Akeyless heeft vandaag de Agentic Runtime Authority (ARA) algemeen beschikbaar gesteld: een beveiligingscomponent die in realtime evalueert wát een AI-agent doet nadat het toegang heeft verkregen tot een systeem. In plaats van uitsluitend toegangsrechten vooraf te verlenen, valideert ARA elke actie op intentie en blokkeert direct acties die buiten de beoogde opdracht vallen. Het richt zich op enterprise-omgevingen waar agents autonoom opereren over meerdere bedrijfssystemen heen.</p>
+        <p class="meta">Gepubliceerd 10 september 2026 — Business News This Week — <a href="https://businessnewsthisweek.com/technology/akeyless-announces-general-availability-of-agentic-runtime-authority-for-real-time-intent-based-access-control-of-ai-agent/">Akeyless Announces General Availability of Agentic Runtime Authority</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Dit markeert een verschuiving: AI-training gebeurt niet meer uitsluitend op GPU-clusters van Nvidia. Apple Silicon wordt serieus genomen voor specifieke agentic workloads. Voor de bredere AI-hardware-industrie is dit een signaal dat unified-memory-ontwerpen een eigen niche claimen — met potentieel grote gevolgen voor de chipmarkt.</p>
+          <p>AI-agents die zelfstandig handelen in productiesystemen vormen een nieuw aanvalsoppervlak: ze kunnen met legitieme rechten onbedoelde of kwaadaardige acties uitvoeren. Oplossingen als ARA zijn een cruciale bouwsteen voor verantwoorde agentic AI — en geven aan dat de security-industrie nu serieus inspeelt op de golf van agent-adoptie.</p>
         </div>
       </div>
     </details>
   </section>
 
-  <!-- Thema 2: Tech & software/development -->
   <section class="theme">
     <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
 
     <details class="item">
-      <summary><span class="item-title">TypeScript 7.0 uitgebracht met native Go-compiler — builds tot 11× sneller</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Apple lanceert vouwbare iPhone Duo ($1.999) en iPhone 18 Pro onder nieuwe CEO John Ternus</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Microsoft heeft TypeScript 7.0 uitgebracht, de eerste stabiele versie met de lang verwachte native compiler — een herschrijving van de toolset van JavaScript naar Go. Op de VS Code-codebase daalde de buildtijd van 125,7 seconden (TypeScript 6) naar 10,6 seconden: een factor 11,9. Geheugengebruik nam met circa 18% af. De native preview-package had al meer dan 8,5 miljoen wekelijkse downloads bereikt vóór de definitieve release. TypeScript 7.0 mist nog een stabiele programmatische API (verwacht in 7.1), waardoor sommige tooling-integraties (vue, svelte, angular) nog niet direct overstappen. Microsoft levert een compatibiliteitspakket (@typescript/typescript6) zodat bestaande tools blijven werken.</p>
-        <p class="meta">Augustus 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/08/typescript-7-released/">Microsoft Releases TypeScript 7.0 with a Native Go Compiler</a></p>
+        <p>Apple presenteerde gisteren op het "Surprise and Shine"-evenement zijn eerste productlijn onder CEO John Ternus, die op 1 september Tim Cook opvolgde. Het hoogtepunt was de iPhone Duo: een opvouwbare smartphone met een 5,5-inch buitenscherm en een 7,8-inch binnenboek-display, voor een startprijs van $1.999. Verder werden de iPhone 18 Pro en Pro Max geïntroduceerd (twee nieuwe kleuren: glacier en burgundy, $100 prijsverhoging), AirPods 5 en de Apple Watch Series 12. Het toestel heet "Duo" — niet "Ultra" — wat duidt op een bewuste positionering als premium niche, niet massamarkt.</p>
+        <p class="meta">Gepubliceerd 9 september 2026 — CNBC — <a href="https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html">Apple event 2026: Folding iPhone Duo, iPhone 18 Pro, added AI features and more</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>TypeScript is de de-facto standaard voor grote JavaScript-codebases. Een versnelling van factor 10+ in buildtijden heeft directe impact op developer experience en CI/CD-doorlooptijden, zeker nu AI-gegenereerde code de hoeveelheid TypeScript in projecten fors doet toenemen.</p>
+          <p>Met de iPhone Duo stapt Apple definitief in de markt voor opvouwbare toestellen — jaren nadat Samsung en Google hier al actief in zijn. De hoge introductieprijs en de naamkeuze "Duo" suggereren dat Apple dit niet als vervanging van de standaard-iPhone positioneert, maar als een apart premium segment. De eerste iPhone onder Ternus zet ook de toon voor zijn leiderschap.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VS Code 1.136 introduceert Agent Merge: Copilot lost PR-conflicten automatisch op tot mergeklaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft VS Code 1.136 uitgebracht met als centrale feature "Agent Merge" (preview): Copilot- en Claude-agents kunnen nu zelfstandig reviewfeedback verwerken, mislukte CI-checks herstellen en merge-conflicten oplossen totdat een pull request klaar is voor samenvoegen. Aanvullend introduceert de release experimentele ondersteuning voor multi-root workspaces in agentsessies — agents kunnen nu over meerdere projectmappen tegelijk redeneren — en gepersonaliseerde chatachtergronden.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — VS Code Releases — <a href="https://releasebot.io/updates/microsoft/visual-studio-code">Visual Studio Code Updates by Microsoft — September 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>PR-review en conflict-resolutie zijn een van de laatste handmatige schakels in de softwaredelivery-keten. Agent Merge duwt het geautomatiseerde deel van development-werk verder stroomafwaarts — en verhoogt de druk op junior developers die traditioneel deze taken uitvoerden.</p>
         </div>
       </div>
     </details>
   </section>
 
-  <!-- Thema 3: Geopolitiek & beleid -->
   <section class="theme">
     <h2>GEOPOLITIEK &amp; BELEID</h2>
 
     <details class="item">
-      <summary><span class="item-title">IJsland verwerpt EU-toetredingsgesprekken definitief: 52,8% stemt Nee</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Houthi's treffen Saudische energiesites: 73 gewonden, productie tijdelijk stilgelegd</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>In een adviserend referendum met 82,5% opkomst heeft IJsland de vraag of de regering onderhandelingen over EU-lidmaatschap mag heropenen verworpen: 118.040 stemmen (52,8%) waren tégen, 105.399 (47,2%) vóór. De stembusgang vond zondag 30 augustus plaats; de definitieve uitslag bevestigt het overwinning van het Nee-kamp na een avond waarop de tussenstand meermaals wisselde. Premier Kristrún Frostadóttirs centrumlinks-coalitie had het referendum zelf uitgeschreven. Plattelandskiezers stemden overwegend Nee, uit vrees voor verlies van controle over IJslandse viswateren.</p>
-        <p class="meta">30 augustus 2026 — Euronews / Al Jazeera — <a href="https://www.euronews.com/my-europe/2026/08/30/iceland-votes-no-to-further-eu-accession-talks-in-tight-result">Iceland votes 'No' to reopening EU accession talks</a></p>
+        <p>Iran-gesteunde Houthi-rebellen vielen dinsdag grootschalig aan op het zuidwesten van Saudi-Arabië, waarbij energie-infrastructuur in Abha, Khamis Mushait, Jazan en Najran werd geraakt. Bij de aanvallen raakten 73 burgers gewond — inclusief vrouwen en kinderen. Het Saudische Energieministerium bevestigde brand op meerdere locaties en tijdelijke productiestilstand. Saudi-Arabië waarschuwde dat het zich zal verdedigen. De aanvallen hebben ook humanitaire gevolgen in Jemen: ruim 18.500 mensen zijn ontheemd door hernieuwd gevecht in Taiz en Hodeidah.</p>
+        <p class="meta">Gepubliceerd 8 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/9/8/saudi-houthi-fighting-in-yemen-escalates-what-happened-and-whats-next">Saudi-Houthi fighting in Yemen escalates: What happened, and what's next?</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Het resultaat zet de EU-discussie in IJsland voor minimaal twee jaar in de ijskast. Voor de EU zelf is het een signaal dat uitbreiding in de noordelijke periferie geen vanzelfsprekendheid is, zelfs niet bij kandidaatslanden met sterke democratische tradities en nauwe economische banden.</p>
+          <p>Saudi-Arabië gebruikt de Rode Zee-route steeds intensiever voor olie-export als gevolg van Iraanse beperkingen op de Straat van Hormuz. Aanvallen op energie-infrastructuur voegen nieuwe olieprijs-onzekerheid toe én dreigen het Midden-Oosten verder te destabiliseren op een moment dat de regio al meerdere conflictlijnen tegelijk hanteert.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">VS treft Iraanse IRGC-lanceerders op Larak Island — eerste aanval in maand, Iran dreigt met vergelding</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Groot-Brittannië verbiedt import van nederzettingsgoederen uit Westelijke Jordaanoever — Frankrijk en Canada volgen</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Amerikaanse strijdkrachten hebben zaterdag 30 augustus twee raketlanceerders van de Islamitische Revolutionaire Garde (IRGC) op het Iraanse eiland Larak in de Perzische Golf uitgeschakeld. Volgens het US Central Command (CENTCOM) bereidden de lanceerders zich voor op het plaatsen van zeemijnen in de Straat van Hormuz. Het is de eerste Amerikaanse militaire actie in het gebied in ruim een maand. De IRGC bevestigde de inslag en waarschuwde voor een "vergeldingsaanval"; een woordvoerder noemde de aanval een "strategische en fatale fout" waarvoor de VS zal betalen "in zowel de economische als militaire sfeer". Tegelijkertijd braken in Teheran protesten uit over oplopende voedselprijzen en afbouw van overheidssteun.</p>
-        <p class="meta">30 augustus 2026 — Al Jazeera / Axios — <a href="https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks">US strikes Iran's Larak Island in first attack in weeks</a></p>
+        <p>Minister van Buitenlandse Zaken Ed Miliband kondigde dinsdag in het Britse parlement een importverbod aan op goederen uit Israëlische nederzettingen op de bezette Westelijke Jordaanoever. Miliband beschreef de situatie als "etnische zuivering." Naast het verbod worden bedrijven die nederzettingsuitbreiding faciliteren gesanctioneerd en worden wapenexportlicenties ingetrokken. Premier Andy Burnham verdedigt de maatregel als moreel noodzakelijk. Frankrijk en Canada zullen een vergelijkbaar verbod invoeren; Denemarken, Finland, IJsland, Polen, Portugal en Zweden betuigden steun voor verdere actie.</p>
+        <p class="meta">Gepubliceerd 8–9 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/9/8/uk-bans-goods-from-israeli-west-bank-settlements-what-that-really-means">UK bans goods from Israeli West Bank settlements: What that really means</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Na weken van relatieve rust herneemt de kinetische fase van het VS-Iran-conflict. Een afsluiting van de Straat van Hormuz — waardoorheen circa 20% van de mondiale oliehandel loopt — zou directe gevolgen hebben voor wereldwijde energieprijzen. De combinatie van militaire escalatie en interne sociale onrust verhoogt de onvoorspelbaarheid van Irans volgende stap.</p>
+          <p>Het is de eerste keer dat Groot-Brittannië een directe handelsbeperking specifiek op nederzettingsgoederen instelt. De gecoördineerde actie met Frankrijk en Canada signaleert een koerswijziging in het westerse Israël-Palestina beleid en zet de VS diplomatiek onder druk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Russische drone treft winkelcentrum in Soemy: 2 doden, 20+ gewonden — EU-comité keurt inzet bevroren Russische activa goed</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een Russische drone trof woensdagavond een winkelcentrum in het centrum van de Oekraïense stad Soemy, waarbij een 21-jarige man en vrouw om het leven kwamen en minstens 20 mensen gewond raakten. Tegelijkertijd keurde de Juridische Commissie van de Parlementaire Assemblee van de Raad van Europa (PACE) een mechanisme goed waarmee bevroren Russische Centrale Bank-activa kunnen worden ingezet voor schadevergoedingen aan Oekraïne. Het comité stelde dat een dergelijke inzet een "wettige tegenmaatregel onder internationaal recht" vormt.</p>
+        <p class="meta">Gepubliceerd 9–10 september 2026 — Kyiv Post / PACE — <a href="https://www.kyivpost.com/thread/84155">Ukraine News Today: Breaking Updates — September 10, 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De aanval op een druk bezocht burgerdoelwit in Soemy illustreert de voortdurende Russische strategie van terreur op de burgerbevolking. De PACE-beslissing over bevroren activa is een concrete juridische stap richting financiële verantwoording van Rusland.</p>
         </div>
       </div>
     </details>
   </section>
 
-  <!-- Thema 4: Wetenschap & research -->
   <section class="theme">
     <h2>WETENSCHAP &amp; RESEARCH</h2>
 
     <details class="item">
-      <summary><span class="item-title">Langdurig melatonine-gebruik verhoogt hartfalenrisico met ~90% — grote studie zaait twijfel over populair slaapmiddel</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Hubble ontdekt tienzijdig atmosferisch patroon bij Saturnus' zuidpool — eerste van zijn soort in zuidelijk halfrond</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Mensen met chronische slapeloosheid die melatonine langdurig innemen, hadden in een grote voorstudie een circa 90% hoger risico op het ontwikkelen van hartfalen over een periode van vijf jaar. Concreter: de melatonine-groep had een 3,5 keer hogere kans op ziekenhuisopname wegens hartfalen (19,0% versus 6,6%) en een bijna dubbel zo hoge sterftekans. Het onderzoek bewijst geen oorzakelijk verband — confoundende factoren kunnen een rol spelen — maar de omvang van de associatie is groot genoeg om nader onderzoek te rechtvaardigen. Melatonine wordt wereldwijd als onschadelijk beschouwd en is vrij verkrijgbaar als voedingssupplement.</p>
-        <p class="meta">29 augustus 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/08/260829035228.htm">Long-term melatonin use linked to 90% higher heart failure risk</a></p>
+        <p>De NASA Hubble Space Telescope heeft een gigantisch tienhoekig (decagonaal) atmosferisch patroon ontdekt dat zich rondom de zuidpool van Saturnus heeft gevormd. Het is de eerste keer dat een dergelijk groot, regelmatig meerzijdig jetpatroon in het zuidelijk halfrond van een planeet wordt waargenomen. Het decagon is circa 167.000 kilometer breed en strekt zich uit over meerdere atmosferische lagen. De resultaten werden gepubliceerd op 2 september in Science Advances.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — NASA Science / ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/09/260903064229.htm">NASA scientists discover a giant 10-sided pattern on Saturn</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Melatonine is een van de meest gebruikte slaapmiddelen ter wereld, juist omdat het als veilig geldt. Als de geobserveerde associatie bij verder onderzoek standhoudt, heeft dat grote volksgezondheidsgevolgen — met name voor de miljoenen chronische gebruikers die het supplement als risicovrij beschouwen.</p>
+          <p>Saturnus' beroemde noordpool-hexagoon is al decennia een planetair raadsel. Een tienzijdige tegenhanger in het zuiden suggereert dat meerzijdige atmosferische structuren een fundamenteel mechanisme zijn — ook mogelijk buiten ons zonnestelsel.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">Zeven nieuwe diamantkikkersoorten ontdekt op Madagaskar — verborgen biodiversiteit onder de bosbodem</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Cel leest acht-letterig DNA: UC San Diego verdubbelt de genetische coderingsruimte</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Een internationaal team van wetenschappers heeft zeven nieuwe soorten diamantkikkers (Rhombophryne) beschreven op Madagaskar, waarbij DNA-analyse van zowel recente exemplaren als museumspecimens van meer dan honderd jaar oud werd ingezet. Het totaal aantal bekende Rhombophryne-soorten stijgt daarmee naar 27, maar de onderzoekers stellen dat er vrijwel zeker nog onbeschreven soorten wachten op ontdekking. Verscheidene nieuwe soorten — waaronder Rhombophryne quentini — droegen al bij aan het uitbreiden van beschermde gebieden tijdens een Biodiversity 30×30-workshop in maart 2026 op Madagaskar.</p>
-        <p class="meta">28 augustus 2026 — phys.org / ScienceDaily — <a href="https://phys.org/news/2026-08-diamond-frog-species-reveal-madagascar.html">Seven new diamond frog species reveal Madagascar's hidden amphibian diversity</a></p>
+        <p>Onderzoekers van UC San Diego tonen aan dat RNA-polymerase — het sleutelenzym dat DNA naar RNA transcribeert — synthetisch DNA met acht letters even nauwkeurig kan aflezen als het vier-letterige alfabet waarop alle bekende leven op aarde steunt. De studie, gepubliceerd op 2 september in Nature Communications, legt een essentiële biologische basis voor organismen met een uitgebreid genetisch vocabulaire.</p>
+        <p class="meta">Gepubliceerd 4 september 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/09/260904000310.htm">Life uses 4 DNA letters. Scientists just made 8 work</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Madagaskar is een van de belangrijkste biodiversiteitshotspots ter wereld, maar het verlies van boshabitat gaat snel. Dat zeven nieuwe soorten verborgen bleven tot nu toe — deels dankzij eeuwenoude museumcollecties — toont hoe waardevol zowel veldwerk als historische collecties zijn voor soortbescherming op tijd.</p>
+          <p>Het verdubbelen van de genetische codeerruimte opent de weg naar eiwitten, geneesmiddelen en biosensoren die met het bestaande vier-letterige alfabet onmogelijk te ontwerpen zijn. Dat de cel dit met zijn eigen, ongewijzigde moleculaire machinerie kan verwerken, is de cruciale doorbraak.</p>
         </div>
       </div>
     </details>
   </section>
 
-<hr><p class="date">EERDERE EDITIES</p><ul class="archive"><li><a href="Dagbrief-2026-08-31.html">maandag 31 augustus 2026</a></li><li><a href="Dagbrief-2026-08-30.html">zondag 30 augustus 2026</a></li><li><a href="Dagbrief-2026-08-29.html">zaterdag 29 augustus 2026</a></li><li><a href="Dagbrief-2026-08-28.html">vrijdag 28 augustus 2026</a></li><li><a href="Dagbrief-2026-08-27.html">donderdag 27 augustus 2026</a></li><li><a href="Dagbrief-2026-08-26.html">woensdag 26 augustus 2026</a></li><li><a href="Dagbrief-2026-08-25.html">dinsdag 25 augustus 2026</a></li><li><a href="Dagbrief-2026-08-24.html">maandag 24 augustus 2026</a></li><li><a href="Dagbrief-2026-08-21.html">vrijdag 21 augustus 2026</a></li><li><a href="Dagbrief-2026-08-20.html">donderdag 20 augustus 2026</a></li><li><a href="Dagbrief-2026-08-19.html">woensdag 19 augustus 2026</a></li><li><a href="Dagbrief-2026-08-18.html">dinsdag 18 augustus 2026</a></li><li><a href="Dagbrief-2026-08-17.html">maandag 17 augustus 2026</a></li><li><a href="Dagbrief-2026-08-16.html">zondag 16 augustus 2026</a></li><li><a href="Dagbrief-2026-08-15.html">zaterdag 15 augustus 2026</a></li><li><a href="Dagbrief-2026-08-14.html">vrijdag 14 augustus 2026</a></li><li><a href="Dagbrief-2026-08-13.html">donderdag 13 augustus 2026</a></li><li><a href="Dagbrief-2026-08-12.html">woensdag 12 augustus 2026</a></li><li><a href="Dagbrief-2026-08-11.html">dinsdag 11 augustus 2026</a></li><li><a href="Dagbrief-2026-08-10.html">maandag 10 augustus 2026</a></li><li><a href="Dagbrief-2026-08-09.html">zondag 9 augustus 2026</a></li><li><a href="Dagbrief-2026-08-08.html">zaterdag 8 augustus 2026</a></li><li><a href="Dagbrief-2026-08-07.html">vrijdag 7 augustus 2026</a></li><li><a href="Dagbrief-2026-08-06.html">donderdag 6 augustus 2026</a></li><li><a href="Dagbrief-2026-08-05.html">woensdag 5 augustus 2026</a></li><li><a href="Dagbrief-2026-08-04.html">dinsdag 4 augustus 2026</a></li><li><a href="Dagbrief-2026-08-03.html">maandag 3 augustus 2026</a></li><li><a href="Dagbrief-2026-07-15.html">woensdag 15 juli 2026</a></li><li><a href="Dagbrief-2026-07-14.html">dinsdag 14 juli 2026</a></li><li><a href="Dagbrief-2026-07-13.html">maandag 13 juli 2026</a></li><li><a href="Dagbrief-2026-07-12.html">zondag 12 juli 2026</a></li><li><a href="Dagbrief-2026-07-11.html">zaterdag 11 juli 2026</a></li><li><a href="Dagbrief-2026-07-10.html">vrijdag 10 juli 2026</a></li><li><a href="Dagbrief-2026-07-09.html">donderdag 9 juli 2026</a></li><li><a href="Dagbrief-2026-07-08.html">woensdag 8 juli 2026</a></li><li><a href="Dagbrief-2026-07-07.html">dinsdag 7 juli 2026</a></li><li><a href="Dagbrief-2026-07-06.html">maandag 6 juli 2026</a></li><li><a href="Dagbrief-2026-07-05.html">zondag 5 juli 2026</a></li><li><a href="Dagbrief-2026-07-04.html">zaterdag 4 juli 2026</a></li><li><a href="Dagbrief-2026-07-03.html">vrijdag 3 juli 2026</a></li><li><a href="Dagbrief-2026-07-02.html">donderdag 2 juli 2026</a></li></ul></div>
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Spaans Grand Prix in Madrid: eerste race ooit op IFEMA-stratencircuit, vanaf morgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt voor het eerst in de geschiedenis een Formule 1 Grand Prix in Madrid plaats, op het gloednieuwe stratencircuit rondom het IFEMA-entertainmentcomplex. Het circuit vervangt Barcelona als officieel Spaans Grand Prix. Tijdschema in NL-tijd (CEST): vrije training 1 vrijdag 13:30, vrije training 2 vrijdag 17:00, vrije training 3 zaterdag 12:30, kwalificatie zaterdag 16:00, race (57 ronden) zondag 15:00.</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-tag-heuer-gran-premio-de-espana-2026.3EpMV9Idk1jwxq3KtxcC6x">FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026 — officieel tijdschema</a></p>
+      </div>
+    </details>
+  </section>
+
+  <hr>
+  <p class="date">EERDERE EDITIES</p>
+  <ul class="archive">
+    <li><a href="Dagbrief-2026-09-10.html">donderdag 10 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-09.html">woensdag 9 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-08.html">dinsdag 8 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-07.html">maandag 7 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-06.html">zondag 6 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-05.html">zaterdag 5 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-04.html">vrijdag 4 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-03.html">donderdag 3 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-02.html">woensdag 2 september 2026</a></li>
+    <li><a href="Dagbrief-2026-09-01.html">dinsdag 1 september 2026</a></li>
+    <li><a href="Dagbrief-2026-08-31.html">maandag 31 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-30.html">zondag 30 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-29.html">zaterdag 29 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-28.html">vrijdag 28 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-27.html">donderdag 27 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-26.html">woensdag 26 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-25.html">dinsdag 25 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-24.html">maandag 24 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-21.html">vrijdag 21 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-20.html">donderdag 20 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-19.html">woensdag 19 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-18.html">dinsdag 18 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-17.html">maandag 17 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-16.html">zondag 16 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-15.html">zaterdag 15 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-14.html">vrijdag 14 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-13.html">donderdag 13 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-12.html">woensdag 12 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-11.html">dinsdag 11 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-10.html">maandag 10 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-09.html">zondag 9 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-08.html">zaterdag 8 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-07.html">vrijdag 7 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-06.html">donderdag 6 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-05.html">woensdag 5 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-04.html">dinsdag 4 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-08-03.html">maandag 3 augustus 2026</a></li>
+    <li><a href="Dagbrief-2026-07-15.html">woensdag 15 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-14.html">dinsdag 14 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-13.html">maandag 13 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-12.html">zondag 12 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-11.html">zaterdag 11 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-10.html">vrijdag 10 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-09.html">donderdag 9 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-08.html">woensdag 8 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-07.html">dinsdag 7 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-06.html">maandag 6 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-05.html">zondag 5 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-04.html">zaterdag 4 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-03.html">vrijdag 3 juli 2026</a></li>
+    <li><a href="Dagbrief-2026-07-02.html">donderdag 2 juli 2026</a></li>
+  </ul>
+
+</div>
 </body>
 </html>
