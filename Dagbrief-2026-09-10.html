@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 10 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 10 SEPTEMBER 2026</p>
+
+  <p class="intro">Gisteren verliet een Anthropic-onderzoeker het bedrijf met een klemmende waarschuwing: de race naar zelf-verbeterend AI "gokt met ons aller leven." Terwijl het debat over AI-veiligheid escaleert, onthulde Apple onder zijn nieuwe CEO John Ternus de lang verwachte vouwbare iPhone Duo. In het Midden-Oosten troffen Houthi-rebellen Saudische energiesites en bracht Groot-Brittannië een importverbod in op goederen uit Israëlische nederzettingen — een ongekende diplomatieke stap. En morgen begint in Madrid de eerste Formule 1 Grand Prix ooit op het nieuwe IFEMA-stratencircuit.</p>
+
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic-onderzoeker Jacob Coxon stapt op: "AI-bedrijven gokken met ons leven op weg naar superintelligentie"</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Jacob Coxon, pretraining-onderzoeker die de afgelopen drie jaar bij zowel OpenAI als Anthropic werkte, nam gisteren publiekelijk ontslag met een harde aanklacht. Op X schreef hij dat de AI-industrie "recht naar zelf-verbeterende superintelligentie rast en gokt met ons leven," en dat zelfs de bouwers van die technologie geloven dat het "ons allemaal kan doden voor het einde van het decennium." Coxon beschuldigt de labs er rechtstreeks van verantwoordelijkheid te ontlopen. Zijn vertrek volgt op de lancering van GPT-6 Astra, waarna Nvidia-CEO Jensen Huang proclameerde dat "AGI is gearriveerd."</p>
+        <p class="meta">Gepubliceerd 9 september 2026 — TechCrunch — <a href="https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/">'Gambling with our lives': Anthropic researcher quits, warns against self-improving AI</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Insiders die openlijk weglopen versterken de druk op regelgevers en aandeelhouders. Terwijl frontier-modellen steeds capabeler worden, groeit de kloof met de governance die dit zou moeten bijhouden — en worden de zelfcorrigerende mechanismen steeds zwakker naarmate modellen autonomer worden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Akeyless lanceert Agentic Runtime Authority: realtime beveiligingslaag die controleert wát AI-agents daadwerkelijk doen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Akeyless heeft vandaag de Agentic Runtime Authority (ARA) algemeen beschikbaar gesteld: een beveiligingscomponent die in realtime evalueert wát een AI-agent doet nadat het toegang heeft verkregen tot een systeem. In plaats van uitsluitend toegangsrechten vooraf te verlenen, valideert ARA elke actie op intentie en blokkeert direct acties die buiten de beoogde opdracht vallen. Het richt zich op enterprise-omgevingen waar agents autonoom opereren over meerdere bedrijfssystemen heen.</p>
+        <p class="meta">Gepubliceerd 10 september 2026 — Business News This Week — <a href="https://businessnewsthisweek.com/technology/akeyless-announces-general-availability-of-agentic-runtime-authority-for-real-time-intent-based-access-control-of-ai-agent/">Akeyless Announces General Availability of Agentic Runtime Authority</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AI-agents die zelfstandig handelen in productiesystemen vormen een nieuw aanvalsoppervlak: ze kunnen met legitieme rechten onbedoelde of kwaadaardige acties uitvoeren. Oplossingen als ARA zijn een cruciale bouwsteen voor verantwoorde agentic AI — en geven aan dat de security-industrie nu serieus inspeelt op de golf van agent-adoptie.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Apple lanceert vouwbare iPhone Duo ($1.999) en iPhone 18 Pro onder nieuwe CEO John Ternus</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Apple presenteerde gisteren op het "Surprise and Shine"-evenement zijn eerste productlijn onder CEO John Ternus, die op 1 september Tim Cook opvolgde. Het hoogtepunt was de iPhone Duo: een opvouwbare smartphone met een 5,5-inch buitenscherm en een 7,8-inch binnenboek-display, voor een startprijs van $1.999. Verder werden de iPhone 18 Pro en Pro Max geïntroduceerd (twee nieuwe kleuren: glacier en burgundy, $100 prijsverhoging), AirPods 5 en de Apple Watch Series 12. Het toestel heet "Duo" — niet "Ultra" — wat duidt op een bewuste positionering als premium niche, niet massamarkt.</p>
+        <p class="meta">Gepubliceerd 9 september 2026 — CNBC — <a href="https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html">Apple event 2026: Folding iPhone Duo, iPhone 18 Pro, added AI features and more</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met de iPhone Duo stapt Apple definitief in de markt voor opvouwbare toestellen — jaren nadat Samsung en Google hier al actief in zijn. De hoge introductieprijs en de naamkeuze "Duo" suggereren dat Apple dit niet als vervanging van de standaard-iPhone positioneert, maar als een apart premium segment. De eerste iPhone onder Ternus zet ook de toon voor zijn leiderschap.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VS Code 1.136 introduceert Agent Merge: Copilot lost PR-conflicten automatisch op tot mergeklaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft heeft VS Code 1.136 uitgebracht met als centrale feature "Agent Merge" (preview): Copilot- en Claude-agents kunnen nu zelfstandig reviewfeedback verwerken, mislukte CI-checks herstellen en merge-conflicten oplossen totdat een pull request klaar is voor samenvoegen. Aanvullend introduceert de release experimentele ondersteuning voor multi-root workspaces in agentsessies — agents kunnen nu over meerdere projectmappen tegelijk redeneren — en gepersonaliseerde chatachtergronden.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — VS Code Releases — <a href="https://releasebot.io/updates/microsoft/visual-studio-code">Visual Studio Code Updates by Microsoft — September 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>PR-review en conflict-resolutie zijn een van de laatste handmatige schakels in de softwaredelivery-keten. Agent Merge duwt het geautomatiseerde deel van development-werk verder stroomafwaarts — en verhoogt de druk op junior developers die traditioneel deze taken uitvoerden. Het sluit aan op de bredere discussie over de impact van agentic AI op instap-rollen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Houthi's treffen Saudische energiesites: 73 gewonden, productie tijdelijk stilgelegd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran-gesteunde Houthi-rebellen vielen dinsdag grootschalig aan op het zuidwesten van Saudi-Arabië, waarbij energie-infrastructuur in Abha, Khamis Mushait, Jazan en Najran werd geraakt. Bij de aanvallen raakten 73 burgers gewond — inclusief vrouwen en kinderen. Het Saudische Energieministerium bevestigde brand op meerdere locaties en tijdelijke productiestilstand. Saudi-Arabië waarschuwde dat het zich zal verdedigen. De aanvallen hebben ook humanitaire gevolgen in Jemen: ruim 18.500 mensen zijn ontheemd door hernieuwd gevecht in Taiz en Hodeidah.</p>
+        <p class="meta">Gepubliceerd 8 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/9/8/saudi-houthi-fighting-in-yemen-escalates-what-happened-and-whats-next">Saudi-Houthi fighting in Yemen escalates: What happened, and what's next?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Saudi-Arabië gebruikt de Rode Zee-route steeds intensiever voor olie-export als gevolg van Iraanse beperkingen op de Straat van Hormuz. Aanvallen op energie-infrastructuur voegen nieuwe olieprijs-onzekerheid toe én dreigen het Midden-Oosten verder te destabiliseren op een moment dat de regio al meerdere conflictlijnen tegelijk hanteert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Groot-Brittannië verbiedt import van nederzettingsgoederen uit Westelijke Jordaanoever — Frankrijk en Canada volgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Minister van Buitenlandse Zaken Ed Miliband kondigde dinsdag in het Britse parlement een importverbod aan op goederen uit Israëlische nederzettingen op de bezette Westelijke Jordaanoever. Miliband beschreef de situatie als "etnische zuivering." Naast het verbod worden bedrijven die nederzettingsuitbreiding faciliteren gesanctioneerd en worden wapenexportlicenties ingetrokken. Premier Andy Burnham verdedigt de maatregel als moreel noodzakelijk. Frankrijk en Canada zullen een vergelijkbaar verbod invoeren; Denemarken, Finland, IJsland, Polen, Portugal en Zweden betuigden steun voor verdere actie.</p>
+        <p class="meta">Gepubliceerd 8–9 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/9/8/uk-bans-goods-from-israeli-west-bank-settlements-what-that-really-means">UK bans goods from Israeli West Bank settlements: What that really means</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het is de eerste keer dat Groot-Brittannië een directe handelsbeperking specifiek op nederzettingsgoederen instelt. De gecoördineerde actie met Frankrijk en Canada signaleert een koerswijziging in het westerse Israël-Palestina beleid en zet de VS — die waarschuwde voor economische consequenties — diplomatiek onder druk.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Russische drone treft winkelcentrum in Soemy: 2 doden, 20+ gewonden — EU-comité keurt inzet bevroren Russische activa goed</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een Russische drone trof woensdagavond een winkelcentrum in het centrum van de Oekraïense stad Soemy, waarbij een 21-jarige man en vrouw om het leven kwamen en minstens 20 mensen gewond raakten. Tegelijkertijd keurde de Juridische Commissie van de Parlementaire Assemblee van de Raad van Europa (PACE) een mechanisme goed waarmee bevroren Russische Centrale Bank-activa kunnen worden ingezet voor schadevergoedingen aan Oekraïne op basis van uitspraken van het Europese Hof. Het comité stelde dat een dergelijke inzet een "wettige tegenmaatregel onder internationaal recht" vormt.</p>
+        <p class="meta">Gepubliceerd 9–10 september 2026 — Kyiv Post / PACE — <a href="https://www.kyivpost.com/thread/84155">Ukraine News Today: Breaking Updates — September 10, 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De aanval op een druk bezocht burgerdoelwit in Soemy illustreert de voortdurende Russische strategie van terreur op de burgerbevolking. De PACE-beslissing over bevroren activa is een concrete juridische stap richting financiële verantwoording van Rusland — een zaak die tot nu toe politiek en juridisch was vastgelopen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Hubble ontdekt tienzijdig atmosferisch patroon bij Saturnus' zuidpool — eerste van zijn soort in zuidelijk halfrond</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De NASA Hubble Space Telescope heeft een gigantisch tienhoekig (decagonaal) atmosferisch patroon ontdekt dat zich rondom de zuidpool van Saturnus heeft gevormd. Het is de eerste keer dat een dergelijk groot, regelmatig meerzijdig jetpatroon in het zuidelijk halfrond van een planeet wordt waargenomen. Het decagon is circa 167.000 kilometer breed en strekt zich uit over meerdere atmosferische lagen. Door Hubble-beelden terug tot 2023 te analyseren, vonden onderzoekers tekenen dat het patroon nog maar in de afgelopen jaren is ontstaan en nog aan kracht wint. De resultaten werden gepubliceerd op 2 september in Science Advances.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — NASA Science / ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/09/260903064229.htm">NASA scientists discover a giant 10-sided pattern on Saturn</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Saturnus' beroemde noordpool-hexagoon is al decennia een planetair raadsel. Een tienzijdige tegenhanger in het zuiden — die pas recent is ontstaan — suggereert dat meerzijdige atmosferische structuren geen uniek of toevallig verschijnsel zijn, maar een fundamenteel mechanisme dat breed voorkomt in planeetsferen — ook mogelijk buiten ons zonnestelsel.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Cel leest acht-letterig DNA: UC San Diego verdubbelt de genetische coderingsruimte</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van UC San Diego tonen aan dat RNA-polymerase — het sleutelenzym dat DNA naar RNA transcribeert — synthetisch DNA met acht letters even nauwkeurig kan aflezen als het vier-letterige alfabet waarop alle bekende leven op aarde steunt. Met hoge-resolutie cryo-elektronenmicroscopie ontdekten ze hoe het enzym de vier extra synthetische letters structureel herkent. De studie, gepubliceerd op 2 september in Nature Communications, legt een essentiële biologische basis voor organismen met een uitgebreid genetisch vocabulaire.</p>
+        <p class="meta">Gepubliceerd 4 september 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/09/260904000310.htm">Life uses 4 DNA letters. Scientists just made 8 work</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het verdubbelen van de genetische codeerruimte opent de weg naar eiwitten, geneesmiddelen en biosensoren die met het bestaande vier-letterige alfabet onmogelijk te ontwerpen zijn. Dat de cel dit met zijn eigen, ongewijzigde moleculaire machinerie kan verwerken, is de cruciale doorbraak: er hoeft geen nieuw cellulair apparaat te worden ontworpen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Spaans Grand Prix in Madrid: eerste race ooit op IFEMA-stratencircuit, vanaf morgen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt voor het eerst in de geschiedenis een Formule 1 Grand Prix in Madrid plaats, op het gloednieuwe stratencircuit rondom het IFEMA-entertainmentcomplex. Het circuit vervangt Barcelona als officieel Spaans Grand Prix. De race telt 57 ronden. Tijdschema in NL-tijd (CEST): vrije training 1 vrijdag 13:30, vrije training 2 vrijdag 17:00, vrije training 3 zaterdag 12:30, kwalificatie zaterdag 16:00, race zondag 15:00.</p>
+        <p class="meta">Bron: Formula 1 — <a href="https://www.formula1.com/en/latest/article/formula-1-tag-heuer-gran-premio-de-espana-2026.3EpMV9Idk1jwxq3KtxcC6x">FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026 — officieel tijdschema</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

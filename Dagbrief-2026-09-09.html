@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 9 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 9 SEPTEMBER 2026</p>
+
+  <p class="intro">De DORA 2026 State of DevOps-rapportage gooit een emmer koud water over de AI-codeerhype: negentig procent van developers gebruikt inmiddels AI, maar de kwaliteitsindicatoren kelderen — bugs zijn met meer dan de helft gestegen en productie-incidenten per pull request zijn bijna verdrievoudigd. Tegelijkertijd toont GitHub aan dat slim ontwerp van AI-systemen het tij kan keren: HydraFusion routeert coding-taken automatisch langs meerdere modellen en behaalt daarmee frontier-kwaliteit voor een fractie van de kosten. Op het geopolitieke front activeerde Canada gisteren voor $27,6 miljard aan vergeldingstarieven op Amerikaanse goederen — het scherpste handelsconflict in decennia. En in Oekraïne hervatten Russische droneaanvallen direct na het vertrek van VS-gezanten Witkoff en Kushner, terwijl NAVO-chef Rutte waarschuwt dat het aantal burgerdoden op het hoogste niveau zit sinds mei 2022.</p>
+
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">DORA 2026: AI maakt developers productiever — maar ook slordigger. Bugs +54%, incidenten per PR +243%</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De jaarlijkse State of DevOps-rapportage (DORA 2026) analyseert telemetrie van 22.000 developers en tekent een zorgwekkend patroon. Negentig procent van de developers gebruikt AI bij het schrijven van code, en het aantal gemergde pull requests is met 98% gestegen. Maar de keerzijde is hard: bugs per developer zijn met 54% toegenomen, productie-incidenten per pull request met 242,7%, en de mediaan wachttijd in code review is maar liefst 441% langer geworden. AI-gegenereerde code wacht gemiddeld 4,6 keer langer op een eerste review, wat de queue enorm vergroot. Het rapport concludeert dat organisaties hun review-pipelines, geautomatiseerde tests en CI/CD-processen moeten versterken vóórdat ze AI-codegeneratie opschalen — anders vertaalt meer output zich direct in meer risico.</p>
+        <p class="meta">Gepubliceerd september 2026 — DORA / Google — <a href="https://kodus.io/en/dora-accelerate-state-of-devops/">DORA 2026: The ROI of AI in Software Development Runs Through Code Review</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het rapport onderbouwt met harde cijfers iets wat developers al aanvoelden: AI versnelt het typen van code, maar niet de verantwoordelijkheid die daarbij hoort. Voor teams die Claude Code, Copilot of Cursor inzetten, is dit een directe wake-up call om kwaliteitsborging mee te schalen met de outputsnelheid.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Copilot HydraFusion: multi-model-routering behaalt frontier-kwaliteit met 67% lagere kosten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub lanceerde op 7 september een research preview van HydraFusion voor Copilot CLI. Het systeem maakt een volledig uitvoeringsplan en routeert taken dynamisch langs meerdere AI-modellen van verschillende providers — met drie patroonopties: één model, een cascade waarbij een efficiënt model drafts maakt en een kwaliteitspoort beslist of escalatie nodig is, en een critique-workflow waarbij een tweede modelfamilie de eerste draft beoordeelt. In TerminalBench 2.1 reduceert HydraFusion de geschatte kosten met 67% ten opzichte van Claude Opus 5 als enkel model, terwijl het percentage correct voltooide taken ook nog eens 4,9 procentpunten hoger uitvalt. Op DeepSWE en CheckpointBench zijn de kostenbesparingen respectievelijk 36% en 65%.</p>
+        <p class="meta">Gepubliceerd 7 september 2026 — GitHub Blog — <a href="https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/">Project HydraFusion: Frontier quality via multi-model orchestration</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>HydraFusion laat zien dat de toekomst van AI-coding niet één groter model is, maar slimmere orkestratie van bestaande modellen. Als de kostenbesparingen bij bredere uitrol standhouden, verschuift de concurrentie in het Copilot-segment van "wiens model is het sterkst" naar "wiens routing is het slimst."</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Google Colab CLI: AI agents kunnen nu remote Jupyter-runtimes aansturen vanuit de terminal</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google heeft de Google Colab CLI aangekondigd, een command-line tool waarmee developers en AI-agents rechtstreeks vanuit een lokale terminal kunnen communiceren met remote Colab-runtimes. Daarmee kunnen agents op cloud-GPU's draaien zonder dat een browser nodig is. De aankondiging past in een bredere trend waarbij cloud-ontwikkelomgevingen worden opengesteld voor programmatische en agentische toegang — eerder deed GitHub dit al met zijn Codespaces-API en Anthropic met zijn Model Context Protocol.</p>
+        <p class="meta">Gepubliceerd september 2026 — The New Stack — <a href="https://thenewstack.io/software-development/">Software Development Overview, News &amp; Trends</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor AI-agents die rekenkracht nodig hebben voor data-analyse of model-finetuning, maakt de Colab CLI het mogelijk om die rekenkracht programmatisch aan te spreken. Dit verlaagt de drempel voor agentic workflows die momenteel nog afhankelijk zijn van handmatige browser-interactie.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Canada activeert $27,6 miljard aan vergeldingstarieven op VS-goederen — scherpste handelsescalatie in decennia</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Canadese vergeldingstarieven ter waarde van $27,6 miljard zijn gisteren, 8 september, van kracht geworden. Ottawa legde heffingen op van 15% tot 50% op honderden Amerikaanse producten — waaronder staal, zuivel, huishoudelijke apparaten, landbouwmachines, papier en elektronica. De maatregel volgt op een impasse in handelsbesprekingen, waarbij premier Mark Carney de onderhandelingen opschortte nadat VS-onderhandelaars voorwaarden inbrachten die hij als "oneerlijk" bestempelde. De actie is een directe reactie op de Amerikaanse Section 338-tarieven van 50% op Canadese goederen, en Canada omschreef het als een "dollar-voor-dollar"-vergeldingsbeleid. Ottawa koppelde er ook een steunpakket van $7,5 miljard aan voor bedrijven en werknemers die door de Amerikaanse importheffingen worden geraakt.</p>
+        <p class="meta">Gepubliceerd 8 september 2026 — Al Jazeera / CNBC — <a href="https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products">Canada hits US with counter-tariffs on more than 700 products</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De VS-Canada handelsrelatie is de grootste bilaterale handelsrelatie ter wereld. Tarieven van deze omvang op beide kanten verhogen de productiekosten voor Noord-Amerikaanse supply chains — van auto's tot halfgeleiders — en zetten inflatiedruk op consumenten aan beide zijden van de grens.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Oekraïne: droneaanvallen hervatten direct na VS-gezantenbezoek — NAVO waarschuwt voor recordaantal burgerdoden</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Russische drones troffen gisteren gebouwen in Kyiv en de districten Boryspil en Fastiv, vlak nadat de driedaagse beperkte wapenstilstand rondom het bezoek van VS-gezanten Steve Witkoff en Jared Kushner aan Moskou en Kyiv was verlopen. Oekraïne bekritiseerde het hervatten van aanvallen zo snel na het vertrek van de gezanten. NAVO-secretaris-generaal Mark Rutte waarschuwde bij de 36e vergadering van de Ukraine Defense Contact Group dat het aantal gedode burgers in Oekraïne op het hoogste niveau ligt sinds mei 2022, en drong aan op versnelde militaire steun. Zelensky steunde voorzichtig de ideeën van de VS-gezanten en zei een ontmoeting met president Trump rond 20 september na te streven voor bespreking van extra luchtafweersystemen.</p>
+        <p class="meta">Gepubliceerd 8–9 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends">Russia strikes Kyiv as three-day pause during US envoy visits ends</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De combinatie van herattend Russisch vuur en een mogelijk Trump-Zelensky-ontmoeting op 20 september maakt de komende twee weken cruciaal voor de diplomatie rondom het conflict. Het tijdvenster voor vredesonderhandelingen blijft smal, terwijl de humanitaire tol verder oploopt.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Ozempic-werkzame stof verlaagt risico op psychiatrische ziekenhuisopname bij bipolaire stoornis met 21%</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een grote Zweedse studie van bijna 15.000 mensen met een bipolaire stoornis toont aan dat het gebruik van semaglutide — het werkzame bestanddeel van Ozempic en Wegovy — geassocieerd is met een 21% lager risico op psychiatrische ziekenhuisopname. Andere GLP-1-geneesmiddelen lieten dezelfde associatie niet zien, wat wijst op een specifiek effect van semaglutide. Onderzoekers vermoeden dat het middel via ontstekingsremmende en neuronale routes de stemming helpt stabiliseren. Het onderzoek werd gepubliceerd in Acta Psychiatrica Scandinavica. Eerder dit jaar toonden andere studies al verlagingen van depressie, angststoornissen en middelenmisbruik bij semaglutide-gebruikers.</p>
+        <p class="meta">Gepubliceerd 7 september 2026 — ScienceDaily / Acta Psychiatrica Scandinavica — <a href="https://www.sciencedaily.com/releases/2026/09/260907201601.htm">Ozempic and Wegovy may have an unexpected mental health benefit</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Semaglutide werd ontwikkeld als diabetesmiddel en groeide uit tot een blockbuster voor gewichtsverlies. Als de psychiatrische voordelen in gerandomiseerde trials worden bevestigd, kan het middel een rol gaan spelen bij de behandeling van bipolaire stoornis — een aandoening waarvoor de huidige medicijnen beperkte effectiviteit hebben en bijwerkingen meebrengen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kwantumzwaartekracht direct gemeten: Einsteins voorspelling voor het eerst experimenteel bevestigd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Natuurkundigen hebben voor het eerst een lang voorspeld kwantumeffect van de zwaartekracht direct geobserveerd. Het experiment plaatst een van Einsteins fundamentele ideeën — dat zwaartekracht ook op kwantumschaal meetbaar moet zijn — voor het eerst op een experimentele proef. De meting werd mogelijk door extreme precisie-instrumenten die kleine kwantumcorrelaties konden onderscheiden van thermische ruis. Het resultaat staat los van de grote zoektocht naar een verenigde theorie van kwantummechanica en zwaartekracht, maar levert een cruciale empirische bouwsteen op voor die zoektocht.</p>
+        <p class="meta">Gepubliceerd september 2026 — ScienceDaily / Nature — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een directe meting van kwantumzwaartekracht is een van de heilige gralen van de moderne fysica. Het opent een experimenteel pad voor theorieën die tot nu toe alleen wiskundig konden worden getoetst, en kan op termijn gevolgen hebben voor de ontwikkeling van kwantumcomputers die gevoelig zijn voor gravitationele effecten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">1.200+ genvarianten verbonden aan de Big Five-persoonlijkheidskenmerken — en ook aan gezondheid, inkomen en levensduur</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuwe grootschalige genomische studie identificeerde meer dan 1.200 genetische varianten die verband houden met de vijf basispersoonlijkheidskenmerken (openheid, consciëntieusheid, extraversie, vriendelijkheid en neuroticisme). Opvallend: veel van dezelfde varianten blijken ook geassocieerd met gezondheidsuitkomsten, levensduur, carrièrekeuzes, inkomensniveau en dagelijkse gewoonten. De omvang van het genetische signaal — meer dan duizend varianten voor één eigenschap — bevestigt dat persoonlijkheid geen simpel erfelijk mechanisme heeft, maar is ingebed in het bredere biologie van hoe we leven.</p>
+        <p class="meta">Gepubliceerd september 2026 — ScienceDaily / Livescience — <a href="https://www.sciencedaily.com/news/top/science/">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De koppeling tussen persoonlijkheid en gezondheidsuitkomsten opent de deur naar gepersonaliseerde preventiestrategieën. Als genetische predisposities voor neuroticisme samengaan met hogere ziekte-risico's, kunnen artsen die informatie in de toekomst meenemen bij vroegsignalering — mits ethische kaders voor genetisch profileren meegroeien.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Spaans Grand Prix in Madrid: kwalificatie zaterdag 16:00, race zondag 15:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dit weekend vindt de Spaans Grand Prix plaats op het nieuwe stratencircuit in Madrid (11–13 september). Het schema in Nederlandse tijd: vrije trainingen vrijdag, kwalificatie zaterdag 16:00, race zondag 15:00. Het is geen sprintweekend. Madrid debuteerde dit seizoen als nieuwe locatie op de F1-kalender, als opvolger van het Circuit de Barcelona-Catalunya waar de Spaans GP decennialang werd gehouden.</p>
+        <p class="meta">Bron: <a href="https://www.formula1.com/en/racing/2026">Formula 1 — Official 2026 Race Calendar</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

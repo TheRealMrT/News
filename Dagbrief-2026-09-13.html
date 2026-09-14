@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — zondag 13 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZONDAG 13 SEPTEMBER 2026</p>
+
+  <p class="intro">
+    De BRICS-top in New Delhi sloot gisteren af met een opvallende bilaterale India-China-toenadering terwijl Xi Jinping, Vladimir Poetin en Narendra Modi gezamenlijk een front vormen tegenover Amerikaanse tarieven en de voortdurende spanningen rond Iran. In de AI-wereld publiceert Anthropic een uitgebreid dreigingsrapport over staatsgesteunde misbruikcampagnes via Claude, en OpenAI's full-duplex spraak-API voor ontwikkelaars gaat officieel live. Alibaba lanceert twee Qwen3.8-modellen tegelijk: een flagship dat frontier-agentic taken claimt te domineren én een 27-miljard-parameterversie die lokaal op een MacBook Pro draait. De wetenschap onthult Mercury's onverwacht hete vulkanische verleden, terwijl Amerikaans onderzoek wijst op rattenslangenbloed als basis voor een tienmaal krachtiger tegengif. En vanavond om 15:00 rijdt de Formule 1 voor het eerst op het gloednieuwe Madring-circuit in Madrid — Lando Norris start vooraan.
+  </p>
+
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic dreigingsrapport: staatshackers gebruikten Claude voor cyberoperaties, biologisch misbruik en desinformatie — alles verstoord</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic publiceert zijn meest uitgebreide dreigingsrapport tot nu toe, dat de periode december 2025 tot augustus 2026 dekt. Het Threat Intelligence-team onderschepte operaties van vermoedelijk staatsgesponsorde groepen, financieel gemotiveerde criminelen en politiek gedreven actoren in zeven risicogebieden: cyberoperaties, beïnvloedingsoperaties, surveillance, oplichting en fraude, biologisch misbruik, conventionele waponontwikkeling en modelkopieerdistillatie. Geen van de misbruikgevallen maakte gebruik van Fable- of Mythos-klasse modellen. Anthropic deelde in elk geval intelligentie met autoriteiten en sectorpartners.</p>
+        <p class="meta">Gepubliceerd 11 september 2026 — Anthropic — <a href="https://www.anthropic.com/threat-intelligence-report-september-2026">Countering misuse of AI: September 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor het eerst meet Anthropic ook "uplift" — de concrete meerwaarde die AI aan aanvallers gaf boven hun eigen capaciteiten. Dat maakt dit rapport een benchmark voor hoe schadelijk AI-misbruik daadwerkelijk is, en hoe zichtbaar en beheerbaar het al dan niet blijft voor labs met actieve detectie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI GPT-Live 1 algemeen beschikbaar in API: spraak-AI die doorgaat terwijl het backend-model redeneert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft GPT-Live 1 als generally available uitgebracht in de API. Het model maakt full-duplex stemgesprekken mogelijk waarbij de conversatie niet stilvalt terwijl een backend-model of agent tools uitvoert, redeneert of data ophaalt. Dit lost een fundamenteel probleem op bij stemtoepassingen: het gevoel van wachten op een AI-antwoord. Tegelijk werd ook de Data-plugin voor Codex GA: agenten kunnen nu rechtstreeks verbonden bedrijfsdata analyseren in ChatGPT Work en Codex, zonder export naar externe tools.</p>
+        <p class="meta">Gepubliceerd 10 september 2026 — OpenAI — <a href="https://openai.com/products/release-notes/">OpenAI Product Release Notes</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Full-duplex spraak is de sleutel tot naturaltijkere AI-assistenten in klantenservice, zorg en productiviteitstools. Met GPT-Live 1 in de API kunnen externe ontwikkelaars nu ook voice-first producten bouwen die frontend-ervaring en backend-intelligentie combineren — een segment waar tot nu toe alleen eigenproducten van OpenAI en Google domineerden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Alibaba lanceert Qwen3.8-Max én 27B-lokaal: frontier agentic performance en laptop-inferentie in één release-golf</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Alibaba brengt twee modellen uit in de Qwen3.8-serie. Qwen3.8-Max claimt frontier-niveau op agentic computer use-benchmarks en zou GPT-5.6 Sol Max en Claude Fable 5 verslaan. Tegelijk maakt Alibaba open gewichten beschikbaar van Qwen3.8-27B onder Apache 2.0-licentie, een compact 27-miljard-parametermodel dat bij 4-bit kwantisatie op circa 17 GB past en draait op een MacBook Pro met 32 GB unified memory. Derde partijen hebben MLX-conversies beschikbaar gemaakt voor Apple Silicon. De Artificial Analysis Intelligence Index geeft het model 52 punten op een samengestelde score over coding, wetenschap en redeneren.</p>
+        <p class="meta">Gepubliceerd september 2026 — VentureBeat / The New Stack — <a href="https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required">Qwen3.8-27B runs frontier-class coding agents locally</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Alibaba bewijst dat de kloof tussen cloud-frontiermodellen en lokaal uitvoerbare open modellen snel sluit. Voor ontwikkelaars, bedrijven met privacyeisen en gebruikers in regio's met beperkte API-toegang is een gratis, lokaal draaiend model op Opus-niveau een gamechanger — en zet het druk op de prijsstelling van alle grote labs.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Ollama integreert Apple MLX-framework: lokale AI-modellen op Apple Silicon tot meerdere malen sneller</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Ollama, het populaire open-source platform om lokale AI-modellen te draaien, heeft ondersteuning toegevoegd voor Apples MLX-framework. MLX is specifiek ontworpen voor het uniforme geheugenmodel van Apple Silicon (M-serie chips), waarbij CPU en GPU dezelfde geheugenpool delen. Door MLX te benutten als backend kunnen modellen op Macs significant sneller tokens genereren ten opzichte van de generieke Metal-backend. De integratie maakt het ook eenvoudiger om kwantisatieformaten als MLX-Q4 te gebruiken die zijn geoptimaliseerd voor Apple-hardware.</p>
+        <p class="meta">September 2026 — The New Stack — <a href="https://thenewstack.io/ollama-taps-apples-mlx/">Ollama taps Apple's MLX framework to make local AI models faster on Macs</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Mac-gebruikers vormen een grote groep ontwikkelaars die lokaal met AI-modellen experimenteert of werkt. Snellere inferentie via MLX verlaagt de drempel voor lokale ontwikkeling, offline workflows en privacybewust gebruik — en sluit direct aan bij Alibaba's Qwen3.8-27B die nu ook via MLX op Apple Silicon draait.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Codex Data-plugin GA: agentic data-analyse van bedrijfsdata direct in Codex en ChatGPT Work</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft de Data-plugin voor Codex als generally available uitgebracht. De plugin stelt gebruikers en AI-agents in staat om verbonden bedrijfsdata — databases, dashboards, spreadsheets — rechtstreeks te bevragen en te analyseren binnen Codex en ChatGPT Work, zonder de data eerst te exporteren naar externe tools. Dit maakt Codex van een pure coding-agent tot een bredere zakelijke AI-werkomgeving die ook data-analyse combineert met code genereren en uitvoeren.</p>
+        <p class="meta">Gepubliceerd 10 september 2026 — OpenAI — <a href="https://openai.com/products/release-notes/">OpenAI Product Release Notes</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het samenvoegen van code-generatie en data-analyse in één agentic omgeving is een cruciale stap richting de "universal work agent". Hiermee vergroot OpenAI het toepassingsgebied van Codex ver voorbij software-ontwikkeling, en zet het druk op gespecialiseerde BI-tools en de data-analysepijplijnen van Salesforce, Microsoft en Databricks.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">BRICS-top New Delhi: Xi, Poetin en Modi bijeen — India-China bilateraal opent diplomatieke dertauw</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De 18e BRICS-top vond op 11 en 12 september plaats in New Delhi, waar India als gastheer fungeerde. Aanwezig waren de leiders van alle BRICS-landen inclusief China's Xi Jinping, Ruslands Vladimir Poetin en Iran's president Masoud Pezeshkian. De top richtte zich op handel, investeringen en mondiale conflicten, terwijl het blok een grotere rol opeist in de wereldorde. Opmerkelijk was de bilaterale ontmoeting tussen Modi en Xi — de meest substantiële diplomatieke toenadering tussen India en China sinds de grenseskalatie van 2020. Dit terwijl Amerikaanse tarieven, sancties en de Iran-oorlog de BRICS-eenheid onder druk zetten en de Xi-Trump-top van 24 september nadert.</p>
+        <p class="meta">Gepubliceerd 12 september 2026 — CNBC / NPR — <a href="https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html">Xi, Putin and Modi meet at BRICS summit amid Trump pressure</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een India-China diplomatieke dertauw — terwijl Poetin en Xi gezamenlijk aanwezig zijn — herschikt de Aziatische machtsbalans op een cruciaal moment. Tegelijk fungeert de BRICS-top als drukmiddel richting de aankomende Xi-Trump-top op 24 september, die al belast is door herlevende sanctie-oorlogen en handelsescalatie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hongkong: pro-democratie-activisten tot vijf à zeven jaar veroordeeld — barometer voor Pekings grip op de stad</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een Hongkongse rechtbank heeft een groep pro-democratie-activisten veroordeeld tot gevangenisstraffen van vijf tot zeven jaar. De zaak wordt breed beschouwd als maatstaf voor de mate waarin Peking de vrijheden in Hongkong verder inperkt. De National Security Law, die Peking in 2020 oplegde, heeft het juridische kader gecreëerd waaronder dergelijke vervolgingen plaatsvinden. Internationale mensenrechtenorganisaties en westerse regeringen reageerden met scherpe kritiek.</p>
+        <p class="meta">12 september 2026 — NPR / Al Jazeera — <a href="https://www.npr.org/sections/world/">NPR World News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Elke nieuwe veroordeling onder de nationale veiligheidswet maakt duidelijker dat Hongkong als politiek aparte ruimte definitief tot het verleden behoort. Voor internationale bedrijven en expats verhoogt dit de juridische onzekerheid; voor de EU en VS voegt het een nieuw dossier toe aan de toch al gespannen relatie met Peking.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Mercury bevat veel minder siliciumdioxide dan gedacht — wijst op onverwacht heet vulkanisch verleden</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuwe studie op basis van infraroodmetingen toont aan dat Mercury's oppervlak slechts circa 37 procent siliciumdioxide bevat, aanzienlijk minder dan wetenschappers tot nu toe aannamen. Dit suggereert dat het oeroude lava afkomstig was uit diepere, intensiever gesmolten lagen van de planetenmantel — een vulkanisch verleden dat heter was dan modellen voorspelden. Mercury koelde vroeg af; vulkanische activiteit stopte ongeveer een miljard jaar na zijn vorming, waarna een doorlopende "rotskorst" het oppervlak bedekte. De ESA BepiColombo-missie, gepland voor een baan om Mercury in november dit jaar, moet de bevindingen verder toetsen.</p>
+        <p class="meta">Gepubliceerd 11 september 2026 — ScienceDaily / Phys.org — <a href="https://www.sciencedaily.com/releases/2026/09/260911003854.htm">Mercury's surface reveals a surprisingly fiery past</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De samenstelling van planetenkorssten vertelt ons hoe zonnestelsellichamen zijn afgekoeld en geëvolueerd. Als Mercury's mantel heter was dan gedacht, heeft dat gevolgen voor modellen van de vroege planetenvorming — en voor wat we verwachten van BepiColombo's dataverzameling later dit jaar.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Rattenslangenbloed bevat eiwitten die gifslangenbeten neutraliseren — tien keer krachtiger dan huidig tegengif</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de University of Maryland, geleid door professor Sean B. Carroll, ontdekten dat combinaties van gifblokkerende eiwitten in het bloed van westelijke diamantrug-ratelslangen krachtig beschermen tegen gif van meerdere gevaarlijke slangensoorten. In laboratoriumtests waren de eiwitmengsels circa tien keer zo potent als een commercieel tegengif op de markt, en neutraliseerden ze het dodelijke effect van ratelslangengif volledig. De eiwitten bieden ook brede bescherming tegen gif van viper-soorten die miljoenen jaren van evolutie van elkaar verwijderd zijn. Het onderzoek is gepubliceerd en ook besproken in Nature.</p>
+        <p class="meta">Gepubliceerd september 2026 — ScienceDaily / Nature — <a href="https://www.nature.com/articles/d41586-026-02461-0">Rattlesnakes' own antivenom could protect humans too</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Slangenbeten veroorzaken wereldwijd naar schatting 100.000 sterfgevallen per jaar, met de grootste last in Azië en sub-Sahara Afrika. Conventionele antivenoms zijn duur te produceren, hebben korte houdbaarheid en werken soortspecifiek. Een breedspectrum-tegengif op basis van een evolutionair beproefd eiwitmechanisme zou de beschikbaarheid drastisch kunnen verbeteren.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Spaans Grand Prix op Madring (Madrid): race vandaag om 15:00 NL-tijd, Norris op pole, Antonelli leidt kampioenschap</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Formule 1 keert voor het eerst in meer dan 45 jaar terug naar Madrid, op het splinternieuwe Madring-circuit — een hybride lay-out die stadswegen en permanent asfalt combineert, met 22 bochten en rechte stukken waarop auto's 340 km/u bereiken. Lando Norris veroverde gisteren poleposition door teammaat en kampioenschapsleider Kimi Antonelli te verslaan in een spannende kwalificatiesessie. Race vandaag om 15:00 NL-tijd. In het kampioenschap leidt de Fin Antonelli (Mercedes) met 66 punten voorsprong op zijn teamgenoot George Russell, na zeven overwinningen dit seizoen waaronder de Italiaanse Grand Prix op Monza.</p>
+        <p class="meta">Bron: Formula1.com — <a href="https://www.formula1.com/en/racing/2026/spain">2026 Spanish Grand Prix</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>

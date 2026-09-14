@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 5 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZATERDAG 5 SEPTEMBER 2026</p>
+
+  <p class="intro">Anthropic's omzetgroei blijft verbijsteren: het annualized run rate bereikte eind juli $65 miljard en groeit richting een verwacht eindejaarscijfer van $100–120 miljard — een traject zonder precedent in de techsector. Tegelijk breidt het bedrijf zijn compute-deal met Google en Broadcom uit naar meerdere gigawatts, terwijl xAI's Grok 4.6 zijn weg vindt naar GitHub Copilot en zo de model-keuze voor ontwikkelaars verder verruimt. Op geopolitiek vlak naderen we de Xi-Trump-top van 24 september te midden van aanhoudende Hormuzspanningen, terwijl India en China in een verhitte grensimpasse verwikkeld blijven. In de wetenschap: MIT bouwt levende circuits van bacteriën, Duke repareert hersenen na een beroerte met injecteerbare steigers, en Saturn blijkt ook aan zijn zuidpool een gigantisch geometrisch patroon te vormen.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic's omzetrun rate schiet naar $65 miljard — 1000+ enterprise-klanten geven elk meer dan $1 miljoen per jaar uit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Eind juli 2026 bereikte Anthropic een geannualiseerde omzet van $65 miljard, op van $47 miljard in mei en $9 miljard eind 2025. CEO Dario Amodei noemde de groei eerder "crazy" — 80x annualized groei in Q1 2026 alleen al. Het aantal enterprise-klanten dat meer dan $1 miljoen per jaar uitgeeft, verdubbelde in minder dan twee maanden van 500 naar meer dan 1.000. Investeerders verwachten dat Anthropic het jaar afsluit tussen $100 en $120 miljard aan run rate — een tempo dat geen enkel techbedrijf eerder haalde.</p>
+        <p class="meta">Augustus 2026 — TechCrunch &amp; VentureBeat — <a href="https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/">Anthropic's annualized revenue surges to $65B</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit tempo van inkomstengroei herdefineert wat "enterprise AI-adoptie" betekent. Als de prognose klopt, overschrijdt Anthropic dit jaar de omzet van veel Fortune 500-bedrijven — met een model dat amper twee jaar in brede omloop is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic breidt gigawatt-compute-deal uit met Google en Broadcom — "meerdere gigawatts" next-gen rekenkracht verzekerd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft zijn bestaande partnerschap met Google en Broadcom uitgebreid en daarmee toegang veiliggesteld tot meerdere gigawatts aan next-generation computerinfrastructuur. De deal omvat nieuwe TPU-capaciteit die door Google en Broadcom samen wordt geleverd, bedoeld om de sterk versnellende vraag naar Claude-diensten bij te houden. De deal sluit aan op eerdere afspraken uit april 2026 en is aanzienlijk groter van omvang dan vorige rondes.</p>
+        <p class="meta">September 2026 — Anthropic — <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute">Anthropic expands partnership with Google and Broadcom</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Rekenkracht is de bottleneck voor elke AI-lab. Door meerdere gigawatts te reserveren, verzekert Anthropic zich van de infrastructuur die nodig is om de verwachte verdubbeling van vraag in het komende halfjaar op te vangen — en houdt het daarmee de groeisnelheid op peil.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Grok 4.6 beschikbaar in GitHub Copilot — xAI's reasoning-model voor agentic coding naast Claude en Gemini</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>xAI's Grok 4.6, een reasoning-model specifiek getraind op agentic coding en complexe meerstaps-workflows, is nu beschikbaar in GitHub Copilot voor alle betaalde tiers (Pro, Pro+, Max, Business en Enterprise). Twee dagen na de eigen lancering voegde Microsoft het model toe. Grok 4.6 scoort bijzonder sterk op langere codeertaken in de terminal en Copilot CLI, en is selecteerbaar naast Claude en Gemini in de model-picker in VS Code, JetBrains, Xcode en Eclipse. Via de SpaceXAI API kost het model $2 per miljoen input-tokens en $6 per miljoen output-tokens.</p>
+        <p class="meta">14 augustus 2026 — GitHub Changelog — <a href="https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot/">Grok 4.6 is now available in GitHub Copilot</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Copilot is het meest gebruikte AI-codeerhulpmiddel ter wereld. Dat Grok 4.6 binnen twee dagen na lancering al beschikbaar is, laat zien hoe snel de integratiepijplijnen volwassen worden — en geeft ontwikkelaars een derde serieuze frontier-modeloptie binnen hun bestaande werkomgeving.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Entire herdefinieert versiebeheer voor agent-schaal: een GitHub-spiegel gebouwd voor AI-agents, niet voor mensen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Startup Entire lanceert een onafhankelijk Git-netwerk waarmee ontwikkelaars GitHub-repositories kunnen spiegelen op een infrastructuur die specifiek is ontworpen voor AI-agents als primaire gebruikers. Waar standaard-Git gebouwd is rondom menselijke pull requests en codereview-flows, optimaliseert Entire voor de hoge frequentie, parallelle branches en autonome commits die agentic coding-systemen genereren. De aanpak erkent dat agents fundamenteel andere versiebeheerspatronen vertonen dan menselijke ontwikkelaars.</p>
+        <p class="meta">September 2026 — The New Stack — <a href="https://thenewstack.io/software-development/">Entire reimagines version control for agent-scale development</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Nu 81% van ontwikkelaars dagelijks AI-agents inzet, knelt de bestaande Git-infrastructuur. Entire wijst op een bredere verschuiving: de tooling rondom softwareontwikkeling moet opnieuw worden uitgevonden voor een wereld waarin agents de primaire code-producers zijn.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS en Saudi-Arabië ondertekenen nucleaire energiedeal — civiele kernenergie midden in een gespannen regio</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Washington en Riyad hebben een akkoord gesloten over samenwerking op het gebied van civiele kernenergie. De deal geeft Saudi-Arabië toegang tot Amerikaanse nucleaire technologie en expertise, in ruil voor strikte afspraken over nonproliferatie. De overeenkomst past in een bredere Amerikaanse strategie om de regio te stabiliseren en de Saudische afhankelijkheid van Iranse olierente te doorbreken. Ze komt op een moment dat het Midden-Oosten nog steeds gekenmerkt wordt door spanningen rondom de Hormuzstraat en de aanhoudende VS-Iran-confrontatie.</p>
+        <p class="meta">September 2026 — Deutsche Bank Research / geopolitieke bronnen — <a href="https://www.dbresearch.com/PROD/IE-PROD/PROD0000000000643896/This_Month_in_Geopolitics:_September_2026.PDF">This Month in Geopolitics: September 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een nucleair energieakkoord met Saudi-Arabië heeft strategische reikwijdte ver buiten de energiesector: het versterkt de band met Riyad, verankert Amerikaanse technologische invloed in de regio en stuurt een signaal aan Iran en China dat Washington zijn Golfallianten niet loslaat.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">India en China in verhevigend militair grensstandoff — twee nucleaire mogendheden in confrontatie terwijl Xi-Trump-top nadert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>India en China zijn verwikkeld in een escalerend militair standoff langs hun gezamenlijke grens, terwijl beide landen tegelijkertijd hun defensie-uitgaven en troepenconcentraties verhogen. China doorbreekt dit jaar de $1 biljoen R&D-drempel — een signaal dat het de technologische achterstand op het Westen definitief wil overbruggen. De spanning voltrekt zich tegen de achtergrond van de verwachte Xi-Trump-top op 24 september, die al zwaar wordt beladen door de lopende sanctieoorlog tussen Washington en Peking.</p>
+        <p class="meta">September 2026 — Geopolitical Monitor / Lazard Research — <a href="https://www.geopoliticalmonitor.com/">Geopolitical Monitor</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een India-China-conflict zou de mondiale toeleveringsketens raken op een manier die zelfs de Oekraïne-oorlog niet deed. Dat dit zich ontvouwt terwijl Washington probeert te bemiddelen via de Xi-Trump-top, maakt de geopolitieke agenda van eind september bijzonder complex.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran opent nieuwe Hormuz-aanvallen — mijnenruiming VS geeft tijdelijke opening, maar tankers blijven doelwit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na de Amerikaanse mijnenruiming in de Hormuzstraat (25 augustus) heeft Iran op 30 en 31 augustus twee tankers aangevallen op de zuidelijke doorvaartroute, wat aantoont dat de capaciteit om scheepvaart te verstoren ondanks de VS-operaties intact is gebleven. Rusland verhoogde tegelijkertijd zijn steun aan Iran en kondigde intensievere aanvallen op Oekraïne aan. Oekraïne begon als reactie op Iraanse steun aan Rusland Iraanse scheepvaart te targeten. De situatie in de Straat blijft gespannen met weinig perspectief op de-escalatie vóór de Xi-Trump-top.</p>
+        <p class="meta">1–2 september 2026 — FDD Overnight Brief / Critical Threats — <a href="https://www.fdd.org/overnight-brief/september-2-2026/">FDD Overnight Brief, 2 september 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Hormuzstraat is de doorvoerader voor circa 20% van de mondiale oliehandel. Elke escalatie hier stuurt directe schokgolven door energiemarkten en verzekert dat Iran een prominente rol blijft spelen in de diplomatieke agenda — ook als de wapens zwijgen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Duke injecteert herstelsteiger in beschadigde hersenen — nieuwe bloedvaten en zenuwgroei na beroerte bij muizen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van Duke University hebben een injecteerbare biomateriaal-steiger ontwikkeld die, eenmaal in beschadigd hersenweefsel na een beroerte geplaatst, de groei van nieuwe bloedvaten stimuleert, zenuwregeneratie ondersteunt en motorisch herstel bevordert in muismodellen. De steiger lost op nadat het herstellende weefsel zichzelf heeft gereorganiseerd, zodat er geen permanente implantaten achterblijven. De resultaten vertegenwoordigen een stap naar klinische toepassingen voor de ruim 13 miljoen mensen die elk jaar wereldwijd een beroerte overleven.</p>
+        <p class="meta">September 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/science/">ScienceDaily — Top Science News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Hersenschade na een beroerte gold lang als grotendeels onomkeerbaar. Een injecteerbare oplossing die actief herstelprocessen triggert — zonder operatie of permanente implantaten — opent een nieuw therapeutisch paradigma voor een van de meest invaliderende aandoeningen ter wereld.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">MIT bouwt bacteriële transistoren: levende circuits voeren berekeningen uit en sturen chemische signalen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers van MIT hebben bacteriën omgebouwd tot functionerende transistoren die met elkaar kunnen worden gekoppeld tot levende circuits. Deze circuits zijn in staat logische berekeningen uit te voeren en als reactie daarop specifieke chemische signalen af te geven — de basisfunctie van elektronische processoren, maar dan uitgevoerd door biologische cellen. De technologie biedt potentieel voor toepassingen in biosensoren, gerichte medicijnafgifte en programmeerbare levende materialen die reageren op hun omgeving.</p>
+        <p class="meta">September 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/breaking/">ScienceDaily — Breaking News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Levende computers die opereren binnen het lichaam of in complexe biologische omgevingen zouden diagnose en behandeling fundamenteel kunnen veranderen — van een cel die kanker detecteert en direct reageert tot materialen die zichzelf repareren. Dit is de vroege grondslag voor die toekomst.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Saturn toont tienzijdig atmospherisch patroon rond zuidpool — tegenhanger van het beroemde noordpool-hexagoon</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Astronomen hebben een groot tienzijdig (decagonaal) atmosferisch patroon ontdekt rond de zuidpool van Saturn — een verrassende spiegelstructuur van het bekende zeshoekige stormpatroon aan de noordpool. De structuur werd waargenomen met data van ruimtetelescopen en suggereert dat de gasreus symmetrische maar geometrisch verschillende poolstormen kan aanhouden aan beide polen tegelijk. De precieze oorzaak van de geometrie wordt nog onderzocht, maar heeft mogelijk te maken met diepere atmosferische stroompatronen dan eerder aangenomen.</p>
+        <p class="meta">September 2026 — Nature / ScienceDaily — <a href="https://www.nature.com/nature/volumes/657/issues/8130">Nature, vol. 657 (3 september 2026)</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Saturns noordpool-hexagoon is al decennia een van de meest mysterieuze verschijnselen in ons zonnestelsel. Een anders gevormde tegenhanger aan de zuidpool stelt onze modellen van planetaire atmosferendynamica opnieuw op de proef en geeft nieuwe data voor vergelijkende planetologie.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Italiaanse Grand Prix Monza: vandaag kwalificatie om 16:00, morgen race om 15:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Italiaanse Grand Prix op het circuit van Monza — de "Tempel van de Snelheid" — bereikt vandaag zijn hoogtepunt met de kwalificatie om 16:00 NL-tijd. De uitslag van de kwalificatie is op dit moment nog niet beschikbaar. Morgen, zondag 6 september, start de race om 15:00 NL-tijd. Monza is traditioneel het circuit met de hoogste gemiddelde topsnelheden van het seizoen, wat lage-neerdruksetups en remgediscipline beloont boven pure downforce.</p>
+        <p class="meta">Bron: <a href="https://www.formula1.com/en/racing/2026/italy">Formula1.com — 2026 Italian Grand Prix</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>

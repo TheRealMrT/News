@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 2 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 2 SEPTEMBER 2026</p>
+
+  <p class="intro">Op de eerste werkdag van september lanceert Anthropic Fable 5.1 en Mythos 5.1: een significante kostenreductie voor enterprise-agents met 75% goedkopere cache-reads en een nieuw beveiligingsarchitectuur. OpenAI voegt een open-weight model toe dat persoonsgevoelige data automatisch opspoort en redigeert. In Oekraïne kwamen afgelopen nacht twaalf mensen om bij een Russische raketaanval op een spoorwegdepot in Kyiv — het zesde nachtelijke bombardement op rij. De fragiele wapenstilstand met Iran brokkelt verder af nu legersecretaris Driscoll zijn ontslag indiende, terwijl wetenschappers bij Oak Ridge bewijzen dat AI-agents ook gewassen kunnen helpen ontwikkelen die zeldzame mineralen uit de bodem filteren.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic lanceert Fable 5.1 en Mythos 5.1 — cache-kosten 75% omlaag, Enterprise Frontier Safeguards nieuw</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic bracht op 1 september Fable 5.1 en Mythos 5.1 uit: twee versies van hetzelfde onderliggende model. De cache read-kosten dalen naar 25% van het vroegere niveau — een directe verlaging van de operationele kosten voor langlopende AI-agents die grote contexten bewaren. Input- en output-prijzen blijven gelijk ($10/$50 per miljoen tokens), maar de modellen presteren beter dan hun voorganger, vooral bij coding en kenniswerk. Nieuw is het Enterprise Frontier Safeguards-architectuur (EFS), waarmee organisaties monitoringdata in hun eigen infrastructuur kunnen houden in plaats van bij Anthropic. Mythos 5.1 — met ruimere capabiliteiten — is toegankelijk voor geselecteerde cybersecurity- en life-sciences-organisaties. Beide modellen ondersteunen één miljoen tokens context en tot 128.000 tokens per respons.</p>
+        <p class="meta">Gepubliceerd 1 september 2026 — VentureBeat — <a href="https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads">Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor enterprise-teams die Claude inzetten in langlopende agents is cached context de grootste kostenpost. Een verlaging van 75% maakt grootschalige agent-implementaties aanzienlijk economischer. EFS adresseert tegelijk de compliance-bezwaren van organisaties in gereguleerde sectoren die geen monitoringdata buiten hun eigen perimeter willen opslaan.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert Privacy Filter: open-weight model detecteert en redigeert persoonsgegevens in tekst</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft Privacy Filter uitgebracht, een open-weight model dat persoonsgevoelige informatie — namen, adressen, BSN-nummers en vergelijkbare gegevens — automatisch detecteert en redigeert uit tekst. Het model presteert state-of-the-art op PII-detectiebenchmarks en is vrij beschikbaar als open-weight model. OpenAI positioneert het als infrastructuurbouwsteen voor ontwikkelaars die veilige AI-toepassingen willen bouwen zonder PII in hun prompts of logs te laten sluipen.</p>
+        <p class="meta">Gepubliceerd 1 september 2026 — OpenAI — <a href="https://openai.com/index/introducing-openai-privacy-filter/">Introducing OpenAI Privacy Filter</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AVG-compliance vereist dat persoonsdata niet onbedoeld in modelprompts of logbestanden terechtkomen. Een gratis open-weight model verlaagt de drempel voor veilige LLM-integraties — en als OpenAI het open-source uitbrengt, kan de gemeenschap het verbeteren en aanpassen aan nationale juridische definities van PII.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenClaw 2.0: van persoonlijk AI-agent-framework naar teamplatform voor enterprise workflows</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De makers van OpenClaw kondigden versie 2.0 aan, een ingrijpende uitbreiding van wat oorspronkelijk een persoonlijk AI-agent-framework was. De nieuwe versie richt zich op teams en gedeelde infrastructuur: meerdere ontwikkelaars en agents die samenwerken binnen één kader — wat VentureBeat omschrijft als "multiplayer" AI-codering. OpenClaw 2.0 wil enterprise workflows ondersteunen met betere governance en traceerbaarheid voor gedeelde agent-sessies.</p>
+        <p class="meta">Gepubliceerd september 2026 — VentureBeat — <a href="https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises">OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De meeste AI-coding tools zijn nog sterk individueel georienteerd. OpenClaw 2.0 weerspiegelt een bredere volwassenwording van agent-frameworks voor teamgebruik — een evolutie die gevolgen heeft voor hoe engineering-teams hun AI-tooling gaan inrichten en welke governance-vereisten ze mee moeten nemen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Windsurf Arena Mode: twee LLM's naast elkaar vergelijken midden in echte codeertaken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Windsurf heeft Arena Mode uitgebracht als onderdeel van zijn AI-IDE. Developers kunnen daarmee twee taalmodellen naast elkaar vergelijken terwijl ze werken aan echte codeertaken — niet op abstracte externe benchmarks, maar direct in hun eigen project en codebase. Het idee: modelkeuze is contextgevoelig, en een model dat op papier beter scoort presteert niet per se beter voor jouw specifieke architectuur of programmeerstijl.</p>
+        <p class="meta">Gepubliceerd september 2026 — Windsurf — <a href="https://windsurf.ai">windsurf.ai</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Externe LLM-ranglijsten zijn onvoldoende om de juiste modelkeuze voor dagelijks werk te maken. Arena Mode brengt de evaluatie terug naar de praktijk — een pragmatische aanpak die de weg vrijmaakt voor persoonlijke en teamgerichte benchmarking en die andere IDE-leveranciers ongetwijfeld zullen volgen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland bombardeert spoorwegdepot Kyiv — twaalf doden waaronder zes spoorwerkers, zesde nacht op rij</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In de nacht van 1 op 2 september troffen Russische ballistische raketten een spoorwegdepot in Kyiv en andere spoorweginfrastructuur. Twaalf mensen kwamen om het leven, onder wie zes spoorwerkers. Het is het zesde opeenvolgende nachtelijke bombardement. Rusland vergroot zijn productiesnelheid van jet-aangedreven drones naar circa 3.000 per maand. Oekraïne meldt dat de totale Russische gevechtsverlies­teller de 1,49 miljoen militairen benadert, van wie ruim 1.440 in de afgelopen 24 uur.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — Kyiv Independent — <a href="https://kyivindependent.com/">kyivindependent.com</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Gerichte aanvallen op spoorweginfrastructuur zijn een bewuste Russische strategie om aanvoerlijnen voor Oekraïense troepen en westerse wapenleveranties te ontwrichten. De stijgende drone-productie vergroot bovendien de druk op Oekraïense luchtverdediging en westerse munitieleveranties.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran-VS-ceasefire brokkelt af — legersecretaris Driscoll treedt af, Hormuz-dreiging houdt aan</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het staakt-het-vuren-akkoord (MOU) dat in juni een einde maakte aan de grootschalige Iran-oorlog staat onder toenemende druk: beide partijen beschuldigen elkaar van schendingen en Iran blijft schepen bedreigen in de Straat van Hormuz. Intussen diende Amerikaans legersecretaris Dan Driscoll zijn ontslag in na maandenlange conflicten met minister van Defensie Pete Hegseth. Driscoll was een pleitbezorger van bredere militaire samenwerking met Oekraïne; zijn vertrek verzwakt die stem in het kabinet.</p>
+        <p class="meta">Gepubliceerd 1 september 2026 — GlobalSecurity — <a href="https://www.globalsecurity.org/military/ops/iran-war-oprep.htm">Iran War Day 186 Update</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een fragiele wapenstilstand, aanhoudende Hormuz-dreiging en interne onenigheid in het Pentagon zijn een gevaarlijke combinatie. Driscoll's vertrek kan de Amerikaanse koers in het Midden-Oosten verder diffuus maken en tegelijk de Oekraïne-steun onder druk zetten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Syrië overweegt toetreding tot mutueel verdedigingspact — nieuwe geopolitieke kaart in het Midden-Oosten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Syrië bestudeert actief toetreding tot het wederzijds verdedigingspact dat in augustus werd ondertekend, zo melden geopolitieke bronnen. De stap zou de regionale veiligheidsarchitectuur verder hertekenen na een periode van snel verschuivende bondgenootschappen als gevolg van de Iran-oorlog. Eerder werd ook gemeld dat Syrië en Israël via Jordanië in gesprek zijn onder Amerikaanse bemiddeling.</p>
+        <p class="meta">Gepubliceerd 2 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/">aljazeera.com</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Syrische toetreding tot een mutueel verdedigingspact zou de diplomatieke speelruimte van zowel de VS als Israël in de regio beperken en een nieuw blok vormen dat de naoorlogse geopolitieke balans in het Midden-Oosten structureel kan veranderen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Agentic AI ontwikkelt gewassen die zeldzame mineralen uit bodem filteren — Oak Ridge doorbreekt bottleneck in kritieke grondstoffenketen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van Oak Ridge National Laboratory (ORNL), onderdeel van het Amerikaanse ministerie van Energie, hebben een agentic AI-systeem ingezet om gewassen te ontwikkelen die als levende spons werken: ze absorberen selectief kritieke mineralen — zoals lithium, kobalt en nikkel — uit de bodem. Het systeem combineert biologische, chemische en agronomische kennis om hypotheses te genereren, experimenten te ontwerpen en resultaten te interpreteren, aanzienlijk sneller dan traditioneel gewasonderzoek.</p>
+        <p class="meta">Gepubliceerd september 2026 — Phys.org — <a href="https://phys.org/news/2026-09-agentic-ai-crops-harvest-critical.html">Agentic AI accelerates search for crops that can harvest critical minerals</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Kritieke mineralen zijn essentieel voor batterijen en chips, maar conventionele mijnbouw is duur en milieubelastend. Phytomining — gewassen als extractietool — is al decennia beloftevol maar traag. Agentic AI kan die onderzoekscyclus drastisch versnellen en daarmee de afhankelijkheid van geopolitiek gevoelige mijnbouwregio's verminderen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Kankercellen omhullen zich met suikerlaag om immuunsysteem te misleiden — nieuw aangrijpingspunt voor immunotherapie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben een mogelijke verklaring gevonden waarom kankercellen zich aan het immuunsysteem onttrekken: ze omhullen zichzelf met een dikke, suikerrijke laag — de glycocalyx. Deze coating maskeert tumormarkers die anders immuuncellen zouden activeren. De ontdekking opent een nieuw therapeutisch aangrijpingspunt: het doorbreken of verwijderen van die suikerlaag zou de immuuncellen in staat kunnen stellen tumoren opnieuw te herkennen en aan te vallen.</p>
+        <p class="meta">Gepubliceerd september 2026 — ScienceDaily — <a href="https://sciencedaily.com/">sciencedaily.com</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Immunotherapie werkt bij een groot deel van de patiënten niet of nauwelijks. Als de glycocalyx-verberging een breed mechanisme blijkt dat veel tumortypen gebruiken, biedt dit een nieuwe aanvalshoek voor behandelingen die nu falen — met potentieel grote gevolgen voor de oncologie.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Formule 1 — Italiaanse Grand Prix, Monza (4–6 september): kwalificatie zaterdag 16:00, race zondag 15:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Formule 1-seizoen trekt dit weekend naar Autodromo Nazionale di Monza voor de Italiaanse Grand Prix. De kwalificatie is zaterdagmiddag om 16:00 NL-tijd (CEST); de race start zondag 6 september om 15:00 NL-tijd. Het circuit beslaat 53 ronden over 5,793 kilometer en staat bekend als het snelste van de kalender. Het is geen sprintweekend; er zijn ook vrije trainingen op vrijdag (12:30 en 16:00) en zaterdag (12:30). Bron: formula1.com.</p>
+        <p class="meta">Formule 1 — <a href="https://www.formula1.com/en/racing/2026/italy">Italian Grand Prix 2026 — formula1.com</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>
