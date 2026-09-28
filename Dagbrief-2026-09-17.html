@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 17 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DONDERDAG 17 SEPTEMBER 2026</p>
+
+  <p class="intro">Het AI-veiligheidsdebat verdiept zich vandaag: Meta, SpaceXAI en Google DeepMind weigeren de embedded auditors die Amodei's veiligheidscoalitie moet schragen, terwijl OpenAI de federale toets via de FRONTIER Act juist omarmt. In Brussel presenteerde de Commissie vandaag de EU Kids Act — een breed digitaal veiligheidsraamwerk dat voor het eerst expliciete grenzen stelt aan social media én AI-chatbots voor minderjarigen. Op het veiligheidsfront pleit Von der Leyen voor een Europese Veiligheidsraad naast de NAVO, zelfs met VK en Canada aan tafel, terwijl Rusland vandaag met meer dan honderd drones toesloeg in heel Oekraïne. In de wetenschap laat de James Webb-telescoop zien dat de ringen van Chariklo verrassend snel van gedaante wisselen, en nieuw onderzoek koppelt een genomische ommekeer in de hersenen rond het vijftigste levensjaar aan de vroege startmechanismes van Alzheimer.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Meta, SpaceXAI en Google DeepMind weigeren embedded veiligheidsevaluatoren — Amodei's coalitie slinkt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Dario Amodei stelde voor dat alle frontier AI-labs onafhankelijke veiligheidsevaluatoren intern laten werken — met de bevoegdheid om incidenten te rapporteren en modelveiligheid te beoordelen. Anthropic en OpenAI commiteerden zich publiekelijk. Meta, SpaceXAI en Google DeepMind deden dat niet: Demis Hassabis (DeepMind) stelt in plaats daarvan een aparte industrie-standaardenorganisatie voor. TechCrunch tekent ondertussen de vraag aan of zelfs de wél deelnemende labs echt onafhankelijke evaluatoren kunnen bieden, als die evaluatoren door de labs zelf worden betaald en gehuisvest.</p>
+        <p class="meta">Gepubliceerd 16 september 2026 — TechCrunch — <a href="https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/">Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een veiligheidsregime dat drie van de vijf grootste frontier-labs uitsluit, is per definitie een gat in de dijk. Bovendien ondermijnt het financieringsmodel de geloofwaardigheid: embedded auditors die afhankelijk zijn van de lab-begroting hebben structureel minder prikkels om kritisch te zijn. Dit maakt wettelijke verankering via de FRONTIER Act relevanter, maar ook politiek kwetsbaarder.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI steunt FRONTIER Act: federale toezichthouders bij frontier AI-labs wettelijk verplicht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft zijn steun uitgesproken voor de FRONTIER Act (Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting Act), en specifiek voor de bepaling die federale toezichthouders het recht geeft om inside frontier AI-labs veiligheidsbeoordelingen uit te voeren. De wet, ingediend door bipartisan Congresleden Obernolte en Trahan, stelt gelaagde verplichtingen in op basis van de omvang van een frontier-AI-developer — van model cards en risicobeheerskaders tot verplichte onafhankelijke audits en incidentrapportage. Naast vrijwillige industrie-evaluatoren zou er zo een wettelijk handhavingsmechanisme zijn.</p>
+        <p class="meta">Gepubliceerd september 2026 — Cryptopolitan / Congress.gov — <a href="https://www.cryptopolitan.com/openai-backs-frontier-act-ai-safety/">OpenAI backs FRONTIER Act provision for federal AI safety assessors</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor het eerst steunt een van de grote labs actief wettelijk toezicht op zijn eigen modelontwikkeling. Als de FRONTIER Act wordt aangenomen, is vrijwillige medewerking niet meer nodig — ook Meta en anderen zouden dan moeten meedoen. De vraag is of het Congres de momentum van het AI-veiligheidsdebat omzet in wetgeving.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">EU Kids Act gepresenteerd: leeftijdsverificatie verplicht voor social media, games én AI-chatbots</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Europese Commissie presenteerde vandaag de EU Kids Act, een verordening die 15 jaar als minimumleeftijd stelt voor zelfstandige accounts op risicovolle sociale media en video-sharingplatforms. Kinderen onder 13 jaar zijn volledig uitgesloten; 13- en 14-jarigen mogen alleen onder verplicht ouderlijk toezicht. Nieuw en opvallend: de wet geldt uitdrukkelijk ook voor AI-aangedreven chatbots en digitale companions. Platformoperators — inclusief "Very Large Online Platforms" — moeten plannen voor nieuwe diensten of features 30 dagen van tevoren ter goedkeuring indienen bij een EU-toezichthouder. Addictieve ontwerpen (infinite scroll, pushmeldingen gericht op minderjarigen) zijn verboden, en leeftijdsverificatie wordt een technische verplichting.</p>
+        <p class="meta">Gepubliceerd 17 september 2026 — European Commission / Euronews — <a href="https://www.euronews.com/my-europe/2026/09/15/leak-eu-commission-to-pitch-social-media-restrictions-for-under-15s">EU Kids Act draft sets 15 as age for unsupervised social media accounts</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is de eerste EU-wetgeving die expliciet eisen stelt aan AI-chatbots gericht op minderjarigen. Voor developers betekent het: verplichte age-gating, verbod op engagement-loops voor -15-jarigen, en een goedkeuringsprocedure voor nieuwe features. Dat raakt elke app met een generatief AI-component, van edtech-tools tot sociale platforms.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Spring Tools 5.4.0: Claude Code plugin-integratie, Eclipse 2026-09 en @RestController-quickfix</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Spring Tools 5.4.0 is uitgebracht met een cluster aan verbeteringen voor Java-developers. Meest opvallend: de Claude Code plugin kan nu de logische structuur van een Spring-project renderen — handig voor navigatie in grote codebases. Verder zijn er nieuwe validatiecontroles en quickfixes voor annotatiemigratie: van gecombineerd gebruik van @Controller en @ResponseBody naar @RestController, en adoptie van Spring Modulith's @ApplicationModuleListener-annotatie. De release bundelt ook een update naar Eclipse IDE 2026-09 en diverse stabiliteitsverbeteringen.</p>
+        <p class="meta">Gepubliceerd 9 september 2026 — spring.io — <a href="https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released/">Spring Tools 5.4.0 released</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Claude Code plugin-integratie is een signaal dat AI-assistenten steeds dieper verweven raken met IDE-workflows — niet als chatvenster ernaast, maar als component die de projectstructuur begrijpt. Voor Spring-developers in enterprise Java-omgevingen is dit een directe productiviteitswinst in bestaande toolchains.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Von der Leyen roept op tot Europese Veiligheidsraad — met VK, Canada en Oekraïne buiten de NAVO-structuur</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In haar jaarlijkse State of the European Union-toespraak in Straatsburg riep Commissievoorzitter Ursula von der Leyen woensdag op tot de oprichting van een Europese Veiligheidsraad. Dat nieuwe orgaan zou naast de NAVO werken en ook niet-EU-lidstaten als het VK, Canada, Noorwegen en Oekraïne een vaste plek geven. Tegelijk stelde ze het "Emergency Security Protocol" voor — een mechanisme à la NATO's Article 4 waarmee één lidstaat alle 27 EU-landen bijeen kan roepen om een gecoördineerde reactie te organiseren op hybride dreigingen als sabotage, cyberaanvallen of droneincursies die de drempel van gewapende agressie niet overschrijden. Canada werd ook uitgenodigd om EU-geassocieerd lid te worden.</p>
+        <p class="meta">Gepubliceerd 16 september 2026 — France 24 — <a href="https://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address">EU chief calls for creation of 'European Security Council', backs partnership with Canada</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een Europese Veiligheidsraad zou de EU voor het eerst een formele, geïntegreerde stem geven in veiligheidszaken buiten het NAVO-kader — inclusief partners die geen NAVO-lid zijn. In de context van toenemende Russische hybride oorlogsvoering en een onzekere Amerikaanse betrokkenheid is dit een strategische kanteling: Europa bouwt aan autonome defensiediplomatie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland stuurt 100+ drones op Oekraïne — Zaporizhzhia zwaar getroffen, 1 dode in Mykolaiv</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Russische strijdkrachten voerden in de nacht van woensdag op donderdag opnieuw een massale droneaanval uit op Oekraïne. In Zaporizhzhia kwamen meerdere explosies voor die branden veroorzaakten en minstens achttien mensen verwondden; in de zuidelijke regio Mykolaiv viel één dode, en in Kharkiv raakten twee mensen gewond. President Zelensky stelde dat Rusland in september alleen al meer dan 3.500 drones en bijna 190 raketten heeft afgevuurd — een "luchtterror"-operatie op schaal. Het Russische ministerie van Defensie meldde dat zijn drones een gasdistributiestation van het Oekraïense leger in de regio Soemy troffen.</p>
+        <p class="meta">Gepubliceerd 17 september 2026 — Al Jazeera — <a href="https://www.aljazeera.com/tag/ukraine-russia-crisis/">Russia-Ukraine war: Today's key events</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het aanvalspatroon — 3.500+ drones in één maand — toont een systematische uitputtingsstrategie gericht op civiele infrastructuur en moreel, niet alleen militaire doelen. De schaal maakt het steeds moeilijker voor Oekraïne om luchtafweer selektief in te zetten, juist nu westerse aanvoer van interceptors onder druk staat.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU Kids Act: Commissie verbiedt social media voor -13, verplicht ouderlijk toezicht tot 15 — ook voor AI-companions</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De EU Kids Act — vandaag formeel gepresenteerd door de Europese Commissie — stelt uniforme regels voor digitale veiligheid van kinderen in alle 27 lidstaten. Platforms met "specifieke ontwerprisico's voor minderjarigen" (sociale media, video-sharing, online games, AI-chatbots) moeten leeftijdsverificatie invoeren, addictieve ontwerppatronen afzweren en ouders van 13-14-jarigen actieve controlemogelijkheden bieden. Very Large Online Platforms moeten nieuwe diensten 30 dagen voor lancering ter goedkeuring indienen. De handhaving wordt gefinancierd via een EU-brede supervisietoeslag op de platformoperators zelf.</p>
+        <p class="meta">Gepubliceerd 17 september 2026 — European Commission / Health Policy Watch — <a href="https://healthpolicy-watch.news/eu-social-media-kids-act/">EU Proposes 'Kids Act' Banning Social Media Under 13 Over Mental Health Risks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De expliciete opname van AI-chatbots en digitale companions is een precedent: voor het eerst behandelt EU-wetgeving generatieve AI-producten als kindbeschermingsissue, niet alleen als privacykwestie. Na de DSA en AI Act is dit de derde grote Europese digitalewet in korte tijd — en samen legt het EU-regelgeving vast als de de facto wereldstandaard voor platform-design.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">JWST onthult: ringen van Chariklo veranderen verrassend snel — ringenstelsels rond kleine objecten zijn veel dynamischer dan gedacht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De James Webb Space Telescope heeft voor het eerst directe aanwijzingen gevonden dat het ringstelsel van Chariklo — een object van zo'n 250 kilometer doorsnee dat tussen Saturnus en Uranus om de zon cirkelt — in slechts een paar jaar significant van gedaante is gewisseld. Door JWST-waarnemingen van een stellaire occultatie (18 oktober 2022) te vergelijken met observaties over het afgelopen decennium, zagen onderzoekers dat de binnenste ring aan opaciteit heeft gewonnen terwijl de buitenste ring juist doorzichtiger werd. De resultaten zijn gepubliceerd in Science Advances.</p>
+        <p class="meta">Gepubliceerd 15 september 2026 — ScienceDaily / Science Advances — <a href="https://www.sciencedaily.com/releases/2026/09/260915232124.htm">James Webb reveals Chariklo's mysterious rings are changing faster than expected</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Wetenschappers gingen er vanuit dat ringenstelsels rond kleine zonnestelsellichamen stabiel zijn. Dat ze op menselijke tijdschalen zichtbaar veranderen, wijst op actieve fysische processen — mogelijk materiaaltransport of interactie met kleine manen — die we nog niet begrijpen. Het opent vragen over de vorming en levensduur van ringen in het hele zonnestelsel.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Hersenen ondergaan genomische ommekeer tussen 50 en 75 jaar — nieuw mechanisme achter Alzheimer onthuld</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben vastgesteld dat de menselijke hersenen rond het vijftigste levensjaar een ingrijpende reorganisatie ondergaan in de driedimensionale structuur van hun genoom. Tussen circa 50 en 75 jaar verminderen de oorspronkelijke immuuncellen van de hersenen (microglia) en worden vervangen door cellen met een meer ontstekingsbevorderende signatuur; tegelijk verzwakken de cellen die de bloed-hersenbarrière onderhouden, en deterioreert de 3D-chromosoomorganisatie breed. Een gerelateerde studie toont aan dat exact die 3D-genomische ontregeling ook sterk aanwezig is in hersencellen van Alzheimer-patiënten — als een eerder onontdekte laag van de ziekte.</p>
+        <p class="meta">Gepubliceerd 14 september 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/09/260914102441.htm">Scientists discover a major brain shift between ages 50 and 75</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit onderzoek identificeert een concreet biologisch tijdvenster — het vijfde tot achtste levensdecennium — als de periode waarin de hersenen het meest kwetsbaar worden voor Alzheimer. Het opent de deur naar preventieve interventies die gericht zijn op genomische stabiliteit, niet alleen op amyloïde-plaques, en verschuift het therapeutisch perspectief naar vroege middelbare leeftijd.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Pest trof Siberische jager-verzamelaars al 5.500 jaar geleden — eeuwen vóór steden en vlooienepidemieën</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Internationaal onderzoek op basis van oud DNA uit menselijke resten bij het Baikalmeer toont aan dat de pestbacterie Yersinia pestis al 5.500 jaar geleden levensbedreigende uitbraken veroorzaakte bij kleine jager-verzamelaarsgemeenschappen in Siberië. De gereconstrueerde stammen droegen een genetische factor die ernstige immuunreacties kon opwekken; slachtoffers waren opvallend vaak kinderen van 8 tot 11 jaar. De infectie verspreidde zich waarschijnlijk via marmotten en van mens tot mens via hoesten en niezen — lang vóór de infrabaan van vlooien en knaagdieren in steden de klassieke transmissieweg werd. Het onderzoek is gepubliceerd in Nature.</p>
+        <p class="meta">Gepubliceerd 13 september 2026 — ScienceDaily / Nature — <a href="https://www.sciencedaily.com/releases/2026/09/260913082203.htm">Plague was killing entire families thousands of years before the Black Death</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De bevinding herschrijft de vroegste geschiedenis van één van de dodelijkste ziekten ooit. De pest bleek al acuut letaal en gezinsoverschrijdend lang voordat de urbane omgevingen ontstonden die altijd als voorwaarde golden. Dat betekent dat menselijk-diercontact bij jacht en slacht — en niet de stad — de oorspronkelijke bron was, met implicaties voor hoe we de evolutie van zoönotische pathogenen begrijpen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
