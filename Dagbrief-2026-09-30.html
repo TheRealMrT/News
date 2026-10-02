@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 30 september 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 30 SEPTEMBER 2026</p>
+
+  <p class="intro">Vandaag domineert een dubbele nieuwsgolf. In de nacht treft een nieuwe Russische ballistische raketenreeks Kyiv voor de vierde opeenvolgende nacht, waardoor brand uitbreekt en stroom uitvalt in delen van de stad — terwijl diplomatieke sondering via paus en backchannels doorgaat. In de technologiesector lanceert Anthropic Claude Sonnet 5.5 als sneller en goedkoper agentisch werkpaard naast Opus 5.5, en rondt de EU haar evaluatiepact met Canada en het VK voor frontier-AI af. Het W3C en Oracle voltooien respectievelijk WebAssembly 3.0 en Java 25 LTS — twee fundamenten voor het moderne web. In de wetenschap helpt lood in duizend jaar oud inkt om verbrande Herculaneum-papyrusrollen via X-ray te ontsluiten, en tonen astronomen dat zwarte-gat-jets de randen van sterrenstelsels honderden kiloparsecs ver overstromen.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; de grote labs</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Claude Sonnet 5.5: 30% sneller en goedkoper, Terminal-Bench springt van 10% naar 71%</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft op 28 september Claude Sonnet 5.5 uitgebracht als het dagelijkse werkpaard binnen de 5.5-modellenreeks. Het model is meer dan 30% sneller dan Claude Sonnet 5 en kost tot 30% minder per taak, doordat het minder gereedschapsaanroepen nodig heeft voor eenzelfde resultaat. Op Terminal-Bench 4.0 — een gestandaardiseerde agentische codeer-evaluatie — scoort Sonnet 5.5 70,6%, tegenover slechts 10,3% voor zijn voorganger. Bijzonder is dat Sonnet 5.5 het eerste Sonnet-model is dat wordt uitgeleverd met veiligheidsclassificatoren die het extraheren van het interne redeneerproces (reasoning extraction) actief blokkeren. Het is beschikbaar via Claude-apps, Amazon Bedrock, Google Cloud en Azure; Claude Haiku 5.5 voor hoog-volume toepassingen volgt de komende weken.</p>
+        <p class="meta">28 september 2026 — Anthropic / TechCrunch — <a href="https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/">Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Sonnet 5.5 vult de kloof tussen het dure Opus 5.5 en de lichtere Sonnet 5: voor de meeste agentische pipelines wordt dit het standaardmodel, met forse kostenbesparing en een dramatisch betere slaagkans op complexe codeer- en automatiseringstaken.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">EU-Commissie kondigt frontier-AI-evaluatiepact aan met Canada en Verenigd Koninkrijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In de State of the Union-toespraak van de Commissievoorzitter is een samenwerking aangekondigd met Canada en het Verenigd Koninkrijk op het gebied van modelevaluatie, verificatie, vroegtijdige waarschuwing en AI-veiligheid voor frontier-systemen. Dit bouwt voort op de VN-oproep van acht EU-lidstaten — waaronder Nederland — die eerder deze week controle over frontier AI-modellen eisten. Tegelijkertijd heeft de 2026 AI Omnibus de tijdslijnen voor hoog-risico AI-systemen onder de AI Act verduidelijkt en de nalevingsroute voor bedrijven explicieter gemaakt. Leidende LLM-aanbieders moeten per direct voldoen aan nieuwe transparantie-eisen; de Italiaanse privacytoezichthouder heeft al een beslissing genomen over deepfakes zonder toestemming van de betrokkene.</p>
+        <p class="meta">September 2026 — CDT Europe / European Commission — <a href="https://cdt.org/insights/cdt-europes-ai-bulletin-september-2026/">CDT Europe AI Bulletin September 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een formeel evaluatiepact met Canada en het VK geeft de AI Act internationale tanden: modellen die buiten de EU worden getraind maar binnen de EU worden aangeboden, komen onder gezamenlijk beoordelingstoezicht te staan — wat de druk op frontier labs verder verhoogt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>Tech &amp; software/development</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Java 25 LTS officieel uitgebracht: AOT-compilatie standaard, gestructureerde concurrency stabiel</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Oracle heeft Java 25 uitgebracht als de nieuwste Long Term Support (LTS)-versie van het platform, de opvolger van Java 21 (2023). De grootste verandering is dat ahead-of-time (AOT)-compilatie nu officieel standaard is ingeschakeld, wat de opstarttijd en geheugenvoetafdruk van Java-applicaties — met name in containeromgevingen — drastisch vermindert. Gestructureerde concurrency en flexibele constructorbodies zijn als stabiele taalfeatures verklaard. Nieuwe taalsyntax zoals module-importdeclaraties en compacte bronbestanden met instance-main-methodes verlagen de instapdrempel voor beginnende ontwikkelaars aanzienlijk. LTS-releases worden door grote ondernemingen voor de lange termijn ingezet; de komende jaren zal Java 25 dus het dominante productieplatform worden.</p>
+        <p class="meta">September 2026 — Oracle / InfoQ — <a href="https://www.infoq.com/news/">InfoQ: Java 25 release</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>AOT als standaard is een directe uitdaging aan Go en Rust in omgevingen waar startsnelheid en containergeheugen kritisch zijn. Voor enterprise-teams is Java 25 de upgrade-trigger voor de komende drie à vier jaar; cloud-native Java-workloads worden erdoor goedkoper en sneller.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">WebAssembly 3.0 voltooid: 64-bit adresruimte opent de deur naar 16 exabyte in de browser</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het W3C heeft WebAssembly 3.0 aangemerkt als "live standaard", waarmee de specificatie als officieel voltooid geldt. De grootste toevoeging is ondersteuning voor 64-bit adresruimten: waar Wasm 2.x beperkt was tot 4 gigabyte geheugen (i32-adressen), kunnen modules nu tot 16 exabyte adresseren via i64. Dit maakt het in principe mogelijk om bestaande 64-bit applicaties — zoals wetenschappelijke simulaties, videobewerkingssoftware en grote databanken — zonder refactoring naar de browser of edge te compileren. Browserondersteuning voor de nieuwe functies rolt de komende maanden bij alle grote browsers uit.</p>
+        <p class="meta">September 2026 — W3C / The New Stack — <a href="https://thenewstack.io/software-development/">The New Stack: Software Development</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De 4 GB-grens was een fundamentele blokkade voor het draaien van professionele softwarecategorieën in de browser. Met Wasm 3.0 verdwijnt die limiet en opent zich een pad voor volwaardige native applicaties — van CAD-tools tot ML-inference — rechtstreeks in de browser, zonder plug-ins of installatie.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>Geopolitiek &amp; beleid</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Rusland raakt Kyiv voor vierde opeenvolgende nacht — brand en stroomuitval in de stad</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In de nacht van dinsdag op woensdag 30 september sloeg een nieuwe Russische ballistische raketenreeks in op Kyiv. Meer dan een dozijn explosies schalden kort voor 03:00 uur lokale tijd door de stad, nadat het Oekraïense luchtmacht alarm had geslagen over inkomende ballistische raketten. In het Sviatoshynskyi-district brak brand uit in een woonwijk; twee mensen raakten gewond. Burgemeester Vitali Klitschko bevestigde stroomuitval in delen van de stad en meldde dat hulpdiensten ter plaatse waren. De aanval is de vierde opeenvolgende nacht dat Rusland de Oekraïense hoofdstad bestookt — een intensiteit die ongebruikelijk is, ook voor een vijf jaar durend conflict.</p>
+        <p class="meta">30 september 2026 — Kyiv Independent — <a href="https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-disrupt-electricity-as-multi-day-russian-attacks-on-capital-continue/">Russian ballistic missiles rock Kyiv, disrupt electricity</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een vierdaagse aanvalsserie op de hoofdstad is een bewuste campagne gericht op infrastructuur en moreel, juist op het moment dat diplomatieke kanalen actief zijn. De escalatie verhoogt de druk op westerse bondgenoten om luchtverdediging te versterken en op onderhandelaars om concessies te doen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Paus Leo roept op tot compromis — Dmitriev ontmoet VS over gevangenenruil en energiebanden</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Paus Leo heeft maandag opgeroepen dat vredesonderhandelaars "bereid moeten zijn bepaalde standpunten op te geven" om een einde te maken aan het conflict in Europa. De pauselijke oproep komt samen met berichten dat Kirill Dmitriev, hoofd van het Russisch Direct Investment Fund en informele Russische onderhandelaar, opnieuw VS-functionarissen heeft ontmoet. Onderwerp van gesprek: toekomstige energiebanden en een mogelijk Belarus-achtige regeling waarbij de vrijlating van Russische gevangenen wordt gekoppeld aan gedeeltelijke sanctieverlichting. Washington weegt de opties; een akkoord zou de eerste concrete stap kunnen zijn in een bredere diplomatieke openingsbeweging.</p>
+        <p class="meta">29–30 september 2026 — Al Jazeera / FDD Overnight Brief — <a href="https://www.fdd.org/overnight-brief/september-29-2026/">FDD Overnight Brief 29 september 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De combinatie van pauselijke druk en actieve backchannels over energie en gevangenen wijst op een intensivering van diplomatieke sondering. Een Belarus-stijl deal zou het eerste tastbare resultaat zijn van maanden van achtergrondgesprekken en een signaal dat beide partijen toch ruimte zien voor een gedeeltelijk akkoord.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Letland kiest zaterdag nieuw parlement — NAVO-frontlijnstaat bepalend voor EU-richting 2027</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Op zaterdag 3 oktober houdt Letland parlementaire verkiezingen. De partij Latvia First (LPV) staat in de peilingen bij de koplopers. De verkiezingen in dit NAVO-frontlijnland aan de Russische grens vinden plaats tegen de achtergrond van de aanhoudende oorlog in Oekraïne en de discussie over verdere Europese defensie-integratie. Brussel en Berlijn volgen de uitkomst nauwlettend: de nieuwe Letse coalitie krijgt meteen een stem in de EU-begrotingsonderhandelingen voor 2027, en is een bellwether voor de houding van Oost-Europese lidstaten tegenover defensiebestedingen en sanctiebeleid.</p>
+        <p class="meta">30 september 2026 — Control Risks / Reuters — <a href="https://www.controlrisks.com/our-thinking/geopolitical-calendar">Control Risks Geopolitical Calendar</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als NAVO-lidstaat direct aan de Russische grens heeft Letland een disproportioneel grote stem in het Europese debat over de balans tussen defensie-uitgaven en sociaaleconomische prioriteiten. De uitslag bepaalt mede hoe Brussel komend jaar met de Oost-Europese flank omgaat.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>Wetenschap &amp; research</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Lood in antiek inkt maakt verbrande Herculaneum-papyrusrollen leesbaar via röntgenscan</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers hebben aangetoond dat minuscule hoeveelheden lood in antiek inktstof verbrande papyrusrollen uit Herculaneum dramatisch zichtbaar maken onder röntgenscanners. Door zelf papyrus uit Egypte te beschrijven met traditioneel loodinktstof en de rollen daarna in een industriële oven te verbranden, simuleerden de wetenschappers de catastrofe van 79 n.Chr. CT-scans toonden dat loodinktstof tot 25 keer sterker röntgenstraling absorbeert dan verkoold papyrus, waardoor de lettervormen scherp afsteken. De meer dan duizend rollen in de enige intact bewaarde bibliotheek uit de Oudheid — in Herculaneum — kunnen zo mogelijk worden ontsleuteld zonder ze te ontrollen, wat ze zou vernietigen.</p>
+        <p class="meta">25 september 2026 — ScienceDaily / Nature — <a href="https://www.sciencedaily.com/releases/2026/09/260925005414.htm">Scientists burned their own scrolls to unlock a 2,000-year-old mystery</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Herculaneum-bibliotheek bevat mogelijk verloren werken van Epicurus, Sappho en andere Griekse en Romeinse schrijvers. Met deze X-ray-methode hoeven rollen niet te worden afgerold om hun inhoud prijs te geven — een potentiële doorbraak voor de klassieke filologie van de komende decennia.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gentoo-pinguïn blijkt vier soorten — nieuwe soort gevonden op afgelegen Kerguelen-eilanden</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Genetisch en morfologisch onderzoek heeft aangetoond dat de gentoo-pinguïn (Pygoscelis papua) niet één maar vier afzonderlijke soorten omvat. Op de afgelegen Kerguelen-eilanden in de zuidelijke Indische Oceaan is daarbij een volledig nieuwe soort geïdentificeerd die eerder niet door de wetenschap was beschreven. Het onderzoek combineert morfologische metingen, geluidsopnames en genomische sequenties van populaties over het hele zuidpoolgebied. De bevinding heeft directe gevolgen voor beschermingsbeleid: elke soort vraagt een eigen aanpak, terwijl sommige populaties nu kleiner blijken dan eerder gedacht op basis van gecombineerde tellingsdata.</p>
+        <p class="meta">September 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/plants_animals/biology/">ScienceDaily: Biologie</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Gentoo-pinguïns worden beschouwd als een bellwether voor klimaatverandering in het zuidpoolgebied. Door de populaties nu correct als aparte soorten te begrijpen, kunnen wetenschappers de gevolgen van opwarming nauwkeuriger meten en specifiekere beschermingsmaatregelen aanbevelen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Zwarte-gat-jets reiken honderden kiloparsecs voorbij de galactische rand — en bepalen het lot van sterrenstelsels</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Astronomen hebben aangetoond dat jets uitgestoten door supermassieve zwarte gaten veel verder reiken dan de zichtbare grens van hun gaststerrenstelsel. Radiotelescoop-waarnemingen onthullen jets die honderden kiloparsecs de intergalactische ruimte indringen — terwijl eerder werd aangenomen dat hun invloed beperkt bleef tot de directe omgeving van het galactische centrum. De jets verwarmen het gas dat normaal zou afkoelen en nieuwe sterren zou vormen, waardoor stervorming in massieve elliptische sterrenstelsels permanent kan worden onderdrukt. Dit mechanisme verklaart waarom de grootste sterrenstelsels in het universum al miljarden jaren "dood" zijn en nauwelijks nieuwe sterren produceren.</p>
+        <p class="meta">September 2026 — Phys.org — <a href="https://phys.org/news/2026-09-black-hole-jets-galaxies-visible.html">Black hole jets reach far beyond galaxies' visible edges, potentially deciding their fate</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De bevinding herschrijft modellen van galactische evolutie: zwarte gaten sturen niet alleen hun directe omgeving maar ook het lot van clusters en filamenten ver om hen heen. Voor cosmologische simulaties betekent dit dat de "feedback-straal" van actieve galactische kernen aanzienlijk groter moet worden ingesteld.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
