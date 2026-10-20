@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 20 oktober 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">DINSDAG 20 OKTOBER 2026</p>
+
+  <p class="intro">AI-agents staan vandaag in twee tegengestelde schijnwerpers: Microsoft bestempelt ze als insiderthreat en bouwt bewakingssoftware om ze te bewaken, terwijl Google ze juist uitrust met hun eigen Gmail-inbox, agenda en Drive voor meerdaagse bedrijfstaken. In Java-land sluit zeven jaar van previews af: JEP 543 maakt Structured Concurrency definitief in JDK 28. Geopolitiek escaleert aan twee fronten tegelijk — Oekraïne trof Rusland met meer dan duizend drones in één van de grootste aanvallen op Russisch grondgebied ooit, en Houthi-strijders vuurden een ballistische raket op een Jemenitische militaire basis met tientallen doden tot gevolg. In de wetenschap onthullen onderzoekers dat overactieve hersencellen de slaap van Alzheimerpatiënten stelen — en dat uitschakelen ervan twee uur extra slaap per nacht oplevert.</p>
+
+  <!-- 1. AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Microsoft: AI-agents zijn als insiderthreats — en dus bewaken we ze voortaan met Defender</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft stelde op 19 oktober dat frontier AI-modellen fundamenteel niet te vertrouwen zijn en introduceerde Guardian Agents in Microsoft Defender. Het systeem detecteert automatisch agents die medewerkers in gebruik nemen — zoals Claude Code of Codex — en bewaakt hun acties om misbruik of manipulatie te voorkomen. Microsoft waarschuwt dat frontier-modellen kunnen worden misleid om kwaadaardige instructies uit te voeren, vergelijkbaar met een medewerker met te ruime rechten. Tegelijk wordt Defender uitgebreid met agent-detectie die ook "shadow agents" opspoort die buiten IT-beleid om worden ingezet.</p>
+        <p class="meta">19 oktober 2026 — TechCrunch — <a href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/">Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor het eerst neemt een grote techspeler een uitgesproken defensieve positie in tegenover zijn eigen AI-agentlinie. Dat Microsoft, dat zelf zwaar inzet op Copilot en agents, ze nu als beveiligingsrisico bestempelt, weerspiegelt een groeiende realiteit: hoe meer autonomie een agent krijgt, hoe groter het aanvalsoppervlak — en hoe urgenter de governance-vraag voor iedere organisatie die agents inzet.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Google Cloud lanceert persistente Gemini-agents met eigen Gmail, Calendar en Drive</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google Cloud kondigde op 19 oktober persistente Gemini-agents aan die meerdaagse en zelfs meerwekelijkse taken zelfstandig kunnen uitvoeren. Nieuw is dat elke agent zijn eigen Gmail-inbox, agenda en Drive-opslag krijgt, zodat hij context bewaart over meerdere werksessies. Ze zijn beschikbaar in private preview voor een selecte groep Gemini Enterprise-klanten, zonder meerprijs. De agents kunnen lopende taken hervatten na een onderbreking en handelen autonoom op inkomende berichten.</p>
+        <p class="meta">19 oktober 2026 — VentureBeat — <a href="https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage">Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een agent die zijn eigen e-mailaccount beheert en zelfstandig afspraken plant, is geen chatbot meer — het is een autonome digitale collega. Dit markeert een nieuwe fase in enterprise-AI waarbij de vraag verschuift van "wat kan een model?" naar "hoe geef je een agent de juiste rechten, grenzen en identiteit?"</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Replit stapt over van Anthropic naar OpenAI als standaard AI-partner</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Replit-CEO Amjad Masad zei op 17 oktober dat zijn platform niet langer met Anthropic samenwerkt en OpenAI nu de standaard modelleverancier is voor de miljoenen ontwikkelaars op zijn platform. Anthropic-insiders spraken dit deels tegen tegenover TechCrunch — de formele samenwerking zou nog actief zijn en gebruikers kunnen Claude-modellen blijven kiezen. De tegenstrijdigheid is opvallend: of het om een strategische herschikking gaat of om een publiciteitsstunt van Masad, duidelijk is dat OpenAI marktpositie pakt in het developer-toolssegment.</p>
+        <p class="meta">17 oktober 2026 — TechCrunch — <a href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/">Replit makes OpenAI its default over Anthropic, CEO says</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Replit is een van de meest gebruikte platforms voor AI-gestuurde softwareontwikkeling, met miljoenen gebruikers wereldwijd. Als het platform de standaard verlegt, beïnvloedt dat welk model de volgende generatie ontwikkelaars als referentie gaat hanteren — een stille maar betekenisvolle marktdynamiek in de competitie tussen OpenAI en Anthropic.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 2. Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">JEP 543 definitief: Java's Structured Concurrency sluit zeven preview-rondes af in JDK 28</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Na zeven preview-rondes (JEPs 428, 437, 453, 462, 480, 499 en uiteindelijk 543) is de StructuredTaskScope-API nu definitief opgenomen in JDK 28 in java.util.concurrent. De API is ongewijzigd ten opzichte van de zevende preview in JDK 27: teams die al op JDK 27 draaien, hoeven alleen <code>--enable-preview</code> te verwijderen en opnieuw te compileren. Code van JDK 25 of ouder vereist meer aanpassingen vanwege verwijzigingen van FailedException naar ExecutionException. JDK 28 staat gepland voor GA in maart 2027.</p>
+        <p class="meta">19 oktober 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/10/jep-543-jdk-28/">JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Structured Concurrency vereenvoudigt het schrijven van correcte multi-threaded Java-code fundamenteel door gerelateerde threads als één logische eenheid te behandelen. De finalisering maakt de API productieklaar en geeft bibliotheken en frameworks het groene licht om erop te bouwen — zonder zorgen over nog een breaking change in de volgende preview.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">1.900 GitHub-accounts gekaapt, 30.000 repositories aangevallen via supply-chain aanval</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Hackers namen meer dan 1.900 GitHub-accounts over en gebruikten die vervolgens om kwaadaardige code te proberen injecteren in circa 30.000 repositories. The New Stack meldde de aanval op 15 oktober; GitHub heeft onderzoek lopen naar hoe de accounts zijn gecompromitteerd. De aanval is een schoolvoorbeeld van een software-supply-chain-aanval: wie toegang heeft tot een populaire repository kan met één push duizenden downstream-projecten raken.</p>
+        <p class="meta">15 oktober 2026 — The New Stack — <a href="https://thenewstack.io/">Hackers hijacked 1,900 GitHub accounts and targeted 30,000 repositories</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een gecompromitteerd GitHub-account kan kwaadaardige code inbrengen in packages die miljoenen projecten gebruiken. De aanval onderstreept waarom tweefactorauthenticatie, code-signing en geautomatiseerde dependency-audits geen opties maar standaardvereisten zijn — ook voor kleinere open-source projecten.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 3. Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Oekraïne vuurt meer dan 1.000 drones af op Rusland — oliefaciliteiten in Sint-Petersburg in brand</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Oekraïne voerde op 19 oktober een van zijn grootste luchtaanvallen ooit uit op Russisch grondgebied: meer dan 1.000 drones werden gelanceerd, waarbij oliefaciliteiten in Sint-Petersburg vlam vatten en minstens één persoon om het leven kwam. Al Jazeera meldde dat energiedoelen in meerdere Russische regio's werden geraakt. Tegelijkertijd bericht CBS News dat de Trump-regering mogelijk inlichtingenwaarschuwingen over aankomende Russische raketaanvallen op Oekraïne heeft achtergehouden — waardoor Kyiv blindelings werd getroffen door aanvallen waarbij zes mensen omkwamen in de hoofdstad. Trump heeft de afgelopen weken ook sancties op Rusland afgezwakt.</p>
+        <p class="meta">19 oktober 2026 — Al Jazeera / CBS News — <a href="https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites">Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een aanval van deze omvang op Russische energie-infrastructuur is een strategische escalatie die de druk op Moskou aanzienlijk verhoogt. Gecombineerd met berichten over teruggehouden Amerikaans inlichtingenwerk wordt de verhouding Washington–Kyiv er steeds grilliger op, met directe gevolgen voor de slagkracht en het strategisch vertrouwen van Oekraïne.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Houthi-raket treft Jemenitische militaire basis — tientallen doden, Saudi-Arabië slaat terug; Iran biedt Hormuz-deal aan</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Houthi-strijders vuurden op 19 oktober een ballistische raket af op het al-Alam-legerkamp in de Jemenitische provincie Shabwa; het dodental loopt uiteen van 18 (Reuters) tot 53 (AP-bronnen), met meer dan 200 gewonden. Saudi-Arabië voerde vergeldingsslagen uit op Houthi-posities. Tegelijkertijd bood het Iraanse Hoge Nationale Veiligheidscomité een zeven-daags plan aan om de Straat van Hormuz te heropenen en nieuwe onderhandelingen met de VS te starten. In Teheran klinken echter ook stemmen voor nucleaire bewapening en terugtrekking uit het Non-Proliferatieverdrag.</p>
+        <p class="meta">19–20 oktober 2026 — CBS News / Al Jazeera — <a href="https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit">Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Het Midden-Oosten bevindt zich op een kruispunt: Houthi-aanvallen treffen nu ook het Jemenitische regeringsleger, terwijl Iran tegelijkertijd een diplomatiek aanbod doet. Of dat aanbod serieus is of een vertragingstactiek, zal de komende dagen blijken — en de uitkomst bepaalt of de al maanden geblokkeerde Hormuz-route voor olie- en scheepvaarttransport wordt heropend.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- 4. Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Alzheimer steelt slaap via overactieve hersencellen — uitschakelen geeft muizen twee uur terug</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de University of Kentucky ontdekten dat overactieve microglia — immuuncellen in de hersenen — bij muizen met Alzheimer structureel de slaap ontroven door chronische neuro-inflammatie. Tijdelijk verwijderen van deze cellen gaf de dieren meer dan twee uur extra slaap per nacht, zonder dat de amyloidplaques veranderden. De studie, gepubliceerd in Alzheimer's &amp; Dementia (18 oktober), stelt een nieuw therapeutisch doelwit voor: niet de plaques zelf, maar de immunologische ontregeling die de slaap-waakcyclus verstoort.</p>
+        <p class="meta">18 oktober 2026 — ScienceDaily / Alzheimer's &amp; Dementia — <a href="https://www.sciencedaily.com/releases/2026/10/261018084421.htm">"Mind-blowing" Alzheimer's breakthrough: Two hours of sleep restored without clearing brain plaques</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Slaapverlies versnelt de progressie van Alzheimer. Als overactieve immuuncellen de primaire boosdoener zijn — niet de plaques — opent dat een heel andere behandelingsroute. Dit verschuift het onderzoeksparadigma van plaque-opruiming naar neuro-immunologische regulatie, een richting die sneller tot klinische toepassingen kan leiden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Twee verborgen magmabronnen ontdekt onder de Masaya-vulkaan in Nicaragua</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een internationaal team geleid door INAF heeft via satellietmetingen van gronddeformatie aangetoond dat er onder de Masaya-vulkaan in Nicaragua twee afzonderlijke magmakamers actief zijn, gepubliceerd op 19 oktober. De vondst verrast vulkanologen: tot nu toe werd aangenomen dat de voortdurende lavameer-activiteit van één enkel reservoir werd gevoed. De twee bronnen gedragen zich onafhankelijk, wat het eruptiegedrag complexer en moeilijker voorspelbaar maakt.</p>
+        <p class="meta">19 oktober 2026 — ScienceDaily / INAF — <a href="https://www.sciencedaily.com/breaking/">Two hidden magma sources discovered beneath Nicaragua's Masaya volcano</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Vulkaanrisico's worden berekend op basis van modellen van het interne reservoir. Als een vulkaan wordt gevoed door twee bronnen in plaats van één, is het gedrag veel complexer te voorspellen — voor een regio waar meer dan 150.000 mensen in de gevarenzone wonen, is dat een direct veiligheidssignaal dat risicobeheermodellen noodzakelijk bijstelt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
