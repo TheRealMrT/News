@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 21 oktober 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 21 OKTOBER 2026</p>
+
+  <p class="intro">AI wordt steeds meer een strijdtoneel van industriepolitiek: de VS verbant Chinese DeepSeek-tools van overheidssystemen terwijl OpenAI zijn greep op de biomedische sector versterkt met de overname van Orchestra Bio. Anthropic's aankomende beursintroductie werpt een ongemakkelijk licht op de relatie met zijn cloud-partners: AWS, Google en Microsoft zien het bedrijf steeds vaker als concurrent, terwijl een reeks gigantische compute-deals de rekening alleen maar hoger maakt. In het Midden-Oosten houdt Iran de Straat van Hormuz als pressiemiddel vast en trekt rode lijnen voor onderhandelingen met Washington, terwijl in Parijs onrust over levenskosten uitmondt in nieuwe avondklokken. Op wetenschappelijk vlak tonen drie nieuwe studies hoe dagelijkse beweging Alzheimer kan vertragen, hoe celbiologie radicaal anders gekeken kan worden én dat wat we "leververvetting" noemen eigenlijk vijf verschillende ziekten zijn.</p>
+
+  <!-- AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI koopt Orchestra Bio en plooit drug-dev agents in Rosalind-suite</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft Orchestra Bio overgenomen, een platform dat biopharma-teams helpt bij het coördineren van de complexe stappen in geneesmiddelenontwikkeling. Het team en de technologie worden geïntegreerd in Rosalind, OpenAI's groeiende suite van AI-modellen en -tools voor de levenswetenschappen. De financiële details zijn niet bekendgemaakt; Orchestra had eerder circa 20 miljoen dollar opgehaald bij onder meer Andreessen Horowitz en 8VC. CEO Ashoka Rajendra stapt met zijn team over naar OpenAI. De overname volgt enkele maanden na Anthropic's aankoop van Coefficient Bio voor circa 400 miljoen dollar.</p>
+        <p class="meta">Gepubliceerd 20–21 oktober 2026 — OpenAI / TechCrunch — <a href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/">OpenAI acquires startup Orchestra Bio to beef up its biotech business</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De grote AI-labs wedijveren om een positie in de biomedische sector; wie de infrastructuur voor klinische workflows beheerst, kan de hele drug-development pipeline stroomlijnen. OpenAI positioneert Rosalind als tegenwicht voor Anthropic's Life Sciences-aanpak en verankert AI diep in een industrie waar de data schaars maar waardevol zijn.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Lek-S-1 onthult Anthropic's compute-crisis: spanning met AWS/Google/Microsoft, $45B Nscale-deal in bespreking</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een uitgelekt S-1-bestand, gerapporteerd door The Wall Street Journal, laat zien dat Anthropic moeite heeft om voldoende rekencapaciteit los te weken bij AWS, Google en Microsoft — drie partners die het bedrijf inmiddels steeds meer als directe concurrent beschouwen. De kwartaalomzet in Q3 bereikte 16,8 miljard dollar. Om de afhankelijkheid te spreiden, zijn meerdere compute-deals gesloten en is Anthropic volgens Bloomberg in vergevorderde onderhandelingen met Nscale voor een deal van tot 45 miljard dollar. De IPO staat gepland voor de week van 9 november, met een beoogde waardering van 1,8 tot 2 biljoen dollar.</p>
+        <p class="meta">Gepubliceerd 19–20 oktober 2026 — TechCrunch / The Information — <a href="https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/">Anthropic's cloud partnerships are getting messy</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De structurele spanning tussen Anthropic en zijn grootste cloud-distributeurs illustreert hoe de AI-markt transformeert: hyperscalers investeren miljarden in een bedrijf dat hun eigen producten verdringt. De uitkomst van de IPO en de compute-onderhandelingen zal de machtsverhoudingen in de sector voor jaren bepalen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">VS verbant DeepSeek van federale systemen — AI-technologieoorlog krijgt overheidsdimensie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Federale overheidsdiensten in de VS zijn opgedragen alle Chinese DeepSeek AI-tools van officiële systemen te verwijderen, zo meldden meerdere nieuwsbronnen op 21 oktober. Het verbod volgt op eerdere beperkingen van TikTok en Huawei-apparatuur en past in het bredere patroon van technologische ontkoppeling tussen Washington en Beijing. DeepSeek had eerder dit jaar met zijn open-weight modellen voor opzien gezorgd door frontier-prestaties te leveren tegen een fractie van de trainingskosten van westerse concurrenten.</p>
+        <p class="meta">Gepubliceerd 21 oktober 2026 — Sunday Guardian Live — <a href="https://sundayguardianlive.com/trending/school-assembly-news-headlines-today-21-october-top-national-business-news-sports-news-education-news-science-tech-news-weather-news-world-news-with-weather-updates-thought-of-the-day-309156/">Nieuws van 21 oktober 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit markeert de overgang van de AI-rivaliteit tussen de VS en China van commercieel naar expliciet veiligheidspolitiek terrein. Overheden die AI-modellen naar herkomst selecteren zullen bedrijven dwingen te kiezen: internationale uitrol of toegang tot publieke markten.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- TECH & SOFTWARE/DEVELOPMENT -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub schrapt legacy Copilot-modellen per 19 oktober; CodeQL 2.27.2 verbetert kwetsbaarheidsanalyse voor Rust, Go en C++</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub heeft per 19 oktober een reeks oudere Copilot-modellen uitgefaseerd, zo bleek uit de GitHub Changelog. Tegelijkertijd is CodeQL 2.27.2 uitgebracht, dat verbeterde statische analyse biedt voor C++, Go, Rust en JavaScript — daarmee worden patronen gevonden die de vorige versie miste. De uitfasering van modellen betekent dat teams die op specifieke model-eindpunten leunen hun integraties moeten bijwerken.</p>
+        <p class="meta">Gepubliceerd 19 oktober 2026 — GitHub — <a href="https://github.blog/changelog/">GitHub Changelog</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>CodeQL 2.27.2 sluit gaten in de beveiligingsanalyse van Rust- en Go-codebases, talen die snel terrein winnen in systeems- en infrastructuurcode. Teams die CI/CD-pipelines draaien met CodeQL moeten upgraden om van de verbeterde dekking te profiteren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Decisions API in public beta — gestructureerde AI-keuzes voor complexe workflows</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft de Decisions API naar public beta gebracht, zo meldde SD Times in zijn roundup van begin oktober. De API stelt ontwikkelaars in staat complexe, meertraps keuzebomen te definiëren die door AI-modellen worden doorlopen, met gestructureerde output per knooppunt. Dit vult de bestaande tool-use- en function-calling-mogelijkheden aan met een explicieter beslissingsraamwerk voor toepassingen als kredietbeoordeling, triage en compliance-controles.</p>
+        <p class="meta">Gepubliceerd begin oktober 2026 — SD Times — <a href="https://sdtimes.com/">SD Times Software Development News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Gestructureerde beslissingslogica is een van de grootste drempels voor enterprise-adoptie van AI: auditability en reproduceerbaarheid zijn vereisten in gereguleerde sectoren. Een dedicated Decisions API maakt het makkelijker om AI-keuzes transparant te maken voor toezichthouders en interne reviewers.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Iran stelt harde voorwaarden voor Hormuz-deal: sancties opheffen, "geen gram" uranium weg — zeven-daagse wapenstilstand mogelijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran heeft rode lijnen getrokken voor eventuele onderhandelingen met Washington: de VS moeten eerst sancties opheffen en alle militaire dreigementen staken, en "niet één gram" uranium mag het land verlaten, aldus de Iraanse minister van Buitenlandse Zaken. Tegelijkertijd houdt Teheran een opening: de Straat van Hormuz zou op de zesde dag van een overeengekomen zeven-daagse wapenstilstand worden heropend mits Washington de voorwaarden accepteert. Eerdere berichten melden dat Iraanse zeemijnen in de afgelopen week meerdere tankers hadden stilgelegd; de IMO waarschuwde dat de straat "onveilig" is. Ruwe olie bereikte circa $110 per vat.</p>
+        <p class="meta">Gepubliceerd 20–21 oktober 2026 — CBS News / Fox News — <a href="https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/">Iran-Hormuz live updates, CBS News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Tweeëntwintig procent van de wereldolievervoer loopt door de Straat van Hormuz. Elke dag blokkade tikt door in energieprijzen wereldwijd en vergroot de kans op een militaire escalatie waarbij meerdere NAVO-landen indirect betrokken zijn.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran dreigt ook onderzeeese glasvezelkabels aan te vallen — escalatie gaat verder dan scheepvaart</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran heeft herhaald dat het in staat en bereid is om onderzeese glasvezelkabels aan te vallen als onderdeel van zijn drukstrategie, zo meldde Radio Free Europe/Radio Liberty. De dreiging volgt op een week waarin meer dan tien schepen in de Straat van Hormuz werden getroffen — een recordhoogte — terwijl de VS weinig militaire respons heeft laten zien. Teheran benadrukte ook zijn hechte banden met Rusland na een bezoek van Poetins speciale gezant, tegengesteld aan Trumps bewering dat Moskou Teheran nauwelijks steunt.</p>
+        <p class="meta">Gepubliceerd 20 oktober 2026 — Radio Free Europe/Radio Liberty — <a href="https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html">Iran herhaalt dreiging met aanvallen op glasvezelkabels</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Onderzeese kabels dragen circa 95% van het internationale internetverkeer. Een aanval hierop zou een kwalitatief andere categorie escalatie zijn dan scheepsaanvallen — met directe gevolgen voor financiële markten, cloudinfrastructuur en militaire communicatie.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Frankrijk kondigt avondklokken af na rellen over levenskosten — premier Lecornu spreekt van "where necessary"</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Franse premier Sébastien Lecornu heeft aangekondigd dat de overheid avondklokken zal instellen in gebieden waar dat nodig is, als reactie op aanhoudende rellen over hoge levenskosten en tekortschietende publieke diensten. De onrust heeft meerdere steden getroffen en lijkt voort te komen uit bredere frustratie over inflatie en bezuinigingen. Het is de eerste keer since de COVID-pandemie dat Frankrijk op grote schaal avondklokken overweegt.</p>
+        <p class="meta">Gepubliceerd 21 oktober 2026 — Sunday Guardian Live — <a href="https://sundayguardianlive.com/trending/school-assembly-news-headlines-today-21-october-top-national-business-news-sports-news-education-news-science-tech-news-weather-news-world-news-with-weather-updates-thought-of-the-day-309156/">Nieuws 21 oktober 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Sociale onrust in de op twee na grootste EU-economie raakt de stabiliteit van de coalitie en de Franse begrotingsonderhandelingen met Brussel. Als de rellen aanhouden, vergroot dit de druk op de EU om energieprijsplafonds en steunmaatregelen opnieuw te bespreken.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">3.000 stappen per dag vertraagt tau-ophoping in het brein — fysieke activiteit beschermt tegen Alzheimer-veranderingen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuwe studie gepubliceerd via ScienceDaily laat zien dat slechts 3.000 stappen per dag voldoende is om de ophoping van schadelijk tau-eiwit in de hersenen meetbaar te vertragen. Onderzoekers koppelden reguliere fysieke activiteit aan minder tau-accumulatie bij deelnemers in risicogroepen voor Alzheimer. De bevinding versterkt het groeiende bewijs dat matige dagelijkse beweging — niet noodzakelijk intensief sporten — een van de effectiefste preventieve maatregelen is die we kennen.</p>
+        <p class="meta">Gepubliceerd 19 oktober 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/health_medicine/">ScienceDaily Health &amp; Medicine</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Alzheimer treft wereldwijd ruim 55 miljoen mensen en er bestaat nog geen curatieve behandeling. De drempel van 3.000 stappen is laag genoeg voor de meeste ouderen, wat deze interventie klinisch direct toepasbaar maakt — zonder medicijn of apparaat.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Stanford bouwt labelvrije real-time celscanner — levende cellen zichtbaar zonder fluorescente verstoring</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers aan Stanford hebben een microscoop ontwikkeld die levende cellen in real-time kan afbeelden zonder gebruik van fluorescente labels. Fluorescente markers zijn standaard in celbiologie, maar verstoren het gedrag van cellen en maken langdurige observaties lastig. De nieuwe techniek maakt continu en niet-invasief kijken mogelijk, wat nieuwe inzichten belooft voor het begrijpen van kanker, infectieziekten en hoe medicijnen op celniveau werken.</p>
+        <p class="meta">Gepubliceerd 16 oktober 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/">ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Vrijwel alle moderne celbiologische kennis is opgebouwd met behulp van technieken die cellen beïnvloeden. Een niet-invasieve real-time scanner elimineert die bias en opent de deur naar observaties van processen die nu onzichtbaar blijven — van virale infectiemechanismen tot vroege oncogenese.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Mayo Clinic: leververvetting is vijf aparte ziekten tegelijk — herclassificatie verandert behandelaanpak</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de Mayo Clinic hebben vastgesteld dat wat klinisch bekendstaat als "leververvetting" (MASLD/NAFLD) in werkelijkheid minstens vijf verschillende aandoeningen omvat met elk een eigen mechanisme en risicoprofiel. Tegelijk toonde een separate studie aan dat een experimenteel middel ernstige leververvetting in diermodellen kan omkeren door de darmgezondheid te herstellen. Beide bevindingen wijzen op de noodzaak van een gepersonaliseerde aanpak in diagnostiek en behandeling.</p>
+        <p class="meta">Gepubliceerd oktober 2026 — ScienceDaily / Mayo Clinic — <a href="https://www.sciencedaily.com/news/health_medicine/">ScienceDaily Health &amp; Medicine</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Leververvetting treft naar schatting een kwart van de wereldbevolking en is een groeiende oorzaak van cirrose en leverfalen. Als de aandoening vijf subtypes heeft, verklaren dat deels waarom huidige behandelingen bij veel patiënten niet aanslaan — en biedt het een kaart voor gerichte therapieën.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- SPORT -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Grand Prix van de Verenigde Staten in Austin dit weekend: kwalificatie za. 23:00, race zo. 22:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Formule 1-circus trekt dit weekend naar Circuit of the Americas in Austin, Texas voor ronde 18 van het seizoen. Kwalificatie is zaterdag 24 oktober om 16:00 lokale tijd (23:00 CEST / NL-tijd). De race gaat zondag 25 oktober om 15:00 lokale tijd van start, dat is 22:00 CEST. Het is geen sprintweekend. Zaterdag is er ook nog een vrije training om 12:30 lokale tijd.</p>
+        <p class="meta">Bron: formula1.com — <a href="https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-united-states-grand-prix-and-how-can-i-watch-it.5jZFEoK96n4tpbRzEJjRoH">Formula 1 US Grand Prix — tijden en info</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>
