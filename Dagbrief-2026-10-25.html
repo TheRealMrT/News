@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 25 oktober 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZONDAG 25 OKTOBER 2026</p>
+
+  <p class="intro">Anthropic verdiept zijn greep op de markt voor kleine, goedkope modellen nu Claude Haiku 5.5 de API-prijs met 90% verlaagt — terwijl OpenAI zijn inkomstenmodel diversifieert met advertenties in 26 nieuwe landen. In de techniekwereld rijpt het Angular-ecosysteem met NgRx 22 en zet Vercel in op een radicale herschrijving van het codeergereedschap in Zig. De Hormuz-crisis domineert de geopolitiek: Iran houdt de straat krachtig gesloten en sluit VS-militaire aanwezigheid categorisch uit, ook na de diplomatieke bijeenkomst in Istanbul. In de wetenschap onthullen nieuwe analyses van asteroïde Bennu-monsters dat Jupiter een verrassende poortwachtersrol speelde bij de vroege vorming van ons zonnestelsel. En vanavond beslist de Formule 1-race in Austin of Kimi Antonelli wereldkampioen wordt.</p>
+
+  <!-- AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic lanceert Claude Haiku 5.5 — API-prijs daalt 90%, matcht GPT-6 Luna</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic bracht Claude Haiku 5.5 uit als zijn goedkoopste en snelste model. De prijs daalt naar $0,10 per miljoen invoertokens en $0,50 per miljoen uitvoertokens voor volumes tot 100.000 tokens — een verlaging van zo'n 90% ten opzichte van eerdere Haiku-versies. Daarmee positioneert Haiku 5.5 zich direct naast OpenAI's GPT-6 Luna op prijs-prestatieverhouding. Haiku 5.5 is de derde in de 5.5-familie: Opus 5.5 (september) en Sonnet 5.5 waren al eerder uitgebracht.</p>
+        <p class="meta">Oktober 2026 — VentureBeat — <a href="https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna">Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Goedkope frontier-modellen zijn de motor achter massa-adoptie in apps en producten. Een verlaging van 90% maakt Haiku 5.5 praktisch gratis voor hoog-volume toepassingen en vergroot de druk op concurrenten om te volgen. De bodem van AI-inference-prijzen zakt zo steeds sneller.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI breidt ChatGPT-advertenties uit naar 26 nieuwe landen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI kondigde aan dat gesponsorde content in ChatGPT voortaan ook beschikbaar is in 26 aanvullende landen, bovenop de markten waar advertenties al actief waren. Gebruikers zullen in hun gesprekken gesponsorde berichten tegenkomen. De stap markeert een duidelijke verschuiving: OpenAI combineert zijn abonnementsmodel nadrukkelijker met advertentie-inkomsten om de enorme computationele kosten te kunnen dragen.</p>
+        <p class="meta">21 oktober 2026 — OpenAI — <a href="https://openai.com/news/">OpenAI News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>OpenAI erkent daarmee impliciet dat abonnementen alleen de astronomische rekencapaciteitskosten niet kunnen dekken. De introductie van advertenties verandert de gebruikerservaring fundamenteel en roept vragen op over de balans tussen commerciële belangen en betrouwbare, onbeïnvloede AI-antwoorden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Ramp bouwde in zes weken een AI-agentharnas — enterprise-adoptie versnelt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Fintech-bedrijf Ramp bouwde in slechts zes weken een intern raamwerk voor AI-agents (samen met Laminar) en deelt hoe dat de manier verandert waarop zij financiële operaties automatiseren. De CEO van LangChain zegt dat dit past in een bredere trend: grote ondernemingen bouwen steeds vaker hun eigen agent-infrastructuur in plaats van te wachten op kant-en-klare platforms van AI-labs.</p>
+        <p class="meta">Oktober 2026 — The New Stack — <a href="https://thenewstack.io/ramp-laminar-agent-harness/">Ramp built an AI agent harness in six weeks — and LangChain's CEO says it's part of a bigger shift</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De snelheid waarmee bedrijven als Ramp eigen agent-stacks opzetten, laat zien dat de vraag naar AI-automatisering in de enterprise het tool-aanbod al overstijgt. Wie zijn eigen infrastructuur controleert, kan sneller itereren én is minder afhankelijk van de roadmaps van de grote AI-labs.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- TECH & DEVELOPMENT -->
+  <section class="theme">
+    <h2>TECH &amp; DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">NgRx 22 voor Angular: Resource Extensions houden UI stabiel bij laadfouten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het NgRx-team bracht versie 22 uit van de populaire state-managementbibliotheek voor Angular. De voornaamste toevoeging zijn Resource Extensions: deze houden de laatste bekende waarde zichtbaar tijdens herlaadpogingen en voorkomen dat fouten naar de UI doorborrelen. Dynamic Deep Signals maken fijnmazigere reactivity mogelijk voor granulaire component-updates. Upgraden vereist Angular 22, TypeScript 6.0 en RxJS ^6.5 of ^7.5; de meeste breaking changes hebben geautomatiseerde migratiescripts.</p>
+        <p class="meta">23 oktober 2026 — InfoQ — <a href="https://www.infoq.com/news/2026/10/ngrx-22-angular/">NgRx 22: Resource Extensions and Dynamic Deep Signals for Angular</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>NgRx is de ruggengraat van veel grote zakelijke Angular-applicaties. Betere fouttolerantie en fijnmazigere reactivity verminderen UI-flikkering en onnodige netwerkaanroepen — directe winstpunten voor teams die Angular inzetten voor grote, complexe web-apps.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Vercel Labs open-sourct fx: experimentele coding agent geschreven in Zig</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Vercel Labs maakte fx openbaar, een experimentele coding agent gebouwd in Zig. Het project is pre-1.0 en bevindt zich in actieve ontwikkeling — breaking changes zijn te verwachten. Vercel positioneert fx als een radicale herdefinitie van de build pipeline: de agent begrijpt en transformeert code in plaats van alleen bestanden door te sturen. Tegelijkertijd bleek dat Vercel bij zijn eigen campagne om statische credentials te elimineren een eigen deploymenttoken over het hoofd had gezien — een ironisch beveiligingsmoment.</p>
+        <p class="meta">22 oktober 2026 — The New Stack — <a href="https://thenewstack.io/opencode-2-shared-service/">The New Stack</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Zig wint terrein als systeemtaal die controle over geheugen en compilatie teruggeeft aan de ontwikkelaar, zonder Rust's leercurve. Dat Vercel — actief op de frontend-laag — hier voor kiest, geeft aan dat performance en determinisme in build-tools hoog op de agenda staan in 2026.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Universe 2026: programma gepubliceerd voor 28–29 oktober in San Francisco</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub maakte het volledige programma van GitHub Universe 2026 bekend. De jaarlijkse developer conference vindt komende woensdag en donderdag (28–29 oktober) plaats in San Francisco en is ook online te volgen. Naar verwachting worden nieuwe Copilot-functies, updates voor GitHub Actions en verdere AI-integraties in de developer workflow aangekondigd — mede in het licht van de recente uitbreiding van Copilot-modellen en de overstap naar nieuwere AI-backends.</p>
+        <p class="meta">Oktober 2026 — GitHub Blog — <a href="https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/">Your guide to GitHub Universe 2026 is here: The schedule just launched!</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GitHub Universe is het moment waarop Microsoft zijn koers voor het komende jaar in developer tooling uitzet. Met de AI-race op volle toeren is de kans groot op aankondigingen die direct van invloed zijn op hoe engineers dagelijks werken — en welke AI-modellen in hun IDE terechtkomen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Iran sluit VS-militaire aanwezigheid in de Golf categorisch uit — diplomatie na Istanbul stagneert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Iraanse Revolutionaire Garde verklaarde dat VS-strijdkrachten de Perzische Golf "onder geen enkele omstandigheid" mogen betreden — een directe reactie op speculaties over een Amerikaans militair ingrijpen rondom de Hormuz-crisis. Dit terwijl de diplomatieke bijeenkomst in Istanbul van 23 oktober acht landen verenigde (R4-formaat: Turkije, Egypte, Pakistan, Saoedi-Arabië; plus E3: VK, Frankrijk, Duitsland; en Italië) in hun oproep tot onmiddellijke heropening van de straat. Concrete toezeggingen bleven uit. Brent-olie noteert boven $117 per vat.</p>
+        <p class="meta">24–25 oktober 2026 — CBS News / France24 — <a href="https://www.france24.com/en/live-news/20261023-european-mideast-foreign-ministers-hold-talks-in-istanbul">European, Mideast foreign ministers push peace and diplomacy at Istanbul talks</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De kloof tussen Irans militaire harde lijn en de diplomatieke wensen van Europa en Golflanden vergroot het risico op verdere escalatie. Met olie boven $117 en de Amerikaanse tussentijdse verkiezingen in aantocht groeit de interne druk op het Witte Huis om te handelen — de richting is nog onzeker.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trump houdt Iran-aanvallen af tot na de midterms — diplomatiek venster gebonden aan politieke kalender</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Meerdere Amerikaanse media meldden dat de Trump-regering een eventuele hervatting van militaire acties tegen Iran afstemt op de timing van de midterm-verkiezingen in november. Die terughoudendheid geeft diplomaten tijdelijk ruimte, maar maakt de situatie tegelijk onzeker: het venster voor onderhandelen is gebonden aan een politieke kalender, niet aan inhoudelijke voortgang. Iran bleef intussen harde voorwaarden stellen voor een Hormuz-deal — waaronder het opheffen van sancties.</p>
+        <p class="meta">Oktober 2026 — CBS News / Hürriyet Daily News — <a href="https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/">Live Updates: Iran war, Trump, US oil &amp; gas prices, Strait of Hormuz, midterms</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een diplomatiek venster dat afhankelijk is van de Amerikaanse verkiezingscyclus is per definitie fragiel. Als de midterms voorbij zijn, vervalt een deel van de binnenlandse rem op militaire actie — waarna de drempel om te handelen plotseling een stuk lager ligt.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Bennu-monsters onthullen: Jupiter speelde sleutelrol als poortwachter bij vorming asteroïde</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een ETH Zurich-studie gepubliceerd in <em>Nature Communications</em> analyseerde ijzer-, titaan- en chroomisotopen uit de OSIRIS-REx-monsters van asteroïde Bennu. De conclusie: Bennu is een hybride hemellichaam waarvan het materiaal afkomstig is uit zowel het binnenste als buitenste zonnestelsel. Jupiter fungeerde als gedeeltelijke barrière die fijn stof doorliet maar grover materiaal tegenhield — precies in de zone waar Bennu werd gevormd. De chemische vingerafdruk verbindt Bennu nauw aan asteroïde Ryugu en CI-meteorieten.</p>
+        <p class="meta">24 oktober 2026 — ScienceDaily / Nature Communications — <a href="https://www.sciencedaily.com/releases/2026/10/261023023734.htm">NASA's asteroid Bennu samples reveal a 4.5-billion-year-old secret</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Bennu is een van de meest onderzochte asteroïden ter wereld dankzij de OSIRIS-REx-missie. Dat zijn monsters aanwijzingen geven over Jupiters vroege rol als "poortwachter" verfijnt ons begrip van planeetvorming — en hoe zeldzaam de mix van bouwstenen is die leven mogelijk maakte.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Zeven jaar studie: dagelijks bewegen vertraagt Parkinson-achteruitgang meetbaar</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een longitudinale studie over zeven jaar toonde aan dat meer lichamelijke activiteit geassocieerd is met een significant langzamere achteruitgang in geheugen, concentratie en motoriek bij mensen met de ziekte van Parkinson. Onderzoekers volgden deelnemers met gestandaardiseerde tests en corrigeerden voor leeftijd, ziekteprogressie en medicatiegebruik. De bevindingen ondersteunen beweging als een actieve therapeutische strategie, niet slechts als ondersteunend middel.</p>
+        <p class="meta">23 oktober 2026 — ScienceDaily — <a href="https://sciencedaily.com/">ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Parkinson treft wereldwijd meer dan 10 miljoen mensen en heeft geen genezing. Een bewezen, goedkope interventie als regelmatige beweging — onderbouwd over zeven jaar — biedt reële hoop voor het vertragen van de ziektelast, ook in landen waar dure medicatie minder toegankelijk is.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Taalwetenschap: woordbetekenissen draaien om macht en gevaar — niet om emotie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een grootschalige studie analyseerde miljarden concrete woordgebruiken over tientallen talen en ontdekte dat de diepste structuur van woordbetekenissen niet door emotionele valentie wordt bepaald — zoals decennia lang aangenomen — maar door drie assen: macht, gevaar en orde. Woorden als "koning" of "wapen" activeren in culturen ver van elkaar dezelfde cognitieve dimensies. Emotie blijkt een afgeleide laag, geen fundament van betekenis.</p>
+        <p class="meta">24 oktober 2026 — ScienceDaily — <a href="https://sciencedaily.com/news/top/science">Top Science News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit herpositioneert decennia aan taalkundig onderzoek. Het heeft ook directe implicaties voor AI-taalmodellen: als emotie niet de primaire dimensie van taal is, moeten word embeddings en RLHF-methoden mogelijk op andere grondaxes worden gekalibreerd om menselijke taal echt te begrijpen.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- SPORT -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 GP VSA Austin — Antonelli op pole, race vanavond: titelkans in zicht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Kimi Antonelli vertrok gisterenavond van pole position voor de Grand Prix van de Verenigde Staten op het Circuit of the Americas — zijn eerste pole since de Grand Prix van België in juli, 0,179 seconden voor Verstappen. In het kampioenschap leidt Antonelli met 340 punten, 102 voor teamgenoot George Russell (238 punten). Hij wordt vandaag wereldkampioen als hij Texas verlaat met minstens 125 punten voorsprong op elke rivaal. Race: vandaag om 21:00 NL-tijd. Geen sprintweekend.</p>
+        <p class="meta">25 oktober 2026 — formula1.com / Planet F1 — <a href="https://www.formula1.com/en/racing/2026/united-states">United States Grand Prix 2026 — Formula 1</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>
