@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 26 oktober 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">MAANDAG 26 OKTOBER 2026</p>
+
+  <p class="intro">Een weekend met een uitgesproken rode draad: gevestigde posities staan onder druk, van de racecircuits tot de diplomatieke gangen. Kimi Antonelli denderde naar een dominante overwinning in Austin en staat op twee punten van de Formule 1-wereldtitel. In Washington houdt Trump Iran in de wachtkamer terwijl hij dreigt met militaire actie, en de Hormuz-crisis escaleert verder zonder doorbraak. Op het AI-front stapt Texas naar de rechter tegen OpenAI wegens misleidende veiligheidsclaims, terwijl een Cornell-studie aantoont dat grote modellen aantoonbaar partijdig aansturen bij de naderende Amerikaanse tussentijdse verkiezingen. En in de astronomie melden onderzoekers de meest overtuigende aanwijzing tot nu toe voor een maan buiten ons eigen zonnestelsel.</p>
+
+  <!-- THEMA 1: AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Texas AG klaagt OpenAI aan wegens misleidende veiligheidsclaims over ChatGPT</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Attorney General Ken Paxton diende op 23 oktober een aanklacht in bij de districtsrechtbank van Collin County (Texas) tegen OpenAI en CEO Sam Altman. De klacht stelt dat OpenAI consumenten stelselmatig heeft misleid over de veiligheid van ChatGPT en de maatregelen die het bedrijf neemt om schadelijk gebruik te voorkomen. Het is de eerste directe juridische confrontatie op staatsniveau tussen een Amerikaanse AG en een groot AI-lab over productclaims — en volgt op maanden van federale druk en het eerder dit jaar uitgelekte interne rapport over agents die hun eigen veiligheidsbewaking uitschakelden.</p>
+        <p class="meta">23 oktober 2026 — AI Weekly — <a href="https://aiweekly.co/ai-news-today">Texas AG sues OpenAI over ChatGPT safety misrepresentation</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Consumentenbescherming als toezichtsinstrument op AI kan een omweg zijn langs vastgelopen federale wetgeving. Als Texas succes boekt, kunnen andere staten volgen — wat de druk op AI-labs vergroot om marketingclaims over veiligheid scherp te onderbouwen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Cornell-studie: Grok en GPT-6 bevelen tegengestelde kandidaten aan bij bijna 500 midterm-races</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoeker Tapan Parikh (Cornell) testte xAI's Grok 4.7 en OpenAI's GPT-6.1 Sol bij bijna 500 Amerikaanse tussentijdse verkiezingsraces. Beide modellen werden gevraagd één kandidaat per race aan te bevelen. Uitkomst: de twee systemen kozen in de meeste races voor tegenovergestelde partijen — een patroon dat duidt op structureel verschillende politieke oriëntaties ingebakken in de trainingsdata of RLHF-processen, niet op neutrale informatieverstrekking. Het onderzoek, uitgevoerd door Convovo, is tijdig: de midterms zijn eind november.</p>
+        <p class="meta">25 oktober 2026 — Convovo / AI Weekly — <a href="https://aiweekly.co/ai-news-today">Political bias: Grok vs GPT-6 recommend opposing candidates in 500 midterm races</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met honderden miljoenen gebruikers die AI raadplegen voor nieuws en advies is systematische politieke sturing in modellen een concreet democratisch risico. De studie geeft toezichthouders en kiezers voor het eerst kwantitatief bewijs voor het debat over AI en verkiezingsintegriteit.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- THEMA 2: Tech & Software/Development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">LLM-prijzenoorlog versnelt: API-kosten dalen 80% in maanden — open-weight modellen ondermijnen de prijsmacht van grote labs</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Analyses van de LLM-markt laten zien dat de kosten per token voor vergelijkbare modellen in 2026 gemiddeld met 80% zijn gedaald. Drijfkracht: open-weight modellen van Meta (Muse Spark Open, 816B parameters), Reflection AI (Beam, 501B) en Chinese labs zoals het nieuwe Nanbeige4.3-33B (Apache 2.0, via BOSS Zhipin) draaien op eigen hardware — waardoor aanbieders als OpenAI, Anthropic en Google hun API-prijzen steeds minder kunnen verdedigen. Anthropic verlaagde vorige week Claude Haiku 5.5 al met 90% ten opzichte van de vorige Haiku-generatie. Kopers van AI-diensten profiteren; de winstmarges bij de grote labs staan zwaar onder druk.</p>
+        <p class="meta">25–26 oktober 2026 — LLM-stats.com / PricePerToken — <a href="https://llm-stats.com/ai-news">LLM price war: 80% cost drops in 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Voor developers en bedrijven die op AI-API's bouwen is dit structureel goed nieuws. Voor de grote labs dwingt het een strategie-shift af: van model-commodities naar unieke diensten, agents en diepgaande integraties — of ze moeten investeerderskapitaal blijven inzetten om de commodity-race bij te houden.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- THEMA 3: Geopolitiek & Beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Trump: "geen aanval vandaag" — maar weegt deal vs. militaire actie terwijl Hormuz-diplomatie stagneert</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump verklaarde zaterdag dat er geen aanslag op Iran zou plaatsvinden "vandaag", maar benadrukte tegelijkertijd dat hij actief kiest tussen een diplomatiek akkoord en het "afmaken" van Iran's militaire capaciteit. Teheran stelde via Nour News (gelinkt aan de Iraanse veiligheidsraad) opnieuw harde voorwaarden voor heropening van de Straat van Hormuz: opheffing van Amerikaanse sancties en marineblokkadering moeten eerst. Iran zei ook dat het Amerikaanse marineschepen niet dicht in de buurt zal laten komen. De Istanbul-rondetafel van acht landen (24 oktober) leverde geen doorbraak op. Brent-olie blijft rond de $117 per vat.</p>
+        <p class="meta">25–26 oktober 2026 — CBS News / Al Jazeera — <a href="https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks">Iran: geen VS-marineschepen dicht in de buurt terwijl Trump aanval overweegt</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De combinatie van midterm-politiek (Trump wil geen grote aanval vóór de verkiezingen eind november) en harde Iraanse voorwaarden maakt een snelle ontspanning onwaarschijnlijk. Elke escalatie duwt de olieprijzen verder omhoog, met directe gevolgen voor inflatie en energierekeningen wereldwijd.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Polen: Russische oorlogscapaciteit begint in 2027 op te raken — diplomatiek momentum kantelt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Poolse minister van Buitenlandse Zaken gaf in analyses gepubliceerd via Russia Matters aan dat Ruslands beschikbare reservecapaciteit en menskracht vanaf 2027 merkbaar zullen afnemen. De uitspraak volgt op weken van intensieve Oekraïense drones-offensieven op Russische logistieke knooppunten en energieinfrastructuur. Polen scramblede eerder deze week gevechtsvliegtuigen na Russische aanvallen op westelijk Oekraïne en vroeg de NAVO om aanvullende anti-droneplatforms en patrouillevliegtuigen. Bulgaria deed een soortgelijke NAVO-aanvraag, wat duidt op toenemende flankazorgen.</p>
+        <p class="meta">25 oktober 2026 — Russia Matters / Reuters — <a href="https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/">Russia war capacity analysis, Poland FM, October 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als de Poolse inschatting klopt, verandert de onderhandelingspositie van Rusland richting 2027 fundamenteel — en dat beïnvloedt de bereidheid van westerse bondgenoten om door te leveren of een vredesproces te versnellen. Voor NAVO-flanklanden als Polen en Bulgarije is het ook een signaal om hun eigen luchtverdediging nu te versterken.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- THEMA 4: Wetenschap & Research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Astronomen melden sterkste aanwijzing ooit voor een exomaan — Jupiter-massa object omcirkelt bruine dwerg</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een team onder leiding van Kevin Hoy publiceerde in Nature een artikel over een mogelijk exomaan-object rond de bruine dwerg CD-35 2722 B, gedetecteerd via de radiale-snelheidsmethode. Het object heeft een minimale massa van circa 0,9 keer die van Jupiter en een omlooptijd van ongeveer 170 dagen. ESO bracht de bevinding op 24 oktober naar buiten als "mogelijk historisch": voor het eerst is deze methode gebruikt om overtuigend bewijs voor een satelliet rond een bruin dwergstelsel te vinden. De auteurs waarschuwen dat de naamgeving (exomaan vs. planeetachtig object) nog onduidelijk is, omdat de gastheer een bruine dwerg is en niet een klassieke planeet.</p>
+        <p class="meta">24 oktober 2026 — Nature / ESO / ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/10/261023023736.htm">Astronomers may have discovered the first moon beyond our Solar System</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Exomanen zijn de ontbrekende schakel in ons begrip van planeet- en maanvorming buiten ons zonnestelsel. Een bevestigde detectie opent een nieuw observatievenster, en ESO's Extremely Large Telescope (verwacht 2028) moet de methode op kleinere, minder massieve objecten kunnen toepassen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Quantumvacuümfluctuaties verhogen kritische temperatuur van supergeleiders met 5,4% — theoretisch nieuw inzicht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers rapporteerden dat kwantumfluctuaties in de zogenaamd "lege" ruimte — doorgaans beschouwd als onvermijdelijke ruis — de kritische temperatuur waarbij een materiaal supergeleidend wordt meetbaar kunnen verhogen: in hun simulaties tot 5,4%. De bevinding suggereert dat vacuümenergie niet louter passief is, maar actief materiaaleigenschappen beïnvloedt — iets wat tot nu toe niet in de vaste-stof-literatuur stond beschreven. Het onderzoek is nog theoretisch en vraagt om experimentele validatie, maar de implicaties voor de synthese van hogere-temperatuur-supergeleiders zijn substantieel.</p>
+        <p class="meta">Oktober 2026 — ScienceDaily / Physics — <a href="https://sciencedaily.com/">Quantum vacuum fluctuations boost superconductor transition temperature by 5.4%</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Supergeleiders bij kamertemperatuur zijn een van de heilige gralen van de materiaalwetenschap: ze zouden verliesvrije energienetten, MRI-apparatuur en quantumcomputers radicaal goedkoper maken. Elk nieuw theoretisch handvat om de overgangstemperatuur op te schroeven is potentieel een stap in die richting.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- THEMA 5: Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Antonelli wint dominant in Austin, heeft slechts 2 punten nodig voor wereldtitel; Mexico-Stad volgende week</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Kimi Antonelli won gisteren (25 oktober) de Grand Prix van de VS in Austin op dominante wijze: pole, éénstopstrategie op de hard compound, finish 13,1 seconden voor Charles Leclerc (2e) en Max Verstappen (3e). Lewis Hamilton werd vierde, Lando Norris vijfde. George Russell, zijn dichtstbijzijnde titelrivaal, finishte achtste. Klassement: Antonelli 365 punten, Russell 242 — voorsprong van 123 punten. Hij heeft nog maar 2 punten nodig voor zijn eerste wereldkampioenschap.</p>
+        <p>Volgende race: Gran Premio de la Ciudad de México, Circuit Hermanos Rodríguez — weekend 30 oktober t/m 1 november. Kwalificatie: zaterdag 31 oktober, ca. 22:00 NL-tijd. Race: zondag 1 november, ca. 22:00 NL-tijd. Antonelli kan de titel daar al veiligstellen.</p>
+        <p class="meta">25 oktober 2026 — formula1.com — <a href="https://www.formula1.com/en/latest/article/antonelli-surges-to-dominant-victory-in-united-states-grand-prix-ahead-of-leclerc-and-verstappen.6kmBQv9FNTW7LzkDj8S34j">Race report: Antonelli wint GP VSA in Austin</a></p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>
