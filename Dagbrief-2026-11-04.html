@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 4 november 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">WOENSDAG 4 NOVEMBER 2026</p>
+
+  <p class="intro">De Amerikaanse midterms hebben vannacht een aardverschuiving opgeleverd: Democraten pakken de Senaatsmeerderheid én koersen af op een Huismeerderheid, een klap voor Trump halverwege zijn ambtstermijn. Ondertussen loopt de diplomatieke druk rondom de Straat van Hormuz op na het verstrijken van Trumps deadline en het mislukken van het Qatarse bemiddelingsplan. Op het tech-front presenteert Anthropic een open-source systeem dat cryptografisch kan bewijzen welk AI-model een antwoord echt heeft gegenereerd — een antwoord op de groeiende zorg om nep-AI-outputs. En in het lab: IceCube detecteerde de meest energetische neutrino's ooit gemeten vanuit kosmische bronnen.</p>
+
+  <!-- AI & DE GROTE LABS -->
+  <section class="theme">
+    <h2>AI &amp; de grote labs</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic onthult FlashProve: cryptografisch bewijs dat een AI-antwoord echt van het geclaimde model komt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Anthropic heeft een open-source systeem gepubliceerd, genaamd FlashProve, dat cryptografisch kan bewijzen welk AI-model een specifieke output heeft gegenereerd. Het werkt vergelijkbaar met digitale e-mailhandtekeningen: labs publiceren een wiskundige "vingerafdruk" van elk model, die later kan worden gematcht aan uitvoer zonder de modelgewichten prijs te geven. Zo kan worden aangetoond dat een antwoord echt van, zeg, Claude Sonnet 5.5 komt — en niet van een goedkoper vervangmodel dat stiekem is ingezet. Ook derde partijen die claimen dat hun code gescand is door een frontier-veiligheidsmodel kunnen die claim straks bewijsbaar maken. Het systeem is lichtgewicht genoeg om op een lokaal apparaat te draaien.</p>
+        <p class="meta">Gepubliceerd 3 november 2026 — TechCrunch / Russell Brandom — <a href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/">Anthropic is working on a system to prove AI models' identity</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Naarmate AI-outputs vaker als bewijs of garantie worden ingezet — in contracten, beveiligingsaudits, juridische documenten — wordt de vraag "heb je echt dat model gebruikt?" steeds urgenter. FlashProve lost een vertrouwensprobleem op dat tot nu toe niet technisch oplosbaar was. Er zijn nog geen productieplannen, maar de open-source release nodigt de sector uit om het te verbeteren en te adopteren.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic S-1 update: omzet stijgt naar $17 miljard per kwartaal, maar compute-marges verslechteren</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een update van Anthropic's beursprospectus (S-1) laat zien dat de omzet in het meest recente kwartaal $17 miljard bedroeg, een sprong ten opzichte van de eerder gerapporteerde $11,5 miljard voor het eerste halfjaar. Tegelijkertijd verslechterden de compute-marges: de kosten voor het draaien van modellen stegen sneller dan de inkomsten. Analisten wijzen erop dat de toenemende inzet van zware frontier-modellen voor agents en langere contexten de rekencapaciteit zwaar belast. De beursgang op NASDAQ (als $ANT) staat gepland voor einde 2026, met een verwachte "junk"-kredietwaardering van kredietbeoordelaars.</p>
+        <p class="meta">Gepubliceerd 3 november 2026 — TechCrunch — <a href="https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute">Anthropic is still grappling with the economics of compute</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Hoge omzetgroei gecombineerd met verslechterende marges is de kernspanning bij alle frontier-AI-labs. De vraag of Anthropic rendabel kan worden vóór of na de beursgang bepaalt mede hoe duurzaam het huidige AI-capex-regime is — niet alleen voor Anthropic, maar voor de hele sector.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- TECH & SOFTWARE/DEVELOPMENT -->
+  <section class="theme">
+    <h2>Tech &amp; software/development</h2>
+
+    <details class="item">
+      <summary><span class="item-title">NYT en andere uitgevers dagen browser Brave voor de rechter wegens AI-scraping van artikelen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De New York Times en een groep andere grote nieuwsuitgevers hebben een rechtszaak aangespannen tegen webbrowser Brave, zo meldt TechCrunch. De beschuldiging: Brave scrapt gepubliceerde artikelen zonder toestemming om die te gebruiken voor AI-modellen en zoekfuncties. Brave had eerder zelf News Corp (WSJ, New York Post) voor de rechter gedaagd om een verklaring van rechtmatig gebruik te verkrijgen — News Corp countersude daarop in juli. De NYT-zaak lijkt een aparte, nieuwe front in wat uitgevers omschrijven als een systematische ondermijning van hun businessmodel door AI-gedreven browsers en zoekmachines.</p>
+        <p class="meta">Gepubliceerd 2 november 2026 — TechCrunch / Rebecca Bellan — <a href="https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/">New York Times and other outlets sue web browser Brave</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit markeert een escalatie: uitgevers richten hun juridische vuur nu ook op browsers, niet alleen op de AI-labs die de modellen trainen. Als Brave verliest, staan alle browsers en crawlers die content verwerken voor AI-functies voor een fundamenteel juridisch probleem. De uitkomst kan het businessmodel van AI-zoekopdrachten ingrijpend hervormen.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- GEOPOLITIEK & BELEID -->
+  <section class="theme">
+    <h2>Geopolitiek &amp; beleid</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Midterms 2026: Democraten pakken Senaatsmeerderheid — Huis lijkt eveneens te draaien</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Bij de Amerikaanse tussentijdse verkiezingen van 3 november hebben de Democraten de Senaat veroverd. Meerdere projecties (CBS, CNBC, ABC) geven een netto-winst van minimaal vier zetels, met flips in Iowa, Kansas, Texas, Ohio, North Carolina en South Carolina — staten die decennialang Republikeins stemd. Ook Susan Collins verloor haar Senaatszetel in Maine aan Troy Jackson. Het Huis was bij het ter perse gaan van deze editie nog niet officieel beslist, maar eerste exitpolls en tellingen wijzen op een Democratische meerderheid. Politici en commentatoren lezen de uitslag als een nationaal afkeurvotum op Trumps economisch beleid en bestuursstijl.</p>
+        <p class="meta">Gepubliceerd 3–4 november 2026 — CBS News / CNBC / ABC — <a href="https://www.cbsnews.com/live-updates/election-day-2026-midterms/">Live election results for the 2026 midterms as Democrats win House and Senate control</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als Democraten beide kamers controleren, verliezen Republikeinen de begrotingsmacht en de agenda-setting voor de laatste twee jaar van Trumps termijn. Wetgeving rond AI-regulering, buitenlands beleid (Iran, Oekraïne, Taiwan) en handelsbeleid wordt daarmee een stuk onzekerder. Ook internationaal zullen bondgenoten en tegenstanders het signaal lezen als een zwakker binnenlands mandaat voor Trump.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran-deal nog steeds niet bereikt na Qeshm-aanvallen — Qatar-bemiddeling stuit op Teherans eisen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Ondanks intensieve Qatarese bemiddeling is een akkoord over heropening van de Straat van Hormuz niet bereikt. Iran speelt alle diplomatieke hoop de grond in, aldus CBS News, nadat de VS op 2 november "defensieve" aanvallen uitvoerde op het Iraanse eiland Qeshm na een Iraanse raketaanval op een Amerikaans vliegtuig. Iraanse functionarissen bevestigden dat ze bereid zijn te praten, maar niet zonder aanzienlijke concessies van de VS. Trumps deadline van 3 november is formeel verstreken; het conflict draait nu door op de diplomatieke adem van Qatar en de militaire terughoudendheid van beide partijen.</p>
+        <p class="meta">Gepubliceerd 3–4 november 2026 — CBS News — <a href="https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/">Iran plays down hope for deal after new U.S. strikes</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Zolang Hormuz gesloten of onveilig blijft, loopt de mondiale olieaanvoer structureel risico. Met de midterms-uitslag (zie hierboven) verliest Trump binnenlands momentum voor een militaire escalatie; dat kan de diplomatieke ruimte paradoxaal vergroten, maar ook Irans berekeningsruimte verbreden. De komende week bepaalt of onderhandelaars een nieuw venster vinden.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- WETENSCHAP & RESEARCH -->
+  <section class="theme">
+    <h2>Wetenschap &amp; research</h2>
+
+    <details class="item">
+      <summary><span class="item-title">IceCube detecteert neutrino's met tien miljard keer de energie van zonneneutrino's — gevoeligste all-sky scan ooit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van het IceCube Neutrino Observatory aan de Zuidpool maakten de resultaten bekend van hun meest gevoelige all-sky scan tot nu toe. Voor het eerst combineerden ze twee typen neutrinosignalen tegelijk, waarmee ze ongekend energetische "spookdeeltjes" detecteerden uit verre kosmische bronnen — met energieën tot tien miljard keer groter dan neutrino's van de zon. De nieuwe gegevens wijzen naar actieve sterrenstelsels met superzware zwarte gaten in hun kernen als waarschijnlijke bron van zowel hoogenergetische neutrino's als kosmische straling. Het IceCube-netwerk werd dit jaar uitgebreid met het IceCube Upgrade, en het geplande IceCube-Gen2 zou het detectievolume achtmaal vergroten.</p>
+        <p class="meta">Gepubliceerd 1 november 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/11/261101010533.htm">IceCube detects ghost particles with 10 billion times the energy of solar neutrinos</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Neutrino's zijn de enige deeltjes die rechtstreeks vanuit de bron de aarde bereiken, ongemoeid door magnetische velden of straling. Daarmee zijn ze een uniek venster op de meest extreme objecten in het heelal. Dat het IceCube dit jaar de Nobelprijs Natuurkunde opleverde (Francis Halzen) en nu opnieuw een gevoeligheidsrecord scoort, markeert neutrino-astronomie als een van de meest productieve nieuwe takken van de sterrenkunde.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Dagelijks pinda's eten koppelt aan betere geheugenscores bij ouderen — placebo-gecontroleerde studie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuwe placebo-gecontroleerde studie, gepubliceerd via ScienceDaily, koppelt dagelijkse pinda-consumptie aan verbeterde geheugenscores bij volwassenen boven de zestig. Deelnemers die dagelijks een portie pinda's aten presteerden meetbaar beter op geheugentests dan de controlegroep na een interventieperiode. De onderzoekers vermoeden dat de combinatie van onverzadigde vetten, polyfenolen en vitamine E in pinda's een neuroprotectief effect heeft. De studie is nog niet gepubliceerd in een peer-reviewed tijdschrift dat openbaar toegankelijk is, maar het mechanisme sluit aan bij eerder onderzoek naar mediterrane dieten en cognitief verouderen.</p>
+        <p class="meta">Gepubliceerd november 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/news/top/health/">Top Health News — ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dementie en cognitief verval zijn een van de grootste uitdagingen voor vergrijzende samenlevingen. Als een eenvoudige, goedkope voedselinterventie — pinda's — reproduceerbaar cognitief effect heeft, is dat potentieel een laagdrempelige preventieve maatregel op populatieniveau. Replicatie in grotere cohorten blijft noodzakelijk voor beleidsconclusies.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- SPORT -->
+  <section class="theme">
+    <h2>Sport</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — Grand Prix van São Paulo dit weekend: kwalificatie za. 19:00, race zo. 18:00 (NL-tijd)</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Formule 1-seizoen 2026 sluit zijn Zuid-Amerikaanse hoofdstuk op het circuit van Interlagos. Nu Kimi Antonelli vorige week in Mexico-Stad zijn eerste wereldtitel veroverde (jongste kampioen ooit, eerste Italiaan sinds 1953), gaat de strijd in Brazilië verder om het constructeurskampioenschap en de individuele podiumpositie in het rijderskampioenschap. Brazilië is geen sprintweekend. Tijden in NL-tijd: kwalificatie zaterdag 7 november om 19:00 uur, race zondag 8 november om 18:00 uur.</p>
+        <p class="meta">Bron: <a href="https://www.formula1.com/en/racing/2026/brazil">formula1.com — São Paulo Grand Prix 2026</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
