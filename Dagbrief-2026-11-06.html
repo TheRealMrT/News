@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 6 november 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">VRIJDAG 6 NOVEMBER 2026</p>
+
+  <p class="intro">OpenAI zet zijn cybersecurity-agenda door met de lancering van GPT-6 Cyber en vernieuwt tegelijk zijn beeldmodel tot Images 2.6 — 50 procent sneller en met twee nieuwe API-smaken voor developers. GitHub hertekent intussen zijn Git-infrastructuur van de grond op voor een wereld vol AI-agents. Diplomatiek kijkt Europa naar Abu Dhabi: de VS, Rusland en Oekraïne gaan volgende week weer aan tafel, terwijl Teheran en Washington voorzichtig een eerste kader voor een staakt-het-vuren en Hormuz-heropening lijken te vinden. In de wetenschap leveren nieuwe radio-observaties van Betelgeuse het overtuigendste bewijs tot nu toe dat een mysterieuze begeleiderster letterlijk door de reuzenster ploegt, en toont UC Berkeley hoe "eenzame" hersengolven tijdens diepe slaap — verstoord door Alzheimer-eiwit tau — het geheugen stil uithollen lang vóór symptomen verschijnen.</p>
+
+  <!-- ===================== AI & DE GROTE LABS ===================== -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-6 Cyber: AI-model dat kwetsbaarheden vindt én exploiteert, beperkt toegankelijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft op 5 november GPT-6 Cyber uitgebracht, een gespecialiseerd model gericht op offensieve en defensieve cyberveiligheid. Op de ExploitGym-benchmark — die test of modellen een opgegeven kwetsbaarheid kunnen benutten — scoort het 48,5%, een forse sprong ten opzichte van de 32,1% van voorganger GPT-5.6 Cyber. Toegang is voorlopig beperkt tot de hoogste deelnemerslaag van OpenAI's toelatingsgedreven Daybreak Red-programma voor cyberveiligheidsprofessionals. TechCrunch vroeg zich in een commentaar af of het model ver genoeg gaat om echt bruikbaar te zijn voor defensieve teams tegenover geavanceerde aanvallers.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — OpenAI / TechCrunch — <a href="https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/">OpenAI released a new cybersecurity model. Is that enough?</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GPT-6 Cyber is OpenAI's vierde cyberveiligheidsmodel dit jaar en markeert een versnellende wapenwedloop tussen aanvals-AI en verdediging. Een benchmark van 48,5% op gecontroleerde exploits is nog geen volledige autonome hacker, maar het tempo waarmee de scores stijgen — en de beperkte toegang om misbruik te beperken — illustreren hoe snel dit speelveld verschuift.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI Images 2.6: beeldgeneratie 50% sneller, twee nieuwe API-modellen voor developers</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft Images 2.6 uitgebracht, een significante update van zijn beeldgeneratiemodel. Het nieuwe model genereert afbeeldingen circa 50% sneller dan zijn voorganger. Developers krijgen via de API toegang tot twee varianten: GPT-Image-2.6 Flare — snel en goedkoop, klaar in ongeveer zes seconden — en GPT-Image-2.6 Sunburst, gericht op hogere beeldkwaliteit. De update volgt op eerdere iteraties en positioneert OpenAI's beeldketen opnieuw als concurrerende keuze naast Googles Imagen- en Meta's beeldmodellen.</p>
+        <p class="meta">Gepubliceerd 4 november 2026 — OpenAI — <a href="https://openai.com/index/introducing-images-2-6/">Introducing Images 2.6</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De 50%-snelheidssprong verlaagt de praktische drempel voor real-time beeldgeneratie in consumentendiensten en developer-workflows. Met de twee API-smaken — snelheid versus kwaliteit — geeft OpenAI developers directe controle over de prijs-kwaliteitsverhouding, een patroon dat steeds meer de standaard wordt voor AI-API's.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ===================== TECH & SOFTWARE/DEVELOPMENT ===================== -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE / DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Project Rubicon: nieuwe Git-architectuur voor 5.000 gelijktijdige AI-agents per repository</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub heeft via zijn engineering blog de technische details van Project Rubicon gepubliceerd — een fundamentele herontwerp van zijn Git-opslaginfrastructuur, aangekondigd op GitHub Universe 2026. De kern van de verandering: Git-objecten verhuizen naar Azure Blob Storage, terwijl referenties worden bijgehouden in een aparte gerepliceerde logservice genaamd Ref-CAS. Rekenende nodes worden behandeld als wegwerpbare caches die op elk moment herbouwd kunnen worden. Interne tests tonen dat de nieuwe architectuur 5.000 gelijktijdige agents op één repository aankan en 7.200 pushes per seconde verwerkt. De naam verwijst naar het punt van geen terugkeer dat de sector volgens GitHub al is gepasseerd met agentische ontwikkeling.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — GitHub Blog — <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Inside GitHub's new Git storage architecture</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De huidige Git-architectuur was ontworpen voor menselijke developers die één voor één committen. Met AI-agents die massaal en parallel code genereren en pushen, is dat fundament onhoudbaar. Rubicon is de eerste grootschalige, productie-gerichte infrastructuurrespons op de nieuwe realiteit van agent-gedreven softwareontwikkeling — en zet een architectuurstandaard neer die andere platforms zullen moeten volgen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Together Compiler: AI-agents optimaliseren GPU-kernels autonoom, engineers houden de deployknop</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Together AI heeft de Together Compiler gepresenteerd, een systeem dat zonder menselijke sturing GPU-kernels genereert, test en verbetert. Traditioneel schrijven engineers handmatig geoptimaliseerde CUDA-code voor elke taak; de Together Compiler delegeert die cyclus aan AI-agents die experiment na experiment uitvoeren en de beste varianten selecteren. Engineers houden de goedkeuringsknop voordat iets de productie raakt. The New Stack meldt dat het bedrijf zijn eigen GPU-code al via dit systeem heeft herschreven met aantoonbare efficiëntiewinsten.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — The New Stack — <a href="https://thenewstack.io/together-compiler-gpu-optimization">Together AI let coding agents rewrite its GPU code</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>GPU-optimalisatie is een van de duurste en meest gespecialiseerde taken in AI-infrastructuur. Als agents dit betrouwbaar kunnen automatiseren, daalt de drempel voor kleinere teams om op maat gemaakte hardware-acceleratie in te zetten — en verliest één van de zeldzaamste ingenieursspecialisaties zijn exclusiviteit.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ===================== GEOPOLITIEK & BELEID ===================== -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">VS, Rusland en Oekraïne hernemen trilaterale vredesgesprekken in Abu Dhabi — 10 en 11 november</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Kremlin heeft bevestigd dat VS-special envoys Steve Witkoff en Jared Kushner, de Russische onderhandelaar Vladimir Medinsky en een Oekraïense delegatie op 10 en 11 november in Abu Dhabi bijeenkomen — de eerste trilaterale ronde since februari. De gesprekken van januari en februari 2026 liepen vast nadat het Iran-conflict de diplomatieke aandacht van Washington opeiste. De agenda omvat de-escalatie, humanitaire maatregelen en "post-oorlog veiligheidsafspraken". Rusland eist nog steeds dat Oekraïne grote bezette gebieden overdraagt en van NAVO-lidmaatschap afziet; Kyiv wil solide veiligheidsgaranties. Axios omschrijft Poetins enige concessie als "instemmen met weer praten".</p>
+        <p class="meta">Gepubliceerd 3 november 2026 — Axios / Reuters / Al Jazeera — <a href="https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner">U.S., Russia and Ukraine to resume peace talks in Abu Dhabi</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Na bijna negen maanden stilstand zijn de partijen opnieuw aan tafel — al zijn de verwachtingen laag. Voor Europa is de uitkomst bepalend voor de NAVO-flankstrategie, de EU-steunpakketten en de energieprijzen. Trump dringt aan op een deal vóór de G20 in december, wat extra tijdsdruk creëert.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Iran en VS bereiken eerste kader voor Hormuz-heropening en staakt-het-vuren — uitdagingen blijven</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Volgens PBS NewsHour hebben Amerikaanse en Iraanse onderhandelaars een eerste, nog kwetsbaar akkoord bereikt om het staakt-het-vuren te verlengen en de Straat van Hormuz te heropenen. Al Jazeera meldde eerder dat Trump "vooruitgang" signaleerde en Iran zijn plan voor een heropening binnen twee dagen op tafel legde. Cruciale kloven blijven bestaan: Teheran wil opheffing van de zeeblokkade, intrekking van sancties en volledige regionale wapenstilstand — inclusief Libanon. Trump koppelt een deal aan nucleaire concessies van Iran. Vicepresident Vance omschreef de sfeer als "voorzichtig optimistisch".</p>
+        <p class="meta">Gepubliceerd ca. 5 november 2026 — PBS NewsHour / Al Jazeera / CBS News — <a href="https://www.pbs.org/newshour/world/iran-and-u-s-reach-an-initial-deal-to-extend-the-ceasefire-and-open-the-strait-of-hormuz-but-challenges-remain">Iran and U.S. reach an initial deal to extend the ceasefire and open the Strait of Hormuz</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de doorvoerader voor circa 20% van de wereldwijde oliehandel. Zelfs een gedeeltelijke heropening zou de olieprijzen direct raken en de budgetten van olieafhankelijke landen verlichten. Mislukken van het prille akkoord vergroot het risico op hernieuwde militaire escalatie.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ===================== WETENSCHAP & RESEARCH ===================== -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Radio-observaties bewijzen: begeleiderster Siwarha ploegt letterlijk door Betelegeuses atmosfeer</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Nieuwe metingen van de VLA- en ALMA-radiotelescopen, geleid door Dr. Lynn Matthews van MIT Haystack Observatory, leveren het sterkste bewijs tot nu toe dat Siwarha — de kleine begeleiderster van de reuzenster Betelgeuse — daadwerkelijk door Betelegeuses uitgestrekte atmosfeer beweegt. De onderzoekers analyseerden waarnemingen van 2021 tot 2026 op zeven radiofrequenties. Ze ontdekten dat Betelegeuse licht ovaal (elliptisch) lijkt te worden telkens wanneer Siwarha op zijn grootst verwachte scheiding staat — precies zoals een boeg golven maakt in water. Siwarha zelf blijft te zwak voor directe radiodetectie, maar zijn beweging verraadt zich in de veranderende vorm van zijn gasrijke gasschede. Het onderzoek verscheen in The Astronomical Journal.</p>
+        <p class="meta">Gepubliceerd 3 november 2026 — ALMA / ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/11/261103003149.htm">A hidden star is plowing through Betelgeuse's atmosphere, new evidence suggests</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Betelegeuse is een van de meest bestudeerde sterren aan de hemel, maar haar gedrag — inclusief de raadselachtige "Grote Verduistering" in 2019-2020 — bleef slecht begrepen. Het bevestigen van Siwarha's rol herschrijft de modellen voor hoe reusachtige sterren massa verliezen vóór hun supernova, met implicaties voor ons begrip van sterevolutie in het algemeen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">"Eenzame hersengolven" tijdens diepe slaap: tau-eiwit saboteert geheugenconsolidatie al vóór Alzheimer-diagnose</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Neurowetenschappers van UC Berkeley (Matthew Walker's lab) publiceerden in Nature Neuroscience een studie die een verrassend verband legt tussen tau-eiwitophoping in de frontale hersenschors, verstoorde slaap-hersengolven en geheugenverlies bij cognitief nog gezonde ouderen. Normaal trekken langzame hersengolven tijdens NREM-slaap als gecoördineerde golven over grote hersengebieden — cruciaal voor het vastleggen van herinneringen. Bij deelnemers met meer tau werden die golven korter en geïsoleerder: de onderzoekers noemden ze "eenzame golven". Deelnemers met meer eenzame golven onthielden de volgende ochtend significant minder van geleerde woordparen. Longitudinale data toonden dat de golven verder verkort naarmate tau-niveaus stegen over meerdere jaren.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — University of California Berkeley / ScienceDaily — <a href="https://www.sciencedaily.com/releases/2026/11/261101010556.htm">Scientists discover mysterious "lonely" brain waves linked to memory loss</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit is de eerste studie die tau-pathologie koppelt aan een specifiek verstoord slaap-hersengolven-patroon bij mensen zonder Alzheimer-diagnose. De bevindingen openen de deur naar slaap-EEG als vroeg screenings-instrument en naar interventies — zoals slaapverbetering — die het geheugen kunnen beschermen lang voordat klinische symptomen zichtbaar worden.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">400.000 jaar oud tand-eiwit van Homo erectus draagt genetisch spoor door naar moderne mensen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een internationaal team heeft eiwitten geïsoleerd uit zes tanden van Homo erectus gevonden in een Chinese grot, zo'n 400.000 jaar oud — te oud voor DNA-analyse. Eén aminozuurvariant onderscheidt Homo erectus uniek van alle andere mensenlijnen; een tweede variant bleek gedeeld met moderne mensen via de Denisoviërs als tussenschakel. Die variant komt voor bij 21% van de bevolking op de Filippijnen en circa 1% in India. De onderzoekers, die publiceerden in Nature, benadrukken dat proteomische analyse nu fossiele grenzen verleggen die DNA niet meer kan oversteken — maar dat alleen echt DNA uitsluitsel kan geven over de precieze verwantschap.</p>
+        <p class="meta">Gepubliceerd 2 november 2026 — ScienceDaily / Nature — <a href="https://www.sciencedaily.com/releases/2026/11/261102202836.htm">A Lost Human Legacy May Live in Our DNA</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Homo erectus werd lang beschouwd als een evolutionaire doodlopende weg zonder genetische nalatenschap. Als de proteomische aanwijzingen standhouden, betekent het dat onze soort langer en complexer heeft verweven met andere mensengroepen dan gedacht — en dat de grens tussen "uitgestorven" en "voorouder" verder vervaagt.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- ===================== SPORT ===================== -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — São Paulo GP: vrije trainingen vandaag, kwalificatie za. 19:00 NL-tijd, race zo. 18:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het Formule 1-raceweekend op het Autódromo José Carlos Pace in São Paulo is vanmorgen begonnen met de eerste vrije training (FP1 12:30 lokaal, 16:30 NL-tijd) en volgt vanavond met FP2. Morgen zaterdag is de kwalificatie om 15:00 lokaal — 19:00 Nederlandse tijd. De race op zondag gaat om 14:00 lokaal van start, oftewel 18:00 NL-tijd, over 71 ronden van 4,309 kilometer. Het is de twintigste ronde van het seizoen. Regerend en pas gekroond wereldkampioen Kimi Antonelli — de jongste kampioen ooit en eerste Italiaan since 1953 — rijdt zijn eerste race als titelhouder.</p>
+        <p class="meta">Bron: formula1.com — <a href="https://www.formula1.com/en/racing/2026/brazil">Sao Paulo Grand Prix 2026</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
