@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 7 november 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZATERDAG 7 NOVEMBER 2026</p>
+
+  <p class="intro">Ramp-cijfers laten zien dat AI-tokengebruik blijft groeien maar de bijbehorende uitgaven stagneren, net op het moment dat Anthropic zijn beursgang voorbereidt met een verwachte waardering die inmiddels tot $1,2–1,3 biljoen is gedaald. Ondertussen brengen Tessl en LaunchDarkly platforms op de markt die AI-geschreven code direct in productiesystemen verankeren, en bereikt GitHub Copilot eindelijk ook Xcode. Op geopolitiek vlak laat Trump de wereld wachten op zijn beslissing over Iran: een deal of nieuwe aanvallen; de Straat van Hormuz blijft dicht. Volgende week starten de trilaterale vredesgesprekken over Oekraïne in Abu Dhabi, met een agenda rondom een zeestaakt-het-vuren en gevangenenuitwisseling. In de wetenschap is voor het eerst chemisch bewijs geleverd dat hemoglobine-moleculen 115 miljoen jaar bewaard zijn gebleven in een dinosaurusfossiel. En in São Paulo heeft Lando Norris de poleposition gepakt — de race is morgen om 18:00 NL-tijd.</p>
+
+  <!-- AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Ramp-data: AI-bestedingen flatlijnen terwijl tokengebruik stijgt — Anthropic IPO-waardering zakt naar $1,2–1,3 biljoen</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een nieuw rapport van betalingsplatform Ramp laat zien dat AI-bestedingen bij grote bedrijven over de zomer zijn gestabiliseerd, ook al blijven de tokenvolumes groeien. De oorzaak: scherpe prijsverlagingen van OpenAI en Anthropic zorgen ervoor dat meer AI-gebruik niet meer automatisch tot hogere rekeningen leidt. Dat raakt de aanloop naar Anthropic's beursgang: Bloomberg meldt dat de verwachte IPO-waardering inmiddels is gedaald van bijna $2 biljoen eerder dit jaar naar $1,2–1,3 biljoen. OpenAI verlaagde zijn eigen beoogde waardering eveneens naar $1,25 biljoen.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — TechCrunch / Ramp — <a href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/">Ramp data shows AI spending stalling just as Anthropic nears its IPO</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Prijsdruk die de groei in tokenvolume niet omzet in omzetgroei is een structureel risico voor de hele sector — en voor Anthropic direct merkbaar in de IPO-verwachtingen. Als de markt niet bereid is meer te betalen voor meer gebruik, moeten labs hun businessmodel heroverwegen voordat ze naar de beurs gaan.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Anthropic waarschuwt in bijgewerkte S-1: bedrijf nadert eigen definitie van recursieve zelfverbetering</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>In een herziene S-1/A bij de beursaanvraag heeft Anthropic een nieuwe risicofactor opgenomen: het bedrijf kan binnenkort zijn eigen definitie bereiken van een systeem dat in staat is zichzelf recursief te verbeteren (RSI). Geen van de huidige modellen heeft die drempel al bereikt, aldus Anthropic, maar het kondigt aan zijn Responsible Scaling Policy te herzien om menselijke controle te waarborgen. Dit is de eerste keer dat een groot AI-lab zo expliciet in een beursregistratie erkent dicht bij dit mijlpaal te staan.</p>
+        <p class="meta">Gepubliceerd 2 november 2026 — TechCrunch — <a href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/">Anthropic warns that it's very close to RSI capability, aka self-building AI</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>RSI — waarbij een AI-systeem zichzelf kan verbeteren zonder menselijke tussenkomst — geldt als een van de meest kritieke AI-veiligheidsdrempels. Dat Anthropic dit als reëel nabij risico erkent in juridische stukken geeft de discussie over governance en toezicht een heel andere urgentie dan theoretische debatten.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">OpenAI lanceert GPT-6.1 Sol: grote sprong in agentisch coderen en computerbediening</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>OpenAI heeft GPT-6.1 Sol uitgebracht als een substantiële upgrade op GPT-6 Sol, met uitgesproken sterke prestaties op agentische coderingstaken, computer use en professioneel werk. Het model is beschikbaar via de API en in de Dots-agentproductfamilie, waar het GPT-6.1 Terra vervangt als fundament. Dots is OpenAI's platform voor autonome werkplekagenten die apps kunnen bedienen en langlopende taken uitvoeren.</p>
+        <p class="meta">Gepubliceerd november 2026 — OpenAI — <a href="https://openai.com/news/">OpenAI News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Betere agentische codering en computer use zijn de kern van de volgende golf enterprise-AI: systemen die niet alleen adviseren maar daadwerkelijk taken uitvoeren in bestaande software. GPT-6.1 Sol positioneert OpenAI opnieuw als frontrunner in dit segment, op een moment dat Anthropic's Claude Code en Google's Argon om hetzelfde terrein strijden.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Tessl lanceert open standaardenplatform voor AI-software factories</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Tessl heeft een open-standaardenplatform gelanceerd waarmee bedrijven zogenaamde AI software factories kunnen opzetten: systemen waarbij AI-agents volledig zelfstandig code schrijven, testen en uitrollen. Het platform is gericht op de transitie van AI als codeerassistent naar AI als primaire uitvoerder van de volledige softwarelevenscyclus. Tessl positioneert zich daarmee in hetzelfde segment als SuperPlane en mabl, maar kiest voor een open aanpak om ecosysteempartners aan te trekken.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — SD Times — <a href="https://sdtimes.com/">SD Times</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De verschuiving van "AI helpt developers" naar "AI is de developer" zet zich in snel tempo voort. Platforms als Tessl dwingen organisaties nu al na te denken over wie verantwoordelijk is voor AI-geschreven code in productie — een governance-vraagstuk dat de meeste bedrijven nog niet hebben opgelost.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">LaunchDarkly introduceert geautomatiseerde vrijgavebeveiliging voor AI-geschreven code</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Feature-flagging-platform LaunchDarkly heeft geautomatiseerde release safeguards aangekondigd specifiek voor code die door AI-agents is gegenereerd. Het systeem monitort gedragsafwijkingen na deployment en kan releases automatisch terugdraaien als statistieken buiten vastgestelde grenzen vallen, zonder handmatige tussenkomst van engineers. De feature is een directe reactie op de groeiende hoeveelheid AI-geschreven code die zonder traditionele peer review in productie belandt.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — SD Times — <a href="https://sdtimes.com/">SD Times</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Naarmate AI-agents meer code autonoom schrijven en deployen, wordt veilig terugdraaien kritiek. LaunchDarkly's aanpak maakt zichtbaar hoe de tooling-industrie zich aanpast aan een wereld waar engineers niet elke commit meer reviewen — en wat dat vraagt van observability en risicobeheer.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">GitHub Copilot bereikt Xcode in openbare preview — Apple-platform vervoegt JetBrains Air</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>GitHub heeft GitHub Copilot voor Xcode in openbare preview gebracht via Xcode 27.3 beta. iOS- en macOS-developers kunnen Copilot nu rechtstreeks in hun vertrouwde IDE gebruiken, inclusief code-aanvulling en uitleg. Eerder in de week werd Copilot ook beschikbaar in JetBrains Air, de nieuwe generatie lichtgewicht IDE van JetBrains. Tegelijkertijd kondigt GitHub aan dat meerdere oudere Copilot-modellen op 16 november worden afgeschreven ten gunste van recentere versies.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — GitHub Changelog — <a href="https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2/">GitHub Copilot weekly releases — November 2</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Met de Xcode-integratie bereikt Copilot een van de laatste grote IDE-ecosystemen waar het nog ontbrak. Voor het miljoenenbestand iOS/macOS-developers betekent dit dat AI-coderingondersteuning nu de standaard wordt, niet de uitzondering.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Trump: "wereld hoort snel mijn beslissing" over Iran-deal of nieuwe aanvallen — Hormuz blijft dicht</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>President Trump zei donderdag dat de wereld binnenkort zijn beslissing zal horen over Iran: een deal sluiten of nieuwe aanvallen gelasten. De Iraanse buitenlandminister liet weten dat de onderhandelingen "zeer intensief" verlopen via bemiddelaars, maar voegde eraan toe dat "alles afhangt van de politieke rationaliteit van Washington". Iran zei tevens dat de volgende stap aan Trump is. Al Jazeera meldt dat de IRGC claimt een Amerikaans drone te hebben neergehaald nabij Qeshm en dat tankers opnieuw zijn geraakt in de Straat van Hormuz. De EU heeft intussen zijn methaanrapportageverplichtingen voor importeurs met een jaar uitgesteld vanwege de marktverstoring door het conflict.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — CBS News / Al Jazeera — <a href="https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran">Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Een beslissing van Trump — voor of tegen een deal — heeft directe gevolgen voor de oliemarkt, de scheepvaart en de regionale stabiliteit. Zolang Hormuz dicht is, loopt circa 20% van de mondiale oliehandel vertraging op. De combinatie van diplomatiek optimisme en gelijktijdige militaire incidenten maakt de situatie uitzonderlijk onstabiel.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trilaterale vredesgesprekken VS–Rusland–Oekraïne beginnen maandag in Abu Dhabi — agenda omvat zeestaakt-het-vuren en POW-uitwisseling</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>VS-gezant Steve Witkoff heeft bevestigd dat de VS maandag en dinsdag (10–11 november) trilaterale onderhandelingen medieert in Abu Dhabi tussen de VS, Rusland en Oekraïne. Het is de vierde formele ronde VS-bemiddelde gesprekken dit jaar — de eerste na de onderbreking door het Iran-conflict in februari. Op de agenda staan een mogelijke energie- en maritieme wapenstilstand, gevangenenuitwisseling en de terugkeer van Oekraïense kinderen die naar Rusland zijn gebracht. Oekraïne en Rusland staan nog ver uit elkaar over de voorwaarden van een eventueel akkoord, aldus Reuters.</p>
+        <p class="meta">Gepubliceerd 3 november 2026 — Khaleej Times / Kyiv Post — <a href="https://www.khaleejtimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff">US to mediate Russia-Ukraine talks in Abu Dhabi next week, Witkoff says</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Na bijna negen maanden stilstand zijn de Abu Dhabi-gesprekken de meest concrete diplomatieke kans op een doorbraak in Oekraïne. De agenda is concreter dan bij eerdere rondes, maar het feit dat partijen "ver uit elkaar" staan over kernkwesties maakt een akkoord al maandag onwaarschijnlijk. Wat telt is of het onderhandelingskanaal open blijft.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Eerste chemisch bewijs: hemoglobine-moleculen overleven 115 miljoen jaar in dinosaurusfossiel</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Onderzoekers van de Curtin University (Australië) rapporteren in PNAS het eerste definitieve chemische bewijs van hemoglobine-afgeleide moleculen in gemineraliseerde rode bloedcellen van een 115 miljoen jaar oud dinosaurusfossiel. Het gaat om botresten van Aratasaurus museunacionali, een theropode gevonden in noordwest-Brazilië. Dezelfde botten bevatten ook collageen-aminozuren. Eerdere studies zagen structuren die op rode bloedcellen leken, maar konden dit nooit chemisch aantonen. Niet alle experts zijn overtuigd: de moleculaire bewaring op deze tijdschaal blijft wetenschappelijk omstreden.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — ScienceDaily / LiveScience — <a href="https://www.sciencedaily.com/releases/2026/11/261105224542.htm">Scientists just found dinosaur blood that survived 115 million years</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Als de bevinding standhoudt, herdefiniëert het wat fossielen kunnen bewaren en opent het nieuwe vensters op de fysiologie en evolutie van dinosauriërs. Het schuift ook de grens op voor hoe lang biologische moleculen in het gesteente kunnen overleven — met implicaties voor astrobiologie en het zoeken naar leven elders.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Membraan van aardolie zelf scheidt ruwe olie op kamertemperatuur — 32% energiebesparing mogelijk</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Wetenschappers hebben een membraan ontwikkeld dat is opgebouwd uit aardolie-moleculen zelf en bij kamertemperatuur oliefracties van elkaar kan scheiden. Traditionele destillatie vereist enorme hoeveelheden warmte-energie. Berekeningen suggereren dat membraanscheiding het energieverbruik bij raffinage met bijna 32% kan verlagen. De methode werkt op basis van moleculaire grootte en polariteit, en kan bij bestaande raffinaderijen worden ingebouwd zonder complete herinrichting van de installatie.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — ScienceDaily — <a href="http://www.sciencedaily.com/">ScienceDaily</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Raffinage is een van de meest energie-intensieve industriële processen ter wereld. Een verlaging van 32% in het energieverbruik bij bestaande raffinaderijen zou een significante bijdrage leveren aan de reductie van industriële CO₂-uitstoot — zonder dat fossiele brandstoffen hoeven te worden afgeschaft om impact te hebben.</p>
+        </div>
+      </div>
+    </details>
+
+  </section>
+
+  <!-- Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 São Paulo GP — Norris pakt pole, Verstappen shock exit in Q1; race morgen 18:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Lando Norris heeft de poleposition gepakt voor de Grand Prix van São Paulo op Interlagos. Hij versloeg wereldkampioen Kimi Antonelli (P2) en Charles Leclerc (P3) in een spannende kwalificatie. Verstappen werd verrassend uitgeschakeld in Q1 na gripgebrek; Red Bull onderzoekt de oorzaak. Ferrari's Lewis Hamilton start van P13 na een teleurstellende sessie. De race start morgen zondag 8 november om 18:00 NL-tijd.</p>
+        <p class="meta">Kwalificatie 7 november 2026 — Formula 1 — <a href="https://www.formula1.com/en/latest/article/highlights-catch-up-on-the-action-from-sao-paulo-gp-qualifying-as-norris.DUOXDS67RyK8T6YR8nA0p">Highlights: Norris claims Sao Paulo pole</a></p>
+      </div>
+    </details>
+
+  </section>
+
+</div>
+</body>
+</html>
