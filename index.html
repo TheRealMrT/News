@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dagbrief — 7 november 2026</title>
+<title>Dagbrief — 8 november 2026</title>
 <style>
   * { box-sizing: border-box; }
   body { margin:0; background:#f5f6f8; color:#3f4a5a;
@@ -47,106 +47,80 @@
   </header>
   <hr>
 
-  <p class="date">ZATERDAG 7 NOVEMBER 2026</p>
+  <p class="date">ZONDAG 8 NOVEMBER 2026</p>
 
-  <p class="intro">Ramp-cijfers laten zien dat AI-tokengebruik blijft groeien maar de bijbehorende uitgaven stagneren, net op het moment dat Anthropic zijn beursgang voorbereidt met een verwachte waardering die inmiddels tot $1,2–1,3 biljoen is gedaald. Ondertussen brengen Tessl en LaunchDarkly platforms op de markt die AI-geschreven code direct in productiesystemen verankeren, en bereikt GitHub Copilot eindelijk ook Xcode. Op geopolitiek vlak laat Trump de wereld wachten op zijn beslissing over Iran: een deal of nieuwe aanvallen; de Straat van Hormuz blijft dicht. Volgende week starten de trilaterale vredesgesprekken over Oekraïne in Abu Dhabi, met een agenda rondom een zeestaakt-het-vuren en gevangenenuitwisseling. In de wetenschap is voor het eerst chemisch bewijs geleverd dat hemoglobine-moleculen 115 miljoen jaar bewaard zijn gebleven in een dinosaurusfossiel. En in São Paulo heeft Lando Norris de poleposition gepakt — de race is morgen om 18:00 NL-tijd.</p>
+  <p class="intro">Vandaag draait het om cryptografie en AI-veiligheid: Google DeepMind's AI-agents ontdekten twee kwetsbaarheden in verouderde RSA-1024-encryptie, wat de urgentie van migratie naar post-kwantumstandaarden opnieuw onderstreept. Google maakt tegelijk Gemini Omni 1.2 Flash algemeen beschikbaar met langere videoclips en lagere prijzen. Op geopolitiek vlak verstrakken de Iraanse onderhandelingsposities — Teheran eist alle zeven voorwaarden als pakket voordat de Straat van Hormuz opengaat — terwijl de trilaterale vredesgesprekken over Oekraïne morgen van start gaan in Abu Dhabi. De Vera Rubin Observatory laat zien wat er nog te vinden is: met slechts zeven procent van de hemel zijn al twee eerder onbekende begeleiders van de Melkweg geïdentificeerd.</p>
 
-  <!-- AI & de grote labs -->
+  <!-- 1. AI & de grote labs -->
   <section class="theme">
     <h2>AI &amp; DE GROTE LABS</h2>
 
     <details class="item">
-      <summary><span class="item-title">Ramp-data: AI-bestedingen flatlijnen terwijl tokengebruik stijgt — Anthropic IPO-waardering zakt naar $1,2–1,3 biljoen</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Google DeepMind: AI-agents vinden twee zwakke plekken in verouderde RSA-1024-encryptie</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Een nieuw rapport van betalingsplatform Ramp laat zien dat AI-bestedingen bij grote bedrijven over de zomer zijn gestabiliseerd, ook al blijven de tokenvolumes groeien. De oorzaak: scherpe prijsverlagingen van OpenAI en Anthropic zorgen ervoor dat meer AI-gebruik niet meer automatisch tot hogere rekeningen leidt. Dat raakt de aanloop naar Anthropic's beursgang: Bloomberg meldt dat de verwachte IPO-waardering inmiddels is gedaald van bijna $2 biljoen eerder dit jaar naar $1,2–1,3 biljoen. OpenAI verlaagde zijn eigen beoogde waardering eveneens naar $1,25 biljoen.</p>
-        <p class="meta">Gepubliceerd 6 november 2026 — TechCrunch / Ramp — <a href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/">Ramp data shows AI spending stalling just as Anthropic nears its IPO</a></p>
+        <p>Google DeepMind heeft op 6 november bekendgemaakt dat zijn AI-agents, werkend onder menselijke sturing, twee kwetsbaarheden hebben gevonden in 1024-bit RSA-versleuteling. De aanpak verlaagt de gemiddelde kosten voor het factoriseren van een RSA-1024-sleutel met circa 30×, en de theoretische aanvalsnelheid voor het namaken van een digitale handtekening steeg met een factor 1.600 (een schatting — nog niet extern geverifieerd). Modernere sleutels van 2048 bit en groter zijn onaangetast. Het onderzoek werd geleid door DeepMind-wetenschappers Dvijotham en Thakurta in samenwerking met externe cryptografen Nadia Heninger en Emmanuel Thomé. DeepMind positioneert het als bewijs dat AI versleutelingsstandaarden beter en sneller kan stressttesten, maar roept tegelijk op tot continue herziening van cryptografische normen.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — Google DeepMind / FourWeekMBA — <a href="https://fourweekmba.com/ai-deepmind-ai-agents-find-2-weaknesses-in-legacy-1024-bit-rsa/">DeepMind AI Agents Find 2 Weaknesses in Legacy 1024-Bit RSA</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Prijsdruk die de groei in tokenvolume niet omzet in omzetgroei is een structureel risico voor de hele sector — en voor Anthropic direct merkbaar in de IPO-verwachtingen. Als de markt niet bereid is meer te betalen voor meer gebruik, moeten labs hun businessmodel heroverwegen voordat ze naar de beurs gaan.</p>
+          <p>Hoewel 1024-bit RSA al officieel afgeschreven is, draait het nog op legacy-systemen wereldwijd. Dat AI de aanvalskosten nu dertig keer verlaagt, vergroot de druk op organisaties die de migratie naar sterkere sleutels of post-kwantumcryptografie uitstellen. Het toont ook dat AI zelf een offensief gereedschap voor cryptanalyse wordt.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">Anthropic waarschuwt in bijgewerkte S-1: bedrijf nadert eigen definitie van recursieve zelfverbetering</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Gemini Omni 1.2 Flash nu algemeen beschikbaar — videoclips tot 15 seconden, prijs 30% lager</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>In een herziene S-1/A bij de beursaanvraag heeft Anthropic een nieuwe risicofactor opgenomen: het bedrijf kan binnenkort zijn eigen definitie bereiken van een systeem dat in staat is zichzelf recursief te verbeteren (RSI). Geen van de huidige modellen heeft die drempel al bereikt, aldus Anthropic, maar het kondigt aan zijn Responsible Scaling Policy te herzien om menselijke controle te waarborgen. Dit is de eerste keer dat een groot AI-lab zo expliciet in een beursregistratie erkent dicht bij dit mijlpaal te staan.</p>
-        <p class="meta">Gepubliceerd 2 november 2026 — TechCrunch — <a href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/">Anthropic warns that it's very close to RSI capability, aka self-building AI</a></p>
+        <p>Google heeft op 5 november Gemini Omni 1.2 Flash algemeen beschikbaar gesteld via de Gemini API, Google Cloud en Gemini for Business. Het model genereert en bewerkt videoclips tot 15 seconden — vijf seconden meer dan zijn voorganger — en ondersteunt nu meerdere bewerkingsrondes in een conversatie (multi-turn editing). De prijs daalt met 30% naar circa $0,07 per seconde 720p. Alle uitvoer wordt voorzien van een onzichtbaar SynthID-watermerk. Voor Enterprise-klanten is Provisioned Throughput beschikbaar. De documentatie op Google Cloud loopt nog iets achter op de aankondiging.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — Google Blog — <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Introducing Gemini Omni 1.2 Flash</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>RSI — waarbij een AI-systeem zichzelf kan verbeteren zonder menselijke tussenkomst — geldt als een van de meest kritieke AI-veiligheidsdrempels. Dat Anthropic dit als reëel nabij risico erkent in juridische stukken geeft de discussie over governance en toezicht een heel andere urgentie dan theoretische debatten.</p>
+          <p>Videogeneratie verschuift van duur experimenteerterrein naar betaalbare API-functie. Met GA-status, Enterprise-SLA en lagere kosten kunnen ontwikkelaars video-AI serieus in productietoepassingen opnemen, zonder de hoge kosten en juridische onduidelijkheid van eerdergenoemde concurrenten.</p>
         </div>
       </div>
     </details>
-
-    <details class="item">
-      <summary><span class="item-title">OpenAI lanceert GPT-6.1 Sol: grote sprong in agentisch coderen en computerbediening</span><span class="chev">&rsaquo;</span></summary>
-      <div class="item-body">
-        <p>OpenAI heeft GPT-6.1 Sol uitgebracht als een substantiële upgrade op GPT-6 Sol, met uitgesproken sterke prestaties op agentische coderingstaken, computer use en professioneel werk. Het model is beschikbaar via de API en in de Dots-agentproductfamilie, waar het GPT-6.1 Terra vervangt als fundament. Dots is OpenAI's platform voor autonome werkplekagenten die apps kunnen bedienen en langlopende taken uitvoeren.</p>
-        <p class="meta">Gepubliceerd november 2026 — OpenAI — <a href="https://openai.com/news/">OpenAI News</a></p>
-        <div class="why">
-          <span class="why-label">Waarom het ertoe doet</span>
-          <p>Betere agentische codering en computer use zijn de kern van de volgende golf enterprise-AI: systemen die niet alleen adviseren maar daadwerkelijk taken uitvoeren in bestaande software. GPT-6.1 Sol positioneert OpenAI opnieuw als frontrunner in dit segment, op een moment dat Anthropic's Claude Code en Google's Argon om hetzelfde terrein strijden.</p>
-        </div>
-      </div>
-    </details>
-
   </section>
 
-  <!-- Tech & software/development -->
+  <!-- 2. Tech & software/development -->
   <section class="theme">
     <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
 
     <details class="item">
-      <summary><span class="item-title">Tessl lanceert open standaardenplatform voor AI-software factories</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">.NET 11 lanceert morgen op .NET Conf — gratis virtueel evenement 10-13 november</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Tessl heeft een open-standaardenplatform gelanceerd waarmee bedrijven zogenaamde AI software factories kunnen opzetten: systemen waarbij AI-agents volledig zelfstandig code schrijven, testen en uitrollen. Het platform is gericht op de transitie van AI als codeerassistent naar AI als primaire uitvoerder van de volledige softwarelevenscyclus. Tessl positioneert zich daarmee in hetzelfde segment als SuperPlane en mabl, maar kiest voor een open aanpak om ecosysteempartners aan te trekken.</p>
-        <p class="meta">Gepubliceerd 6 november 2026 — SD Times — <a href="https://sdtimes.com/">SD Times</a></p>
+        <p>Microsoft opent morgen, 10 november, .NET Conf 2026: een gratis, vierdaags virtueel evenement waarop .NET 11 officieel uitkomt. De keynote (10 november, 17:00 NL-tijd) wordt verzorgd door Scott Hanselman en het .NET-team en gaat in op wat er nieuw is in .NET 11 en hoe Copilot en AI-agents zijn geïntegreerd in de ontwikkelaarservaring. Dag twee richt zich op Visual Studio, en de laatste twee dagen zijn gevuld met community-sessies. De conference loopt t/m 13 november en is volledig online te volgen.</p>
+        <p class="meta">Gepubliceerd 25 augustus 2026 (aankondiging) — Microsoft Dev Blog / Thurrott — <a href="https://dotnet.microsoft.com/en-us/conf">.NET Conf 2026</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>De verschuiving van "AI helpt developers" naar "AI is de developer" zet zich in snel tempo voort. Platforms als Tessl dwingen organisaties nu al na te denken over wie verantwoordelijk is voor AI-geschreven code in productie — een governance-vraagstuk dat de meeste bedrijven nog niet hebben opgelost.</p>
+          <p>.NET 11 is de volgende Long-Term-Support-release van het meest gebruikte .NET-platform. De integratie van Copilot en agentische AI-functies direct in het framework zet de toon voor hoe Microsoft .NET-ontwikkeling de komende jaren ziet. Voor teams die upgraden of AI-features willen toevoegen is dit het juiste moment om de keynote te volgen.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">LaunchDarkly introduceert geautomatiseerde vrijgavebeveiliging voor AI-geschreven code</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">JetBrains dringt aan op onmiddellijke IDE-update wegens gecompromitteerde eMudhra-certificaten</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Feature-flagging-platform LaunchDarkly heeft geautomatiseerde release safeguards aangekondigd specifiek voor code die door AI-agents is gegenereerd. Het systeem monitort gedragsafwijkingen na deployment en kan releases automatisch terugdraaien als statistieken buiten vastgestelde grenzen vallen, zonder handmatige tussenkomst van engineers. De feature is een directe reactie op de groeiende hoeveelheid AI-geschreven code die zonder traditionele peer review in productie belandt.</p>
-        <p class="meta">Gepubliceerd 6 november 2026 — SD Times — <a href="https://sdtimes.com/">SD Times</a></p>
+        <p>JetBrains heeft een beveiligingsadvies uitgebracht en dringt er sterk op aan dat gebruikers al hun IDEs, ReSharper, .NET Tools, Toolbox App en Gateway zo snel mogelijk bijwerken. De aanleiding is het compromitteren van certificaten van eMudhra, een certificaatautoriteit die JetBrains gebruikte voor codesigning. Gecompromitteerde certificaten kunnen het vertrouwen in gesigneerde software ondermijnen. Gebruikers die automatische updates hebben uitgeschakeld lopen het hoogste risico.</p>
+        <p class="meta">Begin november 2026 — JetBrains / Dev News Digest — <a href="https://dev.to/magnus_ferm/dev-news-digest-5-nov-2026-1800-3p2n">Dev News Digest 5 nov 2026</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Naarmate AI-agents meer code autonoom schrijven en deployen, wordt veilig terugdraaien kritiek. LaunchDarkly's aanpak maakt zichtbaar hoe de tooling-industrie zich aanpast aan een wereld waar engineers niet elke commit meer reviewen — en wat dat vraagt van observability en risicobeheer.</p>
+          <p>JetBrains-IDEs worden door miljoenen ontwikkelaars dagelijks gebruikt. Gecompromitteerde codesigningcertificaten zijn een klassiek supply-chain-aanvalsvector: wie niet bijwerkt, draait mogelijk gesigneerde software die niet langer als betrouwbaar kan worden beschouwd. Update-nu is hier het enige advies.</p>
         </div>
       </div>
     </details>
-
-    <details class="item">
-      <summary><span class="item-title">GitHub Copilot bereikt Xcode in openbare preview — Apple-platform vervoegt JetBrains Air</span><span class="chev">&rsaquo;</span></summary>
-      <div class="item-body">
-        <p>GitHub heeft GitHub Copilot voor Xcode in openbare preview gebracht via Xcode 27.3 beta. iOS- en macOS-developers kunnen Copilot nu rechtstreeks in hun vertrouwde IDE gebruiken, inclusief code-aanvulling en uitleg. Eerder in de week werd Copilot ook beschikbaar in JetBrains Air, de nieuwe generatie lichtgewicht IDE van JetBrains. Tegelijkertijd kondigt GitHub aan dat meerdere oudere Copilot-modellen op 16 november worden afgeschreven ten gunste van recentere versies.</p>
-        <p class="meta">Gepubliceerd 6 november 2026 — GitHub Changelog — <a href="https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2/">GitHub Copilot weekly releases — November 2</a></p>
-        <div class="why">
-          <span class="why-label">Waarom het ertoe doet</span>
-          <p>Met de Xcode-integratie bereikt Copilot een van de laatste grote IDE-ecosystemen waar het nog ontbrak. Voor het miljoenenbestand iOS/macOS-developers betekent dit dat AI-coderingondersteuning nu de standaard wordt, niet de uitzondering.</p>
-        </div>
-      </div>
-    </details>
-
   </section>
 
-  <!-- Geopolitiek & beleid -->
+  <!-- 3. Geopolitiek & beleid -->
   <section class="theme">
     <h2>GEOPOLITIEK &amp; BELEID</h2>
 
     <details class="item">
-      <summary><span class="item-title">Trump: "wereld hoort snel mijn beslissing" over Iran-deal of nieuwe aanvallen — Hormuz blijft dicht</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Iran stelt ultimatum: alle zeven voorwaarden vereist voordat Hormuz opengaat</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>President Trump zei donderdag dat de wereld binnenkort zijn beslissing zal horen over Iran: een deal sluiten of nieuwe aanvallen gelasten. De Iraanse buitenlandminister liet weten dat de onderhandelingen "zeer intensief" verlopen via bemiddelaars, maar voegde eraan toe dat "alles afhangt van de politieke rationaliteit van Washington". Iran zei tevens dat de volgende stap aan Trump is. Al Jazeera meldt dat de IRGC claimt een Amerikaans drone te hebben neergehaald nabij Qeshm en dat tankers opnieuw zijn geraakt in de Straat van Hormuz. De EU heeft intussen zijn methaanrapportageverplichtingen voor importeurs met een jaar uitgesteld vanwege de marktverstoring door het conflict.</p>
-        <p class="meta">Gepubliceerd 6 november 2026 — CBS News / Al Jazeera — <a href="https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran">Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz</a></p>
+        <p>Iran's legerwoordvoerder brigadegeneraal Mohammad Akraminia heeft categorisch gesteld dat de Straat van Hormuz gesloten blijft totdat Washington alle zeven Iraanse voorwaarden accepteert — als pakket, niet à la carte. De voorwaarden omvatten het opheffen van sancties, vrijgave van bevroren tegoeden en terugtrekking van VS-strijdkrachten uit de regio. Vorige week bereikte een eerste kader, maar Iran noemde de Amerikaanse reactie "niet overtuigend". Qatar bemiddelt actief om een verdere escalatie te voorkomen. Ondertussen vingen vier olietankers vuur na het raken van mijnen bij de Straat. Olieprijzen, die na de midterms daalden, zijn inmiddels licht hersteld.</p>
+        <p class="meta">7 november 2026 — Al Jazeera / House of Saud — <a href="https://houseofsaud.com/iran-hormuz-no-backing-down-nov7">Iran Says Hormuz Stays Closed Until US Meets 7 Conditions</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Een beslissing van Trump — voor of tegen een deal — heeft directe gevolgen voor de oliemarkt, de scheepvaart en de regionale stabiliteit. Zolang Hormuz dicht is, loopt circa 20% van de mondiale oliehandel vertraging op. De combinatie van diplomatiek optimisme en gelijktijdige militaire incidenten maakt de situatie uitzonderlijk onstabiel.</p>
+          <p>De Straat van Hormuz is de doorvoerader voor circa een vijfde van de mondiale oliehandel. Een categorische Iraanse weigering sluit de deur voor een snelle deëscalatie en verhoogt de kans op langere marktverstoring. Hoe Trump reageert — mogelijke nieuwe aanvallen of diplomatieke concessies — is de komende dagen de sleutelvraag.</p>
         </div>
       </div>
     </details>
@@ -154,61 +128,69 @@
     <details class="item">
       <summary><span class="item-title">Trilaterale vredesgesprekken VS–Rusland–Oekraïne beginnen maandag in Abu Dhabi — agenda omvat zeestaakt-het-vuren en POW-uitwisseling</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>VS-gezant Steve Witkoff heeft bevestigd dat de VS maandag en dinsdag (10–11 november) trilaterale onderhandelingen medieert in Abu Dhabi tussen de VS, Rusland en Oekraïne. Het is de vierde formele ronde VS-bemiddelde gesprekken dit jaar — de eerste na de onderbreking door het Iran-conflict in februari. Op de agenda staan een mogelijke energie- en maritieme wapenstilstand, gevangenenuitwisseling en de terugkeer van Oekraïense kinderen die naar Rusland zijn gebracht. Oekraïne en Rusland staan nog ver uit elkaar over de voorwaarden van een eventueel akkoord, aldus Reuters.</p>
-        <p class="meta">Gepubliceerd 3 november 2026 — Khaleej Times / Kyiv Post — <a href="https://www.khaleejtimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff">US to mediate Russia-Ukraine talks in Abu Dhabi next week, Witkoff says</a></p>
+        <p>VS-gezant Steve Witkoff bevestigde dat de VS morgen, 10 en 11 november, de vierde ronde trilaterale werkgesprekken tussen Rusland en Oekraïne in Abu Dhabi bemiddelt. Het is de eerste ronde sinds de gesprekken in februari werden opgeschort toen het Iran-conflict uitbrak. De agenda omvat post-oorlog veiligheidsarrangementen, een energie- en maritiem staakt-het-vuren, uitwisseling van krijgsgevangenen en de terugkeer van Oekraïense kinderen die naar Rusland zijn gebracht. Witkoff en Jared Kushner leiden de VS-delegatie. Rusland en Oekraïne liggen nog ver uit elkaar over de uiteindelijke vredesvoorwaarden.</p>
+        <p class="meta">3-7 november 2026 — Khaleej Times / Al-Monitor — <a href="https://www.khaleejtimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff">US to mediate Russia-Ukraine talks in Abu Dhabi next week</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Na bijna negen maanden stilstand zijn de Abu Dhabi-gesprekken de meest concrete diplomatieke kans op een doorbraak in Oekraïne. De agenda is concreter dan bij eerdere rondes, maar het feit dat partijen "ver uit elkaar" staan over kernkwesties maakt een akkoord al maandag onwaarschijnlijk. Wat telt is of het onderhandelingskanaal open blijft.</p>
+          <p>Dit zijn de eerste directe driehoeksgesprekken in maanden en ze vinden plaats terwijl Trump zijn eigen Thanksgiving-deadline voor een deal heeft gesteld. De uitkomst — ook al is het maar een gedeeltelijk staakt-het-vuren op zee — kan de Europese veiligheidssituatie en energieprijzen direct beïnvloeden.</p>
         </div>
       </div>
     </details>
-
   </section>
 
-  <!-- Wetenschap & research -->
+  <!-- 4. Wetenschap & research -->
   <section class="theme">
     <h2>WETENSCHAP &amp; RESEARCH</h2>
 
     <details class="item">
-      <summary><span class="item-title">Eerste chemisch bewijs: hemoglobine-moleculen overleven 115 miljoen jaar in dinosaurusfossiel</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">Rubin Observatory vindt twee nieuwe Melkwegbegeleiders — en heeft nog maar 7% van de hemel gekeken</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Onderzoekers van de Curtin University (Australië) rapporteren in PNAS het eerste definitieve chemische bewijs van hemoglobine-afgeleide moleculen in gemineraliseerde rode bloedcellen van een 115 miljoen jaar oud dinosaurusfossiel. Het gaat om botresten van Aratasaurus museunacionali, een theropode gevonden in noordwest-Brazilië. Dezelfde botten bevatten ook collageen-aminozuren. Eerdere studies zagen structuren die op rode bloedcellen leken, maar konden dit nooit chemisch aantonen. Niet alle experts zijn overtuigd: de moleculaire bewaring op deze tijdschaal blijft wetenschappelijk omstreden.</p>
-        <p class="meta">Gepubliceerd 5 november 2026 — ScienceDaily / LiveScience — <a href="https://www.sciencedaily.com/releases/2026/11/261105224542.htm">Scientists just found dinosaur blood that survived 115 million years</a></p>
+        <p>De Vera C. Rubin Observatory in Chili heeft met voorlopige data van slechts zeven procent van de hemel twee tot nu toe onbekende begeleiders van de Melkweg geïdentificeerd. Het gaat om zwakke, uitgestrekte sterrenstelsels of sterrenhopen die eerder buiten het bereik van andere telescopen lagen. De Rubin Observatory is ontworpen voor een tienjarige dieptesurvey van de volledige zuidelijke hemel; als het zeven procent-oogst al twee ontdekkingen oplevert, geeft dat een indicatie van hoeveel er nog te vinden is.</p>
+        <p class="meta">7 november 2026 — SciTechDaily / Sci.News — <a href="https://scitechdaily.com/">SciTechDaily — Science News 2026</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Als de bevinding standhoudt, herdefiniëert het wat fossielen kunnen bewaren en opent het nieuwe vensters op de fysiologie en evolutie van dinosauriërs. Het schuift ook de grens op voor hoe lang biologische moleculen in het gesteente kunnen overleven — met implicaties voor astrobiologie en het zoeken naar leven elders.</p>
+          <p>Hoe meer begeleiders de Melkweg heeft, hoe beter astronomen de massaverdeling en de donkere-materie-halo van ons sterrenstelsel kunnen modelleren. De Rubin Observatory belooft de komende jaren de structuurkaart van de lokale groep van sterrenstelsels grondig te herschrijven.</p>
         </div>
       </div>
     </details>
 
     <details class="item">
-      <summary><span class="item-title">Membraan van aardolie zelf scheidt ruwe olie op kamertemperatuur — 32% energiebesparing mogelijk</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">CERN LHCb meet ultra-zeldzaam meson-verval: eens per tien miljard — gevoeligste meting ooit</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Wetenschappers hebben een membraan ontwikkeld dat is opgebouwd uit aardolie-moleculen zelf en bij kamertemperatuur oliefracties van elkaar kan scheiden. Traditionele destillatie vereist enorme hoeveelheden warmte-energie. Berekeningen suggereren dat membraanscheiding het energieverbruik bij raffinage met bijna 32% kan verlagen. De methode werkt op basis van moleculaire grootte en polariteit, en kan bij bestaande raffinaderijen worden ingebouwd zonder complete herinrichting van de installatie.</p>
-        <p class="meta">Gepubliceerd 5 november 2026 — ScienceDaily — <a href="http://www.sciencedaily.com/">ScienceDaily</a></p>
+        <p>Het LHCb-experiment bij CERN heeft het verval van een Bd-meson in een muon en een antimuon waargenomen — een proces dat slechts eens per tien miljard vervalgebeurtenissen voorkomt. Het resultaat, ingediend als preprint en nog in peer review, geldt als de preciseste meting van dit type verval tot nu toe. Afwijkingen van de voorspelde vervalskans zouden kunnen wijzen op nieuwe deeltjes of krachten buiten het Standaardmodel; de huidige metingen zijn consistent met de theorie, maar de onzekerheidsmarges worden kleiner.</p>
+        <p class="meta">3 november 2026 — CERN LHCb / GB News — <a href="https://www.gbnews.com/science/science-discovery-particle-decay">British scientists make 'thrilling' one-in-10-billion discovery</a></p>
         <div class="why">
           <span class="why-label">Waarom het ertoe doet</span>
-          <p>Raffinage is een van de meest energie-intensieve industriële processen ter wereld. Een verlaging van 32% in het energieverbruik bij bestaande raffinaderijen zou een significante bijdrage leveren aan de reductie van industriële CO₂-uitstoot — zonder dat fossiele brandstoffen hoeven te worden afgeschaft om impact te hebben.</p>
+          <p>Zeldzame vervalprocessen zijn een van de scherpste sondes voor nieuwe natuurkunde. Hoe kleiner de meetonzekerheid, hoe minder ruimte er overblijft voor theorieën voorbij het Standaardmodel — of des te groter de betekenis als er toch een afwijking opdoemt. Dit is precisiewerk dat jaren van data verzamelen vergt.</p>
         </div>
       </div>
     </details>
 
+    <details class="item">
+      <summary><span class="item-title">Psilocybine herschikt het brein snel: nieuwe neurale verbindingen worden binnen uren aangelegd én versterkt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een recente studie laat zien dat psilocybine — de werkzame stof in paddo's — niet alleen de hersenen tijdelijk anders laat functioneren, maar ook structureel nieuwe neurale verbindingen aanlegt en die in korte tijd versterkt. De resultaten worden gelinkt aan het therapeutische potentieel bij depressie en PTSS: de hersenen lijken na psilocybine plastischer te worden, vergelijkbaar met een "reset" van vastgeroeste denkpatronen. De precieze duur van de effecten en de optimale dosis worden nog onderzocht in lopende klinische trials.</p>
+        <p class="meta">6 november 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/">ScienceDaily: Latest Research News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Psychedelische therapie staat in een stroomversnelling: meerdere landen overwegen of hebben al toegang verleend voor therapeutisch gebruik van psilocybine. Bewijs dat de stof meetbare structurele hersenveranderingen veroorzaakt — niet alleen tijdelijke effecten — versterkt zowel de therapeutische onderbouwing als de roep om preciezere richtlijnen over dosering en veiligheid.</p>
+        </div>
+      </div>
+    </details>
   </section>
 
-  <!-- Sport -->
+  <!-- 5. Sport -->
   <section class="theme">
     <h2>SPORT</h2>
 
     <details class="item">
-      <summary><span class="item-title">F1 São Paulo GP — Norris pakt pole, Verstappen shock exit in Q1; race morgen 18:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <summary><span class="item-title">F1 — São Paulo GP: Norris vertrekt vandaag van pole, Verstappen en Hamilton starten achteraan — race 18:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
       <div class="item-body">
-        <p>Lando Norris heeft de poleposition gepakt voor de Grand Prix van São Paulo op Interlagos. Hij versloeg wereldkampioen Kimi Antonelli (P2) en Charles Leclerc (P3) in een spannende kwalificatie. Verstappen werd verrassend uitgeschakeld in Q1 na gripgebrek; Red Bull onderzoekt de oorzaak. Ferrari's Lewis Hamilton start van P13 na een teleurstellende sessie. De race start morgen zondag 8 november om 18:00 NL-tijd.</p>
-        <p class="meta">Kwalificatie 7 november 2026 — Formula 1 — <a href="https://www.formula1.com/en/latest/article/highlights-catch-up-on-the-action-from-sao-paulo-gp-qualifying-as-norris.DUOXDS67RyK8T6YR8nA0p">Highlights: Norris claims Sao Paulo pole</a></p>
+        <p>De Grand Prix van São Paulo (Interlagos) staat vandaag op het programma: startschot om 18:00 NL-tijd. Lando Norris pakte pole position in een door regen verstoorde kwalificatie, gevolgd door Kimi Antonelli (die vorige week in Mexico al wereldkampioen werd). Max Verstappen en Lewis Hamilton starten achteraan wegens gridstraffen door motorwissels. George Russell kreeg eveneens een straf en zakt naar P7. Volgende race: Grand Prix van Las Vegas, 19-21 november.</p>
       </div>
     </details>
-
   </section>
 
-<hr><p class="date">EERDERE EDITIES</p><ul class="archive"><li><a href="Dagbrief-2026-11-07.html">zaterdag 7 november 2026</a></li><li><a href="Dagbrief-2026-11-06.html">vrijdag 6 november 2026</a></li><li><a href="Dagbrief-2026-11-05.html">donderdag 5 november 2026</a></li><li><a href="Dagbrief-2026-11-04.html">woensdag 4 november 2026</a></li><li><a href="Dagbrief-2026-11-03.html">dinsdag 3 november 2026</a></li><li><a href="Dagbrief-2026-11-02.html">maandag 2 november 2026</a></li><li><a href="Dagbrief-2026-11-01.html">zondag 1 november 2026</a></li><li><a href="Dagbrief-2026-10-31.html">zaterdag 31 oktober 2026</a></li><li><a href="Dagbrief-2026-10-30.html">vrijdag 30 oktober 2026</a></li><li><a href="Dagbrief-2026-10-29.html">donderdag 29 oktober 2026</a></li><li><a href="Dagbrief-2026-10-28.html">woensdag 28 oktober 2026</a></li><li><a href="Dagbrief-2026-10-27.html">dinsdag 27 oktober 2026</a></li><li><a href="Dagbrief-2026-10-26.html">maandag 26 oktober 2026</a></li><li><a href="Dagbrief-2026-10-25.html">zondag 25 oktober 2026</a></li><li><a href="Dagbrief-2026-10-24.html">zaterdag 24 oktober 2026</a></li><li><a href="Dagbrief-2026-10-23.html">vrijdag 23 oktober 2026</a></li><li><a href="Dagbrief-2026-10-22.html">donderdag 22 oktober 2026</a></li><li><a href="Dagbrief-2026-10-21.html">woensdag 21 oktober 2026</a></li><li><a href="Dagbrief-2026-10-20.html">dinsdag 20 oktober 2026</a></li><li><a href="Dagbrief-2026-10-19.html">maandag 19 oktober 2026</a></li><li><a href="Dagbrief-2026-10-18.html">zondag 18 oktober 2026</a></li><li><a href="Dagbrief-2026-10-17.html">zaterdag 17 oktober 2026</a></li><li><a href="Dagbrief-2026-10-16.html">vrijdag 16 oktober 2026</a></li><li><a href="Dagbrief-2026-10-15.html">donderdag 15 oktober 2026</a></li><li><a href="Dagbrief-2026-10-14.html">woensdag 14 oktober 2026</a></li><li><a href="Dagbrief-2026-10-13.html">dinsdag 13 oktober 2026</a></li><li><a href="Dagbrief-2026-10-12.html">maandag 12 oktober 2026</a></li><li><a href="Dagbrief-2026-10-09.html">vrijdag 9 oktober 2026</a></li><li><a href="Dagbrief-2026-10-08.html">donderdag 8 oktober 2026</a></li><li><a href="Dagbrief-2026-10-07.html">woensdag 7 oktober 2026</a></li><li><a href="Dagbrief-2026-10-06.html">dinsdag 6 oktober 2026</a></li><li><a href="Dagbrief-2026-10-05.html">maandag 5 oktober 2026</a></li><li><a href="Dagbrief-2026-10-04.html">zondag 4 oktober 2026</a></li><li><a href="Dagbrief-2026-10-03.html">zaterdag 3 oktober 2026</a></li><li><a href="Dagbrief-2026-10-02.html">vrijdag 2 oktober 2026</a></li><li><a href="Dagbrief-2026-10-01.html">donderdag 1 oktober 2026</a></li><li><a href="Dagbrief-2026-09-30.html">woensdag 30 september 2026</a></li><li><a href="Dagbrief-2026-09-29.html">dinsdag 29 september 2026</a></li><li><a href="Dagbrief-2026-09-28.html">maandag 28 september 2026</a></li><li><a href="Dagbrief-2026-09-18.html">vrijdag 18 september 2026</a></li><li><a href="Dagbrief-2026-09-17.html">donderdag 17 september 2026</a></li><li><a href="Dagbrief-2026-09-16.html">woensdag 16 september 2026</a></li><li><a href="Dagbrief-2026-09-15.html">dinsdag 15 september 2026</a></li><li><a href="Dagbrief-2026-09-14.html">maandag 14 september 2026</a></li><li><a href="Dagbrief-2026-09-13.html">zondag 13 september 2026</a></li><li><a href="Dagbrief-2026-09-12.html">zaterdag 12 september 2026</a></li><li><a href="Dagbrief-2026-09-11.html">vrijdag 11 september 2026</a></li><li><a href="Dagbrief-2026-09-10.html">donderdag 10 september 2026</a></li><li><a href="Dagbrief-2026-09-09.html">woensdag 9 september 2026</a></li><li><a href="Dagbrief-2026-09-08.html">dinsdag 8 september 2026</a></li><li><a href="Dagbrief-2026-09-07.html">maandag 7 september 2026</a></li><li><a href="Dagbrief-2026-09-06.html">zondag 6 september 2026</a></li><li><a href="Dagbrief-2026-09-05.html">zaterdag 5 september 2026</a></li><li><a href="Dagbrief-2026-09-04.html">vrijdag 4 september 2026</a></li><li><a href="Dagbrief-2026-09-03.html">donderdag 3 september 2026</a></li><li><a href="Dagbrief-2026-09-02.html">woensdag 2 september 2026</a></li><li><a href="Dagbrief-2026-09-01.html">dinsdag 1 september 2026</a></li><li><a href="Dagbrief-2026-08-31.html">maandag 31 augustus 2026</a></li><li><a href="Dagbrief-2026-08-30.html">zondag 30 augustus 2026</a></li><li><a href="Dagbrief-2026-08-29.html">zaterdag 29 augustus 2026</a></li><li><a href="Dagbrief-2026-08-28.html">vrijdag 28 augustus 2026</a></li><li><a href="Dagbrief-2026-08-27.html">donderdag 27 augustus 2026</a></li><li><a href="Dagbrief-2026-08-26.html">woensdag 26 augustus 2026</a></li><li><a href="Dagbrief-2026-08-25.html">dinsdag 25 augustus 2026</a></li><li><a href="Dagbrief-2026-08-24.html">maandag 24 augustus 2026</a></li><li><a href="Dagbrief-2026-08-21.html">vrijdag 21 augustus 2026</a></li><li><a href="Dagbrief-2026-08-20.html">donderdag 20 augustus 2026</a></li><li><a href="Dagbrief-2026-08-19.html">woensdag 19 augustus 2026</a></li><li><a href="Dagbrief-2026-08-18.html">dinsdag 18 augustus 2026</a></li><li><a href="Dagbrief-2026-08-17.html">maandag 17 augustus 2026</a></li><li><a href="Dagbrief-2026-08-16.html">zondag 16 augustus 2026</a></li><li><a href="Dagbrief-2026-08-15.html">zaterdag 15 augustus 2026</a></li><li><a href="Dagbrief-2026-08-14.html">vrijdag 14 augustus 2026</a></li><li><a href="Dagbrief-2026-08-13.html">donderdag 13 augustus 2026</a></li><li><a href="Dagbrief-2026-08-12.html">woensdag 12 augustus 2026</a></li><li><a href="Dagbrief-2026-08-11.html">dinsdag 11 augustus 2026</a></li><li><a href="Dagbrief-2026-08-10.html">maandag 10 augustus 2026</a></li><li><a href="Dagbrief-2026-08-09.html">zondag 9 augustus 2026</a></li><li><a href="Dagbrief-2026-08-08.html">zaterdag 8 augustus 2026</a></li><li><a href="Dagbrief-2026-08-07.html">vrijdag 7 augustus 2026</a></li><li><a href="Dagbrief-2026-08-06.html">donderdag 6 augustus 2026</a></li><li><a href="Dagbrief-2026-08-05.html">woensdag 5 augustus 2026</a></li><li><a href="Dagbrief-2026-08-04.html">dinsdag 4 augustus 2026</a></li><li><a href="Dagbrief-2026-08-03.html">maandag 3 augustus 2026</a></li><li><a href="Dagbrief-2026-07-15.html">woensdag 15 juli 2026</a></li><li><a href="Dagbrief-2026-07-14.html">dinsdag 14 juli 2026</a></li><li><a href="Dagbrief-2026-07-13.html">maandag 13 juli 2026</a></li><li><a href="Dagbrief-2026-07-12.html">zondag 12 juli 2026</a></li><li><a href="Dagbrief-2026-07-11.html">zaterdag 11 juli 2026</a></li><li><a href="Dagbrief-2026-07-10.html">vrijdag 10 juli 2026</a></li><li><a href="Dagbrief-2026-07-09.html">donderdag 9 juli 2026</a></li><li><a href="Dagbrief-2026-07-08.html">woensdag 8 juli 2026</a></li><li><a href="Dagbrief-2026-07-07.html">dinsdag 7 juli 2026</a></li><li><a href="Dagbrief-2026-07-06.html">maandag 6 juli 2026</a></li><li><a href="Dagbrief-2026-07-05.html">zondag 5 juli 2026</a></li><li><a href="Dagbrief-2026-07-04.html">zaterdag 4 juli 2026</a></li><li><a href="Dagbrief-2026-07-03.html">vrijdag 3 juli 2026</a></li><li><a href="Dagbrief-2026-07-02.html">donderdag 2 juli 2026</a></li></ul></div>
+<hr><p class="date">EERDERE EDITIES</p><ul class="archive"><li><a href="Dagbrief-2026-11-08.html">zondag 8 november 2026</a></li><li><a href="Dagbrief-2026-11-07.html">zaterdag 7 november 2026</a></li><li><a href="Dagbrief-2026-11-06.html">vrijdag 6 november 2026</a></li><li><a href="Dagbrief-2026-11-05.html">donderdag 5 november 2026</a></li><li><a href="Dagbrief-2026-11-04.html">woensdag 4 november 2026</a></li><li><a href="Dagbrief-2026-11-03.html">dinsdag 3 november 2026</a></li><li><a href="Dagbrief-2026-11-02.html">maandag 2 november 2026</a></li><li><a href="Dagbrief-2026-11-01.html">zondag 1 november 2026</a></li><li><a href="Dagbrief-2026-10-31.html">zaterdag 31 oktober 2026</a></li><li><a href="Dagbrief-2026-10-30.html">vrijdag 30 oktober 2026</a></li><li><a href="Dagbrief-2026-10-29.html">donderdag 29 oktober 2026</a></li><li><a href="Dagbrief-2026-10-28.html">woensdag 28 oktober 2026</a></li><li><a href="Dagbrief-2026-10-27.html">dinsdag 27 oktober 2026</a></li><li><a href="Dagbrief-2026-10-26.html">maandag 26 oktober 2026</a></li><li><a href="Dagbrief-2026-10-25.html">zondag 25 oktober 2026</a></li><li><a href="Dagbrief-2026-10-24.html">zaterdag 24 oktober 2026</a></li><li><a href="Dagbrief-2026-10-23.html">vrijdag 23 oktober 2026</a></li><li><a href="Dagbrief-2026-10-22.html">donderdag 22 oktober 2026</a></li><li><a href="Dagbrief-2026-10-21.html">woensdag 21 oktober 2026</a></li><li><a href="Dagbrief-2026-10-20.html">dinsdag 20 oktober 2026</a></li><li><a href="Dagbrief-2026-10-19.html">maandag 19 oktober 2026</a></li><li><a href="Dagbrief-2026-10-18.html">zondag 18 oktober 2026</a></li><li><a href="Dagbrief-2026-10-17.html">zaterdag 17 oktober 2026</a></li><li><a href="Dagbrief-2026-10-16.html">vrijdag 16 oktober 2026</a></li><li><a href="Dagbrief-2026-10-15.html">donderdag 15 oktober 2026</a></li><li><a href="Dagbrief-2026-10-14.html">woensdag 14 oktober 2026</a></li><li><a href="Dagbrief-2026-10-13.html">dinsdag 13 oktober 2026</a></li><li><a href="Dagbrief-2026-10-12.html">maandag 12 oktober 2026</a></li><li><a href="Dagbrief-2026-10-09.html">vrijdag 9 oktober 2026</a></li><li><a href="Dagbrief-2026-10-08.html">donderdag 8 oktober 2026</a></li><li><a href="Dagbrief-2026-10-07.html">woensdag 7 oktober 2026</a></li><li><a href="Dagbrief-2026-10-06.html">dinsdag 6 oktober 2026</a></li><li><a href="Dagbrief-2026-10-05.html">maandag 5 oktober 2026</a></li><li><a href="Dagbrief-2026-10-04.html">zondag 4 oktober 2026</a></li><li><a href="Dagbrief-2026-10-03.html">zaterdag 3 oktober 2026</a></li><li><a href="Dagbrief-2026-10-02.html">vrijdag 2 oktober 2026</a></li><li><a href="Dagbrief-2026-10-01.html">donderdag 1 oktober 2026</a></li><li><a href="Dagbrief-2026-09-30.html">woensdag 30 september 2026</a></li><li><a href="Dagbrief-2026-09-29.html">dinsdag 29 september 2026</a></li><li><a href="Dagbrief-2026-09-28.html">maandag 28 september 2026</a></li><li><a href="Dagbrief-2026-09-18.html">vrijdag 18 september 2026</a></li><li><a href="Dagbrief-2026-09-17.html">donderdag 17 september 2026</a></li><li><a href="Dagbrief-2026-09-16.html">woensdag 16 september 2026</a></li><li><a href="Dagbrief-2026-09-15.html">dinsdag 15 september 2026</a></li><li><a href="Dagbrief-2026-09-14.html">maandag 14 september 2026</a></li><li><a href="Dagbrief-2026-09-13.html">zondag 13 september 2026</a></li><li><a href="Dagbrief-2026-09-12.html">zaterdag 12 september 2026</a></li><li><a href="Dagbrief-2026-09-11.html">vrijdag 11 september 2026</a></li><li><a href="Dagbrief-2026-09-10.html">donderdag 10 september 2026</a></li><li><a href="Dagbrief-2026-09-09.html">woensdag 9 september 2026</a></li><li><a href="Dagbrief-2026-09-08.html">dinsdag 8 september 2026</a></li><li><a href="Dagbrief-2026-09-07.html">maandag 7 september 2026</a></li><li><a href="Dagbrief-2026-09-06.html">zondag 6 september 2026</a></li><li><a href="Dagbrief-2026-09-05.html">zaterdag 5 september 2026</a></li><li><a href="Dagbrief-2026-09-04.html">vrijdag 4 september 2026</a></li><li><a href="Dagbrief-2026-09-03.html">donderdag 3 september 2026</a></li><li><a href="Dagbrief-2026-09-02.html">woensdag 2 september 2026</a></li><li><a href="Dagbrief-2026-09-01.html">dinsdag 1 september 2026</a></li><li><a href="Dagbrief-2026-08-31.html">maandag 31 augustus 2026</a></li><li><a href="Dagbrief-2026-08-30.html">zondag 30 augustus 2026</a></li><li><a href="Dagbrief-2026-08-29.html">zaterdag 29 augustus 2026</a></li><li><a href="Dagbrief-2026-08-28.html">vrijdag 28 augustus 2026</a></li><li><a href="Dagbrief-2026-08-27.html">donderdag 27 augustus 2026</a></li><li><a href="Dagbrief-2026-08-26.html">woensdag 26 augustus 2026</a></li><li><a href="Dagbrief-2026-08-25.html">dinsdag 25 augustus 2026</a></li><li><a href="Dagbrief-2026-08-24.html">maandag 24 augustus 2026</a></li><li><a href="Dagbrief-2026-08-21.html">vrijdag 21 augustus 2026</a></li><li><a href="Dagbrief-2026-08-20.html">donderdag 20 augustus 2026</a></li><li><a href="Dagbrief-2026-08-19.html">woensdag 19 augustus 2026</a></li><li><a href="Dagbrief-2026-08-18.html">dinsdag 18 augustus 2026</a></li><li><a href="Dagbrief-2026-08-17.html">maandag 17 augustus 2026</a></li><li><a href="Dagbrief-2026-08-16.html">zondag 16 augustus 2026</a></li><li><a href="Dagbrief-2026-08-15.html">zaterdag 15 augustus 2026</a></li><li><a href="Dagbrief-2026-08-14.html">vrijdag 14 augustus 2026</a></li><li><a href="Dagbrief-2026-08-13.html">donderdag 13 augustus 2026</a></li><li><a href="Dagbrief-2026-08-12.html">woensdag 12 augustus 2026</a></li><li><a href="Dagbrief-2026-08-11.html">dinsdag 11 augustus 2026</a></li><li><a href="Dagbrief-2026-08-10.html">maandag 10 augustus 2026</a></li><li><a href="Dagbrief-2026-08-09.html">zondag 9 augustus 2026</a></li><li><a href="Dagbrief-2026-08-08.html">zaterdag 8 augustus 2026</a></li><li><a href="Dagbrief-2026-08-07.html">vrijdag 7 augustus 2026</a></li><li><a href="Dagbrief-2026-08-06.html">donderdag 6 augustus 2026</a></li><li><a href="Dagbrief-2026-08-05.html">woensdag 5 augustus 2026</a></li><li><a href="Dagbrief-2026-08-04.html">dinsdag 4 augustus 2026</a></li><li><a href="Dagbrief-2026-08-03.html">maandag 3 augustus 2026</a></li><li><a href="Dagbrief-2026-07-15.html">woensdag 15 juli 2026</a></li><li><a href="Dagbrief-2026-07-14.html">dinsdag 14 juli 2026</a></li><li><a href="Dagbrief-2026-07-13.html">maandag 13 juli 2026</a></li><li><a href="Dagbrief-2026-07-12.html">zondag 12 juli 2026</a></li><li><a href="Dagbrief-2026-07-11.html">zaterdag 11 juli 2026</a></li><li><a href="Dagbrief-2026-07-10.html">vrijdag 10 juli 2026</a></li><li><a href="Dagbrief-2026-07-09.html">donderdag 9 juli 2026</a></li><li><a href="Dagbrief-2026-07-08.html">woensdag 8 juli 2026</a></li><li><a href="Dagbrief-2026-07-07.html">dinsdag 7 juli 2026</a></li><li><a href="Dagbrief-2026-07-06.html">maandag 6 juli 2026</a></li><li><a href="Dagbrief-2026-07-05.html">zondag 5 juli 2026</a></li><li><a href="Dagbrief-2026-07-04.html">zaterdag 4 juli 2026</a></li><li><a href="Dagbrief-2026-07-03.html">vrijdag 3 juli 2026</a></li><li><a href="Dagbrief-2026-07-02.html">donderdag 2 juli 2026</a></li></ul></div>
 </body>
 </html>

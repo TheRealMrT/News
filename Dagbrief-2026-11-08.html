@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagbrief — 8 november 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f6f8; color:#3f4a5a;
+         font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  header h1 { font-size:30px; font-weight:800; color:#1a2233; margin:0 0 8px; }
+  .subtitle { color:#8a94a6; font-size:15px; margin:0; }
+  hr { border:none; border-top:1px solid #e2e6ee; margin:24px 0; }
+  .date { color:#2f6fb0; font-weight:700; font-size:13px; letter-spacing:0.08em; margin:0 0 12px; }
+  .intro { color:#5a6577; margin:0 0 28px; }
+  .theme { background:#eaf0fb; border-radius:12px; padding:20px 20px 8px; margin:0 0 28px; }
+  .theme > h2 { color:#c0561f; font-size:15px; font-weight:700; letter-spacing:0.03em;
+                margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid #d6e0f2; }
+  .item { background:#fff; border:1px solid #e6e9ef; border-radius:10px; margin:0 0 12px;
+          box-shadow:0 1px 2px rgba(20,30,60,0.04); overflow:hidden; }
+  .item > summary { cursor:pointer; list-style:none; padding:15px 18px;
+                    display:flex; align-items:center; gap:12px; }
+  .item > summary::-webkit-details-marker { display:none; }
+  .item > summary:hover { background:#fafbfd; }
+  .item-title { flex:1; color:#1a2233; font-size:16px; font-weight:700; line-height:1.35; }
+  .chev { color:#9aa4b5; font-size:20px; line-height:1; flex-shrink:0; transition:transform .15s ease; }
+  .item[open] .chev { transform:rotate(90deg); }
+  .item[open] > summary { border-bottom:1px solid #eef1f5; }
+  .item-body { padding:16px 18px 18px; }
+  .item-body > p:first-child { margin-top:0; }
+  .item-body p { margin:0 0 12px; }
+  .meta { color:#8a94a6; font-size:13px; margin:0 0 14px; }
+  .meta a { color:#2f6fb0; text-decoration:none; }
+  .meta a:hover { text-decoration:underline; }
+  .why { background:#eef1f4; border-left:4px solid #38a169; border-radius:0 6px 6px 0; padding:12px 16px; }
+  .why-label { display:block; color:#2f8a52; font-size:11px; font-weight:700;
+               letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .why p { margin:0; color:#54606f; font-size:14.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Dagbrief</h1>
+    <p class="subtitle">Dagelijkse selectie van het belangrijkste nieuws — AI &amp; de grote labs, tech &amp; development, geopolitiek &amp; beleid, wetenschap &amp; research.</p>
+  </header>
+  <hr>
+
+  <p class="date">ZONDAG 8 NOVEMBER 2026</p>
+
+  <p class="intro">Vandaag draait het om cryptografie en AI-veiligheid: Google DeepMind's AI-agents ontdekten twee kwetsbaarheden in verouderde RSA-1024-encryptie, wat de urgentie van migratie naar post-kwantumstandaarden opnieuw onderstreept. Google maakt tegelijk Gemini Omni 1.2 Flash algemeen beschikbaar met langere videoclips en lagere prijzen. Op geopolitiek vlak verstrakken de Iraanse onderhandelingsposities — Teheran eist alle zeven voorwaarden als pakket voordat de Straat van Hormuz opengaat — terwijl de trilaterale vredesgesprekken over Oekraïne morgen van start gaan in Abu Dhabi. De Vera Rubin Observatory laat zien wat er nog te vinden is: met slechts zeven procent van de hemel zijn al twee eerder onbekende begeleiders van de Melkweg geïdentificeerd.</p>
+
+  <!-- 1. AI & de grote labs -->
+  <section class="theme">
+    <h2>AI &amp; DE GROTE LABS</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Google DeepMind: AI-agents vinden twee zwakke plekken in verouderde RSA-1024-encryptie</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google DeepMind heeft op 6 november bekendgemaakt dat zijn AI-agents, werkend onder menselijke sturing, twee kwetsbaarheden hebben gevonden in 1024-bit RSA-versleuteling. De aanpak verlaagt de gemiddelde kosten voor het factoriseren van een RSA-1024-sleutel met circa 30×, en de theoretische aanvalsnelheid voor het namaken van een digitale handtekening steeg met een factor 1.600 (een schatting — nog niet extern geverifieerd). Modernere sleutels van 2048 bit en groter zijn onaangetast. Het onderzoek werd geleid door DeepMind-wetenschappers Dvijotham en Thakurta in samenwerking met externe cryptografen Nadia Heninger en Emmanuel Thomé. DeepMind positioneert het als bewijs dat AI versleutelingsstandaarden beter en sneller kan stressttesten, maar roept tegelijk op tot continue herziening van cryptografische normen.</p>
+        <p class="meta">Gepubliceerd 6 november 2026 — Google DeepMind / FourWeekMBA — <a href="https://fourweekmba.com/ai-deepmind-ai-agents-find-2-weaknesses-in-legacy-1024-bit-rsa/">DeepMind AI Agents Find 2 Weaknesses in Legacy 1024-Bit RSA</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Hoewel 1024-bit RSA al officieel afgeschreven is, draait het nog op legacy-systemen wereldwijd. Dat AI de aanvalskosten nu dertig keer verlaagt, vergroot de druk op organisaties die de migratie naar sterkere sleutels of post-kwantumcryptografie uitstellen. Het toont ook dat AI zelf een offensief gereedschap voor cryptanalyse wordt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Gemini Omni 1.2 Flash nu algemeen beschikbaar — videoclips tot 15 seconden, prijs 30% lager</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Google heeft op 5 november Gemini Omni 1.2 Flash algemeen beschikbaar gesteld via de Gemini API, Google Cloud en Gemini for Business. Het model genereert en bewerkt videoclips tot 15 seconden — vijf seconden meer dan zijn voorganger — en ondersteunt nu meerdere bewerkingsrondes in een conversatie (multi-turn editing). De prijs daalt met 30% naar circa $0,07 per seconde 720p. Alle uitvoer wordt voorzien van een onzichtbaar SynthID-watermerk. Voor Enterprise-klanten is Provisioned Throughput beschikbaar. De documentatie op Google Cloud loopt nog iets achter op de aankondiging.</p>
+        <p class="meta">Gepubliceerd 5 november 2026 — Google Blog — <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Introducing Gemini Omni 1.2 Flash</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Videogeneratie verschuift van duur experimenteerterrein naar betaalbare API-functie. Met GA-status, Enterprise-SLA en lagere kosten kunnen ontwikkelaars video-AI serieus in productietoepassingen opnemen, zonder de hoge kosten en juridische onduidelijkheid van eerdergenoemde concurrenten.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- 2. Tech & software/development -->
+  <section class="theme">
+    <h2>TECH &amp; SOFTWARE/DEVELOPMENT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">.NET 11 lanceert morgen op .NET Conf — gratis virtueel evenement 10-13 november</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Microsoft opent morgen, 10 november, .NET Conf 2026: een gratis, vierdaags virtueel evenement waarop .NET 11 officieel uitkomt. De keynote (10 november, 17:00 NL-tijd) wordt verzorgd door Scott Hanselman en het .NET-team en gaat in op wat er nieuw is in .NET 11 en hoe Copilot en AI-agents zijn geïntegreerd in de ontwikkelaarservaring. Dag twee richt zich op Visual Studio, en de laatste twee dagen zijn gevuld met community-sessies. De conference loopt t/m 13 november en is volledig online te volgen.</p>
+        <p class="meta">Gepubliceerd 25 augustus 2026 (aankondiging) — Microsoft Dev Blog / Thurrott — <a href="https://dotnet.microsoft.com/en-us/conf">.NET Conf 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>.NET 11 is de volgende Long-Term-Support-release van het meest gebruikte .NET-platform. De integratie van Copilot en agentische AI-functies direct in het framework zet de toon voor hoe Microsoft .NET-ontwikkeling de komende jaren ziet. Voor teams die upgraden of AI-features willen toevoegen is dit het juiste moment om de keynote te volgen.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">JetBrains dringt aan op onmiddellijke IDE-update wegens gecompromitteerde eMudhra-certificaten</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>JetBrains heeft een beveiligingsadvies uitgebracht en dringt er sterk op aan dat gebruikers al hun IDEs, ReSharper, .NET Tools, Toolbox App en Gateway zo snel mogelijk bijwerken. De aanleiding is het compromitteren van certificaten van eMudhra, een certificaatautoriteit die JetBrains gebruikte voor codesigning. Gecompromitteerde certificaten kunnen het vertrouwen in gesigneerde software ondermijnen. Gebruikers die automatische updates hebben uitgeschakeld lopen het hoogste risico.</p>
+        <p class="meta">Begin november 2026 — JetBrains / Dev News Digest — <a href="https://dev.to/magnus_ferm/dev-news-digest-5-nov-2026-1800-3p2n">Dev News Digest 5 nov 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>JetBrains-IDEs worden door miljoenen ontwikkelaars dagelijks gebruikt. Gecompromitteerde codesigningcertificaten zijn een klassiek supply-chain-aanvalsvector: wie niet bijwerkt, draait mogelijk gesigneerde software die niet langer als betrouwbaar kan worden beschouwd. Update-nu is hier het enige advies.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- 3. Geopolitiek & beleid -->
+  <section class="theme">
+    <h2>GEOPOLITIEK &amp; BELEID</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Iran stelt ultimatum: alle zeven voorwaarden vereist voordat Hormuz opengaat</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Iran's legerwoordvoerder brigadegeneraal Mohammad Akraminia heeft categorisch gesteld dat de Straat van Hormuz gesloten blijft totdat Washington alle zeven Iraanse voorwaarden accepteert — als pakket, niet à la carte. De voorwaarden omvatten het opheffen van sancties, vrijgave van bevroren tegoeden en terugtrekking van VS-strijdkrachten uit de regio. Vorige week bereikte een eerste kader, maar Iran noemde de Amerikaanse reactie "niet overtuigend". Qatar bemiddelt actief om een verdere escalatie te voorkomen. Ondertussen vingen vier olietankers vuur na het raken van mijnen bij de Straat. Olieprijzen, die na de midterms daalden, zijn inmiddels licht hersteld.</p>
+        <p class="meta">7 november 2026 — Al Jazeera / House of Saud — <a href="https://houseofsaud.com/iran-hormuz-no-backing-down-nov7">Iran Says Hormuz Stays Closed Until US Meets 7 Conditions</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>De Straat van Hormuz is de doorvoerader voor circa een vijfde van de mondiale oliehandel. Een categorische Iraanse weigering sluit de deur voor een snelle deëscalatie en verhoogt de kans op langere marktverstoring. Hoe Trump reageert — mogelijke nieuwe aanvallen of diplomatieke concessies — is de komende dagen de sleutelvraag.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Trilaterale vredesgesprekken VS–Rusland–Oekraïne beginnen maandag in Abu Dhabi — agenda omvat zeestaakt-het-vuren en POW-uitwisseling</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>VS-gezant Steve Witkoff bevestigde dat de VS morgen, 10 en 11 november, de vierde ronde trilaterale werkgesprekken tussen Rusland en Oekraïne in Abu Dhabi bemiddelt. Het is de eerste ronde sinds de gesprekken in februari werden opgeschort toen het Iran-conflict uitbrak. De agenda omvat post-oorlog veiligheidsarrangementen, een energie- en maritiem staakt-het-vuren, uitwisseling van krijgsgevangenen en de terugkeer van Oekraïense kinderen die naar Rusland zijn gebracht. Witkoff en Jared Kushner leiden de VS-delegatie. Rusland en Oekraïne liggen nog ver uit elkaar over de uiteindelijke vredesvoorwaarden.</p>
+        <p class="meta">3-7 november 2026 — Khaleej Times / Al-Monitor — <a href="https://www.khaleejtimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff">US to mediate Russia-Ukraine talks in Abu Dhabi next week</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Dit zijn de eerste directe driehoeksgesprekken in maanden en ze vinden plaats terwijl Trump zijn eigen Thanksgiving-deadline voor een deal heeft gesteld. De uitkomst — ook al is het maar een gedeeltelijk staakt-het-vuren op zee — kan de Europese veiligheidssituatie en energieprijzen direct beïnvloeden.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- 4. Wetenschap & research -->
+  <section class="theme">
+    <h2>WETENSCHAP &amp; RESEARCH</h2>
+
+    <details class="item">
+      <summary><span class="item-title">Rubin Observatory vindt twee nieuwe Melkwegbegeleiders — en heeft nog maar 7% van de hemel gekeken</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Vera C. Rubin Observatory in Chili heeft met voorlopige data van slechts zeven procent van de hemel twee tot nu toe onbekende begeleiders van de Melkweg geïdentificeerd. Het gaat om zwakke, uitgestrekte sterrenstelsels of sterrenhopen die eerder buiten het bereik van andere telescopen lagen. De Rubin Observatory is ontworpen voor een tienjarige dieptesurvey van de volledige zuidelijke hemel; als het zeven procent-oogst al twee ontdekkingen oplevert, geeft dat een indicatie van hoeveel er nog te vinden is.</p>
+        <p class="meta">7 november 2026 — SciTechDaily / Sci.News — <a href="https://scitechdaily.com/">SciTechDaily — Science News 2026</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Hoe meer begeleiders de Melkweg heeft, hoe beter astronomen de massaverdeling en de donkere-materie-halo van ons sterrenstelsel kunnen modelleren. De Rubin Observatory belooft de komende jaren de structuurkaart van de lokale groep van sterrenstelsels grondig te herschrijven.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">CERN LHCb meet ultra-zeldzaam meson-verval: eens per tien miljard — gevoeligste meting ooit</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Het LHCb-experiment bij CERN heeft het verval van een Bd-meson in een muon en een antimuon waargenomen — een proces dat slechts eens per tien miljard vervalgebeurtenissen voorkomt. Het resultaat, ingediend als preprint en nog in peer review, geldt als de preciseste meting van dit type verval tot nu toe. Afwijkingen van de voorspelde vervalskans zouden kunnen wijzen op nieuwe deeltjes of krachten buiten het Standaardmodel; de huidige metingen zijn consistent met de theorie, maar de onzekerheidsmarges worden kleiner.</p>
+        <p class="meta">3 november 2026 — CERN LHCb / GB News — <a href="https://www.gbnews.com/science/science-discovery-particle-decay">British scientists make 'thrilling' one-in-10-billion discovery</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Zeldzame vervalprocessen zijn een van de scherpste sondes voor nieuwe natuurkunde. Hoe kleiner de meetonzekerheid, hoe minder ruimte er overblijft voor theorieën voorbij het Standaardmodel — of des te groter de betekenis als er toch een afwijking opdoemt. Dit is precisiewerk dat jaren van data verzamelen vergt.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="item">
+      <summary><span class="item-title">Psilocybine herschikt het brein snel: nieuwe neurale verbindingen worden binnen uren aangelegd én versterkt</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>Een recente studie laat zien dat psilocybine — de werkzame stof in paddo's — niet alleen de hersenen tijdelijk anders laat functioneren, maar ook structureel nieuwe neurale verbindingen aanlegt en die in korte tijd versterkt. De resultaten worden gelinkt aan het therapeutische potentieel bij depressie en PTSS: de hersenen lijken na psilocybine plastischer te worden, vergelijkbaar met een "reset" van vastgeroeste denkpatronen. De precieze duur van de effecten en de optimale dosis worden nog onderzocht in lopende klinische trials.</p>
+        <p class="meta">6 november 2026 — ScienceDaily — <a href="https://www.sciencedaily.com/">ScienceDaily: Latest Research News</a></p>
+        <div class="why">
+          <span class="why-label">Waarom het ertoe doet</span>
+          <p>Psychedelische therapie staat in een stroomversnelling: meerdere landen overwegen of hebben al toegang verleend voor therapeutisch gebruik van psilocybine. Bewijs dat de stof meetbare structurele hersenveranderingen veroorzaakt — niet alleen tijdelijke effecten — versterkt zowel de therapeutische onderbouwing als de roep om preciezere richtlijnen over dosering en veiligheid.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- 5. Sport -->
+  <section class="theme">
+    <h2>SPORT</h2>
+
+    <details class="item">
+      <summary><span class="item-title">F1 — São Paulo GP: Norris vertrekt vandaag van pole, Verstappen en Hamilton starten achteraan — race 18:00 NL-tijd</span><span class="chev">&rsaquo;</span></summary>
+      <div class="item-body">
+        <p>De Grand Prix van São Paulo (Interlagos) staat vandaag op het programma: startschot om 18:00 NL-tijd. Lando Norris pakte pole position in een door regen verstoorde kwalificatie, gevolgd door Kimi Antonelli (die vorige week in Mexico al wereldkampioen werd). Max Verstappen en Lewis Hamilton starten achteraan wegens gridstraffen door motorwissels. George Russell kreeg eveneens een straf en zakt naar P7. Volgende race: Grand Prix van Las Vegas, 19-21 november.</p>
+      </div>
+    </details>
+  </section>
+
+</div>
+</body>
+</html>
